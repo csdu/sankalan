@@ -11,10 +11,10 @@ Git, Nodejs, NPM.
 ### Installation
 ``` bash
 # clone this repository
-git clone https://github.com/priyankamadhwal/Sankalan-2020.git
+git clone https://github.com/csdu/sankalan.git
 
 # go to working directory
-cd Sankalan-2020
+cd sankalan
 
 # install dependencies
 npm install
