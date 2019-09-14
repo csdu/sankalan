@@ -1,0 +1,13 @@
+{
+  "name": "sankalan-2020",
+  "version": "1.0.0",
+  "description": "Sankalan 2020 Website.",
+  "main": "index.js",
+  "scripts": {
+	"start": "eleventy --serve --watch",
+    "build": "eleventy",
+	"debug": "DEBUG=* eleventy"
+  },
+  "author": "DUCS",
+  "license": "MIT"
+}

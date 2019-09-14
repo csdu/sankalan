@@ -1,0 +1,16 @@
+---
+layout: base-layout.ejs
+pagination:
+  data: collections.page
+  size: 4
+  alias: pages
+---
+<nav>
+	<ul>
+		<% pages.forEach(function(page){ %>
+			<li><a href="<%= page.url %>"><%= page.data.title %></a></li>
+		<% }) %>
+	</ul>
+</nav>
+
+<h1>Sankalan 2020</h1>
