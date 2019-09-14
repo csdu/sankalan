@@ -4,10 +4,13 @@
   "description": "Sankalan 2020 Website.",
   "main": "index.js",
   "scripts": {
-	"start": "eleventy --serve --watch",
+    "start": "eleventy --serve --watch",
     "build": "eleventy",
-	"debug": "DEBUG=* eleventy"
+    "debug": "DEBUG=* eleventy"
   },
   "author": "DUCS",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
 }
