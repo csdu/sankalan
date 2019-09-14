@@ -21,7 +21,7 @@ npm install
 ```
 
 ### Start the local dev server
-Run ```npm start``` to run 11ty on localhost port 8000.
+Run ```npm start``` to run 11ty on localhost port 8080.
 
 ### Project structure
 **_site**: This is the default output folder where all the files matching valid template file extensions are compiled.    
