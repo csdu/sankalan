@@ -68,6 +68,30 @@ svg {
   box-shadow: 0px 0px 0px 0px #a14726;
 }
 
+.wrap {
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.glitch {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 800;
+  color: white;
+  font-size: 100px;
+  position: relative;
+  margin: 0 auto;
+  text-shadow: 0px -5px 10px rgba(255, 255, 255, 0),
+    0px 0px 5px rgba(255, 255, 255, 0), 0px 0px 10px rgba(255, 255, 255, 0),
+    2px 3px 4px #ff6464, 0px 0px 20px rgba(255, 255, 255, 0), -3px 0 cyan;
+}
+
 .corner-ribbon {
   font-family: "Slabo 13px", serif;
   width: 200px;
