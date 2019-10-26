@@ -1,16 +1,56 @@
 ---
-layout: base-layout.ejs
-pagination:
-  data: collections.page
-  size: 4
-  alias: pages
+layout: landing-layout.ejs
 ---
-<nav>
-	<ul>
-		<% pages.forEach(function(page){ %>
-			<li><a href="<%= page.url %>"><%= page.data.title %></a></li>
-		<% }) %>
-	</ul>
-</nav>
 
-<h1>Sankalan 2020</h1>
+<img id="lines" src="/assets/images/lines.svg" />
+<div id="dots-bg"></div>
+<div class="wrap">
+  <div class="glitch" data-text="SANKALAN 2020">SANKALAN 2020</div>
+</div>
+<% include /rotating-circles %>
+<a href="#" target="_blank" class="register-button"><span>REGISTER</span></a>
+<div class="corner-ribbon top-left red"><a href="/pages/about/">ABOUT</a></div>
+<div class="corner-ribbon top-right blue">
+  <a href="/pages/events/">EVENTS</a>
+</div>
+<div class="corner-ribbon bottom-left orange">
+  <a href="/pages/sponsors/">SPONSORS</a>
+</div>
+<div class="corner-ribbon bottom-right green">
+  <a href="/pages/faq/">FAQ</a>
+</div>
+<div class="left">
+  <div class="countdown">
+    <div class="counter-section">
+      <div class="counter-wrap">
+        <div class="counter-container">
+          <div class="counter-box">
+            <p class="counter-time">-</p>
+            <p class="counter-tag">days</p>
+          </div>
+          <div class="counter-box">
+            <p class="counter-time">-</p>
+            <p class="counter-tag">hrs</p>
+          </div>
+          <div class="counter-box">
+            <p class="counter-time">-</p>
+            <p class="counter-tag">mins</p>
+          </div>
+          <div class="counter-box">
+            <p class="counter-time">-</p>
+            <p class="counter-tag">secs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="right">
+  <div class="date">March <br />9-10, 2020</div>
+  <div class="coordinates">28°41'17.2"N 77°12'25.7"E</div>
+  <div class="options">
+    <div>SCHEDULE</div>
+    <div>MEET THE TEAM</div>
+    <div>NEED HELP?</div>
+  </div>
+</div>
