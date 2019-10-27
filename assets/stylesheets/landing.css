@@ -1,19 +1,25 @@
+@font-face {
+	font-family: iceland;
+  src: url(../fonts/Iceland.ttf);
+}
+
 body {
   height: 100vh;
   overflow: hidden;
   text-align: center;
-  background: #141e30; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to left,
-    #243b55,
-    #141e30
+  background: #0c093c; /* fallback for old browsers */
+  background: -webkit-radial-gradient(
+    #0c093c,  
+  #0c093c,
+    #0c093c 
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to left,
-    #243b55,
-    #141e30
+  background: radial-gradient(
+    #0c093c,  
+    #0c093c,
+    #0c093c  
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 
 img #lines,
 #dots-bg {
@@ -34,7 +40,7 @@ img #lines {
 
 svg {
   display: block;
-  height: 80vh;
+  width: 35vw;
   margin: 0 auto;
   z-index: 3;
   position: absolute;
@@ -50,23 +56,29 @@ svg {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 4;
-  font-family: "Slabo 13px", serif;
+  font-family: "iceland";
   font-size: 2.5rem;
-  color: white;
+  color: #f8f8f8;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: #e98662;
-  box-shadow: 0px 7px 0px 0px #a14726;
+  background-color: #57007e;
+  box-shadow: 7px 7px 0px 0px #c400c6;
   font-weight: 100;
+  transition:all .4s ease;
 }
 
+
+
 .register-button:hover {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  box-shadow: 0px 0px 0px 0px #a14726;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  color: #f8f8f8;
+  box-shadow: none;
+
 }
+
 
 .wrap {
   background-size: contain;
@@ -81,90 +93,95 @@ svg {
 }
 
 .glitch {
-  font-family: "Major Mono Display", monospace;
-  font-weight: 800;
-  color: white;
-  font-size: 100px;
+  font-family: "iceland";
+  font-weight: 900;
+  color: #f8f8f8;
+  font-size: 18vh;
   position: relative;
   margin: 0 auto;
   text-shadow: 0px -5px 10px rgba(255, 255, 255, 0),
     0px 0px 5px rgba(255, 255, 255, 0), 0px 0px 10px rgba(255, 255, 255, 0),
-    2px 3px 4px #ff6464, 0px 0px 20px rgba(255, 255, 255, 0), -3px 0 cyan;
+    4px 3px 4px #57007e, 0px 0px 20px rgba(255, 255, 255, 0), -4px 0 #090057;
 }
 
 .corner-ribbon {
-  font-family: "Slabo 13px", serif;
+  font-family: "iceland";
   width: 200px;
   position: absolute;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-align: center;
   line-height: 50px;
   letter-spacing: 1px;
-  color: #f0f0f0;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  color: #f8f8f8;
+ 
   z-index: 7;
 }
 
 .corner-ribbon.top-left {
-  top: 30px;
-  left: -50px;
-  background: rgba(175, 122, 255, 0.5);
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
+  top: 2%;
+  left: -1%;
+
 }
 
 .corner-ribbon.top-right {
-  top: 30px;
-  right: -50px;
-  background: rgba(48, 70, 240, 0.3);
+  top: 2%;
+  right:-1%;
   left: auto;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
 }
 
 .corner-ribbon.bottom-left {
   top: auto;
-  bottom: 25px;
-  left: -50px;
-  background: rgba(58, 255, 255, 0.4);
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+  bottom: 2%;
+  left: -1%;
+
 }
 
 .corner-ribbon.bottom-right {
   top: auto;
-  right: -50px;
-  bottom: 25px;
+  right: -2%;
+  bottom: 2%;
   left: auto;
-  background: rgba(2, 158, 248, 0.5);
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
 }
 
 .corner-ribbon:hover {
-  color: rgba(192, 220, 236, 0.884);
-  text-shadow: 0px 0px 30px rgb(99, 195, 250);
-  font-size: 1.5rem;
-  cursor: pointer;
+  /* text-shadow: 2px 0px 30px rgba(238, 165, 246, 0.733); */
 }
+
 
 .dot-dot {
   position: absolute;
   display: none;
-  color: #e98662;
+  color: #c400c6;
 }
 
 a,
 a:visited {
   text-decoration: none;
-  color: white;
+  color: #f8f8f8;
 }
 
+.corner-ribbon a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #f8f8f8;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+
+}
+.corner-ribbon a:hover:after { 
+  width: 100%; 
+  left: 0;
+}
+
+
 .left {
-  color: white;
-  font-family: "Slabo 13px", serif;
+  color: #f8f8f8;
+  font-family: 'iceland';
   position: absolute;
   left: 15%;
   top: 50%;
@@ -173,10 +190,10 @@ a:visited {
 
 .right {
   position: fixed;
-  top: 45vh;
-  left: 70vw;
-  color: rgba(255, 255, 255, 0.9);
-  font-family: "Slabo 13px", serif;
+  top: 27vh;
+  right: 4vw;
+  color: #f8f8f8;
+  font-family: "iceland";
   font-size: 1.5rem;
   z-index: 5;
 }
@@ -189,32 +206,34 @@ a:visited {
 
 .coordinates {
   margin-bottom: 2.5rem;
-  padding: 5px;
+  padding: 7px;
   border: 1px solid rgba(255, 255, 255, 0.9);
 }
 
 .options {
   font-size: 1.6rem;
-  background: #243b555b;
   padding: 10px;
-  border: 1.5px solid rgba(128, 128, 128, 0.445);
+  border: 1px solid rgba(255, 255, 255, 0.9);
   line-height: 1.8rem;
 }
 
 .options div:hover,
 .coordinates:hover {
-  color: rgba(99, 195, 250, 0.733);
-  text-shadow: 0px 0px 30px rgb(99, 195, 250);
+  color: #c400c6;
+  text-shadow: 2px 0px 30px rgba(238, 165, 246, 0.733);
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   cursor: pointer;
+  font-size: 1.5rem;
 }
 
 .coordinates:hover {
-  border: 1px solid rgba(99, 195, 250, 0.733);
+  border: 1px solid rgba(238, 165, 246, 0.733);
 }
+
+
 
 .countdown {
   align-items: center;
@@ -224,18 +243,18 @@ a:visited {
 
 .countdown .counter-section .counter-wrap .counter-container {
   display: flex;
-  padding: 40px 80px;
+  padding: 20px 40px;
   border-radius: 100px;
   flex-direction: column;
 }
 .countdown .counter-section .counter-wrap .counter-box {
-  width: 90px;
-  height: 90px;
-  background: #243b5580;
+  width: 80px;
+  height: 80px;
   text-align: center;
   display: inline-block;
   margin-bottom: 5px;
   padding: 10px;
+  border: 1px solid #f8f8f8;
   border-radius: 100px;
   position: relative;
   display: flex;
@@ -246,7 +265,7 @@ a:visited {
   margin: 0;
 }
 .countdown .counter-section .counter-wrap .counter-box p {
-  color: rgba(255, 255, 255, 0.7);
+  color: #f8f8f8;
 }
 .countdown .counter-section .counter-wrap .counter-box .counter-time {
   font-size: 2.5rem;
@@ -278,4 +297,14 @@ a:visited {
     transform: scale(1);
     top: 0px;
   }
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #f8f8f8 !important;
+  background: #c400c6 !important;
+}
+
+::selection {
+  color: #f8f8f8;
+  background:#c400c6;
 }
