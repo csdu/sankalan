@@ -20,6 +20,6 @@
   ],
   "alias": "sankalan",
   "builds": [
-    { "use": "@now/static-build", "src": "package.json", "config": { "distDir": "_sites" } }
+    { "use": "@now/static-build", "src": "package.json", "config": { "distDir": "_site" } }
   ]
 }
