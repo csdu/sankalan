@@ -1,7 +1,8 @@
 ---
 layout: base-layout.ejs
 title: FAQ
-tags: ['page']
+tags: ["page"]
+permalink: /faq/
 ---
 
 # FAQ

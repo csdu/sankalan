@@ -2,6 +2,7 @@
 layout: base-layout.ejs
 title: About
 tags: ["page"]
+permalink: /about/
 ---
 
 # About
@@ -31,23 +32,23 @@ Get directions on <a href="https://goo.gl/maps/vikER7ewLJwSJdg67" target="_blank
 
 ### For more info:
 
-See the [faq](/pages/faq) page.
+See the [faq](/faq/) page.
 
 ### For Event details:
 
-See the [events](/pages/events) page.
+See the [events](/events/) page.
 
 ### To know what's new in Sankalan 2020:
 
-See [What's new in Sankalan 2020](/pages/whats-new) page.
+See [What's new in Sankalan 2020](/new/) page.
 
 ### For Sponsors:
 
-See the [sponsors](/pages/sponsors) page.
+See the [sponsors](/sponsors/) page.
 
 ### To know about Sankalan and its dev team:
 
-See the [team](/pages/team) page.
+See the [team](/team/) page.
 
 ### Follow us:
 
