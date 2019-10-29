@@ -1,44 +1,14 @@
 @font-face {
-	font-family: iceland;
+  font-family: iceland;
   src: url(../fonts/Iceland.ttf);
 }
 
 body {
   height: 100vh;
-  overflow: hidden;
-  text-align: center;
-  background: #0c093c; /* fallback for old browsers */
-  background: -webkit-radial-gradient(
-    #0c093c,  
-  #0c093c,
-    #0c093c 
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: radial-gradient(
-    #0c093c,  
-    #0c093c,
-    #0c093c  
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow-y: hidden;
 }
 
-
-img #lines,
-#dots-bg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-}
-
-img #lines {
-  z-index: 1;
-}
-
-#dots-bg {
-  z-index: 2;
-}
-
-svg {
+.rotating-animation svg {
   display: block;
   width: 35vw;
   margin: 0 auto;
@@ -49,38 +19,7 @@ svg {
   transform: translate(-50%, -50%);
 }
 
-.register-button {
-  display: inline-block;
-  position: fixed;
-  top: 90vh;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 4;
-  font-family: "iceland";
-  font-size: 2.5rem;
-  color: #f8f8f8;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: #57007e;
-  box-shadow: 7px 7px 0px 0px #c400c6;
-  font-weight: 100;
-  transition:all .4s ease;
-}
-
-
-
-.register-button:hover {
-  margin-top: 1%;
-  margin-bottom: 2%;
-  color: #f8f8f8;
-  box-shadow: none;
-
-}
-
-
-.wrap {
+.sankalan-wrap {
   background-size: contain;
   display: flex;
   align-items: center;
@@ -93,19 +32,40 @@ svg {
 }
 
 .glitch {
-  font-family: "iceland";
-  font-weight: 900;
-  color: #f8f8f8;
   font-size: 18vh;
-  position: relative;
-  margin: 0 auto;
-  text-shadow: 0px -5px 10px rgba(255, 255, 255, 0),
-    0px 0px 5px rgba(255, 255, 255, 0), 0px 0px 10px rgba(255, 255, 255, 0),
-    4px 3px 4px #57007e, 0px 0px 20px rgba(255, 255, 255, 0), -4px 0 #090057;
 }
 
-.corner-ribbon {
+.register-button {
+  display: inline-block;
+  position: fixed;
+  top: 90vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
   font-family: "iceland";
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #f8f8f8;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #57007e;
+  box-shadow: 0px 9px 0px 0px #c400c6;
+  font-weight: 100;
+  transition: all 0.4s ease;
+}
+
+.register-button:hover {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  color: #f8f8f8;
+  box-shadow: none;
+}
+
+.corner-nav-item {
+  font-family: "iceland";
+  text-transform: uppercase;
   width: 200px;
   position: absolute;
   font-size: 1.5rem;
@@ -113,54 +73,35 @@ svg {
   line-height: 50px;
   letter-spacing: 1px;
   color: #f8f8f8;
- 
+
   z-index: 7;
 }
 
-.corner-ribbon.top-left {
+.corner-nav-item.top-left {
   top: 2%;
   left: -1%;
-
 }
 
-.corner-ribbon.top-right {
+.corner-nav-item.top-right {
   top: 2%;
-  right:-1%;
+  right: -1%;
   left: auto;
 }
 
-.corner-ribbon.bottom-left {
+.corner-nav-item.bottom-left {
   top: auto;
   bottom: 2%;
   left: -1%;
-
 }
 
-.corner-ribbon.bottom-right {
+.corner-nav-item.bottom-right {
   top: auto;
   right: -2%;
   bottom: 2%;
   left: auto;
 }
 
-.corner-ribbon:hover {
-  /* text-shadow: 2px 0px 30px rgba(238, 165, 246, 0.733); */
-}
-
-
-.dot-dot {
-  position: absolute;
-  display: none;
-  color: #c400c6;
-}
-
-a,
-a:visited {
-  text-decoration: none;
-  color: #f8f8f8;
-}
-
-.corner-ribbon a:after {    
+.corner-nav-item a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -171,24 +112,22 @@ a:visited {
   background: #f8f8f8;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
-
 }
-.corner-ribbon a:hover:after { 
-  width: 100%; 
+.corner-nav-item a:hover:after {
+  width: 100%;
   left: 0;
 }
 
-
-.left {
+.left-content {
   color: #f8f8f8;
-  font-family: 'iceland';
+  font-family: "iceland";
   position: absolute;
   left: 15%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
-.right {
+.right-content {
   position: fixed;
   top: 27vh;
   right: 4vw;
@@ -232,8 +171,6 @@ a:visited {
 .coordinates:hover {
   border: 1px solid rgba(238, 165, 246, 0.733);
 }
-
-
 
 .countdown {
   align-items: center;
@@ -297,14 +234,4 @@ a:visited {
     transform: scale(1);
     top: 0px;
   }
-}
-
-::-moz-selection { /* Code for Firefox */
-  color: #f8f8f8 !important;
-  background: #c400c6 !important;
-}
-
-::selection {
-  color: #f8f8f8;
-  background:#c400c6;
 }

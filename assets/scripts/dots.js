@@ -2,7 +2,7 @@ var container = $("#dots-bg"),
   btns = 1,
   windowX = $(window).width(),
   windowY = $(window).height(),
-  nbDot = ($(window).width() * $(window).height()) / 9000;
+  nbDot = ($(window).width() * $(window).height()) / 8000;
 
 function dotBgGetRandomStyle() {
   var randWidth = Math.round(Math.random(1) * 30 + 10),

@@ -1,3 +1,72 @@
-h1 {
-	color: red;
+body {
+  margin: 0;
+  overflow-x: hidden;
+  text-align: center;
+  background: #0c093c; /* fallback for old browsers */
+  background: -webkit-radial-gradient(
+    #0c093c,
+    #0c093c,
+    #0c093c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: radial-gradient(
+    #0c093c,
+    #0c093c,
+    #0c093c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+img #lines,
+#lines,
+#dots-bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#lines {
+  height: auto;
+}
+
+img #lines {
+  z-index: 1;
+}
+
+#dots-bg {
+  z-index: 2;
+}
+
+.dot-dot {
+  position: absolute;
+  display: none;
+  color: #c400c6;
+}
+
+.glitch {
+  font-family: "iceland";
+  font-weight: 900;
+  color: #f8f8f8;
+  position: relative;
+  margin: 0 auto;
+  text-shadow: 0px -5px 10px rgba(255, 255, 255, 0),
+    0px 0px 5px rgba(255, 255, 255, 0), 0px 0px 10px rgba(255, 255, 255, 0),
+    4px 3px 4px #57007e, 0px 0px 20px rgba(255, 255, 255, 0), -4px 0 #090057;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #f8f8f8 !important;
+  background: #c400c6 !important;
+}
+
+::selection {
+  color: #f8f8f8;
+  background: #c400c6;
 }

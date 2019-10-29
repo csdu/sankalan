@@ -2,24 +2,26 @@
 layout: landing-layout.ejs
 ---
 
-<img id="lines" src="/assets/images/lines.svg" />
+<img id="lines" src="/assets/images/lines-1.svg" />
 <div id="dots-bg"></div>
-<div class="wrap">
+<div class="sankalan-wrap">
   <div class="glitch" data-text="SANKALAN 2020">SANKALAN 2020</div>
 </div>
-<% include /rotating-circles %>
-<a href="#" target="_blank" class="register-button"><span>REGISTER</span></a>
-<div class="corner-ribbon top-left red"><a href="/pages/about/">ABOUT</a></div>
-<div class="corner-ribbon top-right blue">
-  <a href="/pages/events/">EVENTS</a>
+<div class="rotating-animation"><% include /rotating-circles %></div>
+<a href="#" target="_blank" class="register-button"><span>register</span></a>
+<div class="corner-nav-item top-left red">
+  <a href="/pages/about/">about</a>
 </div>
-<div class="corner-ribbon bottom-left orange">
-  <a href="/pages/sponsors/">SPONSORS</a>
+<div class="corner-nav-item top-right blue">
+  <a href="/pages/events/">events</a>
 </div>
-<div class="corner-ribbon bottom-right green">
-  <a href="/pages/faq/">FAQ</a>
+<div class="corner-nav-item bottom-left orange">
+  <a href="/pages/sponsors/">sponsors</a>
 </div>
-<div class="left">
+<div class="corner-nav-item bottom-right green">
+  <a href="/pages/faq/">faq</a>
+</div>
+<div class="left-content">
   <div class="countdown">
     <div class="counter-section">
       <div class="counter-wrap">
@@ -45,7 +47,7 @@ layout: landing-layout.ejs
     </div>
   </div>
 </div>
-<div class="right">
+<div class="right-content">
   <div class="date">March <br />9-10, 2020</div>
   <div class="coordinates">28°41'17.2"N 77°12'25.7"E</div>
   <div class="options">

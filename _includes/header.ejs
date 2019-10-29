@@ -1,0 +1,25 @@
+<header>
+  <div></div>
+  <div class="wrap">
+    <a href="/"><div class="glitch" data-text="SANKALAN 2020">SANKALAN<br />2020</div></a>
+  </div>
+  <div class="">
+    <a
+      href="/pages/about"
+      class=<% if(title && title.toLowerCase()=="about"){ %><%= "active"  %><% } %>
+      >about</a
+    >
+    <a href="/pages/events" 
+    class=<% if(title && title.toLowerCase()=="events"){ %><%= "active"  %><% } %>
+    >events</a>
+    <a href="/pages/faq" 
+    class=<% if(title && title.toLowerCase()=="faq"){ %><%= "active"  %><% } %>
+    >faq</a>
+    <a href="/pages/sponsors" 
+    class=<% if(title && title.toLowerCase()=="sponsors"){ %><%= "active"  %><% } %>
+    >sponsors</a>
+    <a class="btn" href="/pages/schedule" 
+    class=<% if(title && title.toLowerCase()=="schedule"){ %><%= "active"  %><% } %>
+    >schedule</a>
+  </div>
+</header>
