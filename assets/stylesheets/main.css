@@ -60,6 +60,32 @@ img #lines {
     4px 3px 4px #57007e, 0px 0px 20px rgba(255, 255, 255, 0), -4px 0 #090057;
 }
 
+.main-button {
+  display: inline-block;
+  z-index: 4;
+  font-family: "iceland", "spaceMonoRegular";
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #f8f8f8;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #57007e;
+  box-shadow: 0px 9px 0px 0px #c400c6;
+  font-weight: 100;
+  text-decoration: none !important;
+  transition: all 0.4s ease;
+}
+
+.main-button:hover {
+  margin-top: 90px;
+  margin-bottom: 30px;
+  color: #f8f8f8;
+  box-shadow: none;
+  cursor: pointer;
+}
+
 ::-moz-selection {
   /* Code for Firefox */
   color: #f8f8f8 !important;

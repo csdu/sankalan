@@ -40,7 +40,7 @@ See the [events](/events/) page.
 
 ### To know what's new in Sankalan 2020:
 
-See [What's new in Sankalan 2020](/new/) page.
+See [What's new in Sankalan 2020](/whats-new/) page.
 
 ### For Sponsors:
 

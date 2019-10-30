@@ -35,32 +35,16 @@ body {
   font-size: 18vh;
 }
 
-.register-button {
-  display: inline-block;
+.main-button {
   position: fixed;
   top: 90vh;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 4;
-  font-family: "iceland";
-  text-transform: uppercase;
-  font-size: 2.5rem;
-  color: #f8f8f8;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: #57007e;
-  box-shadow: 0px 9px 0px 0px #c400c6;
-  font-weight: 100;
-  transition: all 0.4s ease;
 }
 
-.register-button:hover {
+.main-button:hover {
   margin-top: 1%;
   margin-bottom: 2%;
-  color: #f8f8f8;
-  box-shadow: none;
 }
 
 .corner-nav-item {
