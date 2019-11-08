@@ -198,6 +198,8 @@ div:nth-child(even):hover {
    -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
+
+
 .countdown {
   align-items: center;
   justify-content: center;
@@ -260,4 +262,14 @@ div:nth-child(even):hover {
     transform: scale(1);
     top: 0px;
   }
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #f8f8f8 !important;
+  background: #c400c6 !important;
+}
+
+::selection {
+  color: #f8f8f8;
+  background:#c400c6;
 }
