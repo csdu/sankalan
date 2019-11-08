@@ -3,6 +3,17 @@
   src: url(../fonts/Iceland.ttf);
 }
 
+/* for title */
+@font-face {
+  font-family: octopost;
+  src: url(../fonts/octopost.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   height: 100vh;
   overflow-y: hidden;
@@ -32,25 +43,35 @@ body {
 }
 
 .glitch {
-  font-size: 18vh;
+  color: #f8f8f8;
+  font-size: 15vh;
+  font-family: 'octopost';
+  text-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2),
+  0px 18px 23px rgba(0, 0, 0, 0.3);
 }
 
 .main-button {
-  position: fixed;
-  top: 90vh;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 88%;
+  left: 43vw;
+  -moz-transition: all .18s linear 0s;
+  -o-transition: all .18s linear 0s;
+  -webkit-transition: all .18s linear 0s;
+  transition: all .18s linear 0s;
+  box-shadow: -6px 6px 0 #c400c6;
+
 }
 
+
 .main-button:hover {
-  margin-top: 1%;
-  margin-bottom: 2%;
+  margin-top: 0.8%;
+  box-shadow: -3px 3px 0 #c400c6;
+
 }
 
 .corner-nav-item {
   font-family: "iceland";
   text-transform: uppercase;
-  width: 200px;
   position: absolute;
   font-size: 1.5rem;
   text-align: center;
@@ -63,24 +84,24 @@ body {
 
 .corner-nav-item.top-left {
   top: 2%;
-  left: -1%;
+  left: 2%;
 }
 
 .corner-nav-item.top-right {
   top: 2%;
-  right: -1%;
+  right: 2%;
   left: auto;
 }
 
 .corner-nav-item.bottom-left {
   top: auto;
   bottom: 2%;
-  left: -1%;
+  left: 2%;
 }
 
 .corner-nav-item.bottom-right {
   top: auto;
-  right: -2%;
+  right: 2%;
   bottom: 2%;
   left: auto;
 }
@@ -90,13 +111,17 @@ body {
   bottom: 0;
   content: "";
   display: block;
-  height: 2px;
+  height: 2.5px;
   left: 50%;
   position: absolute;
-  background: #f8f8f8;
+  background: cyan;
+  -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
+
 .corner-nav-item a:hover:after {
   width: 100%;
   left: 0;
@@ -134,7 +159,7 @@ body {
 }
 
 .options {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   padding: 10px;
   border: 1px solid rgba(255, 255, 255, 0.9);
   line-height: 1.8rem;
@@ -143,7 +168,7 @@ body {
 .options div:hover,
 .coordinates:hover {
   color: #c400c6;
-  text-shadow: 2px 0px 30px rgba(238, 165, 246, 0.733);
+  text-shadow: 1px 0px 10px rgba(153, 75, 161, 0.2);
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -152,8 +177,25 @@ body {
   font-size: 1.5rem;
 }
 
-.coordinates:hover {
-  border: 1px solid rgba(238, 165, 246, 0.733);
+.options
+div:nth-child(odd):hover {
+  -ms-transform: rotate(2.5deg); /* IE 9 */
+  -webkit-transform: rotate(2.5deg); /* Safari prior 9.0 */
+  transform: rotate(2.5deg); /* Standard syntax */
+}
+
+.options 
+div:nth-child(even):hover {
+  -ms-transform: rotate(-2.5deg); /* IE 9 */
+  -webkit-transform: rotate(-2.5deg); /* Safari prior 9.0 */
+  transform: rotate(-2.5deg); /* Standard syntax */
+}
+
+.dot-dot {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 .countdown {
