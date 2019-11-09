@@ -12,6 +12,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300))); */
 }
 
 body {
@@ -44,7 +45,7 @@ body {
 
 .glitch {
   color: #f8f8f8;
-  font-size: 15vh;
+  font-size: 6.5rem;
   font-family: 'octopost';
   text-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2),
   0px 18px 23px rgba(0, 0, 0, 0.3);
@@ -52,8 +53,10 @@ body {
 
 .main-button {
   position: absolute;
-  top: 88%;
-  left: 43vw;
+  top: 38rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   -moz-transition: all .18s linear 0s;
   -o-transition: all .18s linear 0s;
   -webkit-transition: all .18s linear 0s;
@@ -64,7 +67,7 @@ body {
 
 
 .main-button:hover {
-  margin-top: 0.8%;
+  margin-top: 5px;
   box-shadow: -3px 3px 0 #c400c6;
 
 }
@@ -83,26 +86,26 @@ body {
 }
 
 .corner-nav-item.top-left {
-  top: 2%;
-  left: 2%;
+  top: 1rem;
+  left: 2rem;
 }
 
 .corner-nav-item.top-right {
-  top: 2%;
-  right: 2%;
+  top: 1rem;
+  right: 2rem;
   left: auto;
 }
 
 .corner-nav-item.bottom-left {
   top: auto;
-  bottom: 2%;
-  left: 2%;
+  bottom: 1rem;
+  left: 2rem;
 }
 
 .corner-nav-item.bottom-right {
   top: auto;
-  right: 2%;
-  bottom: 2%;
+  right: 2rem;
+  bottom: 1rem;
   left: auto;
 }
 
