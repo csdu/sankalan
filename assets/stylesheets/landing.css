@@ -53,7 +53,7 @@ body {
 
 .main-button {
   position: absolute;
-  top: 38rem;
+  bottom: 0.2rem;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -62,13 +62,6 @@ body {
   -webkit-transition: all .18s linear 0s;
   transition: all .18s linear 0s;
   box-shadow: -6px 6px 0 #c400c6;
-
-}
-
-
-.main-button:hover {
-  margin-top: 5px;
-  box-shadow: -3px 3px 0 #c400c6;
 
 }
 

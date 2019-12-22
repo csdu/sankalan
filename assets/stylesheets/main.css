@@ -50,7 +50,6 @@ img #lines {
 }
 
 .glitch {
-  font-family: "iceland";
   font-weight: 900;
   color: #f8f8f8;
   position: relative;
@@ -79,10 +78,9 @@ img #lines {
 }
 
 .main-button:hover {
-  margin-top: 90px;
-  margin-bottom: 30px;
+  bottom: -0.3rem;
+  box-shadow: -3px 3px 0 #c400c6;
   color: #f8f8f8;
-  box-shadow: none;
   cursor: pointer;
 }
 
