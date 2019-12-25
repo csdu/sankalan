@@ -12,7 +12,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300))); */
+  font-size: calc(20px + .2vw);
 }
 
 body {
@@ -45,7 +45,7 @@ body {
 
 .glitch {
   color: #f8f8f8;
-  font-size: 6.5rem;
+  font-size: 4rem;
   font-family: 'octopost';
   text-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2),
   0px 18px 23px rgba(0, 0, 0, 0.3);
@@ -53,7 +53,7 @@ body {
 
 .main-button {
   position: absolute;
-  bottom: 0.2rem;
+  bottom: 0.3rem;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -69,7 +69,7 @@ body {
   font-family: "iceland";
   text-transform: uppercase;
   position: absolute;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   line-height: 50px;
   letter-spacing: 1px;
@@ -80,24 +80,24 @@ body {
 
 .corner-nav-item.top-left {
   top: 1rem;
-  left: 2rem;
+  left: 1.5rem;
 }
 
 .corner-nav-item.top-right {
   top: 1rem;
-  right: 2rem;
+  right: 1.5rem;
   left: auto;
 }
 
 .corner-nav-item.bottom-left {
   top: auto;
   bottom: 1rem;
-  left: 2rem;
+  left: 1.5rem;
 }
 
 .corner-nav-item.bottom-right {
   top: auto;
-  right: 2rem;
+  right: 1.5rem;
   bottom: 1rem;
   left: auto;
 }
@@ -133,18 +133,19 @@ body {
 }
 
 .right-content {
-  position: fixed;
-  top: 27vh;
-  right: 4vw;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translate(-10%, -50%);
   color: #f8f8f8;
   font-family: "iceland";
-  font-size: 1.5rem;
+  font-size: 1rem;
   z-index: 5;
 }
 
 .date {
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
@@ -155,10 +156,10 @@ body {
 }
 
 .options {
-  font-size: 1.3rem;
-  padding: 10px;
+  font-size: 1rem;
+  padding: 5px;
   border: 1px solid rgba(255, 255, 255, 0.9);
-  line-height: 1.8rem;
+  line-height: 1.5rem;
 }
 
 .options div:hover,
@@ -170,21 +171,20 @@ body {
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   cursor: pointer;
-  font-size: 1.5rem;
 }
 
 .options
 div:nth-child(odd):hover {
-  -ms-transform: rotate(2.5deg); /* IE 9 */
-  -webkit-transform: rotate(2.5deg); /* Safari prior 9.0 */
-  transform: rotate(2.5deg); /* Standard syntax */
+  -ms-transform: rotate(4deg); /* IE 9 */
+  -webkit-transform: rotate(4deg); /* Safari prior 9.0 */
+  transform: rotate(4deg); /* Standard syntax */
 }
 
 .options 
 div:nth-child(even):hover {
-  -ms-transform: rotate(-2.5deg); /* IE 9 */
-  -webkit-transform: rotate(-2.5deg); /* Safari prior 9.0 */
-  transform: rotate(-2.5deg); /* Standard syntax */
+  -ms-transform: rotate(-4deg); /* IE 9 */
+  -webkit-transform: rotate(-4deg); /* Safari prior 9.0 */
+  transform: rotate(-4deg); /* Standard syntax */
 }
 
 .dot-dot {
@@ -229,7 +229,7 @@ div:nth-child(even):hover {
   color: #f8f8f8;
 }
 .countdown .counter-section .counter-wrap .counter-box .counter-time {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 0 0 2px 0;
 }
 .countdown .counter-section .counter-wrap .counter-box .counter-tag {
