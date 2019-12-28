@@ -1,8 +1,8 @@
 ---
 layout : base-layout.ejs
-title : Brainspark
+title : Brain Spark
 tags: ["event"]
-permalink : /events/Brain Spark/
+permalink : /events/brain-spark/
 image: /assets/images/brainspark.png
 ---
 
