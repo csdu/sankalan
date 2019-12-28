@@ -1,8 +1,8 @@
 ---
 layout : base-layout.ejs
-title : Algoholic
+title : Algoholics
 tags: ["event"]
-permalink : /events/Algoholics/
+permalink : /events/algoholics/
 image: /assets/images/algoholics.png
 ---
 
