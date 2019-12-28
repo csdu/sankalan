@@ -1,8 +1,8 @@
 ---
 layout : base-layout.ejs
-title : CodingClub
+title : Coding Cup
 tags: ["event"]
-permalink : /events/Coding Club/
+permalink : /events/coding-cup/
 image: /assets/images/coding-cup.png
 ---
 ## DUCS CODING CUP
