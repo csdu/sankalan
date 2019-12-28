@@ -1,8 +1,8 @@
 ---
 layout : base-layout.ejs
-title : Alfaaz
+title : Alfaaz Aur Jazbaat
 tags: ["event"]
-permalink : /events/Alfaaz_Aur_Jazbaat/
+permalink : /events/alfaaz-aur-jazbaat/
 image: /assets/images/alfaaz-aur-jazbaat.png
 ---
 
