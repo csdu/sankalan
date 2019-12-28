@@ -2,7 +2,7 @@
 layout : base-layout.ejs
 title : Chakravyuh
 tags: ["event"]
-permalink : /events/Chakravyuh/
+permalink : /events/chakravyuh/
 image: /assets/images/chakravyuh.png
 ---
 ## CHAKRAVYUH
