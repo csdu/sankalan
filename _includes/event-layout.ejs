@@ -10,12 +10,22 @@ layout : base-layout.ejs
   </head>
   <body>
     <div class = "banner">
-      <div class = "banner-content">
-        <%- content %>
-        <!--<img src="<%= event.data.image.url %>" alt = "<%= event.data.image.alt" >-->
-        <%- image %>
-       </div>  
+      <div class = "banner-image">
+        <img src = <%- image %> >
+      </div>
+      <div class = "content">
+        <h2 class = "title"><%= title %></h2>
+        <div class = "banner-content">
+          <%- content %>
+        </div>
+      </div>
+      <div class = "buttoncontainer">
+        <a class = "register-button" target = "_blank" href = <%- reglink %> >REGISTER </a>
+      </div>
+      
     </div>
-         
+    
+      
+  
   </body>
 </html>
