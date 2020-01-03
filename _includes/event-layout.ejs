@@ -1,0 +1,21 @@
+---
+layout : base-layout.ejs 
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <link href = "/assets/stylesheets/events-layout.css" rel = "stylesheet">
+    <title><% if(title){ %><%= title %> | <% } %>Events</title> 
+  </head>
+  <body>
+    <div class = "banner">
+      <div class = "banner-content">
+        <%- content %>
+        <!--<img src="<%= event.data.image.url %>" alt = "<%= event.data.image.alt" >-->
+        <%- image %>
+       </div>  
+    </div>
+         
+  </body>
+</html>
