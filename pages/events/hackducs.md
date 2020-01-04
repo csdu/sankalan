@@ -4,7 +4,7 @@ title : hackDUCS
 tags: ["event"]
 permalink : /events/hackducs/
 image: /assets/images/hackducs.png
-reglink: "https://bit.do/hack-ducs"
+reglink: "http://bit.do/hack-ducs"
 ---
 
 We launch our first hackathon hackDUCS, a two-day hackathon in partnership with Microsoft Student Partners.
