@@ -3,6 +3,18 @@
   src: url(../fonts/Iceland.ttf);
 }
 
+/* for title */
+@font-face {
+  font-family: octopost;
+  src: url(../fonts/octopost.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: calc(20px + .2vw);
+}
+
 body {
   height: 100vh;
   overflow-y: hidden;
@@ -32,27 +44,32 @@ body {
 }
 
 .glitch {
-  font-size: 18vh;
+  color: #f8f8f8;
+  font-size: 4rem;
+  font-family: 'octopost';
+  text-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2),
+  0px 18px 23px rgba(0, 0, 0, 0.3);
 }
 
 .main-button {
-  position: fixed;
-  top: 90vh;
+  position: absolute;
+  bottom: 0.3rem;
   left: 50%;
   transform: translate(-50%, -50%);
-}
 
-.main-button:hover {
-  margin-top: 1%;
-  margin-bottom: 2%;
+  -moz-transition: all .18s linear 0s;
+  -o-transition: all .18s linear 0s;
+  -webkit-transition: all .18s linear 0s;
+  transition: all .18s linear 0s;
+  box-shadow: -6px 6px 0 #c400c6;
+
 }
 
 .corner-nav-item {
   font-family: "iceland";
   text-transform: uppercase;
-  width: 200px;
   position: absolute;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   line-height: 50px;
   letter-spacing: 1px;
@@ -62,26 +79,26 @@ body {
 }
 
 .corner-nav-item.top-left {
-  top: 2%;
-  left: -1%;
+  top: 1rem;
+  left: 1.5rem;
 }
 
 .corner-nav-item.top-right {
-  top: 2%;
-  right: -1%;
+  top: 1rem;
+  right: 1.5rem;
   left: auto;
 }
 
 .corner-nav-item.bottom-left {
   top: auto;
-  bottom: 2%;
-  left: -1%;
+  bottom: 1rem;
+  left: 1.5rem;
 }
 
 .corner-nav-item.bottom-right {
   top: auto;
-  right: -2%;
-  bottom: 2%;
+  right: 1.5rem;
+  bottom: 1rem;
   left: auto;
 }
 
@@ -90,13 +107,17 @@ body {
   bottom: 0;
   content: "";
   display: block;
-  height: 2px;
+  height: 2.5px;
   left: 50%;
   position: absolute;
-  background: #f8f8f8;
+  background: cyan;
+  -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
+
 .corner-nav-item a:hover:after {
   width: 100%;
   left: 0;
@@ -112,18 +133,19 @@ body {
 }
 
 .right-content {
-  position: fixed;
-  top: 27vh;
-  right: 4vw;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translate(-10%, -50%);
   color: #f8f8f8;
   font-family: "iceland";
-  font-size: 1.5rem;
+  font-size: 1rem;
   z-index: 5;
 }
 
 .date {
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
@@ -134,27 +156,45 @@ body {
 }
 
 .options {
-  font-size: 1.6rem;
-  padding: 10px;
+  font-size: 1rem;
+  padding: 5px;
   border: 1px solid rgba(255, 255, 255, 0.9);
-  line-height: 1.8rem;
+  line-height: 1.5rem;
 }
 
 .options div:hover,
 .coordinates:hover {
   color: #c400c6;
-  text-shadow: 2px 0px 30px rgba(238, 165, 246, 0.733);
+  text-shadow: 1px 0px 10px rgba(153, 75, 161, 0.2);
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   cursor: pointer;
-  font-size: 1.5rem;
 }
 
-.coordinates:hover {
-  border: 1px solid rgba(238, 165, 246, 0.733);
+.options
+div:nth-child(odd):hover {
+  -ms-transform: rotate(4deg); /* IE 9 */
+  -webkit-transform: rotate(4deg); /* Safari prior 9.0 */
+  transform: rotate(4deg); /* Standard syntax */
 }
+
+.options 
+div:nth-child(even):hover {
+  -ms-transform: rotate(-4deg); /* IE 9 */
+  -webkit-transform: rotate(-4deg); /* Safari prior 9.0 */
+  transform: rotate(-4deg); /* Standard syntax */
+}
+
+.dot-dot {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+
 
 .countdown {
   align-items: center;
@@ -189,7 +229,7 @@ body {
   color: #f8f8f8;
 }
 .countdown .counter-section .counter-wrap .counter-box .counter-time {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 0 0 2px 0;
 }
 .countdown .counter-section .counter-wrap .counter-box .counter-tag {
@@ -218,4 +258,14 @@ body {
     transform: scale(1);
     top: 0px;
   }
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #f8f8f8 !important;
+  background: #c400c6 !important;
+}
+
+::selection {
+  color: #f8f8f8;
+  background:#c400c6;
 }
