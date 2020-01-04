@@ -1,0 +1,31 @@
+---
+layout : base-layout.ejs 
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <link href = "/assets/stylesheets/events-layout.css" rel = "stylesheet">
+    <title><% if(title){ %><%= title %> | <% } %>Events</title> 
+  </head>
+  <body>
+    <div class = "banner">
+      <div class = "banner-image">
+        <img src = <%- image %> >
+      </div>
+      <div class = "content">
+        <h2 class = "title"><%= title %></h2>
+        <div class = "banner-content">
+          <%- content %>
+        </div>
+      </div>
+      <div class = "buttoncontainer">
+        <a class = "register-button" target = "_blank" href = <%- reglink %> >REGISTER </a>
+      </div>
+      
+    </div>
+    
+      
+  
+  </body>
+</html>
