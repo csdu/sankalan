@@ -1,3 +1,7 @@
+html {
+  font-size: calc(16px + 0.25vw);
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
@@ -80,19 +84,13 @@ img #lines {
 }
 
 .main-button:hover {
-  bottom: -0.1rem;
+  bottom: -0.2rem;
   box-shadow: -3px 3px 0 #c400c6;
   color: #f8f8f8;
   cursor: pointer;
 }
 
-::-moz-selection {
-  /* Code for Firefox */
-  color: #f8f8f8 !important;
-  background: #c400c6 !important;
-}
-
-::selection {
+::selection, ::-moz-selection {
   color: #f8f8f8;
-  background: #c400c6;
+  background:#c400c6;
 }
