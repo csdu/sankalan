@@ -20,12 +20,12 @@ layout : base-layout.ejs
         </div>
       </div>
       <div class = "buttoncontainer">
-        <a class = "register-button" target = "_blank" href = <%- reglink %> >REGISTER </a>
+        <%links.forEach(function(result){ %>
+            <a class = "register-button"  target = "_blank" href = "<%= result.link %>"><%= result.name %></a>
+        <% }) %>
       </div>
-      
+ 
     </div>
-    
-      
-  
   </body>
 </html>
+
