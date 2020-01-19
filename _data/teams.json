@@ -1,0 +1,255 @@
+[
+  {
+    "title": "The Panel",
+    "people": [
+      {
+        "name": "Jatin Rohilla",
+        "designation": "President",
+        "image": "jatin-rohilla.jpg",
+        "email": "jatin.mca17.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/jatinrohilla69",
+          "github": "https://github.com/jatin69",
+          "twitter": "https://twitter.com/jatinrohilla69",
+          "linkedin": "https://www.linkedin.com/in/jatinrohilla/"
+        }
+      },
+
+      {
+        "name": "Mohit Kandpal",
+        "designation": "Vice President",
+        "image": "mohit-kandpal.jpg",
+        "email": "mohit.mcs17.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/mohit.kandpal.50309"
+        }
+      },
+
+      {
+        "name": "Mohammad Sayeed",
+        "designation": "General Secretary",
+        "image": "mohammad-sayeed.jpg",
+        "email": "sayeed.mcs17.du@gmail.com",
+        "socials": {
+          "facebook": "https://facebook.com/mohd.sayeed.786",
+          "github": "https://github.com/mohd-sayeed786",
+          "linkedin": "https://www.linkedin.com/in/mohammad-sayeed-748b15169"
+        }
+      },
+
+      {
+        "name": "Harshul Kumar",
+        "designation": "Joint Secretary",
+        "image": "harshul-kumar.jpg",
+        "email": "harshul.mca17.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/Harshulkmr",
+          "github": "https://github.com/harshulmca17",
+          "twitter": "https://twitter.com/HarshulKumar8",
+          "linkedin": "https://www.linkedin.com/in/harshul-kumar-b47b87aa/"
+        }
+      },
+
+      {
+        "name": "Ajay Kumar",
+        "designation": "Treasurer",
+        "image": "ajay-kumar.jpg",
+        "email": "ajay.mca17.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/aaryanchiku",
+          "linkedin": "https://www.linkedin.com/in/ajay-kumar-720323167/"
+        }
+      }
+    ]
+  },
+
+  {
+    "title": "Developer Team",
+    "people": [
+      {
+        "name": "Ruman Saleem",
+        "designation": "Lead Developer",
+        "image": "ruman-saleem.jpg",
+        "socials": {
+          "github": "https://www.github.com/rumansaleem",
+          "twitter": "https://www.twitter.com/zruman",
+          "linkedin": "https://www.linkedin.com/in/ruman-saleem-3947ba122"
+        }
+      },
+
+      {
+        "name": "Sahil Nishal",
+        "image": "sahil-nishal.jpg",
+        "email": "sahil.mca18.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/snishal",
+          "github": "https://github.com/snishal"
+        }
+      },
+
+      {
+        "name": "Vikash Prajapati",
+        "image": "vikash-prajapati.jpg",
+        "email": "vikash.mca18.du@gmail.com",
+        "socials": {
+          "github": "https://www.github.com/vikashprajapati",
+          "linkedin": "https://www.linkedin.com/in/vikash-41abb8101/"
+        }
+      },
+
+      {
+        "name": "Megha Sundriyal",
+        "image": "megha-sundriyal.jpg",
+        "email": "megha.mcs18.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/megha.sundriyal.3",
+          "github": "https://github.com/meghasundriyal"
+        }
+      },
+
+      {
+        "name": "Abhishek Sen",
+        "image": "abhishek-sen.jpg",
+        "email": "abhishek.mcs18.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/SuitWithTie",
+          "github": "https://github.com/abhishekSen999"
+        }
+      },
+
+      {
+        "name": "Abhishek Kansal",
+        "image": "abhishek-kansal.jpg",
+        "email": "abhishek.mca18.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/abhishall",
+          "github": "https://github.com/abhishall",
+          "linkedin": "https://www.linkedin.com/in/abhishek-kansal"
+        }
+      },
+
+      {
+        "name": "Anuradha Aggarwal",
+        "image": "anuradha-aggarwal.jpg",
+        "email": "anuradha.mcs18.du@gmail.com",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/anuradha-aggarwal-4a2751107"
+        }
+      }
+    ]
+  },
+
+  {
+    "title": "Graphic Designers",
+    "people": [
+      {
+        "name": "Nitin Thakur",
+        "image": "nitin-thakur.jpg",
+        "email": "nitin.mcs18.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/ni3sama",
+          "github": "https://github.com/ni3sama",
+          "twitter": "https://twitter.com/Ni3sama",
+          "linkedin": "https://www.linkedin.com/in/ni3sama/"
+        }
+      },
+
+      {
+        "name": "Manan Mehta",
+        "image": "manan-mehta.jpg",
+        "email": "manan.mca18.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/connect2manan"
+        }
+      },
+
+      {
+        "name": "Sunidhi Sharma",
+        "image": "sunidhi-sharma.jpg",
+        "email": "sunidhi.mca18.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/sunisharam",
+          "github": "https://github.com/sunidhisharma9"
+        }
+      },
+
+      {
+        "name": "Tanya Dua",
+        "image": "tanya-dua.jpg",
+        "email": "tanyad.mcs18.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/profile.php?id=100009469358852",
+          "linkedin": "https://www.linkedin.com/in/tanya-dua/"
+        }
+      }
+    ]
+  },
+
+  {
+    "title": "Sponsorship Team",
+    "people": [
+      {
+        "name": "Anjali Bansal",
+        "image": "anjali-bansal.jpg",
+        "email": "anjali.mca17.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/bansalanjali2512",
+          "github": "https://github.com/bansalanjali2512",
+          "twitter": "https://www.twitter.com/banjali2512",
+          "linkedin": "https://www.linkedin.com/in/bansalanjali"
+        }
+      },
+
+      {
+        "name": "Rajni Dabas",
+        "image": "rajni-dabas.jpg",
+        "email": "rajni.mcs17.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/rajni.dabas.5"
+        }
+      },
+
+      {
+        "name": "Atul Mittal",
+        "image": "atul-mittal.jpg",
+        "email": "atul.mcs17.du@gmail.com",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/atul-mittal/"
+        }
+      },
+
+      {
+        "name": "Jayant Dhawan",
+        "image": "jayant-dhawan.jpg",
+        "email": "jayant.mca17.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/jayantdhawan1",
+          "github": "https://github.com/jayant-dhawan",
+          "twitter": "https://twitter.com/jayant_dhawan"
+        }
+      },
+
+      {
+        "name": "Tanuj Rohilla",
+        "image": "tanuj-rohilla.jpg",
+        "email": "jatin.mca17.du@gmail.com",
+        "socials": {
+          "facebook": "https://www.facebook.com/tanujrohilla97",
+          "github": "https://github.com/TanujRohilla",
+          "twitter": "https://twitter.com/rohilla_tanuj",
+          "linkedin": "https://www.linkedin.com/in/tanuj-rohilla-1ba55613b/"
+        }
+      },
+
+      {
+        "name": "Rishav Kohli",
+        "image": "rishav-kohli.jpg",
+        "socials": {
+          "facebook": "https://www.facebook.com/rishav.kohli.167",
+          "github": "https://github.com/rishavkohli",
+          "linkedin": "https://www.linkedin.com/in/rishav-kohli-671434171"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+---
+layout: base-layout.ejs
+title: Our Team
+styles: team.css
+tags: ["page"]
+permalink: /team/
+---
+
+<p>Sankalan would not have been possible without its passionate team.</p>
+
+<% teams.forEach((team) => { %>
+<h2><%= team.title %></h2>
+<div class="team">
+  <% team.people.forEach((current) => { %>
+  <div class="person">
+    <img class="avatar" src=<%= "/assets/images/people/" + current.image %>
+    alt=<%= current.name %> />
+    <span class="name"><%= current.name %></span>
+    <% if (current.designation) { %>
+    <span class="designation"><%= current.designation %></span>
+    <% } %> 
+    <div class="socials">
+    <% if (current.socials.facebook) { %>
+        <a class="" target="_blank" href=<%= current.socials.facebook %>><i class="fab fa-facebook"></i></a>
+    <% } %> <% if (current.socials.github) { %>
+        <a class="" target="_blank" href=<%= current.socials.github %>><i class="fab fa-github"></i></a>
+    <% } %> <% if (current.socials.twitter) { %>
+        <a class="" target="_blank" href=<%= current.socials.twitter %>><i class="fab fa-twitter"></i></a>
+    <% } %> <% if (current.socials.linkedin) { %>
+        <a class="" target="_blank" href=<%= current.socials.linkedin %>><i class="fab fa-linkedin"></i></a>
+    <% } %>
+    </div>
+  </div>
+  <% })%>
+</div>
+<% }); %>

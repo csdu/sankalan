@@ -1,0 +1,26 @@
+main .content p {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+main .content h3 {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+main .content {
+  padding-bottom: 4rem;
+}
+
+.contact .main-button {
+  text-transform: none;
+  line-height: 3rem;
+}
+
+/* For mobile devices: */
+@media only screen and (max-width: 870px) {
+  .contact .main-button {
+    font-size: 0.9rem;
+    line-height: 3.5rem;
+  }
+}

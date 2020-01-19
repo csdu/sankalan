@@ -5,8 +5,6 @@ tags: ["page"]
 permalink: /about/
 ---
 
-# About
-
 Sankalan is the annual tech fest of Dept Of Computer Science, University of Delhi (DUCS).
 
 ## What is it?
