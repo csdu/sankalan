@@ -1,0 +1,74 @@
+---
+layout: base-layout.ejs
+title: FAQ
+tags: ["page"]
+permalink: /faq/
+---
+<ol>
+    <li>
+        <h3>What is Sankalan?</h3>
+        <blockquote>
+            Sankalan is the annual technical festival of Department of Computer Science, University of Delhi. The fest blends a plethora of events including coding, quizzes, gaming, debates and a lot more offering something for each and everyone. It is entirely organised by the DUCS student body. To know more about it, please visit our <a href="/about/">about</a> page.
+        </blockquote>
+    </li>
+
+    <li>
+        <h3>When is Sankalan <%= site.year %> scheduled to be held?</h3>
+        <blockquote>
+            Sankalan <%= site.year %> will be organized in Department of Computer Science, University of Delhi on <%= site.day1 %>th and <%= site.day2 %>th <%= site.month %>, <%= site.year %>. Some events will be taking place earlier also. Checkout our <a href="/events/">events</a> page for details.
+        </blockquote>
+    </li>
+
+    <li>
+        <h3>Who is Sankalan actually for? Kids? Undergrads? Post Grads? Adults?</h3>
+        <blockquote>
+            Sankalan includes both technical and non-technical events. Go through the <a href="/events/">events</a> list to find your forte.
+        </blockquote>
+    </li>
+
+    <li>
+        <h3>Can I get a list of all the events to be held at Sankalan <%= site.year %>?</h3>
+        <blockquote>
+            Yes, you can find the list of all the events at our <a href="/events/">events</a> page with detailed description.
+        </blockquote>
+    </li>
+
+    <li>
+        <h3>Will non-Computer Science students be able to participate in the non-tech events?</h3>
+        <blockquote>
+            Yes, you are most welcome to participate in non-tech events. Non-tech events are open to all. Even if you are not a CS student.
+        </blockquote>
+    </li>
+
+    <li>
+        <h3>Do I need to do an online registration?</h3>
+        <blockquote>
+            Yes, you need to get registered online in order to participate in the events of Sankalan. You can <a href=<%= site.registerLink %>>register</a> here.
+        </blockquote>
+    </li>
+
+    <li>
+        <h3>How does one get to Department of Computer Science?</h3>
+        <blockquote>
+            Get directions on <a href=<%= contact.google_location %> target="_blank">Google Maps</a>.<br />
+            If you're coming from distance, reaching GTB Nagar Metro Station or Vishwavidyalaya Metro Station and then taking an e-rickshaw might be a good option for you. <br />
+            If you've trouble finding the venue location, you may look for following landmarks: Daulat Ram College, Shri Ram College or Faculty of Mathematical Sciences/Social Sciences.
+        </blockquote>
+    </li>
+
+    <li>
+        <h3>What's new in Sankalan this year?</h3>
+        <blockquote>
+            We introduced so many new things at Sankalan <%= site.year %> that it deserves its own page. See <a href="/whats-new/">What's new in Sankalan <%= site.year %></a>.
+        </blockquote>
+    </li>
+
+    <li>
+        <h3>I have a question that was not answered here. What do I do?</h3>
+        <blockquote>
+            You can drop your queries at <a href=<%= "mailto:" + contact.email %>><%= contact.email %></a>.<br />
+            You can also send a message on our Facebook page: <a href=<%= contact.facebook.link %>><%= contact.facebook.name %></a><br />
+            We have also provided event specific details and contacts on their respective pages.
+        </blockquote>
+    </li>
+</ol>

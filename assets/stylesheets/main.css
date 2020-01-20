@@ -100,3 +100,20 @@ img #lines {
   color: #f8f8f8;
   background: red;
 }
+
+/* For mobile devices: */
+@media only screen and (max-width: 870px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #060425c7;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #030125;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #010014;
+  }
+}

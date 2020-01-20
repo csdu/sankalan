@@ -111,7 +111,7 @@ body {
 
 .glitch {
   color: #f8f8f8;
-  font-size: 6rem;
+  font-size: 7vw;
   font-family: "octopost";
 }
 
@@ -193,12 +193,16 @@ body {
 }
 
 .date {
-  font-size: 3.5rem;
+  font-size: 3.5vw;
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
 .date-full {
+  display: none;
+}
+
+.event-time {
   display: none;
 }
 
@@ -255,9 +259,6 @@ body {
 
 /* For mobile devices: */
 @media only screen and (max-width: 870px) {
-}
-
-@media only screen and (max-width: 600px) {
   .corner-nav-item a {
     font-size: 1rem;
     line-height: 30px;
@@ -290,10 +291,12 @@ body {
 
   .landing-content {
     flex-direction: column;
+    justify-content: space-evenly;
   }
 
   .rotating-animation svg {
-    width: 80vw;
+    width: 50vw;
+    margin-bottom: 0;
   }
 
   .glitch {
@@ -314,10 +317,12 @@ body {
 
   .button-last {
     display: block;
+    margin-top: 5px;
   }
 
   .countdown .counter-section .counter-wrap .counter-container {
     flex-direction: row;
+    padding: 0;
   }
   .countdown .counter-section .counter-wrap .counter-box {
     width: 30px;
@@ -344,13 +349,15 @@ body {
   .date-full {
     display: block;
     font-size: 2rem;
-    padding: 1rem;
-    padding-bottom: 0;
+    padding: 0;
+    margin-bottom: 10px;
   }
 
   .coordinates {
     font-size: 0.9rem;
-    padding: 5px;
+    padding: 1px;
+    margin: 0;
+    margin-bottom: 10px;
     border-width: 0.8px;
   }
 
@@ -359,5 +366,93 @@ body {
     padding: 2px;
     border-width: 0.8px;
     line-height: 1.6rem;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .rotating-animation svg {
+    width: 80vw;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .corner-nav-item a {
+    letter-spacing: 1px;
+  }
+
+  .corner-nav-item.top-left a {
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .corner-nav-item.top-right a {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .corner-nav-item.bottom-left a {
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .corner-nav-item.bottom-right a {
+    right: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .rotating-animation svg {
+    width: 75vw;
+  }
+
+  .glitch {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) and (max-height: 650px) {
+  .countdown .counter-section .counter-wrap .counter-box {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    border: none;
+  }
+  .countdown .counter-section .counter-wrap .counter-box:last-of-type {
+    margin: 0;
+  }
+  .countdown .counter-section .counter-wrap .counter-box .counter-time {
+    font-size: 1.3rem;
+  }
+  .countdown .counter-section .counter-wrap .counter-box .counter-tag {
+    font-size: 0.75rem;
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media only screen and (max-width: 600px) and (max-height: 600px) {
+  .left-content {
+    display: none;
+  }
+  .date-full {
+    margin-bottom: 5px;
+  }
+
+  .coordinates {
+    margin-bottom: 5px;
+  }
+
+  .options {
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-height: 550px) {
+  body {
+    overflow-y: scroll;
+  }
+  .coordinates {
+    display: none;
   }
 }

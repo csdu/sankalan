@@ -165,6 +165,11 @@ header nav .nav-links a.button-small {
     display: inline-flex;
     justify-content: center;
   }
+  header nav .nav-links a,
+  header nav .nav-links a:visited {
+    margin-left: 0.3rem;
+    font-size: 0.85rem;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -255,11 +260,20 @@ main .content h3 {
   line-height: 30px;
 }
 
-main .content p {
+main .content p,
+main .content ol li {
   color: #99a1b3;
   font-size: 1.1rem;
   line-height: 1.5;
-  margin: 20px 0 60px 0;
+  margin: 20px 0 70px 0;
+}
+
+main .content ol li blockquote {
+  margin-top: 20px;
+}
+
+main .content ol li blockquote a {
+  padding: 0;
 }
 
 main .content a {
@@ -268,8 +282,8 @@ main .content a {
   text-decoration: underline;
 }
 
-main .content blockquote {
-  padding-left: 2.5rem;
+main .content p a {
+  padding: 0;
 }
 
 main .content ol,
@@ -281,14 +295,18 @@ main .content ul {
   margin-bottom: 3rem;
 }
 
-main .content ol li {
-  font-size: 1.5rem;
-  color: rgba(213, 122, 255, 0.808);
-}
-
 main .content ul li {
   color: #99a1b3;
   font-size: 1.1rem;
+}
+
+main .content blockquote a{
+  padding: 0;
+}
+
+main .content .centered-button {
+  text-align: center;
+  line-height: 6rem;
 }
 
 /* For mobile devices: */
@@ -322,7 +340,8 @@ main .content ul li {
     font-size: 1.2rem;
   }
 
-  main .content p {
+  main .content p,
+  main .content ol li {
     font-size: 0.9rem;
     margin: 10px 0 30px 0;
   }
@@ -333,10 +352,6 @@ main .content ul li {
 
   main .content ul li {
     font-size: 0.9rem;
-  }
-
-  main .content ol li {
-    font-size: 1.1rem;
   }
 }
 
