@@ -293,7 +293,7 @@ body {
 
   .landing-content {
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 
   .rotating-animation svg {
@@ -318,12 +318,8 @@ body {
   }
 
   .button-last {
-    display: block;
-    margin-top: 3px;
-  }
-
-  .left-content {
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
   }
 
   .countdown .counter-section .counter-wrap .counter-container {
