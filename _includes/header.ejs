@@ -1,25 +1,28 @@
 <header>
-  <div></div>
-  <div class="wrap">
-    <a href="/"><div class="glitch" data-text="SANKALAN 2020">SANKALAN<br />2020</div></a>
-  </div>
-  <div class="">
-    <a
-      href="/about/"
-      class=<% if(title && title.toLowerCase()=="about"){ %><%= "active"  %><% } %>
-      >about</a
-    >
-    <a href="/events" 
-    class=<% if(title && title.toLowerCase()=="events"){ %><%= "active"  %><% } %>
-    >events</a>
-    <a href="/faq/" 
-    class=<% if(title && title.toLowerCase()=="faq"){ %><%= "active"  %><% } %>
-    >faq</a>
-    <a href="/sponsors/" 
-    class=<% if(title && title.toLowerCase()=="sponsors"){ %><%= "active"  %><% } %>
-    >sponsors</a>
-    <a class="btn" href="/schedule/" 
-    class=<% if(title && title.toLowerCase()=="schedule"){ %><%= "active"  %><% } %>
-    >schedule</a>
-  </div>
+
+  <nav>
+    <div class="title">
+      <a href="/"><div class="glitch" data-text="SANKALAN 2020">SANKALAN<br />2020</div></a>
+    </div>
+    
+    <div class="nav-links">
+      <a
+        href="/about/"
+        class=<% if(title && title.toLowerCase()=="about"){ %><%= "active"  %><% } %>
+        >about</a
+      >
+      <a href="/events/" 
+      class=<% if(title && title.toLowerCase()=="events"){ %><%= "active"  %><% } %>
+      >events</a>
+      <a href="/faq/" 
+      class=<% if(title && title.toLowerCase()=="faq"){ %><%= "active"  %><% } %>
+      >faq</a>
+      <a href="/sponsors/" 
+      class=<% if(title && title.toLowerCase()=="sponsors"){ %><%= "active"  %><% } %>
+      >sponsors</a>
+      <a class="button" href="/assets/downloads/schedule.pdf" target="_blank">schedule</a>
+      <a class="button-small" href="/assets/downloads/schedule.pdf" target="_blank"><i class="fas fa-calendar-alt"></i></a>
+    </div>
+  </nav>
+
 </header>

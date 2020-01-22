@@ -36,7 +36,7 @@ img #lines,
 }
 
 #lines {
-  height: auto;
+  object-fit: cover;
 }
 
 img #lines {
@@ -51,6 +51,10 @@ img #lines {
   position: absolute;
   display: none;
   color: #c400c6;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 .glitch {
@@ -73,6 +77,7 @@ img #lines {
   padding-left: 30px;
   padding-right: 30px;
   background-color: #57007e;
+  box-shadow: -3px 3px 0 #c400c6;
   text-decoration: none !important;
   transition: all 0.4s ease;
 }
@@ -80,19 +85,37 @@ img #lines {
 .main-button span {
   font-size: 1.5rem;
   font-weight: 200;
-
 }
 
 .main-button:hover {
   bottom: -0.2rem;
-  box-shadow: -3px 3px 0 #c400c6;
+  box-shadow: 3px -3px 0 #c400c6;
   color: #f8f8f8;
   cursor: pointer;
 }
 
-::selection, ::-moz-selection {
+::selection,
+::-moz-selection,
+::-webkit-selection {
   color: #f8f8f8;
-  background:#c400c6;
+  background: red;
+}
+
+/* For mobile devices: */
+@media only screen and (max-width: 870px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #060425c7;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #030125;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #010014;
+  }
 }
 
 
