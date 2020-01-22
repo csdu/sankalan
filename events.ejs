@@ -2,7 +2,7 @@
 layout: base-layout.ejs
 pagination:
     data: collections.event
-    size : 1
+    size : 30
     alias : events
 ---
 
@@ -20,17 +20,19 @@ pagination:
                 <h1 class = "banner-subtitle">Events</h1>
                 <h2 class = "banner-title">Something for everyone !</h2>
                 <p>
-                    "We have 9 technical events as well as 7 non-technical events."
+                    "We have 10 technical events as well as 6 non-technical events."
                 </p>
             </div>
         </div>
         <div class = "row">
             <div class = "grid-container">
-                  <div class = "column">
-                      <a href="/events/hackducs">
-                          <img src="/assets/images/hackducs.png" alt="hackDUCS" />
-                      </a>
-                  </div>
+                <% events.forEach(function(event){ %>
+                    <div class = "column">
+                        <a href="<%= event.url %>">
+                            <img src="<%= event.data.image %>" alt="<%= event.data.title %>" />
+                        </a>
+                    </div>
+                <% }) %>
             </div>
         </div>
         
