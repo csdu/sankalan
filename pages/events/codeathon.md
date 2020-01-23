@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : Code-a-thon
 tags: ["event"]
 permalink : /events/codeathon/
-image: /assets/images/codeathon.png
+image: /assets/images/posters/codeathon.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"
