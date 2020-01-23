@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : Turncoat
 tags: ["event"]
 permalink : /events/turncoat/
-image: /assets/images/turncoat.png
+image: /assets/images/posters/turncoat.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"
