@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : Mind Matters
 tags: ["event"]
 permalink : /events/mind-matters/
-image: /assets/images/mind-matters.png
+image: /assets/images/posters/mind-matters.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"
