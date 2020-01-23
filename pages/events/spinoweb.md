@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : Spin-O-Web
 tags: ["event"]
 permalink : /events/spin-o-web/
-image: /assets/images/spin-o-web.png
+image: /assets/images/posters/spin-o-web.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"
