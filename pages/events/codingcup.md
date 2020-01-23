@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : DUCS Coding Cup
 tags: ["event"]
 permalink : /events/coding-cup/
-image: /assets/images/coding-cup.png
+image: /assets/images/posters/coding-cup.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"
