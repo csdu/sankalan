@@ -27,6 +27,11 @@ main .content a {
   height: 145px;
   border-radius: 50%;
   margin-bottom: 0.5rem;
+  transition: transform 0.4s;
+}
+
+.team .person .avatar:hover {
+  transform: scale(1.10); 
 }
 
 .team .person span {
@@ -34,13 +39,13 @@ main .content a {
 }
 
 .team .person .name {
-  color: white;
+  color: #f8f8f8;
   text-transform: uppercase;
   font-size: 0.9rem;
 }
 
 .team .person .designation {
-  color: rgba(213, 122, 255, 0.808);
+  color: #fc44ff;
   text-transform: uppercase;
   font-size: 0.8rem;
 }
@@ -56,7 +61,7 @@ main .content a {
 }
 
 .team .person .socials a:hover {
-  color: rgb(16, 116, 209);
+  color: #f8f8f8;
 }
 
 @media only screen and (max-width: 1250px) {

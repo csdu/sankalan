@@ -51,7 +51,7 @@ main .content {
   margin-bottom: 1rem;
   padding: 3rem 0;
   background-color: white;
-  box-shadow: 0px 0px 25px rgba(184, 6, 110, 0.568);
+  box-shadow: 5px 8px 13px rgba(0, 0, 0, 0.45);
 }
 
 img.sponsor-img {

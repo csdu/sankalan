@@ -35,26 +35,26 @@ body {
 }
 
 .corner-nav-item.top-left a {
-  top: 2rem;
-  left: 2rem;
+  top: 1rem;
+  left: 1.5rem;
 }
 
 .corner-nav-item.top-right a {
-  top: 2rem;
-  right: 2rem;
+  top: 1rem;
+  right: 1.5rem;
   left: auto;
 }
 
 .corner-nav-item.bottom-left a {
   top: auto;
-  bottom: 2rem;
-  left: 2rem;
+  bottom: 1rem;
+  left: 1.5rem;
 }
 
 .corner-nav-item.bottom-right a {
   top: auto;
-  right: 2rem;
-  bottom: 2rem;
+  right: 1.5rem;
+  bottom: 1rem;
   left: auto;
 }
 
@@ -113,8 +113,8 @@ body {
 
 .glitch {
   color: #f8f8f8;
-  font-size: 7vw;
-  font-family: "octopost";
+  font-size: 5rem;
+  font-family: 'octopost';
 }
 
 .main-button {
@@ -192,10 +192,11 @@ body {
   position: relative;
   color: #f8f8f8;
   font-family: "iceland";
+  font-size: 1rem;
 }
 
 .date {
-  font-size: 3.5vw;
+  font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
@@ -216,10 +217,10 @@ body {
 }
 
 .options {
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   padding: 5px;
   border: 1px solid rgba(255, 255, 255, 0.9);
-  line-height: 2rem;
+  line-height: 1.75rem;
 }
 
 .options div a:hover,
