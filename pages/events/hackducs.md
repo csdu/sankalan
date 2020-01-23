@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : hackDUCS
 tags: ["event"]
 permalink : /events/hackducs/
-image: /assets/images/hackducs.png
+image: /assets/images/posters/hackducs.png
 links: 
     - name : "Register" 
       link : "https://bit.do/hack-ducs"
