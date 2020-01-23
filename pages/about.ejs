@@ -1,0 +1,50 @@
+---
+layout: base-layout.ejs
+title: About
+tags: ["page"]
+permalink: /about/
+---
+
+<p>Sankalan is the annual tech fest of Dept Of Computer Science, University of Delhi (DUCS).</p>
+
+<h2>What is it?</h2>
+
+<p>Sankalan, the annual technical festival of Department of Computer Science, University of Delhi, is one of the highly acclaimed Computer Science festivals in India. It was conceived in 2005 with the aim of encouraging technology enthusiasts to showcase their inventiveness through a wide array of technical and non technical events that promise to educate and inspire.</p>
+
+<p>Over the years, Sankalan has grown to be a widely anticipated event that witnesses massive participation of young minds from leading institutions. The fest blends a plethora of events including coding, quizzes, gaming, debates and a lot more, offering something for each and everyone. It is organized by the Dept. of Computer Science, University of Delhi and serves as a perfect symposium for leading scientific minds and influential thinkers.</p>
+
+<p>The word Sankalan means compilation; compilation of knowledge, talent, ideas, spirit and most importantly, codes! With a slew of technical and non-technical events on the menu, Sankalan is a geek feast. The developers get engaged with coding marathon Code-a-thon, Web development competition Spin-a-Web and many more. With Mind Matters for the quiz masters, Techno Speak for the nerds and LAN Gaming for the gamers, Sankalan has it all! So this <%= site.month %>, get set and be prepared to celebrate technology with Sankalan’ <%= site.year %>.</p>
+
+<h2>When is it?</h2>
+
+<p><%= site.month %> <%= site.day1 %>, <%= site.year %> - <%= site.month %> <%= site.day2 %>, <%= site.year %></p>
+
+<h2>Where is it?</h2>
+
+<p>Coordinates: {<%= contact.coordinates %>}<br /><br />  
+<%- contact.address %>  <br /><br />
+Get directions on <a href=<%= contact.google_location %> target="_blank">Google Maps</a></p>
+
+<h3>For more info:</h3> 
+
+<p>See the <a href="/faq/" target="_blank">faq</a> page.</p>
+
+<h3>For Event details:</h3>
+
+<p>See the <a href="/events/" target="_blank">events</a> page.</p>
+
+<h3>To know what's new in Sankalan <%= site.year %>:</h3>
+
+<p>See <a href="/whats-new/" target="_blank">What's new in Sankalan <%= site.year %></a> page.</p>
+
+<h3>For Sponsors:</h3>
+
+<p>See the <a href="/sponsors/" target="_blank">sponsors</a> page.</p>
+
+<h3>To know about Sankalan and its dev team:</h3>
+
+<p>See the <a href="/team/" target="_blank">team</a> page.</p>
+
+<h3>Follow us</h3>:
+
+<p>Join us on our <a href=<%= contact.facebook.link %> target="_blank">Facebook</a> or Follow us on <a href=<%= contact.instagram %> target="_blank" rel="noopener">Instagram</a>.</p>
