@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : Algoholics
 tags: ["event"]
 permalink : /events/algoholics/
-image: /assets/images/algoholics.png
+image: /assets/images/posters/algoholics.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"
