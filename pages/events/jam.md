@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : Just A Minute
 tags: ["event"]
 permalink : /events/just-a-minute/
-image: /assets/images/jam.png
+image: /assets/images/posters/jam.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"
