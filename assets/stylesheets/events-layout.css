@@ -37,6 +37,11 @@ li{
         margin-bottom: 10px;
         width: inherit;
         }
+.register-button{
+        margin-bottom: 15px;
+        width: 110px;
+        font-size: 16px;
+}
 }
 .buttoncontainer{
         text-align: center;
@@ -47,10 +52,10 @@ li{
         z-index: 4;
         font-family: "iceland", "spaceMonoRegular";
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 22px;
         color:white;
         padding-top: 5px;
-        width: 110px;
+        width: 140px;
         padding-bottom: 5px;
         padding-left: 10px;
         padding-right: 30px;
@@ -70,12 +75,12 @@ li{
       }
       ::-moz-selection {
         /* Code for Firefox */
-        color:aqua;
-        background: blue;
+        color:rgb(202, 2, 206);
+        background: rgb(87, 0, 126);
       }
       
       ::selection {
-        color: aqua;
-        background: blue;
+        color: rgb(202, 2, 206);
+        background: rgb(87, 0, 126);
       }
       
