@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : अल्फ़ाज़ AUR जज़्बात
 tags: ["event"]
 permalink : /events/alfaaz-aur-jazbaat/
-image: /assets/images/alfaaz-aur-jazbaat.png
+image: /assets/images/posters/alfaaz-aur-jazbaat.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"

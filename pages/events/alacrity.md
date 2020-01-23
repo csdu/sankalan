@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : Alacrity
 tags: ["event"]
 permalink : /events/alacrity/
-image: /assets/images/alacrity.png
+image: /assets/images/posters/alacrity.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"

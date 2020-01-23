@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : Cypher-o-more
 tags: ["event"]
 permalink : /events/cypher-o-more/
-image: /assets/images/cypher-o-more.png
+image: /assets/images/posters/cypher-o-more.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"

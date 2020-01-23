@@ -9,23 +9,22 @@ layout : base-layout.ejs
     <title><% if(title){ %><%= title %> | <% } %>Events</title> 
   </head>
   <body>
-    <div class = "banner">
+    
       <div class = "banner-image">
         <img src = <%- image %> >
       </div>
-      <div class = "content">
-        <h2 class = "title"><%= title %></h2>
+      
         <div class = "banner-content">
           <%- content %>
         </div>
-      </div>
+      
       <div class = "buttoncontainer">
         <%links.forEach(function(result){ %>
             <a class = "register-button"  target = "_blank" href = "<%= result.link %>"><%= result.name %></a>
         <% }) %>
       </div>
  
-    </div>
+    
   </body>
 </html>
 

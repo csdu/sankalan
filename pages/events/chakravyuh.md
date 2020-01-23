@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : Chakravyuh
 tags: ["event"]
 permalink : /events/chakravyuh/
-image: /assets/images/chakravyuh.png
+image: /assets/images/posters/chakravyuh.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"

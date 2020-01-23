@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : Ground Zero
 tags: ["event"]
 permalink : /events/ground-zero/
-image: /assets/images/ground-zero.png
+image: /assets/images/posters/ground-zero.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"

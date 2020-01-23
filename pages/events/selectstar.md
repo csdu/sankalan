@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : SELECT * FROM BRAIN
 tags: ["event"]
 permalink : /events/select-star-from-brain/
-image: /assets/images/select-star-from-brain.png
+image: /assets/images/posters/select-star-from-brain.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"

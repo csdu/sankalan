@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : Code Auction
 tags: ["event"]
 permalink : /events/code-auction/
-image: /assets/images/code-auction.png
+image: /assets/images/posters/code-auction.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"

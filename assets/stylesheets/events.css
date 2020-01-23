@@ -19,9 +19,19 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(2 1fr);
+    grid-gap: 2rem;
+    margin-left: 20px;
+  }
+}
+
+  /* For mobile devices: */
+@media only screen and (max-width: 600px) {
   .grid-container {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 2em;
-  }
-}
+    margin-left: 20px;
+                 }
+                }

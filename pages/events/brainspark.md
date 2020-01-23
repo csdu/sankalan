@@ -3,7 +3,7 @@ layout : event-layout.ejs
 title : Brain Spark
 tags: ["event"]
 permalink : /events/brain-spark/
-image: /assets/images/brainspark.png
+image: /assets/images/posters/brainspark.png
 links: 
       - name : "Register" 
         link : "https://www.facebook.com/DUCS.Sankalan/"
