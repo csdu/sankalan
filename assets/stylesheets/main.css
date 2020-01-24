@@ -62,9 +62,8 @@ img #lines {
   color: #f8f8f8;
   position: relative;
   margin: 0 auto;
-  text-shadow: 0px -5px 10px rgba(255, 255, 255, 0),
-    0px 0px 5px rgba(255, 255, 255, 0), 0px 0px 10px rgba(255, 255, 255, 0),
-    4px 3px 4px #57007e, 0px 0px 20px rgba(255, 255, 255, 0), -4px 0 #090057;
+  text-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2),
+  0px 18px 23px rgba(0, 0, 0, 0.3);
 }
 
 .main-button {
@@ -95,10 +94,14 @@ img #lines {
 }
 
 ::selection,
-::-moz-selection,
 ::-webkit-selection {
   color: #f8f8f8;
-  background: red;
+  background:#c400c6;
+}
+
+::-moz-selection {
+  color: #f8f8f8;
+  background:#c400c6;
 }
 
 /* For mobile devices: */
