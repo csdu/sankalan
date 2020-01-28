@@ -1,30 +1,20 @@
 ---
-layout : base-layout.ejs 
+layout: base-layout.ejs
+styles: event-layout.css
 ---
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-    <link href = "/assets/stylesheets/events-layout.css" rel = "stylesheet">
-    <title><% if(title){ %><%= title %> | <% } %>Events</title> 
-  </head>
-  <body>
-    
-      <div class = "banner-image">
-        <img src = <%- image %> >
-      </div>
-      
-        <div class = "banner-content">
-          <%- content %>
-        </div>
-      
-      <div class = "buttoncontainer">
-        <%links.forEach(function(result){ %>
-            <a class = "register-button"  target = "_blank" href = "<%= result.link %>"><%= result.name %></a>
-        <% }) %>
-      </div>
- 
-    
-  </body>
-</html>
 
+<div class="banner-image">
+  <img src=<%= image %> />
+</div>
+
+<div class="banner-content">
+  <%- content %>
+</div>
+
+<div class="buttoncontainer">
+  <%links.forEach(function(result){ %>
+  <a class="main-button" target="_blank" href="<%= result.link %>"
+    ><%= result.name %></a
+  >
+  <% }) %>
+</div>
