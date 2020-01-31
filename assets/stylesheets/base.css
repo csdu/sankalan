@@ -23,7 +23,7 @@
 }
 
 body {
-  font-family: "spaceMonoRegular";
+  font-family: 'spaceMonoRegular';
   width: calc(100vw - (100vw - 100%));
   overflow-y: scroll;
 }
@@ -36,9 +36,9 @@ body {
   width: 100%;
   grid-template-rows: auto auto auto;
   grid-template-areas:
-    "h"
-    "m"
-    "f";
+    'h'
+    'm'
+    'f';
 }
 
 header nav {
@@ -54,7 +54,7 @@ header nav {
 
 header nav .title a .glitch {
   font-size: 2.75rem;
-  font-family: "octopost";
+  font-family: 'octopost';
   cursor: pointer;
   transition: transform 0.8s;
 }
@@ -69,7 +69,7 @@ header nav .nav-links a:visited {
   padding-bottom: 5px;
   color: #fc44ff;
   letter-spacing: 4px;
-  font-family: "spaceMonoRegular";
+  font-family: 'spaceMonoRegular';
   font-size: 0.9rem;
   position: relative;
   text-decoration: none;
@@ -78,7 +78,7 @@ header nav .nav-links a:visited {
 header nav .nav-links a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
-  content: "";
+  content: '';
   display: block;
   height: 2px;
   left: 50%;
@@ -99,7 +99,7 @@ header nav .nav-links a:hover:after {
 header nav .nav-links a.active:after {
   bottom: 0;
   left: -0.1rem;
-  content: "";
+  content: '';
   display: block;
   height: 2px;
   position: absolute;
@@ -111,7 +111,7 @@ header nav .nav-links a.button,
 header nav .nav-links a.button-small {
   color: #f8f8f8;
   padding: 0.5rem 1rem;
-  background-color: #fc44ff;
+  background-color: #bd28c0;
 }
 
 header nav .nav-links a.button:hover,
@@ -300,7 +300,7 @@ main .content ul li {
   font-size: 1.1rem;
 }
 
-main .content blockquote a{
+main .content blockquote a {
   padding: 0;
 }
 
@@ -421,7 +421,7 @@ footer .socials a i {
   }
 
   footer .navigation a {
-    font-family: "spaceMonoBold";
+    font-family: 'spaceMonoBold';
     font-size: 0.75rem;
     margin: 0 0.7rem;
   }

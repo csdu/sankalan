@@ -1,29 +1,5 @@
 [
   {
-    "title": "associate partner",
-    "sponsors": [
-      {
-        "name": "Nagarro",
-        "image": "nagarro.png"
-      }
-    ]
-  },
-
-  {
-    "title": "technology partners",
-    "sponsors": [
-      {
-        "name": "Xenium Network",
-        "image": "xenium-network.png"
-      },
-      {
-        "name": "Zebronics",
-        "image": "zebronics.png"
-      }
-    ]
-  },
-
-  {
     "title": "coding partner",
     "sponsors": [
       {
@@ -34,72 +10,45 @@
   },
 
   {
-    "title": "talent partner",
+    "title": "event partners",
     "sponsors": [
       {
-        "name": "The Social House",
-        "image": "the-social-house.svg"
+        "name": "Github",
+        "image": "github.png"
+      },
+      {
+        "name": "Microsoft Student Partner (MSP)",
+        "image": "microsoft-student-partner.png"
       }
     ]
   },
 
   {
-    "title": "food partners",
+    "title": "gifting partner",
     "sponsors": [
       {
-        "name": "Aam Aadmi Pakwaan",
-        "image": "aam-aadmi-pakwaan.png"
-      },
-      {
-        "name": "Oasis Baklawala",
-        "image": "oasis-baklawala.png"
+        "name": "Magic Bottle",
+        "image": "magic-bottle.png"
       }
     ]
   },
 
   {
-    "title": "refreshment partner",
+    "title": "music partner",
     "sponsors": [
       {
-        "name": "Burger Farm",
-        "image": "burger-farm.jpg"
+        "name": "Mirrors Of Blue",
+        "image": "mirrors-of-blue.png"
       }
     ]
   },
 
   {
-    "title": "coffee partner",
+    "title": "programming partner",
     "sponsors": [
       {
-        "name": "Starbucks",
-        "image": "starbucks.png"
-      }
-    ]
-  },
-
-  {
-    "title": "media partners",
-    "sponsors": [
-      {
-        "name": "The Education Tree",
-        "image": "the-education-tree.png"
-      },
-      {
-        "name": "Campus Bloggers",
-        "image": "campus-bloggers.png"
-      },
-      { "name": "DU Beat", "image": "du-beat.jpg" },
-      {
-        "name": "DU Updates",
-        "image": "du-updates.jpg"
-      },
-      {
-        "name": "DU Assassins",
-        "image": "du-assassins.jpg"
-      },
-      {
-        "name": "DU Express",
-        "image": "du-express.png"
+        "name": "CodeChef",
+        "image": "codechef.png"
       }
     ]
   }

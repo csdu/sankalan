@@ -25,7 +25,7 @@ main .content {
 
 .sponsor-title span:before,
 .sponsor-title span:after {
-  content: "";
+  content: '';
   border-bottom: 2px solid cyan;
   width: 3rem;
   margin: 0 0.5rem;
@@ -55,8 +55,7 @@ main .content {
 }
 
 img.sponsor-img {
-  min-width: 240px;
-  max-height: 240px;
+  width: 300px;
   margin: 1rem;
 }
 
