@@ -1,6 +1,8 @@
 ---
 layout: base-layout.ejs
 styles: event-layout.css
+contacts:
+links:
 ---
 
 <div class="banner-image">
@@ -11,10 +13,23 @@ styles: event-layout.css
   <%- content %>
 </div>
 
+<div class="contact-container">
+  <% if (contacts) {%>
+    <h3>CONTACT DETAILS</h3>
+    <p>
+      <% contacts.forEach(function(result){ %> 
+        <i class="fas fa-phone"></i>
+        <a target="_blank" href=<%= "tel:+91" + result.mobile %>><%= result.name %></a>: <%= result.mobile %>
+        <br >
+      <% }) %>
+    </p>
+  <% } %>
+</div>
+
 <div class="buttoncontainer">
-  <%links.forEach(function(result){ %>
-  <a class="main-button" target="_blank" href="<%= result.link %>"
-    ><%= result.name %></a
-  >
-  <% }) %>
+  <% if (links) { %>
+    <% links.forEach(function(result){ %>
+      <a class="main-button" target="_blank" href=<%= result.link %>><%= result.name %></a>
+    <% }) %>
+  <% } %>
 </div>

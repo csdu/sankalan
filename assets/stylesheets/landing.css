@@ -99,7 +99,7 @@ body {
 }
 
 .rotating-animation svg {
-  width: 36vw;
+  width: 33vw;
   margin-bottom: 1rem;
 }
 
@@ -113,8 +113,8 @@ body {
 
 .glitch {
   color: #f8f8f8;
-  font-size: 5rem;
-  font-family: 'octopost';
+  font-size: 4.7rem;
+  font-family: "octopost";
 }
 
 .main-button {

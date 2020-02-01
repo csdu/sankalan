@@ -1,0 +1,30 @@
+---
+layout: base-layout.ejs
+title: Events
+styles: events.css
+permalink: /events/
+pagination:
+  data: collections.event
+  size: 30
+  alias: events
+---
+
+<div class="banner">
+  <div class="banner-content">
+    <h2 class="banner-title">Something for everyone!</h2>
+    <p>
+      We have 10 technical events as well as 6 non-technical events.
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="grid-container">
+    <% events.forEach(function(event){ %>
+    <div class="column">
+      <a href="<%= event.url %>">
+        <img src="<%= event.data.image %>" alt="<%= event.data.title %>" />
+      </a>
+    </div>
+    <% }) %>
+  </div>
+</div>
