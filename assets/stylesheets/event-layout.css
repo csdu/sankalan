@@ -26,9 +26,25 @@ main .content ol li {
   margin-bottom: 1.5rem;
 }
 
-main .content ol,
 .contact-container {
   margin-bottom: 140px;
+}
+
+main .content h3 {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+main .content h3:first-of-type {
+  margin-top: 0.5rem;
+}
+
+h3 + p {
+  margin-bottom: 1.5rem !important;
+}
+
+h3 + h4 + p {
+  margin-bottom: 1.5rem !important;
 }
 
 /* For mobile devices: */
@@ -107,7 +123,7 @@ main .content {
   }
   main .content ol,
   .contact-container {
-    margin-bottom: 70px;
+    margin-bottom: 1.5rem;
   }
   .main-button {
     margin-bottom: 0.8rem;

@@ -1,19 +1,19 @@
 ---
 layout: event-layout.ejs
 title: Chakravyuh
-tags: ['event']
+tags: ["event"]
 permalink: /events/chakravyuh/
 image: /assets/images/events/chakravyuh.jpg
 links:
-  - name: 'Register'
-    link: 'https://chakravyuh.ducs.in/'
-  - name: 'Facebook'
-    link: 'https://www.facebook.com/ducs.chakravyuh/'
-contacts:
-  - name: 'Abhishek Sen'
-    mobile: '7059931910'
-  - name: 'Abhinav Rastogi'
-    mobile: '9808727553'
+  - name: "Register"
+    link: "https://chakravyuh.ducs.in/"
+  - name: "Facebook"
+    link: "https://www.facebook.com/ducs.chakravyuh/"
+contactNumbers:
+  - name: "Abhishek Sen"
+    mobile: "7059931910"
+  - name: "Abhinav Rastogi"
+    mobile: "9808727553"
 ---
 
 Eat, Sleep, Hunt!
@@ -33,3 +33,4 @@ Rise and Shine it’s hunt time…
 4. Once the treasure has been found, the next level will be unlocked for the particular participant.
 5. Turn in all treasures as soon as possible. The score will be based on number of correct answers and time taken to solve the clues.
 6. The participant with highest score will win an cash exciting prizes.
+   <p></p>

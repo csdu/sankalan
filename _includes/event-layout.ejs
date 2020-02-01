@@ -1,7 +1,8 @@
 ---
 layout: base-layout.ejs
 styles: event-layout.css
-contacts:
+contactNumbers:
+contactEmails:
 links:
 ---
 
@@ -14,12 +15,24 @@ links:
 </div>
 
 <div class="contact-container">
-  <% if (contacts) {%>
+  <% if (contactNumbers || contactEmails) {%>
     <h3>CONTACT DETAILS</h3>
+    <h4>For any queries contact:</h4>
+  <% } %>
+  <% if (contactNumbers) {%>
     <p>
-      <% contacts.forEach(function(result){ %> 
+      <% contactNumbers.forEach(function(result){ %> 
         <i class="fas fa-phone"></i>
         <a target="_blank" href=<%= "tel:+91" + result.mobile %>><%= result.name %></a>: <%= result.mobile %>
+        <br >
+      <% }) %>
+    </p>
+  <% } %>
+  <% if (contactEmails) {%>
+    <p>
+      <% contactEmails.forEach(function(result){ %> 
+        <i class="fas fa-envelope"></i>
+        <a target="_blank" href=<%= "mailto:" + result.email %>><%= result.name %></a>: <%= result.email %>
         <br >
       <% }) %>
     </p>
