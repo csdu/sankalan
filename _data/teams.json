@@ -197,17 +197,5 @@
             }
         }
       ]
-    },
-  
-    {
-      "title": "Sponsorship Team",
-      "people": [
-        {
-            "name": "Hemant Saini",
-            "image": "hemant-saini.jpg",
-            "socials": {
-            }
-          }
-      ]
     }
   ]
