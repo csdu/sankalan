@@ -91,6 +91,16 @@
               "instagram": "https://www.instagram.com/_megha98_/",
               "linkedin": "https://www.linkedin.com/in/meghabisht98"
             }
+          },
+          {
+            "name": "Shoaib Asgar",
+            "image": "shoaib-asgar.jpg",
+            "socials": {
+                "facebook": "https://www.facebook.com/md.shoaib.4862",
+              "github": " https://github.com/msk4862",
+              "instagram": "https://www.instagram.com/msk4862/",
+              "linkedin": "https://www.linkedin.com/in/msk4862"
+            }
           }
       ]
     },
