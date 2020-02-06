@@ -52,20 +52,20 @@ Qualifiers and Finals will be played on 13th and 14th February 2020 respectively
 
 #### Schedule
 
-**13 Feb 2020(Qualifiers)**  
+**<u>13 Feb 2020(Qualifiers)</u>**  
 07:00 pm - Game 1(10 teams)  
 07:45 pm - Game 2(10 teams)  
 08:30 pm - Game 3(10 teams)  
 09:15 pm - Game 4(10 teams)  
 10:00 pm - Game 5(10 teams)
 
-**14 Feb 2020(Finals)**  
+**<u>14 Feb 2020(Finals)</u>**  
 08:00 pm - Final game(10 teams)
 
 #### Rules
 
-- **Qualifiers**: Each team will get 2 points for 1 kill, 5 points for 2nd position and 10 points
+- **<u>Qualifiers</u>**: Each team will get 2 points for 1 kill, 5 points for 2nd position and 10 points
   for chicken dinner
 - Top 10 scoring teams in qualifiers round will be playing in finals.
-- **Finals**: In finals same point distribution criteria: 2 points for each kill, 5 points for 2nd
+- **<u>Finals</u>**: In finals same point distribution criteria: 2 points for each kill, 5 points for 2nd
   position and 10 points for chicken dinner

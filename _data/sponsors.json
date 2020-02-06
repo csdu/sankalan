@@ -3,10 +3,6 @@
     "title": "event partners",
     "sponsors": [
       {
-        "name": "IBM",
-        "image": "ibm.jpg"
-      },
-      {
         "name": "Microsoft Student Partner (MSP)",
         "image": "microsoft-student-partner.jpg"
       },
