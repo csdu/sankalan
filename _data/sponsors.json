@@ -1,24 +1,32 @@
 [
   {
-    "title": "coding partner",
-    "sponsors": [
-      {
-        "name": "Coding Blocks",
-        "image": "coding-blocks.png"
-      }
-    ]
-  },
-
-  {
     "title": "event partners",
     "sponsors": [
+      {
+        "name": "IBM",
+        "image": "ibm.jpg"
+      },
+      {
+        "name": "Microsoft Student Partner (MSP)",
+        "image": "microsoft-student-partner.jpg"
+      },
       {
         "name": "Github",
         "image": "github.png"
       },
       {
-        "name": "Microsoft Student Partner (MSP)",
-        "image": "microsoft-student-partner.png"
+        "name": "Bugsee",
+        "image": "bugsee.svg"
+      }
+    ]
+  },
+
+  {
+    "title": "coding partner",
+    "sponsors": [
+      {
+        "name": "Coding Blocks",
+        "image": "coding-blocks.png"
       }
     ]
   },
@@ -49,6 +57,20 @@
       {
         "name": "CodeChef",
         "image": "codechef.png"
+      }
+    ]
+  },
+
+  {
+    "title": "media partners",
+    "sponsors": [
+      {
+        "name": "DU Assasins",
+        "image": "du-assasins.jpg"
+      },
+      {
+        "name": "DU Updates",
+        "image": "du-updates.jpg"
       }
     ]
   }
