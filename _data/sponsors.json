@@ -3,6 +3,10 @@
     "title": "event partners",
     "sponsors": [
       {
+        "name": "IBM",
+        "image": "ibm.png"
+      },
+      {
         "name": "Microsoft Student Partner (MSP)",
         "image": "microsoft-student-partner.jpg"
       },
@@ -67,6 +71,10 @@
       {
         "name": "DU Updates",
         "image": "du-updates.jpg"
+      },
+      {
+        "name": "DU Express",
+        "image": "du-express.png"
       }
     ]
   }
