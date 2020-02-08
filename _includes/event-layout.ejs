@@ -23,7 +23,7 @@ links:
     <p>
       <% contactNumbers.forEach(function(result){ %> 
         <i class="fas fa-phone"></i>
-        <a target="_blank" href=<%= "tel:+91" + result.mobile %>><%= result.name %></a>: <%= result.mobile %>
+        <a target="_blank" href=<%= "tel:+91" + result.mobile %>><%= result.name %></a>: +91 <%= result.mobile %>
         <br >
       <% }) %>
     </p>

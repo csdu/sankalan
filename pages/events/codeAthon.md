@@ -2,7 +2,7 @@
 layout: event-layout.ejs
 title: Code-A-Thon
 tags: ["event"]
-permalink: /events/codeathon/
+permalink: /events/code-a-thon/
 image: /assets/images/events/codeathon.png
 links:
   - name: "Register"
