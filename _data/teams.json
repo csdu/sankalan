@@ -105,6 +105,16 @@
           "instagram": "https://www.instagram.com/msk4862/",
           "linkedin": "https://www.linkedin.com/in/msk4862"
         }
+      },
+      {
+        "name": "Abhinav Rastogi",
+        "image": "abhinav-rastogi.jpg",
+        "socials": {
+          "facebook": "https://www.facebook.com/abhinav.rastogi.77985",
+          "github": "https://github.com/abhinav2188",
+          "instagram": "https://www.instagram.com/abhinav2188/",
+          "linkedin": "https://www.linkedin.com/in/abhinav-rastogi-4706a0157"
+        }
       }
     ]
   },
@@ -198,6 +208,48 @@
           "facebook": "https://m.facebook.com/vasu.sehgal.75",
           "instagram": "https://www.instagram.com/the_vasusehgal/",
           "linkedin": "https://www.linkedin.com/in/vasu-sehgal-a28085144"
+        }
+      }
+    ]
+  },
+
+  {
+    "title": "Sponsorship Team",
+    "people": [
+      {
+        "name": "Pranav Gurditta",
+        "image": "pranav-gurditta.jpg",
+        "socials": {
+          "facebook": "https://m.facebook.com/PranavGurditta",
+          "github": "https://github.com/pranavgurditta",
+          "linkedin": "https://www.linkedin.com/in/pranavgurditta?originalSubdomain=in"
+        }
+      },
+      {
+        "name": "Hemant Saini",
+        "image": "hemant-saini.jpg",
+        "socials": {}
+      },
+      {
+        "name": "Rishav kohli",
+        "image": "rishav-kohli.jpeg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/rishav-kohli-671434171"
+        }
+      },
+      {
+        "name": "Ashwani Varshney",
+        "image": "ashwani-varshney.jpeg",
+        "socials": {
+          "instagram": "http://instagram.com/ashwani_varshney_"
+        }
+      },
+      {
+        "name": "Amit Parashar",
+        "image": "amit-parashar.jpg",
+        "socials": {
+          "twitter": "https://twitter.com/AmitParashar29",
+          "linkedin": "https://www.linkedin.com/in/amit-parashar-89849b155/?originalSubdomain=in"
         }
       }
     ]
