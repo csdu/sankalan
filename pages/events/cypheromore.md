@@ -6,7 +6,7 @@ permalink: /events/cypher-o-more/
 image: /assets/images/events/cypher-o-more.jpg
 links:
   - name: "Register"
-    link: "https://www.facebook.com/events/743792652810291/"
+    link: "https://sankalan-portal.ducs.in/"
 contactNumbers:
   - name: "Ronak Aggarwal"
     mobile: "9582408115"

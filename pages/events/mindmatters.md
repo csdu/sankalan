@@ -6,11 +6,11 @@ permalink: /events/mind-matters/
 image: /assets/images/events/mindmatters.png
 links:
   - name: "Register"
-    link: "https://www.facebook.com/events/743792652810291/"
+    link: "https://sankalan-portal.ducs.in/"
 contactNumbers:
   - name: "Tanya Dua"
     mobile: "8587849517"
-  - name:  "Nitin Thakur"
+  - name: "Nitin Thakur"
     mobile: "9560237206"
 ---
 
@@ -25,9 +25,13 @@ To be the conqueror of the event!
 </br>
 
 ### INSTRUCTIONS
+
 #### Rounds
+
 - Preliminary round which consists of Multiple-choice questions based on Computer
-Science and IT world.
+  Science and IT world.
 - Final round in which the qualifying teams would compete in the Event's Main Quiz.
+
 ### TEAM SIZE
+
 Lone wolf or Dual Warriors

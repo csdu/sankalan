@@ -6,7 +6,7 @@ permalink: /events/alacrity/
 image: /assets/images/events/alacrity.jpg
 links:
   - name: "Register"
-    link: "https://www.facebook.com/events/743792652810291/"
+    link: "https://sankalan-portal.ducs.in/"
 contactEmails:
   - name: "Anuradha Aggarwal"
     email: "anuradha.mcs18.du@gmail.com"

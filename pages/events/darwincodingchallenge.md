@@ -6,7 +6,7 @@ permalink: /events/darwin-coding-challenge/
 image: /assets/images/events/darwin-coding-challenge.png
 links:
   - name: "Register"
-    link: "https://www.facebook.com/events/743792652810291/"
+    link: "https://sankalan-portal.ducs.in/"
 contactNumbers:
   - name: "Rohit Kumar"
     mobile: "9599112681"
@@ -37,20 +37,28 @@ return team.winnerStatus;
 <br/>
 
 ### INSTRUCTIONS
+
 #### 1. Rounds
-#### - Prelims: 
+
+#### - Prelims:
+
 In this round, contestants will be required to solve MCQ questions based on
 the concepts of languages like C++, Java, Python, etc. Duration for the test will be 30
 minutes
-#### - Mains: 
+
+#### - Mains:
+
 A total of 8 teams will be shortlisted for this round based on their prelims
 performance. These teams will then have to solve a given problem in the language
 provided. Lucky Draw will be used for language selection and the round will be hosted
 on CodeChef. Duration for the test will be 2 hours
+
 #### 2. Rules
+
 - Codes will be judged on the basis of their completeness, accuracy, and complexity.
 - Negative Marking in the preliminary round.
 - The decision of judges will be final.
 
 ### TEAM SIZE
+
 Single or Pair

@@ -6,7 +6,7 @@ permalink: /events/algoholics/
 image: /assets/images/events/algoholics.png
 links:
   - name: "Register"
-    link: "https://www.facebook.com/events/743792652810291/"
+    link: "https://sankalan-portal.ducs.in/"
 contactNumbers:
   - name: "Swati Gautam"
     mobile: "9717235471"
@@ -31,6 +31,7 @@ opportunity to exceed the limit of problem-solving and show why your solution is
 ### INSTRUCTIONS
 
 The event consists of two rounds:
+
 #### 1. Prelims
 
 1. This is an eliminating round.
@@ -45,4 +46,4 @@ propose.
 
 ### TEAM SIZE
 
- Single or Pair
+Single or Pair

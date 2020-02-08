@@ -1,14 +1,14 @@
 ---
 layout: event-layout.ejs
 title: hackDUCS
-tags: ['event']
+tags: ["event"]
 permalink: /events/hackducs/
 image: /assets/images/events/hackducs.jpg
 links:
-  - name: 'Register'
-    link: 'https://bit.do/hack-ducs'
-  - name: 'Code of Conduct'
-    link: 'https://drive.google.com/open?id=1aambM2Nhm9j52SC-5dRg2FD7CaLpe43t'
+  - name: "Register"
+    link: "https://sankalan-portal.ducs.in/"
+  - name: "Code of Conduct"
+    link: "https://drive.google.com/open?id=1aambM2Nhm9j52SC-5dRg2FD7CaLpe43t"
 ---
 
 We launch our first hackathon hackDUCS, a two-day hackathon in partnership with Microsoft Student Partners.

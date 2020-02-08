@@ -6,13 +6,14 @@ permalink: /events/jam/
 image: /assets/images/events/jam.jpg
 links:
   - name: "Register"
-    link: "https://www.facebook.com/events/743792652810291/"
+    link: "https://sankalan-portal.ducs.in/"
 contactNumbers:
   - name: "Pradeep Kumar"
     mobile: "9560169309"
-  - name:  "Megha Sundriyal"
+  - name: "Megha Sundriyal"
     mobile: "9650028300"
 ---
+
 A minute is all you get. Rather a minute is all you need to leave an impression that no one will
 ever forget. 😎
 
@@ -24,8 +25,12 @@ done in Just A Minute...😱
 </br>
 
 ### INSTRUCTIONS
+
 #### Rules
+
 - There will be 3 rounds where each round is an elimination round.
 - We will assign one task to each team and you need to complete that task in one minute.
+
 ### TEAM SIZE
+
 Two Members
