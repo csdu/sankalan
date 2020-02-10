@@ -1,6 +1,6 @@
 ---
 layout: event-layout.ejs
-title: Code-A-Thon
+title: Cypher-O-More
 tags: ["event"]
 permalink: /events/cypher-o-more/
 image: /assets/images/events/cypher-o-more.jpg

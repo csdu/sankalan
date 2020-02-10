@@ -105,16 +105,6 @@
           "instagram": "https://www.instagram.com/msk4862/",
           "linkedin": "https://www.linkedin.com/in/msk4862"
         }
-      },
-      {
-        "name": "Abhinav Rastogi",
-        "image": "abhinav-rastogi.jpg",
-        "socials": {
-          "facebook": "https://www.facebook.com/abhinav.rastogi.77985",
-          "github": "https://github.com/abhinav2188",
-          "instagram": "https://www.instagram.com/abhinav2188/",
-          "linkedin": "https://www.linkedin.com/in/abhinav-rastogi-4706a0157"
-        }
       }
     ]
   },
@@ -154,6 +144,16 @@
           "facebook": "https://www.facebook.com/profile.php?id=100011745589621",
           "instagram": "https://www.instagram.com/Tanisha.tg/",
           "linkedin": "https://www.linkedin.com/in/tanisha-grover-225b0712a/"
+        }
+      },
+      {
+        "name": "Abhinav Rastogi",
+        "image": "abhinav-rastogi.jpg",
+        "socials": {
+          "facebook": "https://www.facebook.com/abhinav.rastogi.77985",
+          "github": "https://github.com/abhinav2188",
+          "instagram": "https://www.instagram.com/abhinav2188/",
+          "linkedin": "https://www.linkedin.com/in/abhinav-rastogi-4706a0157"
         }
       },
       {
