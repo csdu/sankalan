@@ -22,6 +22,16 @@
   },
 
   {
+    "title": "associate partner",
+    "sponsors": [
+      {
+        "name": "Nagarro",
+        "image": "nagarro.png"
+      }
+    ]
+  },
+
+  {
     "title": "coding partner",
     "sponsors": [
       {
@@ -75,6 +85,10 @@
       {
         "name": "DU Express",
         "image": "du-express.png"
+      },
+      {
+        "name": "DU Beat",
+        "image": "du-beat.jpg"
       }
     ]
   }
