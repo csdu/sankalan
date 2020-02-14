@@ -1,8 +1,8 @@
 ---
 layout: event-layout.ejs
-title: Cypher-O-More
+title: Cipher-O-More
 tags: ["event"]
-permalink: /events/cypher-o-more/
+permalink: /events/cipher-o-more/
 image: /assets/images/events/cypher-o-more.jpg
 links:
   - name: "Register"
