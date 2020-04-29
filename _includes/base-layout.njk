@@ -1,0 +1,43 @@
+---
+title:
+styles:
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="{{ '/assets/stylesheets/fontawesome.min.css' | url }}" rel="stylesheet" />
+    <link href="{{ '/assets/stylesheets/brands.min.css' | url }}" rel="stylesheet" />
+    <link href="{{ '/assets/stylesheets/solid.min.css' | url }}" rel="stylesheet" />
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="{{ '/assets/stylesheets/main.css' | url }}" />
+    <link rel="stylesheet" href="{{ '/assets/stylesheets/base.css' | url }}" />
+    {% if (styles) %} 
+    <link rel="stylesheet" href="{{ '/assets/stylesheets/' | url }}{{ styles }}" /> 
+    {% endif %}
+    <title>{% if(title) %}{{ title }} | {% endif %}Sankalan 2020</title>
+  </head>
+  <body>
+    <img id="lines" src="{{ '/assets/images/lines-2.svg' | url }}" />
+    <div id="dots-bg"></div>
+    <div class="page-wrapper">
+      {% include 'header.njk' %}
+      <main>
+        <div class="content">
+          <h1>{{ title }}</h1>
+          <div class="line-br">
+            <span class="line-br-1"></span>
+            <span class="line-br-2"></span>
+            <span class="line-br-3"></span>
+          </div>
+          {{ content | safe }}
+        </div>
+      </main>
+      {% include 'footer.njk' %}
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ '/assets/scripts/dots.js' | url }}"></script>
+  </body>
+</html>

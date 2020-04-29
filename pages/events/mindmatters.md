@@ -1,5 +1,5 @@
 ---
-layout: event-layout.ejs
+layout: event-layout.njk
 title: Mind Matters
 tags: ["event"]
 permalink: /events/mind-matters/

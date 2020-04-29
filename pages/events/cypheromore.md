@@ -1,5 +1,5 @@
 ---
-layout: event-layout.ejs
+layout: event-layout.njk
 title: Cipher-O-More
 tags: ["event"]
 permalink: /events/cipher-o-more/

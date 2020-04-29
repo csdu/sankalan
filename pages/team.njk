@@ -1,0 +1,51 @@
+---
+layout: base-layout.njk
+title: "Our Team"
+styles: team.css
+tags: ["page"]
+permalink: /team/
+---
+
+<p>Sankalan would not have been possible without its passionate team.</p>
+
+{% for team in teams %}
+  <h2>{{ team.title }}</h2>
+  <div class="team">
+    {% for person in team.people %}
+      <div class="person">
+        <img class="avatar" src="{{ '/assets/images/people/' | url }}{{ person.image }}" alt="{{ person.name }}" />
+        <span class="name">{{ person.name }}</span>
+        {% if (person.designation) %}
+          <span class="designation">{{ person.designation }}</span>
+        {% endif %} 
+        <div class="socials">
+          {% if (person.socials.facebook) %}
+              <a class="" target="_blank" href="{{ person.socials.facebook }}">
+                <i class="fab fa-facebook"></i>
+              </a>
+          {% endif %} 
+          {% if (person.socials.github) %}
+              <a class="" target="_blank" href="{{ person.socials.github }}">
+                <i class="fab fa-github"></i>
+              </a>
+          {% endif %} 
+          {% if (person.socials.twitter) %}
+            <a class="" target="_blank" href="{{ person.socials.twitter }}">
+              <i class="fab fa-twitter"></i>
+            </a>
+          {% endif %} 
+          {% if (person.socials.instagram) %}
+              <a class="" target="_blank" href="{{ person.socials.instagram }}">
+                <i class="fab fa-instagram"></i>
+              </a>
+          {% endif %} 
+          {% if (person.socials.linkedin) %}
+              <a class="" target="_blank" href="{{ person.socials.linkedin }}">
+                <i class="fab fa-linkedin"></i>
+              </a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}

@@ -1,0 +1,36 @@
+---
+layout: base-layout.njk
+title: Sponsors
+styles: sponsors.css
+tags: ["page"]
+permalink: /sponsors/
+---
+
+<h2>Thanks for your support!</h2>
+
+<div class="sponsors-data">
+{% for item in sponsors %}
+  <div class="sponsor-title">
+    <span>{{ item.title }}</span>
+  </div>
+  <div class="sponsors-wrapper">
+    {% for sponsor in item.sponsors %} 
+      <img class="sponsor-img" src="{{ '/assets/images/sponsors/' | url }}{{ sponsor.image }}" alt="{{ sponsor.name }}" /> 
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>
+
+<section class="contact-for-sponsors">
+  <h3>Interested in sponsoring us?</h3>
+  Reach us at:<br />
+  <div class="contact-info">
+    <a class="main-button" href="mailto:{{ contact.sponsor_email }}">
+      {{ contact.sponsor_email }}
+    </a>
+    <a class="main-button" href="tel:+91{{ contact.sponsor_mobile }}">
+      CALL {{ contact.sponsor_mobile }}
+    </a>
+  </div>
+</section>
+

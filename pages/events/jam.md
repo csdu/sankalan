@@ -1,5 +1,5 @@
 ---
-layout: event-layout.ejs
+layout: event-layout.njk
 title: JAM
 tags: ["event"]
 permalink: /events/jam/

@@ -1,5 +1,5 @@
 ---
-layout: event-layout.ejs
+layout: event-layout.njk
 title: Darwin Coding Challenge
 tags: ["event"]
 permalink: /events/darwin-coding-challenge/

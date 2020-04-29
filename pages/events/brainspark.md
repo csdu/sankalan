@@ -1,5 +1,5 @@
 ---
-layout: event-layout.ejs
+layout: event-layout.njk
 title: Brain Spark
 tags: ["event"]
 permalink: /events/brain-spark/

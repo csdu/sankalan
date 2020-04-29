@@ -1,5 +1,5 @@
 ---
-layout: event-layout.ejs
+layout: event-layout.njk
 title: Alacrity
 tags: ["event"]
 permalink: /events/alacrity/

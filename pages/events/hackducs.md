@@ -1,5 +1,5 @@
 ---
-layout: event-layout.ejs
+layout: event-layout.njk
 title: hackDUCS
 tags: ["event"]
 permalink: /events/hackducs/

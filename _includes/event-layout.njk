@@ -1,0 +1,50 @@
+---
+layout: base-layout.njk
+styles: event-layout.css
+contactNumbers:
+contactEmails:
+links:
+---
+
+<div class="banner-image">
+  <img src="{{ image | url }}" />
+</div>
+
+<div class="banner-content">
+  {{ content | safe }}
+</div>
+
+<div class="contact-container">
+  {% if contactNumbers or contactEmails %}
+    <h3>CONTACT DETAILS</h3>
+    <h4>For any queries contact:</h4>
+  {% endif %}
+  
+  {% if (contactNumbers) %}
+    <p>
+      {% for contact in contactNumbers %} 
+        <i class="fas fa-phone"></i>
+        {{ contact.name }}: <a target="_blank" href="tel:+91{{ contact.mobile }}">+91 {{ contact.mobile }}</a>
+        <br >
+      {% endfor %}
+    </p>
+  {% endif %}
+
+  {% if (contactEmails) %}
+    <p>
+      {% for contact in contactEmails %} 
+        <i class="fas fa-envelope"></i>
+        {{ contact.name }}: <a target="_blank" href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+        <br >
+      {% endfor %}
+    </p>
+  {% endif %}
+</div>
+
+<div class="buttoncontainer">
+  {% if links %}
+    {% for link in links %}
+      <a class="main-button" target="_blank" href="{{ link.link | url }}">{{ link.name }}</a>
+    {% endfor %}
+  {% endif %}
+</div>

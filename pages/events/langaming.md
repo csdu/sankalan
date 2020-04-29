@@ -1,5 +1,5 @@
 ---
-layout: event-layout.ejs
+layout: event-layout.njk
 title: LAN Gaming
 tags: ["event"]
 permalink: /events/lan-gaming/

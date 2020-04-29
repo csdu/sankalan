@@ -1,0 +1,35 @@
+---
+layout: base-layout.njk
+title: Contact Us
+styles: contact.css
+tags: ["page"]
+permalink: /contact/
+---
+<div class="contact">
+    <div>
+        <p>For general queries, feel free to reach us at our Facebook page:</p>
+        <a class="main-button" target="_blank" href="{{ contact.facebook.link }}">{{ contact.facebook.name }}</a>
+    </div>
+
+    <div>
+        <p>You can also send us an email at:</p>
+        <a class="main-button" href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+    </div>
+
+    <div>
+        <h3>We are located at:</h3>
+        <p>{{ contact.address }}</p>
+        <a class="main-button" target="_blank" href="{{ contact.google_location }}">Get Directions<br />{{ contact.coordinates }}</a>
+    </div>
+
+    <div>
+        <p>If you need to talk to the web developer of Sankalan</p>
+        <a class="main-button" href="mailto:{{ contact.developer_email }}">{{ contact.developer_email }}</a>
+    </div>
+
+    <div>
+        <p>If you're interested in sponsoring the fest</p>
+        <a class="main-button" href="mailto:{{ contact.sponsor_email }}">{{ contact.sponsor_email }}</a>
+        <a class="main-button" href="tel:+91{{ contact.sponsor_mobile }}">{{ contact.sponsor_mobile }}</a>
+    </div>
+</div>

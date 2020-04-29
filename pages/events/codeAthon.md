@@ -1,5 +1,5 @@
 ---
-layout: event-layout.ejs
+layout: event-layout.njk
 title: Code-A-Thon
 tags: ["event"]
 permalink: /events/code-a-thon/

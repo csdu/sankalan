@@ -11,6 +11,6 @@
   "author": "DUCS",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^0.9.0"
+    "@11ty/eleventy": "^0.10.0"
   }
 }

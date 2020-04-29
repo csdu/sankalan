@@ -1,5 +1,5 @@
 ---
-layout: event-layout.ejs
+layout: event-layout.njk
 title: DUCS Coding Cup
 tags: ["event"]
 permalink: /events/ducs-coding-cup/

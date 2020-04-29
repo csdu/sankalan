@@ -17,6 +17,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("favicon.ico");
   return {
-    passthroughFileCopy: true
+    passthroughFileCopy: true,
+    pathPrefix: process.env.NODE_ENV == 'production' ? '/sankalan' : '/',
   };
 };
