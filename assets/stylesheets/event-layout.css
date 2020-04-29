@@ -1,0 +1,140 @@
+.box {
+  background-color: #e84febc5;
+  color: white;
+}
+a,
+.register-button,
+.register-button:visited {
+  color: white;
+}
+
+.banner-image {
+  margin-left: 40px;
+  float: right;
+  width: 40%;
+  height: 350px;
+  margin-bottom: 140px;
+  transition: transform 0.4s;
+}
+
+.banner-image:hover {
+  transform: scale(1.1);
+}
+
+img {
+  float: right;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+main .content ol li {
+  margin-bottom: 1.5rem;
+}
+
+.contact-container {
+  margin-bottom: 140px;
+}
+
+main .content h3 {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+main .content h3:first-of-type {
+  margin-top: 0.5rem;
+}
+
+h3 + p {
+  margin-bottom: 1.5rem !important;
+}
+
+h3 + h4 + p {
+  margin-bottom: 1.5rem !important;
+}
+
+/* For mobile devices: */
+@media only screen and (max-width: 870px) {
+  .banner-image {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: inherit;
+  }
+  .register-button {
+    margin-bottom: 15px;
+    width: 110px;
+    font-size: 16px;
+  }
+}
+.buttoncontainer {
+  text-align: center;
+}
+.register-button {
+  display: inline-block;
+  margin-right: 50px;
+  z-index: 4;
+  font-family: "iceland", "spaceMonoRegular";
+  text-transform: uppercase;
+  font-size: 22px;
+  color: white;
+  padding-top: 5px;
+  width: 140px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 30px;
+  background-color: rgb(87, 0, 126);
+  box-shadow: 10px 10px rgb(202, 2, 206);
+  font-weight: 100;
+  text-decoration: none !important;
+  transition: all 0.4s ease;
+  text-align: center;
+}
+
+.register-button:hover {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  box-shadow: none;
+  cursor: pointer;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: rgb(202, 2, 206);
+  background: rgb(87, 0, 126);
+}
+
+::selection {
+  color: rgb(202, 2, 206);
+  background: rgb(87, 0, 126);
+}
+
+.main-button {
+  display: inline-block;
+  width: 200px;
+  margin-bottom: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+main .content {
+  padding-right: 30px;
+}
+
+/* For mobile devices: */
+@media only screen and (max-width: 870px) {
+  main .content {
+    padding-right: 10px;
+  }
+  .main-button {
+    margin-bottom: 0.5rem;
+  }
+  main .content ol,
+  .contact-container {
+    margin-bottom: 1.5rem;
+  }
+  .main-button {
+    margin-bottom: 0.8rem;
+  }
+  .main-button:last-of-type {
+    margin-bottom: 2rem;
+  }
+}

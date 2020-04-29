@@ -1,0 +1,122 @@
+html {
+  font-size: calc(16px + 0.25vw);
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  text-align: center;
+  background: #0c093c; /* fallback for old browsers */
+  background: -webkit-radial-gradient(
+    #0c093c,
+    #0c093c,
+    #0c093c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: radial-gradient(
+    #0c093c,
+    #0c093c,
+    #0c093c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+img #lines,
+#lines,
+#dots-bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#lines {
+  object-fit: cover;
+}
+
+img #lines {
+  z-index: 1;
+}
+
+#dots-bg {
+  z-index: 2;
+}
+
+.dot-dot {
+  position: absolute;
+  display: none;
+  color: #c400c6;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.glitch {
+  font-weight: 900;
+  color: #f8f8f8;
+  position: relative;
+  margin: 0 auto;
+  text-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2),
+  0px 18px 23px rgba(0, 0, 0, 0.3);
+}
+
+.main-button {
+  z-index: 4;
+  font-family: "iceland", "spaceMonoRegular";
+  text-transform: uppercase;
+  color: #f8f8f8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #57007e;
+  box-shadow: -3px 3px 0 #c400c6;
+  text-decoration: none !important;
+  transition: all 0.4s ease;
+}
+
+.main-button span {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.main-button:hover {
+  bottom: -0.2rem;
+  box-shadow: 3px -3px 0 #c400c6;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+::selection,
+::-webkit-selection {
+  color: #f8f8f8;
+  background:#c400c6;
+}
+
+::-moz-selection {
+  color: #f8f8f8;
+  background:#c400c6;
+}
+
+/* For mobile devices: */
+@media only screen and (max-width: 870px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #060425c7;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #030125;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #010014;
+  }
+}

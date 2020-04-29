@@ -1,0 +1,451 @@
+@font-face {
+  font-family: iceland;
+  src: url(../fonts/Iceland.ttf);
+}
+
+/* for title */
+@font-face {
+  font-family: octopost;
+  src: url(../fonts/octopost.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.corner-nav-item a {
+  font-family: "iceland";
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 1.3rem;
+  line-height: 40px;
+  letter-spacing: 1.5px;
+  color: #f8f8f8;
+  z-index: 7;
+}
+
+.corner-nav-item.top-left a {
+  top: 1rem;
+  left: 1.5rem;
+}
+
+.corner-nav-item.top-right a {
+  top: 1rem;
+  right: 1.5rem;
+  left: auto;
+}
+
+.corner-nav-item.bottom-left a {
+  top: auto;
+  bottom: 1rem;
+  left: 1.5rem;
+}
+
+.corner-nav-item.bottom-right a {
+  top: auto;
+  right: 1.5rem;
+  bottom: 1rem;
+  left: auto;
+}
+
+.corner-nav-item a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: cyan;
+  -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  -moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.corner-nav-item a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.landing-content {
+  position: fixed;
+  bottom: 0;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 6;
+}
+
+.middle-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.rotating-animation svg {
+  width: 33vw;
+  margin-bottom: 1rem;
+}
+
+.sankalan-wrap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.glitch {
+  color: #f8f8f8;
+  font-size: 4.7rem;
+  font-family: "octopost";
+}
+
+.main-button {
+  -moz-transition: all 0.18s linear 0s;
+  -o-transition: all 0.18s linear 0s;
+  -webkit-transition: all 0.18s linear 0s;
+  transition: all 0.18s linear 0s;
+  box-shadow: -6px 6px 0 #ca02ce, 6px -6px 0 #d007d494;
+}
+
+.main-button span {
+  font-size: 2rem;
+}
+
+.main-button:hover {
+  box-shadow: none;
+}
+
+.button-last {
+  display: none;
+}
+
+.left-content {
+  color: #f8f8f8;
+  font-family: "iceland";
+}
+
+.countdown .counter-section .counter-wrap .counter-container {
+  display: flex;
+  padding: 20px 40px;
+  border-radius: 100px;
+  flex-direction: column;
+}
+.countdown .counter-section .counter-wrap .counter-box {
+  width: 85px;
+  height: 85px;
+  text-align: center;
+  margin-bottom: 8px;
+  padding: 10px;
+  border: 1px solid #f8f8f8;
+  border-radius: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.countdown .counter-section .counter-wrap .counter-box:last-of-type {
+  margin: 0;
+}
+.countdown .counter-section .counter-wrap .counter-box p {
+  color: #f8f8f8;
+}
+.countdown .counter-section .counter-wrap .counter-box .counter-time {
+  font-size: 2rem;
+  margin: 0 0 2px 0;
+}
+.countdown .counter-section .counter-wrap .counter-box .counter-tag {
+  margin: 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -12px;
+  right: -12px;
+  width: 50px;
+  height: 50px;
+  background: #243b5580;
+  border-radius: 70px;
+  line-height: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-content {
+  position: relative;
+  color: #f8f8f8;
+  font-family: "iceland";
+  font-size: 1rem;
+}
+
+.date {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.date-full {
+  display: none;
+}
+
+.event-time {
+  display: none;
+}
+
+.coordinates {
+  margin-bottom: 2.5rem;
+  font-size: 1.2rem;
+  padding: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.options {
+  font-size: 1.15rem;
+  padding: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  line-height: 1.75rem;
+}
+
+.options div a:hover,
+.coordinates a:hover {
+  color: #c400c6;
+  text-shadow: 1px 0px 10px rgba(153, 75, 161, 0.2);
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.options div:nth-child(odd):hover {
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+.options div:nth-child(even):hover {
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
+@keyframes wobble {
+  from {
+    transform: scale(0.9);
+    top: 20px;
+  }
+  to {
+    transform: scale(1);
+    top: 0px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+}
+
+/* For mobile devices: */
+
+@media only screen and (max-width: 870px) {
+  .corner-nav-item a {
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+  }
+
+  .corner-nav-item.top-left a {
+    top: 0.8rem;
+    left: 0.8rem;
+  }
+
+  .corner-nav-item.top-right a {
+    top: 0.8rem;
+    right: 0.8rem;
+  }
+
+  .corner-nav-item.bottom-left a {
+    bottom: 0.8rem;
+    left: 0.8rem;
+  }
+
+  .corner-nav-item.bottom-right a {
+    right: 0.8rem;
+    bottom: 0.8rem;
+  }
+
+  .corner-nav-item a:after {
+    height: 1.5px;
+  }
+
+  .landing-content {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .rotating-animation svg {
+    width: 65vw;
+    margin-bottom: 0;
+  }
+
+  .glitch {
+    font-size: 3rem;
+  }
+
+  .main-button {
+    padding: 5px;
+  }
+
+  .main-button span {
+    font-size: 1.2rem;
+  }
+
+  .button-first {
+    display: none;
+  }
+
+  .button-last {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+  }
+
+  .countdown .counter-section .counter-wrap .counter-container {
+    flex-direction: row;
+    padding: 0;
+  }
+  .countdown .counter-section .counter-wrap .counter-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-width: 0.8px;
+  }
+  .countdown .counter-section .counter-wrap .counter-box:last-of-type {
+    margin: 0;
+  }
+  .countdown .counter-section .counter-wrap .counter-box .counter-time {
+    font-size: 1rem;
+  }
+  .countdown .counter-section .counter-wrap .counter-box .counter-tag {
+    font-size: 0.6rem;
+    width: 30px;
+    height: 30px;
+  }
+
+  .date {
+    display: none;
+  }
+
+  .date-full {
+    display: block;
+    font-size: 2rem;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .coordinates {
+    font-size: 0.9rem;
+    padding: 1px;
+    margin: 0;
+    margin-bottom: 10px;
+    border-width: 0.8px;
+  }
+
+  .options {
+    font-size: 1.2rem;
+    padding: 1px;
+    border-width: 0.8px;
+    line-height: 1.6rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .rotating-animation svg {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .corner-nav-item a {
+    letter-spacing: 1px;
+  }
+
+  .corner-nav-item.top-left a {
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .corner-nav-item.top-right a {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .corner-nav-item.bottom-left a {
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .corner-nav-item.bottom-right a {
+    right: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .rotating-animation svg {
+    width: 75vw;
+  }
+
+  .glitch {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) and (max-height: 650px) {
+  .countdown .counter-section .counter-wrap .counter-box {
+    margin-right: 8px;
+  }
+  .countdown .counter-section .counter-wrap .counter-box:last-of-type {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) and (max-height: 600px) {
+  .left-content {
+    display: none;
+  }
+  .date-full {
+    margin-bottom: 5px;
+  }
+
+  .coordinates {
+    margin-bottom: 5px;
+  }
+
+  .options {
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-height: 550px) {
+  body {
+    overflow-y: scroll;
+  }
+  .coordinates {
+    display: none;
+  }
+}

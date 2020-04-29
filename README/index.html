@@ -1,0 +1,27 @@
+<h1>Sankalan 2020</h1>
+<p>Website for Sanakalan 2020, annual technical fest organised by the students of the Depratment of Computer Science, University of Delhi.</p>
+<p>:computer: <em>Built with <a href="https://www.11ty.io/">Eleventy</a> (aka 11ty).</em></p>
+<h2>Development</h2>
+<h3>Requirements</h3>
+<p>Git, Nodejs, NPM.</p>
+<h3>Installation</h3>
+<pre><code class="language-bash"># clone this repository
+git clone https://github.com/csdu/sankalan.git
+
+# go to working directory
+cd sankalan
+
+# install dependencies
+npm install
+</code></pre>
+<h3>Start the local dev server</h3>
+<p>Run <code>npm start</code> to run 11ty on localhost port 8080.</p>
+<h3>Project structure</h3>
+<p><strong>_site</strong>: This is the default output folder where all the files matching valid template file extensions are compiled.<br>
+<strong>_includes</strong>: Contains all the layouts or templates that are used to wrap other content.<br>
+<strong>_data</strong>: Contains javascript data files and json files.<br>
+<strong>assets</strong>: Contains all the static assets like stylesheets and images.<br>
+<strong>pages</strong>: Website content goes here.<br>
+<strong>.eleventy.js</strong>: To override 11ty configuration options with our own preferences.</p>
+<h3>Building</h3>
+<p>Run <code>npm run build</code> to generate a production build.</p>
