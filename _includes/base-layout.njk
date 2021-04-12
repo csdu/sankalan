@@ -16,7 +16,8 @@ styles:
     {% if (styles) %} 
     <link rel="stylesheet" href="{{ '/assets/stylesheets/' | url }}{{ styles }}" /> 
     {% endif %}
-    <title>{% if(title) %}{{ title }} | {% endif %}Sankalan 2020</title>
+    <link type="image/png" href={{ '/assets/images/favicon.png' }} rel="icon">
+    <title>{% if(title) %}{{ title }} | {% endif %}Sankalan {{ site.year }}</title>
   </head>
   <body>
     <img id="lines" src="{{ '/assets/images/lines-2.svg' | url }}" />
