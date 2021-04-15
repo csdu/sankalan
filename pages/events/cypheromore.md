@@ -3,15 +3,15 @@ layout: event-layout.njk
 title: Cipher-O-More
 tags: ["event"]
 permalink: /events/cipher-o-more/
-image: /assets/images/events/cypher-o-more.jpg
+image: /assets/images/events/cipher_o_more.jfif
 links:
   - name: "Register"
-    link: "https://sankalan-portal.ducs.in/"
+    link: "https://forms.gle/5SfoVGKgXSZdUMnQ8"
 contactNumbers:
-  - name: "Ronak Aggarwal"
-    mobile: "9582408115"
-  - name: "Sunil Kumar"
-    mobile: "8826728966"
+  - name: "Himanshi"
+    mobile: "7505297680"
+  - name: "Indra Kishore Kumar"
+    mobile: "7289079804"
 ---
 
 To all the <b>Jagga Jasoos</b> out there!
@@ -27,7 +27,7 @@ some encoded and cryptic texts.</br>
 
 ### INSTRUCTIONS
 
-#### Rounds
+#### ROUNDS
 - Preliminary round tests your cryptic knowledge as it contains question-related to
 cryptography and encoding/decoding. This will be an online round
 - For the finals, We expect you to turn into modern Julius Ceaser and find messages that

@@ -1,7 +1,7 @@
 ---
 layout: event-layout.njk
 title: DUCS Coding Cup
-tags: ["event"]
+tags: ["event-old"]
 permalink: /events/ducs-coding-cup/
 image: /assets/images/events/coding-cup.jpg
 links:

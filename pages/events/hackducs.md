@@ -1,7 +1,7 @@
 ---
 layout: event-layout.njk
 title: hackDUCS
-tags: ["event"]
+tags: ["event-old"]
 permalink: /events/hackducs/
 image: /assets/images/events/hackducs.jpg
 links:

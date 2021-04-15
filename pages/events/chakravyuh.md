@@ -10,17 +10,20 @@ links:
   - name: "Facebook"
     link: "https://www.facebook.com/ducs.chakravyuh/"
 contactNumbers:
-  - name: "Abhishek Sen"
-    mobile: "7059931910"
-  - name: "Abhinav Rastogi"
-    mobile: "9808727553"
+  - name: "Amit Parashar"
+    mobile: "9608745586"
+  - name: "Shubham Pal"
+    mobile: "7017736530"
 ---
 
-Eat, Sleep, Hunt!
+It’s said that only a few people knew how to break into the Chakravyuh and come out of it.
 
-Chakravyuh is an online treasure hunt event of Delhi University Computer Science Fest "Sankalan". Students across the nation compete to prove their smartness. There are multiple levels and the only goal is to get to the next level. Showcase your smartness and prove it to the world. Think in multiple directions and make sense out of superficially random clues.
+Let’s put this to the test and see if you’re one of them. Let’s see if you have the potential to connect the dots and come out of our Chakravyuh before the time runs out!
 
-Rise and Shine it’s hunt time…
+Presenting another event of SANKALAN 2021 - CHAKRAVYUH’21 - an online Treasure Hunt.
+
+In Chakravyuh, you won’t be competing just against the other competitors, but also against the time and your internet speed ;p
+Chakravyuh puts to the test how dynamic you can be at figuring out if 2 + 2 equates to 4 or to 22 (well, if you get the metaphor right). Because it’s only when you can make sense out of the superficially random clues and head to the right answer that you are taken to the next level.
 
 </br>
 </br>
@@ -33,4 +36,7 @@ Rise and Shine it’s hunt time…
 4. Once the treasure has been found, the next level will be unlocked for the particular participant.
 5. Turn in all treasures as soon as possible. The score will be based on number of correct answers and time taken to solve the clues.
 6. The participant with highest score will win an cash exciting prizes.
-   <p></p>
+
+### EVENT TIMINGS
+
+April 16, 2021 (10:00 PM) - April 17,2021 (10:00 PM)

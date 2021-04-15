@@ -3,54 +3,55 @@
     "title": "The Panel",
     "people": [
       {
-        "name": "Krishna Agarwal",
+        "name": "Hemant Kumar",
         "designation": "President",
-        "image": "krishna.jpg",
+        "image": "hemant-kumar.jpeg",
         "socials": {
-          "facebook": "https://www.facebook.com/profile.php?id=100042309243992",
-          "linkedin": "https://www.linkedin.com/in/krishna1401/"
+          "facebook": "https://www.facebook.com/kmr.hmnt",
+          "instagram": "https://www.instagram.com/hmnt_kmr/",
+          "linkedin": "https://www.linkedin.com/in/hemant-kumar-7150b4192/",
+          "twitter": "https://twitter.com/hemantkumar0607"
         }
       },
 
       {
-        "name": "Hemant Saini",
+        "name": "Abhishek Sharma",
         "designation": "Vice-President",
-        "image": "hemant-saini.jpg",
-        "socials": {}
+        "image": "abhishek-sharma.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/abhishek-sharma-03a0301b8"
+        }
       },
 
       {
-        "name": "Tanisha Grover",
+        "name": "Pooja Sikka",
         "designation": "General Secretary",
-        "image": "tanisha-grover.jpg",
+        "image": "pooja-sikka.jpg",
         "socials": {
-          "facebook": "https://www.facebook.com/profile.php?id=100011745589621",
-          "instagram": "https://www.instagram.com/Tanisha.tg/",
-          "linkedin": "https://www.linkedin.com/in/tanisha-grover-225b0712a/"
+          "facebook": "https://www.facebook.com/pooja.sikka.12",
+          "linkedin": "https://www.linkedin.com/in/pooja-sikka-a13087140"
         }
       },
-
       {
-        "name": "Uditi kansal",
+        "name": "Abhinav Rastogi",
         "designation": "Joint Secretary",
-        "image": "uditi-kansal.png",
+        "image": "abhinav-rastogi.jpeg",
         "socials": {
-          "facebook": "https://m.facebook.com/uditi.kansal.1",
-          "github": "https://github.com/uditikansal",
-          "instagram": "https://www.instagram.com/uditiiii",
-          "linkedin": "https://www.linkedin.com/in/uditi-kansal-57b481135"
+          "facebook": "https://www.facebook.com/abhinav.rastogi.77985",
+          "github": "https://github.com/abhinav2188",
+          "instagram": "https://www.instagram.com/abhinav2188/",
+          "linkedin": "https://www.linkedin.com/in/abhinav-rastogi-4706a0157"
         }
       },
 
       {
-        "name": "Tanuj Rohilla",
+        "name": "Shubham Pal",
         "designation": "Treasurer",
-        "image": "tanuj-rohilla.jpg",
+        "image": "shubham-pal.jpeg",
         "socials": {
-          "facebook": "https://www.facebook.com/tanujrohilla97",
-          "github": "https://github.com/TanujRohilla",
-          "twitter": "https://twitter.com/rohilla_tanuj",
-          "linkedin": "https://www.linkedin.com/in/tanuj-rohilla-1ba55613b/"
+          "github": "https://github.com/shubham-pal",
+          "linkedin": "https://www.linkedin.com/in/imshubhampal/",
+          "instagram": "https://www.instagram.com/shubham_sagwan"
         }
       }
     ]
@@ -106,9 +107,9 @@
       },
       {
         "name": "Shoaib Asgar",
-        "image": "shoaib-asgar.jpg",
+        "image": "shoaib-asgar.jpeg",
         "socials": {
-          "facebook": "https://www.facebook.com/md.shoaib.4862",
+          "twitter": "https://twitter.com/msk4862",
           "github": " https://github.com/msk4862",
           "instagram": "https://www.instagram.com/msk4862/",
           "linkedin": "https://www.linkedin.com/in/msk4862"
@@ -121,42 +122,17 @@
     "title": "Graphic Designers",
     "people": [
       {
-        "name": "Nitin Thakur",
-        "image": "nitin-thakur.jpg",
+        "name": "Kritika Singh",
+        "image": "kritika-singh.jpg",
         "socials": {
-          "facebook": "https://www.facebook.com/ni3sama",
-          "twitter": "https://twitter.com/nitin_sama",
-          "instagram": "https://www.instagram.com/nitinsama"
-        }
-      },
-      {
-        "name": "Manan Mehta",
-        "image": "manan-mehta.jpg",
-        "socials": {
-          "facebook": "https://www.facebook.com/connect2manan",
-          "linkedin": "https://www.linkedin.com/in/mananmehta96"
-        }
-      },
-      {
-        "name": "Nitin Kumar",
-        "image": "nitin-kumar.jpg",
-        "socials": {
-          "twitter": "https://twitter.com/nitinkkumar8",
-          "instagram": "https://www.instagram.com/enkxy"
-        }
-      },
-      {
-        "name": "Tanisha Grover",
-        "image": "tanisha-grover.jpg",
-        "socials": {
-          "facebook": "https://www.facebook.com/profile.php?id=100011745589621",
-          "instagram": "https://www.instagram.com/Tanisha.tg/",
-          "linkedin": "https://www.linkedin.com/in/tanisha-grover-225b0712a/"
+          "facebook": "https://www.facebook.com/kitty2496",
+          "twitter": "https://twitter.com/dank_artist",
+          "instagram": "https://www.instagram.com/kitty_s.96"
         }
       },
       {
         "name": "Abhinav Rastogi",
-        "image": "abhinav-rastogi.jpg",
+        "image": "abhinav-rastogi.jpeg",
         "socials": {
           "facebook": "https://www.facebook.com/abhinav.rastogi.77985",
           "github": "https://github.com/abhinav2188",
@@ -165,11 +141,22 @@
         }
       },
       {
-        "name": "Devanshu Verma",
-        "image": "devanshu-verma.jpg",
+        "name": "Vasu Sehgal",
+        "image": "vasu-sehgal.png",
         "socials": {
-          "facebook": "https://www.facebook.com/Devanshuverma158",
-          "instagram": "https://www.instagram.com/dev_verma_19"
+          "facebook": "https://m.facebook.com/vasu.sehgal.75",
+          "instagram": "https://www.instagram.com/the_vasusehgal/",
+          "linkedin": "https://www.linkedin.com/in/vasu-sehgal-a28085144"
+        }
+      },
+      {
+        "name": "Shoaib Asgar",
+        "image": "shoaib-asgar.jpeg",
+        "socials": {
+          "twitter": "https://twitter.com/msk4862",
+          "github": " https://github.com/msk4862",
+          "instagram": "https://www.instagram.com/msk4862/",
+          "linkedin": "https://www.linkedin.com/in/msk4862"
         }
       },
       {
@@ -182,82 +169,48 @@
         }
       },
       {
-        "name": "Nitesh yadav",
-        "image": "nitesh-yadav.jpg",
+        "name": "Shubham Sharma",
+        "image": "shubham-sharma.jpg",
         "socials": {
-          "facebook": "https://www.facebook.com/profile.php?id=100006620624488",
-          "github": "https://github.com/Niteshrocks",
-          "twitter": "https://twitter.com/im_niteshy",
-          "instagram": "https://www.instagram.com/niteshyadav585/"
+          "facebook": "https://www.facebook.com/shu6h4m",
+          "github": " https://github.com/shu6h4m",
+          "twitter": "https://www.twitter.com/shu6h4m",
+          "instagram": "https://www.instagram.com/shu6h4m"
         }
       },
       {
-        "name": "Akul bharti",
-        "image": "akul-bharti.jpg",
+        "name": "Deepti",
+        "image": "deepti-chauhan.JPG",
         "socials": {
-          "facebook": "https://www.facebook.com/akul.bharti.3",
-          "instagram": "https://www.instagram.com/bharti.akul/",
-          "linkedin": "https://www.linkedin.com/in/akul-bharti/"
+          "instagram": "https://www.instagram.com/__deeptichauhan___"
         }
       },
       {
-        "name": "Kritika Singh",
-        "image": "kritika-singh.jpg",
+        "name": "Bhavna Nagar",
+        "image": "bhavna-nagar.jpg",
         "socials": {
-          "facebook": "https://www.facebook.com/kitty2496",
-          "twitter": "https://twitter.com/dank_artist",
-          "instagram": "https://www.instagram.com/kitty_s.96"
+          "github": " https://github.com/bhavnanagar",
+          "instagram": "https://www.instagram.com/bhavnanagar159"
         }
       },
       {
-        "name": "Vasu Sehgal",
-        "image": "vasu-sehgal.png",
+        "name": "Dipesh Joshi",
+        "image": "dipesh-joshi.jpg",
         "socials": {
-          "facebook": "https://m.facebook.com/vasu.sehgal.75",
-          "instagram": "https://www.instagram.com/the_vasusehgal/",
-          "linkedin": "https://www.linkedin.com/in/vasu-sehgal-a28085144"
-        }
-      }
-    ]
-  },
-
-  {
-    "title": "Sponsorship Team",
-    "people": [
-      {
-        "name": "Pranav Gurditta",
-        "image": "pranav-gurditta.jpg",
-        "socials": {
-          "facebook": "https://m.facebook.com/PranavGurditta",
-          "github": "https://github.com/pranavgurditta",
-          "linkedin": "https://www.linkedin.com/in/pranavgurditta?originalSubdomain=in"
+          "instagram": "https://www.instagram.com/_joshi_dipesh_"
         }
       },
       {
-        "name": "Hemant Saini",
-        "image": "hemant-saini.jpg",
-        "socials": {}
-      },
-      {
-        "name": "Rishav kohli",
-        "image": "rishav-kohli.jpeg",
+        "name": "Rochak Pandey",
+        "image": "rochak-pandey.jpg",
         "socials": {
-          "linkedin": "https://www.linkedin.com/in/rishav-kohli-671434171"
         }
       },
       {
-        "name": "Ashwani Varshney",
-        "image": "ashwani-varshney.jpeg",
+        "name": "Anand Sharma",
+        "image": "anand-sharma.jpg",
         "socials": {
-          "instagram": "http://instagram.com/ashwani_varshney_"
-        }
-      },
-      {
-        "name": "Amit Parashar",
-        "image": "amit-parashar.jpg",
-        "socials": {
-          "twitter": "https://twitter.com/AmitParashar29",
-          "linkedin": "https://www.linkedin.com/in/amit-parashar-89849b155/?originalSubdomain=in"
+          "linkedin": "https://www.linkedin.com/in/anand-sharma-ducs23"
         }
       }
     ]

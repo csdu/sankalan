@@ -1,7 +1,7 @@
 ---
 layout: event-layout.njk
 title: Mind Matters
-tags: ["event"]
+tags: ["event-old"]
 permalink: /events/mind-matters/
 image: /assets/images/events/mindmatters.png
 links:
