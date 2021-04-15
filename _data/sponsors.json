@@ -1,67 +1,5 @@
 [
   {
-    "title": "event partners",
-    "sponsors": [
-      {
-        "name": "IBM",
-        "image": "ibm.png"
-      },
-      {
-        "name": "Microsoft Student Partner (MSP)",
-        "image": "microsoft-student-partner.jpg"
-      },
-      {
-        "name": "Github",
-        "image": "github.png"
-      },
-      {
-        "name": "Bugsee",
-        "image": "bugsee.svg"
-      }
-    ]
-  },
-
-  {
-    "title": "associate partner",
-    "sponsors": [
-      {
-        "name": "Nagarro",
-        "image": "nagarro.png"
-      }
-    ]
-  },
-
-  {
-    "title": "coding partner",
-    "sponsors": [
-      {
-        "name": "Coding Blocks",
-        "image": "coding-blocks.png"
-      }
-    ]
-  },
-
-  {
-    "title": "gifting partner",
-    "sponsors": [
-      {
-        "name": "Magic Bottle",
-        "image": "magic-bottle.png"
-      }
-    ]
-  },
-
-  {
-    "title": "music partner",
-    "sponsors": [
-      {
-        "name": "Mirrors Of Blue",
-        "image": "mirrors-of-blue.png"
-      }
-    ]
-  },
-
-  {
     "title": "programming partner",
     "sponsors": [
       {
@@ -75,20 +13,8 @@
     "title": "media partners",
     "sponsors": [
       {
-        "name": "DU Assasins",
-        "image": "du-assasins.jpg"
-      },
-      {
-        "name": "DU Updates",
-        "image": "du-updates.png"
-      },
-      {
-        "name": "DU Express",
-        "image": "du-express.png"
-      },
-      {
-        "name": "DU Beat",
-        "image": "du-beat.jpg"
+        "name": "DU Vibes",
+        "image": "du-vibes.jpeg"
       }
     ]
   }

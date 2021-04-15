@@ -2,17 +2,17 @@
   <div class="navigation">
     <a href="{{ '/contact/' | url }}">Contact</a>
     <a href="{{ '/terms/' | url }}">Terms</a>
-    <a href="{{ site.registerLink | url }}">Register</a>
+    <a href="{{ '/events/' | url }}">Register</a>
   </div>
-  COPYRIGHT &copy; SANKALAN 2020. ALL RIGHTS RESERVED.<br />
+  COPYRIGHT &copy; SANKALAN {{ site.year }}. ALL RIGHTS RESERVED.<br />
   Meet the <a href="{{ '/team/' | url }}">Sankalan team</a><br />
   Delhi University Computer Science Society (DUCSS)
   <div class="socials">
+    <a href="{{ contact.instagram.link }}" target="_blank"
+      ><i class="fab fa-instagram"></i
+    ></a>
     <a href="{{ contact.facebook.link }}" target="_blank"
       ><i class="fab fa-facebook"></i
-    ></a>
-    <a href="{{ contact.instagram }}" target="_blank"
-      ><i class="fab fa-instagram"></i
     ></a>
   </div>
 </footer>
