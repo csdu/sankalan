@@ -1,7 +1,7 @@
 ---
 layout: event-layout.njk
 title: Brain Spark
-tags: ["event"]
+tags: ["event-old"]
 permalink: /events/brain-spark/
 image: /assets/images/events/brain-spark.jpg
 links:

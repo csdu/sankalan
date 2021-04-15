@@ -1,7 +1,7 @@
 ---
 layout: event-layout.njk
 title: LAN Gaming
-tags: ["event"]
+tags: ["event-old"]
 permalink: /events/lan-gaming/
 image: /assets/images/events/ground-zero.jpg
 ---

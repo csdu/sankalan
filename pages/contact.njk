@@ -7,8 +7,9 @@ permalink: /contact/
 ---
 <div class="contact">
     <div>
-        <p>For general queries, feel free to reach us at our Facebook page:</p>
-        <a class="main-button" target="_blank" href="{{ contact.facebook.link }}">{{ contact.facebook.name }}</a>
+        <p>For general queries, feel free to reach us:</p>
+        <a class="main-button" target="_blank" href="{{ contact.facebook.link }}">{{ contact.facebook.name }}</a><br/><br/>
+        <a class="main-button" target="_blank" href="{{ contact.instagram.link }}">{{ contact.instagram.name }}</a>
     </div>
 
     <div>
@@ -19,12 +20,9 @@ permalink: /contact/
     <div>
         <h3>We are located at:</h3>
         <p>{{ contact.address }}</p>
+        <!--
         <a class="main-button" target="_blank" href="{{ contact.google_location }}">Get Directions<br />{{ contact.coordinates }}</a>
-    </div>
-
-    <div>
-        <p>If you need to talk to the web developer of Sankalan</p>
-        <a class="main-button" href="mailto:{{ contact.developer_email }}">{{ contact.developer_email }}</a>
+        -->
     </div>
 
     <div>

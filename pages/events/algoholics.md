@@ -1,7 +1,7 @@
 ---
 layout: event-layout.njk
 title: Algoholics
-tags: ["event"]
+tags: ["event-old"]
 permalink: /events/algoholics/
 image: /assets/images/events/algoholics.png
 links:

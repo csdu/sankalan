@@ -53,7 +53,7 @@ layout: landing-layout.njk
     <div class="rotating-animation">
       {% include 'rotating-circles.njk' %}
     </div>
-    <a href="{{ site.registerLink | url }}" class="main-button button-first">
+    <a href="{{ '/events/' | url }}" class="main-button button-first">
       <span>register</span>
     </a>
   </div>
@@ -62,7 +62,8 @@ layout: landing-layout.njk
     <div class="date"><span class="month">{{ site.month.charAt(0).toUpperCase() + site.month.slice(1) }}</span><br /><span class="day1">{{ site.day1 }}</span>-<span class="day2">{{ site.day2 }}</span>, <span class="year">{{ site.year }}</span></div>
     <div class="date-full"><span class="month">{{ site.month.charAt(0).toUpperCase() + site.month.slice(1,3) }}</span> <span class="day1">{{ site.day1 }}</span>-<span class="day2">{{ site.day2 }}</span>, <span class="year">{{ site.year }}</span></div>
     <div class="event-time">{{ site.time }}</div>
-    <div class="coordinates"><a target="_blank" href="{{ contact.google_location }}">{{ contact.coordinates }}</a></div>
+    <!--<div class="coordinates"><a target="_blank" href="{{ contact.google_location }}">{{ contact.coordinates }}</a></div>-->
+    <div class="coordinates">Venue: Online</div>
     <div class="options">
       <div>
         <a href="{{ '/assets/downloads/schedule.pdf' | url }}" target="_blank">SCHEDULE</a>

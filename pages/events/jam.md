@@ -1,7 +1,7 @@
 ---
 layout: event-layout.njk
 title: JAM
-tags: ["event"]
+tags: ["event-old"]
 permalink: /events/jam/
 image: /assets/images/events/jam.jpg
 links:

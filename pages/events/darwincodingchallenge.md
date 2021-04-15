@@ -1,7 +1,7 @@
 ---
 layout: event-layout.njk
 title: Darwin Coding Challenge
-tags: ["event"]
+tags: ["event-old"]
 permalink: /events/darwin-coding-challenge/
 image: /assets/images/events/darwin-coding-challenge.png
 links:

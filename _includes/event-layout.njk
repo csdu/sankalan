@@ -24,7 +24,7 @@ links:
     <p>
       {% for contact in contactNumbers %} 
         <i class="fas fa-phone"></i>
-        {{ contact.name }}: <a target="_blank" href="tel:+91{{ contact.mobile }}">+91 {{ contact.mobile }}</a>
+        {{ contact.name }}: <a target="_blank" href="tel:+91-{{ contact.mobile }}">+91-{{ contact.mobile }}</a>
         <br >
       {% endfor %}
     </p>
