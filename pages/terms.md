@@ -79,9 +79,9 @@ You agree to the following terms when you use our website (*.ducs.in):
   [https://github.com/csdu/sankalan-portal](https://github.com/csdu/sankalan-portal)
 - If you find any issues with the website, feel free to report it on Github or contact us.
 
-### TERMS OF SERVICE FOR SANKALAN 2021
+### TERMS OF SERVICE FOR SANKALAN 2022
 
-By registering for Sankalan 2021 through our website or service provided at registration desk, you agree to the following terms:
+By registering for Sankalan 2022 through our website or service provided at registration desk, you agree to the following terms:
 
 - You must not misuse any technology available to you to cause damage to Sankalan (its website, its organisation and the other people participating in the event).
 - You must follow the guidelines provided to you during the event.

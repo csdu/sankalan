@@ -1,5 +1,5 @@
-# Sankalan 2021
-Website for Sanakalan 2021, annual technical fest organised by the students of the Depratment of Computer Science, University of Delhi.
+# Sankalan 2022
+Website for Sanakalan 2022, annual technical fest organised by the students of the Depratment of Computer Science, University of Delhi.
 
 :computer: *Built with [Eleventy](https://www.11ty.io/) (aka 11ty).*
 
