@@ -18,6 +18,9 @@ styles:
     {% endif %}
     <link type="image/png" href={{ '/assets/images/favicon.png' }} rel="icon">
     <title>{% if(title) %}{{ title }} | {% endif %}Sankalan {{ site.year }}</title>
+    <meta property="og:title" content="{% if(title) %}{{ title }} | {% endif %}Sankalan {{ site.year }}" />
+    <meta property="og:description" content="The annual tech fest of Department of Computer Science, University of Delhi (DUCS)" />
+    <meta property="og:image" content="/assets/images/sankalan2022logo.jpg" />
   </head>
   <body>
     <img id="lines" src="{{ '/assets/images/lines-2.svg' | url }}" />
