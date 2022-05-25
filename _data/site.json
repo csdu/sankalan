@@ -4,5 +4,6 @@
   "day1": 28,
   "day2": 29,
   "time": "10:00:00",
-  "registerLink": "/register/"
+  "registerLink": "/register/",
+  "appDownloadLink": "https://github.com/NavneetKumar2907/Sankalan/releases/download/v2/Sankalan2022.apk"
 }
