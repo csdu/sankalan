@@ -1,6 +1,6 @@
 ---
 layout: event-layout.njk
-title: JAM
+title: Just A Minute
 tags: ["event"]
 permalink: /events/jam/
 image: /assets/images/events/jam.jpg
@@ -12,10 +12,10 @@ contactNumbers:
     mobile: "7451090735"
   - name: "Dipesh Joshi"
     mobile: "9971869320"
+  - name: "Sakshi Sharma"
+    mobile: "9599398560"
   - name: "Kavita"
     mobile: "8851033435"
-  - name: "Sakshi Sharma"
-    mobile: "9599398560"	
 ---
 
 A minute is all you get. Rather a minute is all you need to leave an impression that no one will
@@ -30,10 +30,16 @@ done in Just A Minute...😱
 
 ### INSTRUCTIONS
 
-#### Rules
+- The team will be disqualified, if any member is voilating rules.
+- Leaderboard will be decided on the overall performance of team in the round.
+- In case of draw, ties will be broken by competing on certain task between the two teams.
 
-- There will be 3 rounds where each round is an elimination round.
-- We will assign one task to each team and one of the team member need to complete that task in one minute.
+### Rules
+
+- There will be 2 rounds.
+- Each round will be a knockout round.
+- Winner will be decided on the basis on leaderboard.
+- We will assign one task to each team and you need to complete that task in one minute.
 
 ### TEAM SIZE
 

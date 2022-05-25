@@ -1,28 +1,30 @@
 ---
 layout: event-layout.njk
 title: Chakravyuh
-tags: ["event-old"]
+tags: ["event"]
 permalink: /events/chakravyuh/
 image: /assets/images/events/chakravyuh.jpg
 links:
   - name: "Register"
     link: "/register/"
 contactNumbers:
-  - name: "Amit Parashar"
-    mobile: "9608745586"
-  - name: "Shubham Pal"
-    mobile: "7017736530"
+  - name: "Divyam"
+    mobile: "8881176882"
 ---
 
-It’s said that only a few people knew how to break into the Chakravyuh and come out of it.
-
-Let’s put this to the test and see if you’re one of them. Let’s see if you have the potential to connect the dots and come out of our Chakravyuh before the time runs out!
-
-Presenting another event of SANKALAN 2021 - CHAKRAVYUH’21 - an online Treasure Hunt.
-
-In Chakravyuh, you won’t be competing just against the other competitors, but also against the time and your internet speed ;p
-Chakravyuh puts to the test how dynamic you can be at figuring out if 2 + 2 equates to 4 or to 22 (well, if you get the metaphor right). Because it’s only when you can make sense out of the superficially random clues and head to the right answer that you are taken to the next level.
-
+Are you puzzle lover? or a cryptophlic?
+Yes! So let's use the given clue,
+break the chakravyuh, reach the treasure and then the winner will be you💰
+Let's play a game of a mind- numbing crypt hunt where quick- wittedness wins.
+</br>
+</br>
+Presenting.. CHAKRAVYUH
+</br>
+</br>
+A Treasure hunt with a technical twist... What is that? Come and see🤩
+</br>
+</br>
+Register yourself now!
 </br>
 </br>
 
@@ -35,6 +37,5 @@ Chakravyuh puts to the test how dynamic you can be at figuring out if 2 + 2 equa
 5. Turn in all treasures as soon as possible. The score will be based on number of correct answers and time taken to solve the clues.
 6. The participant with highest score will win an cash exciting prizes.
 
-### EVENT TIMINGS
-
-April 16, 2021 (10:00 PM) - April 17,2021 (10:00 PM)
+### TEAM ISZE
+team of 2 members is required.

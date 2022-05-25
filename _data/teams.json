@@ -51,6 +51,131 @@
         }
       }
     ]
+  },
+
+  {
+    "title": "Event Co-ordinators",
+    "people": [
+      {
+        "name": "Kavita",
+        "image": "kavita.jpg",
+        "socials": {
+          "github": "https://github.com/Kavita-04",
+          "instagram": "https://www.instagram.com/_kavita.pandey",
+          "linkedin": "www.linkedin.com/in/kavita04"
+        }
+      },
+    	{
+        "name": "Prateek Jena",
+        "image": "prateek_jena.jpg",
+        "socials": {
+          "github": "https://github.com/prateikjena",
+          "twitter": "https://twitter.com/prateikjena",
+          "instagram": "https://www.instagram.com/prateikjen/",
+          "linkedin": "https://www.linkedin.com/in/prateek-jena/"
+        }
+      },
+      {
+        "name": "Sakshi Sharma",
+        "image": "Sakshi_Sharma.jpg",
+        "socials": {
+          "github": "https://github.com/SakshiiSharmaa",
+          "instagram": "https://instagram.com/sakshi.sharmaa_._",
+          "linkedin": "https://www.linkedin.com/in/sakshi-sharma-7007311b9/"
+        }
+      },
+      {
+        "name": "Parag Dudeja",
+        "image": "Parag_Dudeja.jpg",
+        "socials": {
+          "github": "https://github.com/paragdudeja",
+          "twitter": "https://twitter.com/parag_dudeja",
+          "instagram": "https://instagram.com/parag.dudeja",
+          "linkedin": "https://www.linkedin.com/in/paragdudeja/"
+        }
+      },
+      {
+        "name": "Dipesh Joshi",
+        "image": "Dipesh_Joshi.jpg",
+        "socials": {
+          "github": "https://github.com/joshidipesh12",
+          "twitter": "https://twitter.com/_joshi_dipesh_",
+          "instagram": "https://www.instagram.com/_joshi_dipesh_",
+          "linkedin": "https://www.linkedin.com/in/joshidipesh12"
+        }
+      },
+      {
+        "name": "Ankuj Pandey",
+        "image": "Ankuj_pandey.jpg",
+        "socials": {
+          "github": "https://github.com/ankujpandey",
+          "instagram": "https://www.instagram.com/ankujpandey",
+          "linkedin": "https://www.linkedin.com/in/ankuj-pandey-a6b62b204"
+        }
+      },
+      {
+        "name": "Ankit",
+        "image": "Ankit.jpg",
+        "socials": {
+          "github": "https://github.com/ankitkumarbrur",
+          "twitter": "https://twitter.com/AnkitKu54776834",
+          "instagram": "https://www.instagram.com/ankit_brur",
+          "linkedin": "https://www.linkedin.com/in/ankit-kumar-4b6714161"
+        }
+      },
+      {
+        "name": "Saloni",
+        "image": "Saloni.jpg",
+        "socials": {
+          "github": "https://github.com/salonisv22",
+          "instagram": "https://www.instagram.com/sv_saloni",
+          "linkedin": "https://www.linkedin.com/in/saloni-vats-55517b205"
+        }
+      },
+      {
+        "name": "Himanshi Gupta",
+        "image": "Himanshi_Gupta.jpg",
+        "socials": {
+          "github": "https://github.com/jugshaurya",
+          "twitter": "https://twitter.com/jugshaurya",
+          "linkedin": "https://www.linkedin.com/in/jugshaurya/"
+        }
+			},
+      {
+        "name": "Prerna Prasad",
+        "image": "Prerna_Prasad.jpg",
+        "socials": {
+          "github": "https://github.com/prernaprasad14"
+        }
+			},
+      {
+        "name": "Rishabh Poria",
+        "image": "Rishabh_Poria.jpg",
+        "socials": {
+          "github": "https://github.com/RishPoria",
+          "linkedin": "https://www.linkedin.com/in/rishporia/"
+        }
+      },
+      {
+        "name": "Tania Aggarwal",
+        "image": "Tania_Aggarwal.jpeg",
+        "socials": {
+          "github": "https://github.com/TaniaAggarwal29",
+          "twitter": "https://twitter.com/tania_aggarwal",
+          "instagram": "https://www.instagram.com/goyaltania64/",
+          "linkedin": "https://www.linkedin.com/in/tania-aggarwal-29091998/"
+        }
+      },
+      {
+        "name": "Shaurya Singhal",
+        "image": "Shaurya_Singhal.jpg",
+        "socials": {
+          "github": "https://github.com/jugshaurya",
+          "twitter": "https://twitter.com/jugshaurya",
+          "linkedin": "https://www.linkedin.com/in/jugshaurya/"
+        }
+      }
+    ]
   }
 
 ]
