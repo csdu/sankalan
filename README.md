@@ -32,5 +32,6 @@ Run ```npm start``` to run 11ty on localhost port 8080.
 **.eleventy.js**: To override 11ty configuration options with our own preferences.      
 
 
-### Building
+### Production Build
+Set envirnoment variable `NODE_ENV` to production.
 Run ```npm run build``` to generate a production build.

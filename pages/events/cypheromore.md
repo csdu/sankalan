@@ -3,7 +3,7 @@ layout: event-layout.njk
 title: Cipher-O-More
 tags: ["event"]
 permalink: /events/cipher-o-more/
-image: /assets/images/events/cipher_o_more.jfif
+image: /assets/images/events/cipher-o-more.jpg
 links:
   - name: "Register"
     link: "/register/"
