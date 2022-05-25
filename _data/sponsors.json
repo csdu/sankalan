@@ -3,8 +3,16 @@
     "title": "programming partner",
     "sponsors": [
       {
-        "name": "CodeChef",
-        "image": "codechef.png"
+        "name": "Moreficent",
+        "image": "moreficent.png"
+      },
+      {
+        "name": "Coding Blocks",
+        "image": "coding-blocks.png"
+      },
+      {
+        "name": "Coding Minutes",
+        "image": "coding-minutes.png"
       }
     ]
   },
@@ -15,6 +23,10 @@
       {
         "name": "DU Vibes",
         "image": "du-vibes.jpeg"
+      },
+      {
+        "name": "DU Express",
+        "image": "du-express.png"
       }
     ]
   }
