@@ -3,216 +3,57 @@
     "title": "The Panel",
     "people": [
       {
-        "name": "Hemant Kumar",
+        "name": "Rashmi Om Mishra",
         "designation": "President",
-        "image": "hemant-kumar.jpeg",
+        "image": "rashmi_om_mishra.jpeg",
         "socials": {
-          "facebook": "https://www.facebook.com/kmr.hmnt",
-          "instagram": "https://www.instagram.com/hmnt_kmr/",
-          "linkedin": "https://www.linkedin.com/in/hemant-kumar-7150b4192/",
-          "twitter": "https://twitter.com/hemantkumar0607"
+          "instagram": "https://www.instagram.com/rashmishra.rm/",
+          "linkedin": "https://www.linkedin.com/in/rashmi-om-mishra-917332171/",
+          "twitter": "https://twitter.com/rashmishra_rm"
         }
       },
 
       {
-        "name": "Abhishek Sharma",
+        "name": "Divyam Kaushik",
         "designation": "Vice-President",
-        "image": "abhishek-sharma.jpg",
+        "image": "divyam_kaushik.jpg",
         "socials": {
-          "linkedin": "https://www.linkedin.com/in/abhishek-sharma-03a0301b8"
+          "instagram": "https://www.instagram.com/kaushikdivyam/",
+          "linkedin": "https://www.linkedin.com/in/divyamkaushik-ducs/"
         }
       },
 
       {
-        "name": "Pooja Sikka",
+        "name": "Himanshi Gupta",
         "designation": "General Secretary",
-        "image": "pooja-sikka.jpg",
+        "image": "himanshi_gupta.jpg",
         "socials": {
-          "facebook": "https://www.facebook.com/pooja.sikka.12",
-          "linkedin": "https://www.linkedin.com/in/pooja-sikka-a13087140"
+          "instagram": "https://www.instagram.com/himanshi4796/",
+          "linkedin": "https://www.linkedin.com/in/himanshi-gupta-b341531a4/"
         }
       },
       {
-        "name": "Abhinav Rastogi",
+        "name": "Komal Yadav",
         "designation": "Joint Secretary",
-        "image": "abhinav-rastogi.jpeg",
+        "image": "komal_yadav.jpeg",
         "socials": {
           "facebook": "https://www.facebook.com/abhinav.rastogi.77985",
           "github": "https://github.com/abhinav2188",
-          "instagram": "https://www.instagram.com/abhinav2188/",
+          "instagram": "https://www.instagram.com/himanshi4796/",
           "linkedin": "https://www.linkedin.com/in/abhinav-rastogi-4706a0157"
         }
       },
 
       {
-        "name": "Shubham Pal",
+        "name": "Ashima",
         "designation": "Treasurer",
-        "image": "shubham-pal.jpeg",
+        "image": "ashima.jpg",
         "socials": {
-          "github": "https://github.com/shubham-pal",
-          "linkedin": "https://www.linkedin.com/in/imshubhampal/",
-          "instagram": "https://www.instagram.com/shubham_sagwan"
-        }
-      }
-    ]
-  },
-
-  {
-    "title": "Developer Team",
-    "people": [
-      {
-        "name": "Ruman Saleem",
-        "image": "ruman-saleem.jpg",
-        "socials": {
-          "github": "https://github.com/rumansaleem",
-          "twitter": "https://twitter.com/ruman_saleem"
-        }
-      },
-      {
-        "name": "Yuvraj Sablania",
-        "image": "yuvraj-sablania.jpg",
-        "socials": {
-          "github": "https://github.com/yuvrajsab",
-          "twitter": "https://twitter.com/iamyuvrajsab"
-        }
-      },
-      {
-        "name": "Priyanka Madhwal",
-        "image": "priyanka-madhwal.jpg",
-        "socials": {
-          "facebook": "https://www.facebook.com/priyanka0701m",
-          "github": "https://github.com/priyankamadhwal",
-          "instagram": "https://www.instagram.com/the.starsinme/",
-          "linkedin": "https://www.linkedin.com/in/priyanka-madhwal"
-        }
-      },
-      {
-        "name": "Abhishek Kansal",
-        "image": "abhishek-kansal.jpg",
-        "socials": {
-          "facebook": "https://www.facebook.com/abhishall",
-          "github": "https://github.com/abhishall",
-          "linkedin": "https://www.linkedin.com/in/abhishek-kansal"
-        }
-      },
-      {
-        "name": "Megha Bisht",
-        "image": "megha-bisht.jpg",
-        "socials": {
-          "facebook": "https://m.facebook.com/megha.bisht.5076",
-          "github": "https://github.com/bmegha98",
-          "instagram": "https://www.instagram.com/_megha98_/",
-          "linkedin": "https://www.linkedin.com/in/meghabisht98"
-        }
-      },
-      {
-        "name": "Shoaib Asgar",
-        "image": "shoaib-asgar.jpeg",
-        "socials": {
-          "twitter": "https://twitter.com/msk4862",
-          "github": " https://github.com/msk4862",
-          "instagram": "https://www.instagram.com/msk4862/",
-          "linkedin": "https://www.linkedin.com/in/msk4862"
-        }
-      }
-    ]
-  },
-
-  {
-    "title": "Graphic Designers",
-    "people": [
-      {
-        "name": "Kritika Singh",
-        "image": "kritika-singh.jpg",
-        "socials": {
-          "facebook": "https://www.facebook.com/kitty2496",
-          "twitter": "https://twitter.com/dank_artist",
-          "instagram": "https://www.instagram.com/kitty_s.96"
-        }
-      },
-      {
-        "name": "Abhinav Rastogi",
-        "image": "abhinav-rastogi.jpeg",
-        "socials": {
-          "facebook": "https://www.facebook.com/abhinav.rastogi.77985",
-          "github": "https://github.com/abhinav2188",
-          "instagram": "https://www.instagram.com/abhinav2188/",
-          "linkedin": "https://www.linkedin.com/in/abhinav-rastogi-4706a0157"
-        }
-      },
-      {
-        "name": "Vasu Sehgal",
-        "image": "vasu-sehgal.png",
-        "socials": {
-          "facebook": "https://m.facebook.com/vasu.sehgal.75",
-          "instagram": "https://www.instagram.com/the_vasusehgal/",
-          "linkedin": "https://www.linkedin.com/in/vasu-sehgal-a28085144"
-        }
-      },
-      {
-        "name": "Shoaib Asgar",
-        "image": "shoaib-asgar.jpeg",
-        "socials": {
-          "twitter": "https://twitter.com/msk4862",
-          "github": " https://github.com/msk4862",
-          "instagram": "https://www.instagram.com/msk4862/",
-          "linkedin": "https://www.linkedin.com/in/msk4862"
-        }
-      },
-      {
-        "name": "Sandeep Singh",
-        "image": "sandeep-singh.jpg",
-        "socials": {
-          "facebook": "https://www.facebook.com/profile.php?id=100031900779192",
-          "github": "https://github.com/SandeepSingh1997",
-          "instagram": "https://www.instagram.com/sasingh4842/"
-        }
-      },
-      {
-        "name": "Shubham Sharma",
-        "image": "shubham-sharma.jpg",
-        "socials": {
-          "facebook": "https://www.facebook.com/shu6h4m",
-          "github": " https://github.com/shu6h4m",
-          "twitter": "https://www.twitter.com/shu6h4m",
-          "instagram": "https://www.instagram.com/shu6h4m"
-        }
-      },
-      {
-        "name": "Deepti",
-        "image": "deepti-chauhan.JPG",
-        "socials": {
-          "instagram": "https://www.instagram.com/__deeptichauhan___"
-        }
-      },
-      {
-        "name": "Bhavna Nagar",
-        "image": "bhavna-nagar.jpg",
-        "socials": {
-          "github": " https://github.com/bhavnanagar",
-          "instagram": "https://www.instagram.com/bhavnanagar159"
-        }
-      },
-      {
-        "name": "Dipesh Joshi",
-        "image": "dipesh-joshi.jpg",
-        "socials": {
-          "instagram": "https://www.instagram.com/_joshi_dipesh_"
-        }
-      },
-      {
-        "name": "Rochak Pandey",
-        "image": "rochak-pandey.jpg",
-        "socials": {
-        }
-      },
-      {
-        "name": "Anand Sharma",
-        "image": "anand-sharma.jpg",
-        "socials": {
-          "linkedin": "https://www.linkedin.com/in/anand-sharma-ducs23"
+          "linkedin": "https://www.linkedin.com/in/ashima-bisla-4b9b36204/",
+          "instagram": "https://www.instagram.com/_ashima_bisla_/"
         }
       }
     ]
   }
+
 ]
