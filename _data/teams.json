@@ -183,6 +183,25 @@
           "instagram": "https://www.instagram.com/im_s.h.i.v.a.m_/",
           "linkedin": "https://www.linkedin.com/in/shivam-gangwar-6668a6204/"
         }
+      },
+      {
+        "name": "Deepti",
+        "image": "Deepti.jpg",
+        "socials": {
+          "github": "https://github.com/deepti-chauhan",
+          "twitter": "https://twitter.com/_D_E_E_P_T_I_",
+          "instagram": "https://www.instagram.com/__deeptichauhan___/",
+          "linkedin": "https://www.linkedin.com/in/deepti-chauhan-9b82a8194/"
+        }
+      },
+      {
+        "name": "Nitesh kumar",
+        "image": "Nitesh_Kumar.jpg",
+        "socials": {
+          "github": "https://github.com/niteshmrh",
+          "instagram": "https://www.instagram.com/niteshyadav.mrh/",
+          "linkedin": "https://www.linkedin.com/in/niteshmrh/"
+        }
       }
     ]
   }
