@@ -1,14 +1,12 @@
 ---
 layout: event-layout.njk
 title: Chakravyuh
-tags: ["event"]
+tags: ["event-old"]
 permalink: /events/chakravyuh/
 image: /assets/images/events/chakravyuh.jpg
 links:
   - name: "Register"
-    link: "https://chakravyuh.ducs.in/"
-  - name: "Facebook"
-    link: "https://www.facebook.com/ducs.chakravyuh/"
+    link: "/register/"
 contactNumbers:
   - name: "Amit Parashar"
     mobile: "9608745586"

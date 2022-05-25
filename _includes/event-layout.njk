@@ -44,7 +44,7 @@ links:
 <div class="buttoncontainer">
   {% if links %}
     {% for link in links %}
-      <a class="main-button" target="_blank" href="{{ link.link | url }}">{{ link.name }}</a>
+      <a class="main-button" href="{{ link.link | url }}">{{ link.name }}</a>
     {% endfor %}
   {% endif %}
 </div>

@@ -6,16 +6,18 @@ permalink: /events/cipher-o-more/
 image: /assets/images/events/cipher_o_more.jfif
 links:
   - name: "Register"
-    link: "https://forms.gle/5SfoVGKgXSZdUMnQ8"
+    link: "/register/"
 contactNumbers:
-  - name: "Himanshi"
-    mobile: "7505297680"
-  - name: "Indra Kishore Kumar"
-    mobile: "7289079804"
+  - name: "Rishabh Poria"
+    mobile: "9560984784"
+  - name: "Himanshi Gupta"
+    mobile: "8447584248"
+  - name: "Sakshi Sharma"
+    mobile: "9599398560"
 ---
 
 To all the <b>Jagga Jasoos</b> out there!
-<b>Sankalan'20</b> is back with 
+<b>Sankalan'22</b> is back with 
 The Cryptography event of DUCS
 
 Do you think you have a hidden detective inside you who can crack any password or decode
@@ -29,7 +31,7 @@ some encoded and cryptic texts.</br>
 
 #### ROUNDS
 - Preliminary round tests your cryptic knowledge as it contains question-related to
-cryptography and encoding/decoding. This will be an online round
+cryptography and encoding/decoding. This will be an offline round
 - For the finals, We expect you to turn into modern Julius Ceaser and find messages that
 are encoded in the text.
 

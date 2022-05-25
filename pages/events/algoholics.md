@@ -1,30 +1,24 @@
 ---
 layout: event-layout.njk
 title: Algoholics
-tags: ["event-old"]
+tags: ["event"]
 permalink: /events/algoholics/
-image: /assets/images/events/algoholics.png
+image: /assets/images/events/algoholics.jpg
 links:
   - name: "Register"
-    link: "https://sankalan-portal.ducs.in/"
+    link: "/register/"
 contactNumbers:
-  - name: "Swati Gautam"
-    mobile: "9717235471"
-  - name: "Tanya Singhal"
-    mobile: "8375968682"
+  - name: "Shaurya"
+    mobile: "9560399578"
+  - name: "Tania"
+    mobile: "9779479666"
 ---
 
-Do you love challenges?
+Are you a DSA enthusiast and writing solutions to common problems gives you your kick??🧑‍💻
 
-Is getting things done systematically your thing?</br>
-Can you adapt to the challenges life throws at you?</br>
-If Yes, test your level of adaptation with Sankalan'20's Algoholics because like minds think alike!</br>
-Let's see how much dynamic can your programming be under the pressure of real-world
-challenges.
+If yes, then we have the perfect event for you in our basket. An event to challenge you with Algorithms.
+To make you brainstorm, scratch your head and go nuts until you crack the problems - ALGOHOLICS🧑‍💻🍻
 
-Are you Ready to Go?</br>
-This is the time to show your analytical and logic building capabilities. Algoholics offers you the
-opportunity to exceed the limit of problem-solving and show why your solution is 'optimum'.
 </br>
 </br>
 
@@ -40,7 +34,7 @@ The event consists of two rounds:
 
 #### 2. Mains
 
-Shortlisted teams will be provided with a set of problems that they have to solve overnight.
+Shortlisted teams will be provided with a set of problems that they have to solve in a given time bound.
 No real coding is required just an approach stating how you reached the solution that you
 propose.
 

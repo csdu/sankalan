@@ -6,18 +6,26 @@ permalink: /events/ideogram/
 image: /assets/images/events/ideogram.jpg
 links:
   - name: "Register"
-    link: "https://forms.gle/MyFNDWgdExdc31cu6"
+    link: "/register/"
 contactNumbers:
-  - name: "Kritika"
-    mobile: "9871293367"
-  - name: "Sohima"
-    mobile: "8127597728"
+  - name: "Prerna"
+    mobile: "9582324904"
+  - name: "Prateek"
+    mobile: "9337781289"
 ---
 
 
-Think you have what it takes to design the next quintessential icon? The time has come to put your artistic faculties to the test!
+>“The strongest logos tell simple stories.”
+<br/>~Sol Sender
 
-This design hackathon purports to be a perfect blend of creativity and problem solving. The event aims to inspire participants to unleash their creative quotient by flexing their design muscles. We aspire to highlight the best icon design ideas in Graphics Design.
+It should be fun to let your imagination express what no amount of words can.😌
+Let's combine symbols & create the logos that can convey so much more than just the obvious!
+
+Sankalan'22 presents IDEOGRAM🥳
+
+It's time to shape your ideas into a creative logo and let imagination do the talking.
+
+So for all the creative heads and graphic designers, Register yourself now!
 
 </br>
 </br>
@@ -32,7 +40,3 @@ This design hackathon purports to be a perfect blend of creativity and problem s
 6. Participants should be able to provide the source file of the icon if asked.
 7. Plagiarism in any form is strictly prohibited. Your submission may be rejected if found copied.
 
-#### SCHEDULE
-
-**<u>18 April 2021</u>**  
-12:30 pm - 02:00 pm

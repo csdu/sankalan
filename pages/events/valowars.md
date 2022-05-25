@@ -1,7 +1,7 @@
 ---
 layout: event-layout.njk
 title: Valo Wars
-tags: ["event"]
+tags: ["event-old"]
 permalink: /events/valo-wars/
 image: /assets/images/events/valo_wars.jfif
 links:

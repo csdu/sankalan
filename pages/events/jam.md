@@ -1,17 +1,21 @@
 ---
 layout: event-layout.njk
 title: JAM
-tags: ["event-old"]
+tags: ["event"]
 permalink: /events/jam/
 image: /assets/images/events/jam.jpg
 links:
   - name: "Register"
-    link: "https://sankalan-portal.ducs.in/"
+    link: "/register/"
 contactNumbers:
-  - name: "Pradeep Kumar"
-    mobile: "9560169309"
-  - name: "Megha Sundriyal"
-    mobile: "9650028300"
+  - name: "Shivam Gangwar"
+    mobile: "7451090735"
+  - name: "Dipesh Joshi"
+    mobile: "9971869320"
+  - name: "Kavita"
+    mobile: "8851033435"
+  - name: "Sakshi Sharma"
+    mobile: "9599398560"	
 ---
 
 A minute is all you get. Rather a minute is all you need to leave an impression that no one will
@@ -29,7 +33,7 @@ done in Just A Minute...😱
 #### Rules
 
 - There will be 3 rounds where each round is an elimination round.
-- We will assign one task to each team and you need to complete that task in one minute.
+- We will assign one task to each team and one of the team member need to complete that task in one minute.
 
 ### TEAM SIZE
 

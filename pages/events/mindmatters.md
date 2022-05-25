@@ -1,26 +1,29 @@
 ---
 layout: event-layout.njk
 title: Mind Matters
-tags: ["event-old"]
+tags: ["event"]
 permalink: /events/mind-matters/
-image: /assets/images/events/mindmatters.png
+image: /assets/images/events/mind-matters.jpg
 links:
   - name: "Register"
-    link: "https://sankalan-portal.ducs.in/"
+    link: "/register/"
 contactNumbers:
-  - name: "Tanya Dua"
-    mobile: "8587849517"
-  - name: "Nitin Thakur"
-    mobile: "9560237206"
+  - name: "Ankit"
+    mobile: "8708798823"
+  - name: "Saloni"
+    mobile: "9540390588"
 ---
 
 _Close your Book open your Mind!_</br>
 
-Be it the trivia about the IT world, the logos of famous conglomerate, or deciphering the
-encrypted text.</br>
-If you think you know it all. This is the time to use your intelligence,</br>
-And be as rapid as you can,</br>
-To be the conqueror of the event!
+
+Since 11th standard, you guys have been in the field of computer science🧑‍💻
+So it's time to test how much you've learnt!
+
+Presenting.. MIND MATTERS
+A general tech quiz for you to showcase your knowledge and stand a chance to win prizes for your team🏆
+
+Register yourself now!🥳
 </br>
 </br>
 

@@ -1,7 +1,7 @@
 ---
 layout: event-layout.njk
 title: Web Space
-tags: ["event"]
+tags: ["event-old"]
 permalink: /events/web-space/
 image: /assets/images/events/web_space.jpg
 links:

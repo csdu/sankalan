@@ -1,7 +1,7 @@
 ---
 layout: event-layout.njk
 title: Call of Duty Mobile
-tags: ["event"]
+tags: ["event-old"]
 permalink: /events/codm/
 image: /assets/images/events/cod.jfif
 links:

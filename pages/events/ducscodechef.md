@@ -1,7 +1,7 @@
 ---
 layout: event-layout.njk
 title: Code-A-Thon
-tags: ["event"]
+tags: ["event-old"]
 permalink: /events/code-a-thon/
 image: /assets/images/events/codechef.png
 links:
