@@ -106,7 +106,7 @@
       },
       {
         "name": "Ankuj Pandey",
-        "image": "Ankuj_pandey.jpg",
+        "image": "Ankuj_pandey.jpeg",
         "socials": {
           "github": "https://github.com/ankujpandey",
           "instagram": "https://www.instagram.com/ankujpandey",
@@ -134,7 +134,7 @@
       },
       {
         "name": "Himanshi Gupta",
-        "image": "Himanshi_Gupta.jpg",
+        "image": "himanshi_gupta.jpg",
         "socials": {
           "github": "https://github.com/jugshaurya",
           "twitter": "https://twitter.com/jugshaurya",
@@ -173,6 +173,15 @@
           "github": "https://github.com/jugshaurya",
           "twitter": "https://twitter.com/jugshaurya",
           "linkedin": "https://www.linkedin.com/in/jugshaurya/"
+        }
+      },
+      {
+        "name": "Shivam Gangwar",
+        "image": "Shivam_Gangwar.jpg",
+        "socials": {
+          "github": "https://github.com/Shivam-Gangwar",
+          "instagram": "https://www.instagram.com/im_s.h.i.v.a.m_/",
+          "linkedin": "https://www.linkedin.com/in/shivam-gangwar-6668a6204/"
         }
       }
     ]
