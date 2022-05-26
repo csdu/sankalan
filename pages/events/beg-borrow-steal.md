@@ -14,7 +14,7 @@ contactNumbers:
     mobile: "9050276428"
 ---
 
-An event which can shook your legs and brain at the same time, which makes you run faster🏃‍♀️ while carrying handful of accesories. Beg, Borrow or steal but collect all the items from the list to make your team win.🥇
+An event which can shook your legs and brain at the same time, which makes you run faster🏃‍♀️ while carrying handful of accessories. Beg, Borrow or steal but collect all the items from the list to make your team win.🥇
 </br>
 </br>
 Get ready and register yourself for this chaotic and hosh-posh event.🤩

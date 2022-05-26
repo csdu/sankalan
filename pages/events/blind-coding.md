@@ -10,7 +10,7 @@ links:
 contactNumbers:
   - name: "Dipesh Joshi"
     mobile: "9971869320"
-  - name: "Parag Dudega"
+  - name: "Parag Dudeja"
     mobile: "8750785984"
 ---
 

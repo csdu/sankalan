@@ -40,7 +40,7 @@ Register yourself now! See you with your cameras. 📸
 
 ### SUBMISSION:
 
-- Theme will be BACK2COLLEGE for this year's AlaCriity.
+- Theme will be BACK2COLLEGE for this year's Alacrity.
 - Each participant must submit exactly 1 photograph related to the theme.
 - All the submissions must be made before 16:00 on 30th May 2022.No submission will be accepted after that.
 

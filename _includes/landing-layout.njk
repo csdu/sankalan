@@ -6,8 +6,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
     <link rel="stylesheet" href="{{ '/assets/stylesheets/main.css' | url }}" />
     <link rel="stylesheet" href="{{ '/assets/stylesheets/landing.css' | url }}" />
-    <link type="image/png" href={{ '/assets/images/favicon.png' }} rel="icon">
+    <link type="image/png" href="{{ '/assets/images/favicon.png' | url }}" rel="icon">
     <title>Sankalan {{ site.year }}</title>
+    <meta property="og:title" content="Sankalan {{ site.year }}" />
+    <meta property="og:description" content="The annual tech fest of Department of Computer Science, University of Delhi (DUCS)" />
+    <meta property="og:image" content="{{ '/assets/images/sankalan2022logo.jpg' | url }}" />
   </head>
   <body>
     <main>
