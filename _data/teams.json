@@ -57,6 +57,31 @@
     "title": "Event Co-ordinators",
     "people": [
       {
+        "name": "Shubham Sharma",
+        "image": "Shubham_Sharma.jpg",
+        "socials": {
+          "github": "https://github.com/shu6h4m",
+          "twitter": "https://twitter.com/shu6h4m",
+          "instgram": "https://www.instagram.com/shu6h4m",
+          "linkedin": "https://www.linkedin.com/in/shu6h4m",
+          "facebook": "https://www.facebook.com/shu6h4m"
+        }
+      },
+      {
+        "name": "Priyanshu Gaur",
+        "image":"Priyanshu_Gaur.jpeg",
+        "socials": {
+          "twitter": "https://twitter.com/gauronelove"
+        }
+      },
+      {
+        "name": "Nitesh Kumar",
+        "image":"Nitesh_Kumar.jpeg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/nitesh-kumar-6ba703184"
+        }
+      },
+      {
         "name": "Kavita",
         "image": "kavita.jpg",
         "socials": {
@@ -133,15 +158,6 @@
         }
       },
       {
-        "name": "Himanshi Gupta",
-        "image": "himanshi_gupta.jpg",
-        "socials": {
-          "github": "https://github.com/jugshaurya",
-          "twitter": "https://twitter.com/jugshaurya",
-          "linkedin": "https://www.linkedin.com/in/jugshaurya/"
-        }
-			},
-      {
         "name": "Prerna Prasad",
         "image": "Prerna_Prasad.jpg",
         "socials": {
@@ -201,6 +217,24 @@
           "github": "https://github.com/niteshmrh",
           "instagram": "https://www.instagram.com/niteshyadav.mrh/",
           "linkedin": "https://www.linkedin.com/in/niteshmrh/"
+        }
+      },
+      {
+        "name": "Anjali Singh",
+        "image": "Anjali_Singh.jpg",
+        "socials": {
+          "github": "https://github.com/anji862",
+          "instgram": "https://www.instagram.com/im_anjali_06",
+          "linkedin": "https://www.linkedin.com/in/anjali-singh-1a3802201"
+        }
+      },
+      {
+      "name": "Abhishek Passan",
+      "image":"Abhishek_Passan.jpeg",
+      "socials": {
+        "github": "https://github.com/apassan23",
+        "instgram": "https://www.instagram.com/apassan23/",
+        "linkedin": "https://www.linkedin.com/in/abhishek-passan-a08113205"
         }
       }
     ]

@@ -6,7 +6,7 @@ permalink: /events/alacrity/
 image: /assets/images/events/alacrity.jpg
 links:
   - name: "Register"
-    link: "/register/"
+    link: "https://forms.gle/VXedJuaDpCZdK6vn8"
 contactNumbers:
   - name: "Shubham"
     mobile: "9992680009"
@@ -42,7 +42,7 @@ Register yourself now! See you with your cameras. 📸
 
 - Theme will be BACK2COLLEGE for this year's Alacrity.
 - Each participant must submit exactly 1 photograph related to the theme.
-- All the submissions must be made before 16:00 on 30th May 2022.No submission will be accepted after that.
+- All the submissions must be made before 14:00 on 29th May 2022.No submission will be accepted after that.
 
 #### Submission Platform:
 

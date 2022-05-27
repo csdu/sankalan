@@ -30,7 +30,7 @@ The event consists of two rounds:
 
 1. This is an eliminating round.
 2. This round consists of 30 MCQs.
-3. Time limit: 30 minutes.
+3. Time limit: 45 minutes.
 
 #### 2. Mains
 
