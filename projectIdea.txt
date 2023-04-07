@@ -1,3 +1,0 @@
-I can make a function helper to understand code automatically.
-supose i want to understand what this
-function do on my ide.

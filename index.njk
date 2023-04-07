@@ -53,8 +53,8 @@ layout: landing-layout.njk
     <div class="rotating-animation">
       {% include 'rotating-circles.njk' %}
     </div>
-    <a href="{{ site.registerLink | url }}" class="main-button button-first disabled-button">
-      <span>Coming Soon</span>
+    <a href="{{ site.registerLink | url }}" class="main-button button-first">
+      <span>register</span>
     </a>
   </div>
 
@@ -65,7 +65,7 @@ layout: landing-layout.njk
     <div class="coordinates"><a target="_blank" href="{{ contact.google_location }}">{{ contact.coordinates }}</a></div>
     <div class="options">
       <div>
-        <a href="{{ '/assets/downloads/schedule.pdf' | url }}" class="disabled-button" target="_blank">SCHEDULE</a>
+        <a href="{{ '/assets/downloads/schedule.pdf' | url }}" target="_blank">SCHEDULE</a>
       </div>
       <div><a href="{{ '/team/' | url }}">MEET THE TEAM</a></div>
       <div><a href="{{ '/contact/' | url }}">NEED HELP?</a></div>
