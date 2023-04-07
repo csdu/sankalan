@@ -117,6 +117,10 @@ body {
   font-family: "octopost";
 }
 
+.disabled-button {
+  pointer-events: none;  
+}
+
 .main-button {
   -moz-transition: all 0.18s linear 0s;
   -o-transition: all 0.18s linear 0s;
