@@ -82,11 +82,11 @@ export default function NavbarDefault() {
         </div>
         
         <div className="nav-links flex items-center gap-x-2">
-            <div className="hidden lg:inline-block mr-5 cursor-pointer">
+            <Link href={'/announcements'} className="hidden lg:inline-block mr-5 cursor-pointer">
               <Badge color="red">
                   <InboxIcon className="h-5 w-5 mt-1" />
               </Badge>
-            </div>
+            </Link>
             <a className="hidden lg:inline-block main-button"><span>register.now()</span></a>
         </div>
 
@@ -132,7 +132,7 @@ export default function NavbarDefault() {
         <div>
           {navList}
           <Link
-            href={'#'}
+            href={'/announcements'}
             className={`cursor-pointer mt-2 hover:text-pink-300 ${router.pathname == '' ? "active" : ""} transition-colors duration-300`}
           >
             Announcements
