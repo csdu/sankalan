@@ -16,6 +16,7 @@
     "@heroicons/react": "^2.1.1",
     "@material-tailwind/react": "^2.1.9",
     "@vercel/analytics": "^1.2.1",
+    "bcryptjs-react": "^2.4.6",
     "date-fns": "^3.3.1",
     "framer-motion": "^11.0.5",
     "google-auth-library": "^9.6.3",
