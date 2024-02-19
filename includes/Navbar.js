@@ -54,7 +54,7 @@ export default function NavbarDefault() {
         <li key={index}>
           <Link
             href={item.href}
-            className={`cursor-pointer text-white hover:text-pink-300 ${router.pathname == item.href ? "active" : ""} transition-colors duration-300`}
+            className={`cursor-pointer text-white hover:text-pink-300 ${router.pathname == item.href ? "active" : ""} transition-colors duration-300 font-[monospace]`}
           >
             {item.title}
           </Link>
@@ -133,7 +133,7 @@ export default function NavbarDefault() {
           {navList}
           <Link
             href={'/announcements'}
-            className={`cursor-pointer mt-2 hover:text-pink-300 ${router.pathname == '' ? "active" : ""} transition-colors duration-300`}
+            className={`cursor-pointer mt-2 hover:text-pink-300 ${router.pathname == '/announcements' ? "active" : ""} transition-colors duration-300 font-[monospace]`}
           >
             Announcements
           </Link>
