@@ -31,7 +31,7 @@ const About = () => {
         <meta name="description" content={site.description} />
       </Head>
       <h1 className='text-white text-2xl title-page'>Announcements</h1>
-      <div className='container mx-auto text-white text-justify flex flex-col gap-4 mt-10'>
+      <div className='container mx-auto text-white text-left flex flex-col gap-4 mt-10'>
         {
           updates && updates.map((update, index) => (
             <div key={index} className='bg-purple-800 p-4 rounded-lg'>

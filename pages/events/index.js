@@ -20,7 +20,7 @@ const Events = () => {
         <meta name="description" content={site.description} />
       </Head>
       <h1 className='text-white text-2xl title-page'>Events</h1>
-      <div className='container grid grid-cols-2 gap-4 gap-y-12 justify-between my-12 mx-auto'>
+      <div className='container w-full grid lg:grid-cols-2 gap-4 gap-y-12 lg:justify-between my-12 mx-auto'>
         {events.map((item, index) => (
           <EventCard key={index} name={item.name} event={item.slug} />
         ))}
