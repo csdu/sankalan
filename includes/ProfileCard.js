@@ -11,7 +11,6 @@ import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function ProfileCard(data) {
   const { name, position, github, linkedin, image } = data.data;
-  console.log(data);
   return (
     <Card className="transition-transform transform hover:scale-105 duration-300 ease-in-out">
       <CardHeader floated={true}>
