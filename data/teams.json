@@ -1,0 +1,243 @@
+[
+  {
+    "title": "The Panel",
+    "people": [
+      {
+        "name": "Rashmi Om Mishra",
+        "designation": "President",
+        "image": "rashmi_om_mishra.jpeg",
+        "socials": {
+          "instagram": "https://www.instagram.com/rashmishra.rm/",
+          "linkedin": "https://www.linkedin.com/in/rashmi-om-mishra-917332171/",
+          "twitter": "https://twitter.com/rashmishra_rm"
+        }
+      },
+
+      {
+        "name": "Divyam Kaushik",
+        "designation": "Vice-President",
+        "image": "divyam_kaushik.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/kaushikdivyam/",
+          "linkedin": "https://www.linkedin.com/in/divyamkaushik-ducs/"
+        }
+      },
+
+      {
+        "name": "Himanshi Gupta",
+        "designation": "General Secretary",
+        "image": "himanshi_gupta.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/himanshi4796/",
+          "linkedin": "https://www.linkedin.com/in/himanshi-gupta-b341531a4/"
+        }
+      },
+      {
+        "name": "Komal Yadav",
+        "designation": "Joint Secretary",
+        "image": "komal_yadav.jpeg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/komal-yadav-bb276a205/"
+        }
+      },
+
+      {
+        "name": "Ashima",
+        "designation": "Treasurer",
+        "image": "ashima.jpg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/ashima-bisla-4b9b36204/",
+          "instagram": "https://www.instagram.com/_ashima_bisla_/"
+        }
+      }
+    ]
+  },
+
+  {
+    "title": "Event Co-ordinators",
+    "people": [
+      {
+        "name": "Shubham Sharma",
+        "image": "Shubham_Sharma.jpg",
+        "socials": {
+          "github": "https://github.com/shu6h4m",
+          "twitter": "https://twitter.com/shu6h4m",
+          "instgram": "https://www.instagram.com/shu6h4m",
+          "linkedin": "https://www.linkedin.com/in/shu6h4m",
+          "facebook": "https://www.facebook.com/shu6h4m"
+        }
+      },
+      {
+        "name": "Priyanshu Gaur",
+        "image":"Priyanshu_Gaur.jpeg",
+        "socials": {
+          "twitter": "https://twitter.com/gauronelove"
+        }
+      },
+      {
+        "name": "Nitesh Kumar",
+        "image":"Nitesh_Kumar.jpeg",
+        "socials": {
+          "linkedin": "https://www.linkedin.com/in/nitesh-kumar-6ba703184"
+        }
+      },
+      {
+        "name": "Kavita",
+        "image": "kavita.jpg",
+        "socials": {
+          "github": "https://github.com/Kavita-04",
+          "instagram": "https://www.instagram.com/_kavita.pandey",
+          "linkedin": "www.linkedin.com/in/kavita04"
+        }
+      },
+    	{
+        "name": "Prateek Jena",
+        "image": "prateek_jena.jpg",
+        "socials": {
+          "github": "https://github.com/prateikjena",
+          "twitter": "https://twitter.com/prateikjena",
+          "instagram": "https://www.instagram.com/prateikjen/",
+          "linkedin": "https://www.linkedin.com/in/prateek-jena/"
+        }
+      },
+      {
+        "name": "Sakshi Sharma",
+        "image": "Sakshi_Sharma.jpg",
+        "socials": {
+          "github": "https://github.com/SakshiiSharmaa",
+          "instagram": "https://instagram.com/sakshi.sharmaa_._",
+          "linkedin": "https://www.linkedin.com/in/sakshi-sharma-7007311b9/"
+        }
+      },
+      {
+        "name": "Parag Dudeja",
+        "image": "Parag_Dudeja.jpg",
+        "socials": {
+          "github": "https://github.com/paragdudeja",
+          "twitter": "https://twitter.com/parag_dudeja",
+          "instagram": "https://instagram.com/parag.dudeja",
+          "linkedin": "https://www.linkedin.com/in/paragdudeja/"
+        }
+      },
+      {
+        "name": "Dipesh Joshi",
+        "image": "Dipesh_Joshi.jpg",
+        "socials": {
+          "github": "https://github.com/joshidipesh12",
+          "twitter": "https://twitter.com/_joshi_dipesh_",
+          "instagram": "https://www.instagram.com/_joshi_dipesh_",
+          "linkedin": "https://www.linkedin.com/in/joshidipesh12"
+        }
+      },
+      {
+        "name": "Ankuj Pandey",
+        "image": "Ankuj_pandey.jpeg",
+        "socials": {
+          "github": "https://github.com/ankujpandey",
+          "instagram": "https://www.instagram.com/ankujpandey",
+          "linkedin": "https://www.linkedin.com/in/ankuj-pandey-a6b62b204"
+        }
+      },
+      {
+        "name": "Ankit",
+        "image": "Ankit.jpg",
+        "socials": {
+          "github": "https://github.com/ankitkumarbrur",
+          "twitter": "https://twitter.com/AnkitKu54776834",
+          "instagram": "https://www.instagram.com/ankit_brur",
+          "linkedin": "https://www.linkedin.com/in/ankit-kumar-4b6714161"
+        }
+      },
+      {
+        "name": "Saloni",
+        "image": "Saloni.jpg",
+        "socials": {
+          "github": "https://github.com/salonisv22",
+          "instagram": "https://www.instagram.com/sv_saloni",
+          "linkedin": "https://www.linkedin.com/in/saloni-vats-55517b205"
+        }
+      },
+      {
+        "name": "Prerna Prasad",
+        "image": "Prerna_Prasad.jpg",
+        "socials": {
+          "github": "https://github.com/prernaprasad14"
+        }
+			},
+      {
+        "name": "Rishabh Poria",
+        "image": "Rishabh_Poria.jpg",
+        "socials": {
+          "github": "https://github.com/RishPoria",
+          "linkedin": "https://www.linkedin.com/in/rishporia/"
+        }
+      },
+      {
+        "name": "Tania Aggarwal",
+        "image": "Tania_Aggarwal.jpeg",
+        "socials": {
+          "github": "https://github.com/TaniaAggarwal29",
+          "twitter": "https://twitter.com/tania_aggarwal",
+          "instagram": "https://www.instagram.com/goyaltania64/",
+          "linkedin": "https://www.linkedin.com/in/tania-aggarwal-29091998/"
+        }
+      },
+      {
+        "name": "Shaurya Singhal",
+        "image": "Shaurya_Singhal.jpg",
+        "socials": {
+          "github": "https://github.com/jugshaurya",
+          "twitter": "https://twitter.com/jugshaurya",
+          "linkedin": "https://www.linkedin.com/in/jugshaurya/"
+        }
+      },
+      {
+        "name": "Shivam Gangwar",
+        "image": "Shivam_Gangwar.jpg",
+        "socials": {
+          "github": "https://github.com/Shivam-Gangwar",
+          "instagram": "https://www.instagram.com/im_s.h.i.v.a.m_/",
+          "linkedin": "https://www.linkedin.com/in/shivam-gangwar-6668a6204/"
+        }
+      },
+      {
+        "name": "Deepti",
+        "image": "Deepti.jpg",
+        "socials": {
+          "github": "https://github.com/deepti-chauhan",
+          "twitter": "https://twitter.com/_D_E_E_P_T_I_",
+          "instagram": "https://www.instagram.com/__deeptichauhan___/",
+          "linkedin": "https://www.linkedin.com/in/deepti-chauhan-9b82a8194/"
+        }
+      },
+      {
+        "name": "Nitesh kumar",
+        "image": "Nitesh_Kumar.jpg",
+        "socials": {
+          "github": "https://github.com/niteshmrh",
+          "instagram": "https://www.instagram.com/niteshyadav.mrh/",
+          "linkedin": "https://www.linkedin.com/in/niteshmrh/"
+        }
+      },
+      {
+        "name": "Anjali Singh",
+        "image": "Anjali_Singh.jpg",
+        "socials": {
+          "github": "https://github.com/anji862",
+          "instgram": "https://www.instagram.com/im_anjali_06",
+          "linkedin": "https://www.linkedin.com/in/anjali-singh-1a3802201"
+        }
+      },
+      {
+      "name": "Abhishek Passan",
+      "image":"Abhishek_Passan.jpeg",
+      "socials": {
+        "github": "https://github.com/apassan23",
+        "instgram": "https://www.instagram.com/apassan23/",
+        "linkedin": "https://www.linkedin.com/in/abhishek-passan-a08113205"
+        }
+      }
+    ]
+  }
+
+]

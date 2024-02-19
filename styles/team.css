@@ -1,0 +1,91 @@
+main .content {
+  padding-right: 30px;
+}
+
+main .content a {
+  padding: 7px;
+}
+
+.team {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.team .person {
+  margin: 1rem;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team .person .avatar {
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  transition: transform 0.4s;
+}
+
+.team .person .avatar:hover {
+  transform: scale(1.10); 
+}
+
+.team .person span {
+  background-color: transparent;
+}
+
+.team .person .name {
+  color: #f8f8f8;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.team .person .designation {
+  color: #fc44ff;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.team .person .socials {
+  display: flex;
+  justify-content: center;
+}
+
+.team .person .socials a {
+  margin: 0;
+  color: cyan;
+}
+
+.team .person .socials a:hover {
+  color: #f8f8f8;
+}
+
+@media only screen and (max-width: 1250px) {
+  main .content {
+    padding-right: 10px;
+  }
+}
+
+/* For mobile devices: */
+@media only screen and (max-width: 870px) {
+  .team .person {
+    margin: 0.2rem;
+  }
+  .team .person .avatar {
+    width: 130px;
+    height: 130px;
+  }
+  .team .person .name {
+    font-size: 0.8rem;
+  }
+  .team .person .designation {
+    font-size: 0.72rem;
+  }
+  main .content a {
+    padding: 3px;
+  }
+}

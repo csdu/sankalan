@@ -1,0 +1,11 @@
+{
+  "year": 2024,
+  "month": "March",
+  "day1": 15,
+  "day2": 16,
+  "time": "10:00:00",
+  "registerLink": "/register/",
+  "appDownloadLink": "https://play.google.com/store/apps/details?id=com.main.sankalan",
+  "title": "Sankalan 2024",
+  "description": "This will be a hackathon organized by the Department of Computer Science, University of Delhi in 2024."
+}

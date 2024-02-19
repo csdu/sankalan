@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" opacity="0.6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 931.43 668.97" style="enable-background:new 0 0 931.43 668.97;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.31;}
+	.st1{opacity:0.3;}
+	.st2{fill:none;stroke:#F2F2F2;stroke-miterlimit:10;}
+	.st3{opacity:0.15;fill:none;stroke:#F2F2F2;stroke-width:3;stroke-miterlimit:10;}
+	.st4{opacity:0.14;fill:none;stroke:#F2F2F2;stroke-width:3;stroke-miterlimit:10;}
+	.st5{opacity:0.5;}
+	.st6{opacity:0.13;fill:none;stroke:#F2F2F2;stroke-miterlimit:10;}
+	.st7{opacity:0.13;fill:none;stroke:#F2F2F2;stroke-width:2;stroke-miterlimit:10;}
+	.st8{opacity:0.6;}
+	.st9{fill:none;stroke:#F2F2F2;stroke-width:2;stroke-miterlimit:10;}
+	.st10{opacity:0.03;fill:none;stroke:#F2F2F2;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<g class="st0">
+			<g class="st1">
+				<g>
+					<polyline class="st2" points="463.86,7.4 463.86,112.37 559.29,207.8 559.29,582.83 					"/>
+					<polyline class="st2" points="469.82,7.4 469.82,112.37 565.25,207.8 564.9,668.4 					"/>
+					<polyline class="st2" points="475.78,7.4 475.78,112.37 571.21,207.8 570.9,668.4 					"/>
+					<polyline class="st2" points="481.73,7.4 481.73,112.37 577.16,207.8 576.9,669.4 					"/>
+				</g>
+				<g>
+					<polyline class="st2" points="1.4,575.9 460.98,575.83 556.41,480.4 931.43,480.4 					"/>
+					<polyline class="st2" points="2.4,569.9 460.98,569.87 556.41,474.44 931.43,474.44 					"/>
+					<polyline class="st2" points="-0.6,563.9 460.98,563.92 556.41,468.49 931.43,468.49 					"/>
+					<polyline class="st2" points="1.4,557.9 460.98,557.96 556.41,462.53 931.43,462.53 					"/>
+				</g>
+				<g>
+					<polyline class="st2" points="0,415.68 104.97,415.68 200.4,320.25 415.75,320.25 					"/>
+					<polyline class="st2" points="0,409.73 104.97,409.73 200.4,314.3 415.75,314.3 					"/>
+					<polyline class="st2" points="0,403.77 104.97,403.77 200.4,308.34 415.75,308.34 					"/>
+					<polyline class="st2" points="0,397.81 104.97,397.81 200.4,302.38 415.75,302.38 					"/>
+				</g>
+				<g>
+					<polyline class="st2" points="932.4,156.9 681.44,156.67 586.01,252.1 0.4,251.9 					"/>
+					<polyline class="st2" points="932.4,162.9 681.44,162.63 586.01,258.06 1.4,257.9 					"/>
+					<polyline class="st2" points="932.4,168.9 681.44,168.58 586.01,264.02 2.4,263.9 					"/>
+					<polyline class="st2" points="932.4,174.9 681.44,174.54 586.01,269.97 0.4,269.9 					"/>
+				</g>
+			</g>
+			<g>
+				<polyline class="st3" points="-1.1,626.9 267.79,357.59 872.96,357.59 				"/>
+				<polyline class="st4" points="732.9,2.4 732.4,492.99 271.4,492.99 96.9,667.9 				"/>
+			</g>
+			<g class="st5">
+				<polyline class="st2" points="821.96,227.2 607.4,441.77 0,441.77 				"/>
+				<polyline class="st2" points="683.57,0 683.57,272.19 556.45,399.31 556.45,668.97 				"/>
+				<polyline class="st2" points="567.9,2.9 825.32,260.18 625.06,460.44 832.9,667.9 				"/>
+				<polyline class="st2" points="683.57,118.44 592.67,209.34 716.25,332.91 921.4,332.91 				"/>
+				<polyline class="st2" points="927.9,515.9 684.11,272.11 931.9,24.9 				"/>
+				<path class="st2" d="M570.9,668.9c-3,0-304.21-310.21-304.21-310.21v107.43H0"/>
+				<line class="st2" x1="620.01" y1="236.68" x2="415.06" y2="441.64"/>
+				<polyline class="st6" points="132.4,582.83 429.61,285.62 876.4,285.62 				"/>
+			</g>
+			<line class="st7" x1="499.76" y1="356.93" x2="144.4" y2="1.4"/>
+			<g class="st8">
+				<line class="st9" x1="598.83" y1="356.93" x2="824.4" y2="582.4"/>
+				<polyline class="st10" points="415.75,273.71 415.75,441.95 600.57,626.78 910.4,308.4 				"/>
+				<polyline class="st9" points="377.93,235.09 463.02,235.09 585.51,357.59 				"/>
+				<polyline class="st9" points="466.79,492.99 498.4,461.37 832.74,461.37 				"/>
+				<line class="st9" x1="577.16" y1="492.99" x2="688.49" y2="604.32"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
