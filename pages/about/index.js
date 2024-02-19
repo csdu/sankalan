@@ -17,8 +17,8 @@ const About = () => {
         <title>About | {site.title}</title>
         <meta name="description" content={site.description} />
       </Head>
-      <h1 className='text-white text-2xl mb-10 title-page'>About</h1>
-      <div className='container mx-auto text-white text-justify flex flex-col gap-4'>
+      <h1 className='text-white text-2xl title-page'>About</h1>
+      <div className='container mx-auto text-white text-justify flex flex-col gap-4 mt-10'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu libero facilisis dolor dignissim vestibulum. Pellentesque at velit vel libero rhoncus suscipit non nec erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin nunc rhoncus urna fermentum auctor. Etiam sodales nunc quis tortor pretium, non tempor erat ultricies. Integer cursus, nisl eu sagittis rutrum, erat est porttitor turpis, eu elementum magna velit in ex. Proin fringilla consequat purus. Donec vestibulum mauris dui, ac cursus velit eleifend ac. Nullam commodo eget nisl quis bibendum. In blandit arcu eget nibh rutrum pretium.</p>
 
         <p>Phasellus nisi tellus, pellentesque nec porttitor at, accumsan in dui. Fusce posuere nunc at augue mollis, eu ornare velit lobortis. Suspendisse pharetra cursus eleifend. Phasellus eget ornare nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin non facilisis turpis. Maecenas porttitor ultrices orci, id tincidunt ligula pharetra vitae. Quisque dolor enim, venenatis cursus aliquam eget, faucibus sit amet dolor. Duis sed dolor ut magna dictum dictum. Cras nisl turpis, pharetra ac velit et, imperdiet congue dui. Etiam sed purus sem.</p>
