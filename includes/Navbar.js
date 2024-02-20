@@ -54,7 +54,7 @@ export default function NavbarDefault() {
         <li key={index}>
           <Link
             href={item.href}
-            className={`cursor-pointer text-white hover:text-pink-300 ${router.pathname == item.href ? "active" : ""} transition-colors duration-300 font-[monospace]`}
+            className={`cursor-pointer text-white hover:text-yellow-300 ${router.pathname == item.href ? "active" : ""} transition-colors duration-300 font-[monospace]`}
           >
             {item.title}
           </Link>
@@ -72,7 +72,7 @@ export default function NavbarDefault() {
       <div className="container mx-auto w-100 flex items-center justify-between text-white">
         <Link
           href="/"
-          className="mr-4 cursor-pointer py-1.5 title glitch-nav text-[1.25em] hover:text-pink-300 transition-colors duration-300 ease-in-out"
+          className="mr-4 cursor-pointer py-1.5 title glitch-nav text-[1.25em] hover:text-yellow-300 transition-colors duration-300 ease-in-out"
         >
           {site.title}
         </Link>
@@ -133,7 +133,7 @@ export default function NavbarDefault() {
           {navList}
           <Link
             href={'/announcements'}
-            className={`cursor-pointer mt-2 hover:text-pink-300 ${router.pathname == '/announcements' ? "active" : ""} transition-colors duration-300 font-[monospace]`}
+            className={`cursor-pointer mt-2 hover:text-yellow-300 ${router.pathname == '/announcements' ? "active" : ""} transition-colors duration-300 font-[monospace]`}
           >
             Announcements
           </Link>

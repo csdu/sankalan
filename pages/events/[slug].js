@@ -46,7 +46,7 @@ const EventDetailPage = () => {
                 <img src={event.image} alt={event.name} className='w-1/2 mx-auto h-auto' />
                 <div>
                   <Accordion open={open === 1}>
-                    <AccordionHeader className='text-white hover:text-pink-300 font-[spacemono]' onClick={() => handleOpen(1)}>Rules</AccordionHeader>
+                    <AccordionHeader className='text-white hover:text-yellow-300 font-[spacemono]' onClick={() => handleOpen(1)}>Rules</AccordionHeader>
                     <AccordionBody className='text-white font-[monospace]'>
                       {event.rules.map((paragraph, index) => (
                         <p key={index} className='text-white mb-1'>{paragraph}</p>
@@ -54,7 +54,7 @@ const EventDetailPage = () => {
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 2}>
-                    <AccordionHeader className='text-white hover:text-pink-300 font-[spacemono]' onClick={() => handleOpen(2)}>
+                    <AccordionHeader className='text-white hover:text-yellow-300 font-[spacemono]' onClick={() => handleOpen(2)}>
                       Event Details
                     </AccordionHeader>
                     <AccordionBody className='text-white font-[monospace]'>
@@ -64,7 +64,7 @@ const EventDetailPage = () => {
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 3}>
-                    <AccordionHeader className='text-white hover:text-pink-300 font-[spacemono]' onClick={() => handleOpen(3)}>
+                    <AccordionHeader className='text-white hover:text-yellow-300 font-[spacemono]' onClick={() => handleOpen(3)}>
                       Contact Details
                     </AccordionHeader>
                     <AccordionBody className='text-white lg:flex lg:gap-10 font-[monospace]'>

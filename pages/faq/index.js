@@ -32,7 +32,7 @@ const FAQ = () => {
           faq && faq.map((faq, index) => {
             return (
               <Accordion key={index} open={open === index + 1}>
-                <AccordionHeader className='text-white hover:text-pink-300 font-[spacemono]' onClick={() => handleOpen(index + 1)}>
+                <AccordionHeader className='text-white hover:text-yellow-300 font-[spacemono]' onClick={() => handleOpen(index + 1)}>
                   <h2>{faq.question}</h2>
                 </AccordionHeader>
                 <AccordionBody className='text-white text-justify font-[monospace]'>

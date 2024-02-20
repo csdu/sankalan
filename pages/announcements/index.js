@@ -34,7 +34,7 @@ const About = () => {
       <div className='container mx-auto text-white text-left flex flex-col gap-4 mt-10'>
         {
           updates && updates.map((update, index) => (
-            <div key={index} className='bg-purple-800 p-4 rounded-lg'>
+            <div key={index} className='bg-yellow-800 p-4 rounded-lg'>
               <p>{update}</p>
             </div>
           ))

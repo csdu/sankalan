@@ -6,16 +6,16 @@ body {
   margin: 0;
   overflow-x: hidden;
   text-align: center;
-  background: #1D1A31; /* fallback for old browsers */
+  background: #0493ebcd; /* fallback for old browsers */
   background: -webkit-radial-gradient(
-    #1D1A31,
-    #1D1A31,
-    #1D1A31
+    #0493ebcd,
+    #0493ebcd,
+    #0493ebcd
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: radial-gradient(
-    #1D1A31,
-    #1D1A31,
-    #1D1A31
+    #0493ebcd,
+    #0493ebcd,
+    #0493ebcd
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -50,7 +50,7 @@ img #lines {
 .dot-dot {
   position: absolute;
   display: none;
-  color: #c400c6;
+  color: #F1C709;
   user-select: none; /* supported by Chrome and Opera */
   -webkit-user-select: none; /* Safari */
   -moz-user-select: none; /* Firefox */
@@ -73,8 +73,8 @@ img #lines {
   /* text-transform: uppercase; */
   color: #f8f8f8;
   padding: .25em .5em;
-  background-color: #57007e;
-  box-shadow: -1px 1px 0 #c400c6;
+  background-color: #0493ebcd;
+  box-shadow: -1px 1px 0 #F1C709;
   text-decoration: none !important;
   transition: all 0.4s ease;
 }
@@ -86,7 +86,7 @@ img #lines {
 
 .main-button:hover {
   bottom: -0.2rem;
-  box-shadow: 3px -3px 0 #c400c6;
+  box-shadow: 3px -3px 0 #F1C709;
   color: #f8f8f8;
   cursor: pointer;
 }
@@ -94,12 +94,12 @@ img #lines {
 ::selection,
 ::-webkit-selection {
   color: #f8f8f8;
-  background:#c400c6;
+  background:#F1C709;
 }
 
 ::-moz-selection {
   color: #f8f8f8;
-  background:#c400c6;
+  background:#F1C709;
 }
 
 /* For mobile devices: */

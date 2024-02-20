@@ -67,7 +67,7 @@ header nav .nav-links a,
 header nav .nav-links a:visited {
   margin-left: 1.5rem;
   padding-bottom: 5px;
-  color: #fc44ff;
+  color: #F1C709;
   letter-spacing: 4px;
   font-family: "spaceMonoRegular";
   font-size: 0.9rem;
@@ -109,7 +109,7 @@ header nav .nav-links a.active:after {
 
 header nav .nav-links a.button,
 header nav .nav-links a.button-small {
-  color: #1D1A31;
+  color: #0f83e8cd;
   padding: 0.5rem 1rem;
   background-color: cyan;
 }
@@ -164,13 +164,13 @@ header nav .nav-links a.button-small {
   header nav .nav-links a.button,
   header nav .nav-links a.button-small {
     color: #f8f8f8;
-    background-color: #d52ed8;
+    background-color: #F1C709;
   }
 
   header nav .nav-links a.button:hover,
   header nav .nav-links a.button-small:hover {
     background-color: rgb(53, 209, 209);
-    color: #bd25c0;
+    color: #F1C709;
   }
 
   header nav .nav-links a.button-small {
@@ -205,18 +205,18 @@ main .content {
   padding-right: 80px;
   padding-top: 30px;
   padding-bottom: 30px;
-  border: 1px solid #99a1b328;
+  border: 1px solid #0f83e8cd;
   word-wrap: break-word;
-  background: #1D1A31; /* fallback for old browsers */
+  background: #0f83e8cd; /* fallback for old browsers */
   background: -webkit-radial-gradient(
-    #1D1A31,
-    #1D1A31,
-    #1D1A31
+    #0f83e8cd,
+    #0f83e8cd,
+    #0f83e8cd
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: radial-gradient(
-    #1D1A31,
-    #1D1A31,
-    #1D1A31
+    #0f83e8cd,
+    #0f83e8cd,
+    #0f83e8cd
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: 0 0px 35px rgba(0, 0, 0, 0.25), 0 0px 20px rgba(0, 0, 0, 0.22);
 }
@@ -258,7 +258,7 @@ main .content h1 {
 }
 
 main .content h2 {
-  color: #fc60ffc5;
+  color: #F1C709;
   font-weight: 400;
   font-size: 3rem;
   margin-top: 1rem;
@@ -266,7 +266,7 @@ main .content h2 {
 }
 
 main .content h3 {
-  color: rgba(213, 122, 255, 0.808);
+  color: #F1C709;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 30px;
@@ -411,11 +411,11 @@ footer .navigation a {
 }
 
 footer .navigation a:hover {
-  color: #fc60ffc5;
+  color: #F1C709;
 }
 
 footer .socials i:hover {
-  color: #fc60ffc5;
+  color: #F1C709;
 }
 
 footer .socials {

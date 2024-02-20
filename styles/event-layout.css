@@ -1,5 +1,5 @@
 .box {
-  background-color: #e84febc5;
+  background-color: #F1C709;
   color: white;
 }
 a,
@@ -83,8 +83,8 @@ h3 + h4 + p {
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 30px;
-  background-color: rgb(87, 0, 126);
-  box-shadow: 10px 10px rgb(202, 2, 206);
+  background-color: #F1C709;
+  box-shadow: 10px 10px #F1C709;
   font-weight: 100;
   text-decoration: none !important;
   transition: all 0.4s ease;
@@ -99,13 +99,13 @@ h3 + h4 + p {
 }
 ::-moz-selection {
   /* Code for Firefox */
-  color: rgb(202, 2, 206);
-  background: rgb(87, 0, 126);
+  color: #F1C709;
+  background: #F1C709;
 }
 
 ::selection {
-  color: rgb(202, 2, 206);
-  background: rgb(87, 0, 126);
+  color: #F1C709;
+  background: #F1C709;
 }
 
 .main-button {

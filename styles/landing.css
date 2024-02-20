@@ -309,7 +309,7 @@ body {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: cyan;
+  background: rgb(241, 199, 9);
   -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
   -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
   -moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -375,7 +375,7 @@ body {
   -o-transition: all 0.18s linear 0s;
   -webkit-transition: all 0.18s linear 0s;
   transition: all 0.18s linear 0s;
-  box-shadow: -6px 6px 0 #ca02ce, 6px -6px 0 #d007d494;
+  box-shadow: -6px 6px 0 rgb(241, 199, 9), 6px -6px 0 #0f83e8cd;
 }
 
 .main-button:hover {
@@ -458,7 +458,7 @@ body {
 }
 
 .active {
-  color: theme('colors.pink.300') !important;
+  color: theme('colors.blue.300') !important;
 }
 
 .active::before {
@@ -502,13 +502,13 @@ body {
 .options div a:hover,
 .coordinates a:hover{
   /* color: #c400c6; */
-  text-shadow: 1px 0px 10px rgba(153, 75, 161, 0.2);
+  text-shadow: 1px 0px 10px #F1C709;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   cursor: pointer;
-  color: #ca02ce;
+  color: rgb(241, 199, 9);
 }
 
 /* .options div:nth-child(odd):hover {

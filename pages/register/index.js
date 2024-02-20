@@ -22,7 +22,7 @@ export default function Component() {
       <p className="text-white">
         {
           session ? (
-              <span>You are signed in as {session.user.email}. Not you? <button className="text-pink-300" onClick={() => signOut({redirect: false})}>Sign Out</button></span>
+              <span>You are signed in as {session.user.email}. Not you? <button className="text-yellow-300" onClick={() => signOut({redirect: false})}>Sign Out</button></span>
             ) : (
          <Button
           size="md"

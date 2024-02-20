@@ -24,10 +24,10 @@ const DotParticles = (props) => {
                 },
                 particles: {
                     color: {
-                        value: "#ffffff80",
+                        value: "F1C709",
                     },
                     links: {
-                        color: "#ffffff80",
+                        color: "#F1C709",
                         distance: 100,
                         enable: true,
                         opacity: 0.3,
