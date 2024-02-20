@@ -483,8 +483,8 @@ body {
 }
 
 .date {
-  margin-top: -.8em;
-  font-size: 2.5rem;
+  margin-top: -1.33em;
+  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -715,7 +715,28 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
+.main-button-homepage {
+  font-size: 1.5rem;
+  font-family: spacemono;
+}
+
+.main-button span {
+  position: relative;
+  margin-top: -1.2em;
+  top: -2px;
+  padding: 7px;
+}
+
+.main-button-homepage {
+  padding: 0 .66em;
+}
+
+.main-button-homepage span {
+  margin-top: -1.2em;
+  top: -4.5px;
+}
+
+@media only screen and (max-width: 968px) {
 .countdown{
   margin-top: -2em;
 }
@@ -799,3 +820,5 @@ body {
   background-color: theme('colors.pink.300');
   color: theme('colors.gray.900');
 }
+
+

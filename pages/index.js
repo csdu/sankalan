@@ -126,9 +126,12 @@ export default function Home() {
 
         <div className="middle-content lg:w-1/2">
           <div className="sankalan-wrap mx-auto mt-[-1.66em] lg:mt-[-.5em]">
-            <div className="glitch">Sankalan <span className='mt-[-9em]'>{site.year}</span></div>
+            <div className="glitch">
+              Sankalan <span className='mt-[-9em]'>{site.year}</span>
+            </div>
+            <Link href={'/register'} className="inline-block lg:hidden main-button-homepage main-button mt-8"><span>register.now()</span></Link>
           </div>
-
+          
           {/* <motion.div className="rotating-animation" whileHover={{scale: 1.1}}>
             <RotatingCircles />
           </motion.div> */}
@@ -139,18 +142,16 @@ export default function Home() {
             <p>{site.month} {site.day1} - {site.day2}</p>
           </div>
           <div className="coordinates"><Link target="_blank" href={contact.googleLocation}>{ contact.coordinates }</Link></div>
-          <div className="options">
+          <div className="options mb-5">
             <div>
               <a target="_blank">schedule</a>
             </div>
             <div><Link href={'/team'} >meet the team</Link></div>
             <div><Link href={'/faq'} className='hover:text-pink-300'>questions?</Link></div>
           </div>
-        </div>
 
-        {/* <div className="button-last mt-8">
-            <Link href={'/register'} className="inline-block main-button"><span>register.now()</span></Link>
-        </div> */}
+          <Link href={'/register'} className="hidden lg:inline-block main-button-homepage main-button"><span>register.now()</span></Link>
+        </div>
 
       </div>
     </main>

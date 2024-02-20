@@ -21,7 +21,7 @@ const DotParticles = (props) => {
                     events: {
                         resize: true,
                         onHover: {
-                            enable: true,
+                            enable: false,
                             mode: "grab",
                         },
                     },
