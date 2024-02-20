@@ -42,8 +42,6 @@ const Sponsors = () => {
                         alt={sponsor.name}
                         className='w-full h-full p-6'
                         layout="responsive"
-                        placeholder="blur"
-                        blurDataURL={`/_next/image?url=${'/images/sponsors/' + sponsor.image}&w=16&q=75` || "https://docs.material-tailwind.com/img/team-3.jpg"}
                         width={128}
                         height={128}
                       />
