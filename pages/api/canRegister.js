@@ -19,9 +19,7 @@ const serviceAccountAuth = new JWT({
 export default async function handler(req, res) {
   const doc = new GoogleSpreadsheet(process.env.GOOGLE_SHEET_ID, serviceAccountAuth);
   await doc.loadInfo();
-  const sheet = doc.sheetsByIndex[0];
-  const cellValues = await sheet.getCellsInRange('A1:C20');
+  const sheet = doc.sheetsByIndex[1];
+  const cellValues = await sheet.getCellsInRange(':B20');
   res.status(200).json(cellValues.map(cell => cell));
 }
-
-

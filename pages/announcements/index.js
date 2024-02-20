@@ -6,6 +6,7 @@ import PageLayout from '@/includes/PageLayout';
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
 import { Spinner } from "@material-tailwind/react";
+import { format } from 'date-fns';
 
 const About = () => {
   const {
@@ -37,7 +38,8 @@ const About = () => {
           updates && updates.map((update, index) => (
             <div key={index} className='bg-purple-800 p-4 rounded-lg'>
               <p>{update[0]}</p>
-              <p className='mt-2 text-pink-100 text-sm'>{update[1]}</p>
+              {update[1] && <p className='mt-2 text-pink-100 text-sm'>{update[1]}</p>}
+              {update[2] && <p className='text-pink-100 text-xs'>Posted at {format(update[2], 'dd/MM/yyyy hh:mm bb')}</p>}
             </div>
           ))
         }

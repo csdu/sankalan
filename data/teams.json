@@ -64,6 +64,12 @@
     },
     {
       "name": "TBA",
+      "position": "Management Head",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "name": "TBA",
       "position": "Outreach Head",
       "github": "https://github.com",
       "linkedin": "https://linkedin.com"
@@ -76,7 +82,25 @@
     },
     {
       "name": "TBA",
-      "position": "Event Heads",
+      "position": "Event Head",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    }, 
+    {
+      "name": "TBA",
+      "position": "Event Head",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    }, 
+    {
+      "name": "TBA",
+      "position": "Event Head",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    }, 
+    {
+      "name": "TBA",
+      "position": "Event Head",
       "github": "https://github.com",
       "linkedin": "https://linkedin.com"
     }

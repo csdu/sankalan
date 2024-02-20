@@ -112,6 +112,17 @@ const EventRegistrationForm = () => {
   };
 
   useEffect(() => {
+    if (fullName && mobileNumber && session?.user?.email) {
+      setStage(2);
+    }
+
+    if (course && year && collegeName && university) {
+      setStage(3);
+    }
+  }, []);
+
+
+  useEffect(() => {
     localStorage.setItem('fullName', fullName);
     localStorage.setItem('mobileNumber', mobileNumber);
     localStorage.setItem('course', course);
