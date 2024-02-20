@@ -235,8 +235,8 @@ const EventRegistrationForm = () => {
         referral,
         participantId: genHash(session?.user?.email),
         registrationId: genHash(session?.user?.email + '@' + event),
-        team,
-        teamMembers
+        team: events.map(e => e.events).flat().find(e => e.slug == event)?.is_team_event ? team : '',
+        teamMembers: events.map(e => e.events).flat().find(e => e.slug == event)?.is_team_event ? teamMembers : ''
       })
     });
     
