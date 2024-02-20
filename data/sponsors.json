@@ -1,5 +1,25 @@
 [
   {
+    "title": "Title Partners",
+    "sponsors": [
+      {
+        "name": "ACME",
+        "image": "acme.jpeg"
+      }
+    ]
+  },
+
+  {
+    "title": "Gifting Partners",
+    "sponsors": [
+      {
+        "name": "Coding Ninjas",
+        "image": "coding-ninjas.jpeg"
+      }
+    ]
+  },
+  
+  {
     "title": "Programming Partners",
     "sponsors": [
       {
@@ -47,26 +67,6 @@
       {
         "name": "Insightone",
         "image": "insightone.jpeg"
-      }
-    ]
-  },
-
-  {
-    "title": "Gifting Partners",
-    "sponsors": [
-      {
-        "name": "Coding Ninjas",
-        "image": "coding-ninjas.jpeg"
-      }
-    ]
-  },
-
-  {
-    "title": "Title Partners",
-    "sponsors": [
-      {
-        "name": "ACME",
-        "image": "acme.jpeg"
       }
     ]
   }
