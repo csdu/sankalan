@@ -330,6 +330,7 @@ const EventRegistrationForm = () => {
           <div class="mb-5">
             <label for="medium" class="block mb-2 text-white">How did you come to know about the event? <span className="text-pink-300">*</span></label>
             <select id="medium" class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5 select" onChange={e => setMedium(e.target.value) } required value={medium}>
+              <option value=""></option>
               <option value="social-media">Social Media</option>
               <option value="friends">Friends</option>
               <option value="college">College</option>
