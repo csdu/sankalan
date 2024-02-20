@@ -17,7 +17,7 @@ import Link from 'next/link';
 const EventDetailPage = () => {
   const router = useRouter();
   const eventSlug = router.query.slug;
-  const event = data.events.find((event) => event.slug === eventSlug);
+  const event = data.events.map(e => e.events).flat().find((event) => event.slug === eventSlug);
 
   const {
     site,
@@ -36,7 +36,7 @@ const EventDetailPage = () => {
               <title>{event.name} | {site.title}</title>
               <meta name="description" content={site.description} />
             </Head>
-            <div className='text-start max-w-screen-2xl mx-auto'>
+            <div className='container text-start mx-auto'>
               <h1 className='text-white text-2xl title-page'>{event.name}</h1>
               <p className='text-gray-400 mt-1'>{format(event.date + ' ' + event.time + 'Z+05:30', "LLLL Do, yyyy (EEEE) 'from' hh:mm b")}</p>
               <div className='container flex flex-col gap-4 gap-y-12 justify-between my-4 mx-auto'>

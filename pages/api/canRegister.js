@@ -22,11 +22,11 @@ export default async function handler(req, res) {
   const doc = new GoogleSpreadsheet(process.env.GOOGLE_SHEET_ID, serviceAccountAuth);
   await doc.loadInfo();
   const sheet = doc.sheetsByIndex[1];
-  const cellValues = await sheet.getCellsInRange('M2:M1000');
+  const cellValues = await sheet.getCellsInRange('M2:M100');
 
-  const values = cellValues.map(cell => cell[0]);
+  const values = cellValues?.map(cell => cell[0]);
 
-  if (values.includes(registrationId)) {
+  if (values && values.includes(registrationId)) {
     return res.status(400).json({ message: 'User already registered' });
   }
 

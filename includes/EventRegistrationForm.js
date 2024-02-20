@@ -82,12 +82,12 @@ const EventRegistrationForm = () => {
         return;
       }
 
-      if (event && events.find(e => e.slug == event)?.is_team_event && !team) {
+      if (event && events.map(e => e.events).flat().find(e => e.slug === event)?.is_team_event && !team) {
         alert('Please enter your team name');
         return;
       }
 
-      if (event && events.find(e => e.slug == event)?.is_team_event && !teamMembers) {
+      if (event && events.map(e => e.events).flat().find(e => e.slug == event)?.is_team_event && !teamMembers) {
         alert('Please enter the names of your team members');
         return;
       }
@@ -199,13 +199,13 @@ const EventRegistrationForm = () => {
       return;
     }
 
-    if (event && events.find(e => e.slug == event)?.is_team_event && !team) {
+    if (event && events.map(e => e.events).flat().find(e => e.slug == event)?.is_team_event && !team) {
       alert('Please enter your team name');
       setStage(3);
       return;
     }
 
-    if (event && events.find(e => e.slug == event)?.is_team_event && !teamMembers) {
+    if (event && events.map(e => e.events).flat().find(e => e.slug == event)?.is_team_event && !teamMembers) {
       alert('Please enter the names of your team members');
       setStage(3);
       return;
@@ -230,7 +230,7 @@ const EventRegistrationForm = () => {
         year,
         collegeName,
         university,
-        event: events.find(e => e.slug == event)?.name,
+        event: events.map(e => e.events).flat().find(e => e.slug == event)?.name,
         medium,
         referral,
         participantId: genHash(session?.user?.email),
@@ -249,49 +249,52 @@ const EventRegistrationForm = () => {
     localStorage.removeItem('event');
   };
 
+  const router = useRouter();
+
   if (thanks) {
     return (
-      <div class="text-center w-full mx-auto text-white font-[monospace] mt-10">
-        <h2 class="text-xl mb-4">Thank you for registering!</h2>
+      <div className="text-center w-full mx-auto text-white font-[monospace] mt-10">
+        <h2 className="text-xl mb-4">Thank you for registering!</h2>
         <h3 className='text-2xl mb-1 text-pink-300'>Participant ID: {genHash(session?.user?.email)}</h3>
         <h3 className='text-2xl text-pink-300'>Registration ID: {genHash(session?.user?.email + '@' + event)}</h3>
+        <p className="mt-10"><Link onClick={() => router.reload()} href={'#'} className="text-white bg-pink-600 p-2 uppercase font-medium">Register for more events</Link></p>
       </div>
     );
   }
 
   if (error) {
     return (
-      <div class="text-center w-full mx-auto text-white font-[monospace] mt-10">
-        <h2 class="text-xl">Oops! We messed up <span className="text-pink-300">(again)</span>. Please let us know!</h2>
+      <div className="text-center w-full mx-auto text-white font-[monospace] mt-10">
+        <h2 className="text-xl">Oops! We messed up <span className="text-pink-300">(again)</span>. Please let us know!</h2>
       </div>
     );
   }
 
   return (
-    <form class="max-w-md mx-auto text-left text-white font-[monospace] mt-10" onSubmit={e => e.preventDefault()}>
-      <div class="mb-10"> 
-        <div class="h-2 bg-white rounded-full">
-          <div class={`h-2 bg-pink-300 rounded-none ${stage === 1 ? 'w-0' : stage === 2 ? 'w-1/3' : stage === 3 ? 'w-2/3' : 'w-full'} transition-all duration-300 ease-in-out`}></div>
+    <form className="max-w-md mx-auto text-left text-white font-[monospace] mt-10" onSubmit={e => e.preventDefault()}>
+      <div className="mb-10"> 
+        <div className="h-2 bg-white rounded-full">
+          <div className={`h-2 bg-pink-300 rounded-none ${stage === 1 ? 'w-0' : stage === 2 ? 'w-1/3' : stage === 3 ? 'w-2/3' : 'w-full'} transition-all duration-300 ease-in-out`}></div>
         </div>
       </div>
 
       {stage === 1 && (
         <>
-          <div class="mb-5">
-            <label for="email" class="block mb-2 text-white">E-mail Address <span className="text-pink-300">*</span></label>
-            <input type="email" id="email" class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={session?.user?.email} disabled required />
+          <div className="mb-5">
+            <label htmlFor="email" className="block mb-2 text-white">E-mail Address <span className="text-pink-300">*</span></label>
+            <input type="email" id="email" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={session?.user?.email} disabled required />
           </div>
 
-          <div class="mb-5">
-            <label for="name" class="block mb-2 text-white">Full Name <span className="text-pink-300">*</span></label>
-            <input type="text" id="name" class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={fullName}
+          <div className="mb-5">
+            <label htmlFor="name" className="block mb-2 text-white">Full Name <span className="text-pink-300">*</span></label>
+            <input type="text" id="name" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={fullName}
             onChange={(e) => setFullName(e.target.value.toUpperCase())} />
           </div>
 
-          <div class="mb-8">
-            <label for="phone" class="block mb-2 text-white">Phone Number <span className="text-pink-300">*</span></label>
+          <div className="mb-8">
+            <label htmlFor="phone" className="block mb-2 text-white">Phone Number <span className="text-pink-300">*</span></label>
             <div className="flex gap-x-2 justify-center w-full items-center">
-            <input type="tel" value={'+91'} class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-[3em] p-1.5" disabled /> <input type="tel" id="phone" class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={mobileNumber} pattern="[0-9]+" minlength="10" maxlength="10"
+            <input type="tel" value={'+91'} className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-[3em] p-1.5" disabled /> <input type="tel" id="phone" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={mobileNumber} pattern="[0-9]+" minLength="10" maxLength="10"
             onChange={(e) => setMobileNumber(e.target.value)} />
             </div>
           </div>
@@ -301,15 +304,15 @@ const EventRegistrationForm = () => {
 
       {stage === 2 && (
         <>
-          <div class="mb-5">
-            <label for="course" class="block mb-2 text-white">Course <span className="text-pink-300">*</span></label>
-            <input type="text" id="course" class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={course}
+          <div className="mb-5">
+            <label htmlFor="course" className="block mb-2 text-white">Course <span className="text-pink-300">*</span></label>
+            <input type="text" id="course" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={course}
             onChange={(e) => setCourse(e.target.value)} />
           </div>
 
-          <div class="mb-5">
-            <label for="year" class="block mb-2 text-white">Year <span className="text-pink-300">*</span></label>
-            <select id="year" class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5 select" onChange={(e) => setYear(e.target.value)} required value={year}>
+          <div className="mb-5">
+            <label htmlFor="year" className="block mb-2 text-white">Year <span className="text-pink-300">*</span></label>
+            <select id="year" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5 select" onChange={(e) => setYear(e.target.value)} required value={year}>
               <option value=""></option>
               <option value="1">First Year</option>
               <option value="2">Second Year</option>
@@ -319,15 +322,15 @@ const EventRegistrationForm = () => {
             </select>
           </div>
 
-          <div class="mb-5">
-            <label for="collegeName" class="block mb-2 text-white">College/Institute/Department <span className="text-pink-300">*</span></label>
-            <input type="text" id="collegeName" class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={collegeName}
+          <div className="mb-5">
+            <label htmlFor="collegeName" className="block mb-2 text-white">College/Institute/Department <span className="text-pink-300">*</span></label>
+            <input type="text" id="collegeName" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={collegeName}
             onChange={(e) => setCollegeName(e.target.value.toUpperCase())} />
           </div>
 
-          <div class="mb-8">
-            <label for="university" class="block mb-2 text-white">University <span className="text-pink-300">*</span></label>
-            <input type="text" id="university" class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={university}
+          <div className="mb-8">
+            <label htmlFor="university" className="block mb-2 text-white">University <span className="text-pink-300">*</span></label>
+            <input type="text" id="university" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={university}
             onChange={(e) => setUniversity(e.target.value.toUpperCase())} />
           </div>
           <button className='text-white hover:text-black border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white rounded-none text-sm px-5 py-2.5 text-center me-2 mb-2' onClick={handlePrevious}>Previous</button>
@@ -337,21 +340,29 @@ const EventRegistrationForm = () => {
 
       {stage === 3 && (
         <>
-          <div class="mb-8">
-            <label for="event" class="block mb-2 text-white">Event <span className="text-pink-300">*</span></label>
-            <select id="event" class="select shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" onChange={e => setEvent(e.target.value) } required value={event}>
+          <div className="mb-8">
+            <label htmlFor="event" className="block mb-2 text-white">Event <span className="text-pink-300">*</span></label>
+            <select id="event" className="select shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" onChange={e => setEvent(e.target.value) } required value={event}>
               <option value="">Select an event</option>
               {
-                events.map((event, index) => (
-                  <option key={index} value={event.slug}>{event.name}</option>
+                events.map((eventType, index) => (
+                  <optgroup key={index} label={eventType.category}>
+                      {
+                        eventType.events.map((event, index) => (
+                          <option key={index} value={event.slug}>{event.name}</option>
+                        ))
+                      }
+                  </optgroup>
                 ))
+
               }
+             
             </select>
           </div>
 
           {
             alreadyRegistered && (
-              <div class="text-white font-[monospace] mt-[-1em] mb-8">
+              <div className="text-white font-[monospace] mt-[-1em] mb-8">
                 <p>You have already registered for this event. For any modifications or cancellation of registration, please <Link href={'/contact'} className="text-pink-300">contact us</Link>.</p>
               </div>
             )
@@ -359,26 +370,26 @@ const EventRegistrationForm = () => {
 
           {
             event && !alreadyRegistered && (
-              <div class="mb-8 mt-[-.5em]">
-                <p class="text-pink-300 font-medium">{events.find(e => e.slug == event)?.description}</p>
+              <div className="mb-8 mt-[-.5em]">
+                <p className="text-pink-300 font-medium">{events.map(e => e.events).flat().find(e => e.slug == event)?.description}</p>
               </div>
             )
           }
 
           {
-            event && !alreadyRegistered && events.find(e => e.slug == event)?.is_team_event && (
+            event && !alreadyRegistered && events.map(e => e.events).flat().find(e => e.slug == event)?.is_team_event && (
               <div className="mb-8 mt-[-.8em]">
-                <p class="text-white mb-6">
+                <p className="text-white mb-6">
                   Only one member from the team should register.
                 </p>
 
                 <div className="mb-5">
-                  <label for="team" className="block mb-2 text-white">Team Name</label>
+                  <label htmlFor="team" className="block mb-2 text-white">Team Name</label>
                   <input type="text" id="team" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={team} onChange={(e) => setTeam(e.target.value)} />
                 </div>
 
                 <div className="">
-                  <label for="teamMembers" className="block mb-2 text-white">Names of Members <span className="text-pink-300 text-xs">(separated by commas)</span></label>
+                  <label htmlFor="teamMembers" className="block mb-2 text-white">Names of Members <span className="text-pink-300 text-xs">(separated by commas)</span></label>
                   <textarea id="teamMembers" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={teamMembers} onChange={(e) => setTeamMembers(e.target.value)} />
                 </div>
               </div>
@@ -392,9 +403,9 @@ const EventRegistrationForm = () => {
 
       {stage === 4 && (
         <>
-          <div class="mb-5">
-            <label for="medium" class="block mb-2 text-white">How did you come to know about the event? <span className="text-pink-300">*</span></label>
-            <select id="medium" class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5 select" onChange={e => setMedium(e.target.value) } required value={medium}>
+          <div className="mb-5">
+            <label htmlFor="medium" className="block mb-2 text-white">How did you come to know about the event? <span className="text-pink-300">*</span></label>
+            <select id="medium" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5 select" onChange={e => setMedium(e.target.value) } required value={medium}>
               <option value=""></option>
               <option value="social-media">Social Media</option>
               <option value="friends">Friends</option>
@@ -403,13 +414,13 @@ const EventRegistrationForm = () => {
             </select>
           </div>
                     
-          <div class="mb-5">
-            <label for="referral" class="block mb-2 text-white">Referral Code (optional)</label>
-            <input type="text" id="referral" class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={referral} minLength={6} maxLength={6}
+          <div className="mb-5">
+            <label htmlFor="referral" className="block mb-2 text-white">Referral Code (optional)</label>
+            <input type="text" id="referral" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={referral} minLength={6} maxLength={6}
             onChange={(e) => setReferral(e.target.value.toUpperCase())} />
           </div>
 
-          <div class="mb-8 text-sm text-pink-300">
+          <div className="mb-8 text-sm text-pink-300">
               By submitting this form, I declare that the information provided by me is true and correct to the best of my knowledge and belief. I understand that my registration is subject to verification by the event organizers and that any false information provided by me will lead to disqualification from the event.
           </div>
 
