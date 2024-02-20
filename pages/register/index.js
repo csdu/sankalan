@@ -40,7 +40,9 @@ export default function Component() {
 
       {
         session && (
-          <EventRegistrationForm />
+          <div className="min-h-full">
+            <EventRegistrationForm />
+          </div>
         )
       }
     </PageLayout>

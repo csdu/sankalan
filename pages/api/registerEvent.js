@@ -32,7 +32,9 @@ export default async (req, res) => {
       referral,
       medium,
       participantId,
-      registrationId
+      registrationId,
+      team,
+      teamMembers
     } = req.body;
 
     const doc = new GoogleSpreadsheet(process.env.GOOGLE_SHEET_ID, serviceAccountAuth);
@@ -54,7 +56,9 @@ export default async (req, res) => {
       referral,
       medium,
       participantId,
-      registrationId
+      registrationId,
+      team,
+      teamMembers
     };
 
     console.log('payload', payload);

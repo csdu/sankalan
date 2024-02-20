@@ -5,6 +5,7 @@ import Link from 'next/link';
 import PageLayout from '@/includes/PageLayout';
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
+import { Spinner } from "@material-tailwind/react";
 
 const About = () => {
   const {
@@ -35,9 +36,15 @@ const About = () => {
         {
           updates && updates.map((update, index) => (
             <div key={index} className='bg-purple-800 p-4 rounded-lg'>
-              <p>{update}</p>
+              <p>{update[0]}</p>
+              <p className='mt-2 text-pink-100 text-sm'>{update[1]}</p>
             </div>
           ))
+        }
+        {
+          !updates.length && <div className='flex justify-center'>
+            <Spinner color="pink" className="h-10 w-10" />
+          </div>
         }
       </div>
     </PageLayout>

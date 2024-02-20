@@ -18,7 +18,7 @@ const Terms = () => {
         <meta name="description" content={site.description} />
       </Head>
       <h1 className='text-white text-2xl title-page'>Terms</h1>
-      <div className='container mx-auto text-white text-justify flex flex-col gap-4 mt-10'>
+      <div className='container mx-auto text-white text-left flex flex-col gap-4 mt-10'>
         <p>These terms and conditions outline the rules and regulations for the Sankalan web portal. <br />
           By accessing this website, we assume you accept these terms and conditions. Do not continue to Sankalan if you do not agree to take all of the terms and conditions stated on this page.</p>
         <h2 id="privacy-policy" className='text-pink-300 font-[spacemono] font-medium text-2xl'>Privacy Policy</h2>

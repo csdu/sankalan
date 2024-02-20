@@ -11,6 +11,7 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
+import Image from 'next/image';
 
 const EventDetailPage = () => {
   const router = useRouter();
@@ -43,7 +44,12 @@ const EventDetailPage = () => {
                     <p key={index} className='text-white mb-4'>{paragraph}</p>
                   ))}
                 </div>
-                <img src={event.image} alt={event.name} className='w-1/2 mx-auto h-auto' />
+                <Image 
+                  src={event.image} alt={event.name} 
+                  width={1024} height={1024} className='lg:w-1/2 mx-auto h-auto'
+                  blurDataURL={`/_next/image?url=${event.image}&w=16&q=75`}
+                  placeholder='blur'
+                />
                 <div>
                   <Accordion open={open === 1}>
                     <AccordionHeader className='text-white hover:text-pink-300 font-[spacemono]' onClick={() => handleOpen(1)}>Rules</AccordionHeader>
