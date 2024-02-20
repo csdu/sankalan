@@ -125,7 +125,7 @@ export default function Home() {
         </div>
 
         <div className="middle-content lg:w-1/2">
-          <div className="sankalan-wrap mx-auto mt-[-1.66em] lg:mt-0">
+          <div className="sankalan-wrap mx-auto mt-[-1.66em] lg:mt-[-.5em]">
             <div className="glitch">Sankalan <span className='mt-[-9em]'>{site.year}</span></div>
           </div>
 
