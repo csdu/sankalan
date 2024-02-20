@@ -31,10 +31,10 @@ const EventRegistrationForm = () => {
   };
 
   const genHash = (email) => {
-    const md5Hash = crypto.createHash('md5');
-    const hash = md5Hash.update(email).digest('hex');
-    const participantId = hash.substring(0, 6);
-    return participantId.toUpperCase();
+    const sha1Hash = crypto.createHash('sha1');
+    const hash = sha1Hash.update(email).digest('hex');
+    const uniqueId = hash.substring(0, 6);
+    return uniqueId.toUpperCase();
   };
 
   const handleSubmit = async () => {

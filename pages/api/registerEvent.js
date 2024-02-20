@@ -36,12 +36,14 @@ export default async (req, res) => {
     } = req.body;
 
     const doc = new GoogleSpreadsheet(process.env.GOOGLE_SHEET_ID, serviceAccountAuth);
+    
     await doc.loadInfo();
+
     const sheet = doc.sheetsByIndex[1];
     
     const payload = {
       timestamp: new Date().toISOString(),
-      email, 
+      email: session.user.email, 
       fullName,
       mobileNumber,
       course,
@@ -51,7 +53,6 @@ export default async (req, res) => {
       event,
       referral,
       medium,
-      by: session.user.email,
       participantId,
       registrationId
     };

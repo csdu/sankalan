@@ -93,7 +93,7 @@ export default function Home() {
         <Link href={'/sponsors'}>sponsors</Link>
       </div>
       <div className="corner-nav-item bottom-right green">
-        <Link href={'/faq'}>questions?</Link>
+        <Link href={'/terms'}>Privacy Policy</Link>
       </div>
 
       <div className="landing-content">
@@ -135,14 +135,14 @@ export default function Home() {
         </div>
 
         <div className="right-content">
-          <div className='date'>Coming Soon</div>
+          <div className='date'>coming soon</div>
           <div className="coordinates"><a target="_blank" href={contact.googleLocation}>{ contact.coordinates }</a></div>
           <div className="options">
             <div>
-              <a target="_blank">SCHEDULE</a>
+              <a target="_blank">schedule</a>
             </div>
-            <div><a >MEET THE TEAM</a></div>
-            <div><a >NEED HELP?</a></div>
+            <div><a >meet the team</a></div>
+            <div><Link href={'/faq'} className='hover:text-pink-300'>questions?</Link></div>
           </div>
           <div className="button-last mt-8">
             <a className="main-button"><span>register.now()</span></a>

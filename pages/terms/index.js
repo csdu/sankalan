@@ -36,7 +36,7 @@ const Terms = () => {
         <p>Our website uses cookies as a unique anonymous identifier to improve our Service. You have the option to either accept or refuse these cookies. If you choose to refuse our cookies, you may not be able to use some portions of our Service.</p>
         <h3 id="service-providers" className='text-pink-300 font-[spacemono] font-medium'>SERVICE PROVIDERS</h3>
         <p>We may employ third-party companies and individuals due to the following reasons:</p>
-        <ul>
+        <ul className='list-disc ml-4'>
           <li>To facilitate our Service;</li>
           <li>To provide the Service on our behalf;</li>
           <li>To perform Service-related services; or</li>
@@ -52,7 +52,7 @@ const Terms = () => {
         <h3 id="contact-us" className='text-pink-300 font-[spacemono] font-medium'>CONTACT US</h3>
         <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to <a href="/contact/">contact us</a>.</p>
         <h2 id="terms" className='text-pink-300 font-[spacemono] font-medium text-2xl'>Terms</h2>
-        <h3 id="terms-of-use-for-website">TERMS OF USE FOR WEBSITE</h3>
+        <h3 id="terms-of-use-for-website" className='text-pink-300 font-[spacemono] font-medium'>TERMS OF USE FOR WEBSITE</h3>
         <p>You agree to the following terms when you use our website (*.ducs.in):</p>
         <ul className='list-disc ml-6'>
           <li>You agree to the privacy policy above.</li>
@@ -64,8 +64,8 @@ const Terms = () => {
           <li>You are free to go through the source code of our website which is available at:<br /><a href="https://github.com/csdu/sankalan">https://github.com/csdu/sankalan</a><br /><a href="https://github.com/csdu/sankalan-portal">https://github.com/csdu/sankalan-portal</a></li>
             <li>If you find any issues with the website, feel free to report it on Github or contact us.</li>
           </ul>
-            <h3 id="terms-of-service-for-sankalan-2022" className='text-pink-300 font-[spacemono] font-medium'>TERMS OF SERVICE FOR SANKALAN 2022</h3>
-            <p>By registering for Sankalan 2022 through our website or service provided at registration desk, you agree to the following terms:</p>
+            <h3 id="terms-of-service-for-sankalan" className='text-pink-300 font-[spacemono] font-medium'>TERMS OF SERVICE FOR SANKALAN</h3>
+            <p>By registering for Sankalan through our website or service provided at registration desk, you agree to the following terms:</p>
             <ul className='list-disc ml-6'>
               <li>You must not misuse any technology available to you to cause damage to Sankalan (its website, its organisation and the other people participating in the event).</li>
               <li>You must follow the guidelines provided to you during the event.</li>

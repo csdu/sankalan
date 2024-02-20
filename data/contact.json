@@ -3,15 +3,18 @@
     "name": "fb.com/ducs.sankalan",
     "link": "https://www.facebook.com/DUCS.Sankalan"
   },
-
   "instagram": {
     "name": "@sankalan.ducs",
     "link": "https://www.instagram.com/sankalan.ducs/"
   },
-  "email": "ducs.events.2022@gmail.com",
+  "linkedin": {
+    "name": "DUCS",
+    "link": "https://www.linkedin.com/school/department-of-computer-science-university-of-delhi/?viewAsMember=true"
+  },
+  "email": "ducss@cs.du.ac.in",
   "address": "Department of Computer Science, Faculty of Mathematical Sciences, New Academic Block, University of Delhi",
   "coordinates": "28°41'17.2\"N 77°12'25.7\"E",
   "googleLocation": "https://goo.gl/maps/vikER7ewLJwSJdg67",
-  "sponsor_email": "ducs.events.2022@gmail.com",
-  "sponsor_mobile": "8881176882"
+  "sponsor_email": "ducss@cs.du.ac.in",
+  "sponsor_mobile": "8826358310"
 }
