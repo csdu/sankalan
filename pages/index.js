@@ -145,7 +145,7 @@ export default function Home() {
             <div><Link href={'/faq'} className='hover:text-pink-300'>questions?</Link></div>
           </div>
           <div className="button-last mt-8">
-            <a className="main-button"><span>register.now()</span></a>
+            <Link href={'/register'} className="main-button"><span>register.now()</span></Link>
           </div>
         </div>
 

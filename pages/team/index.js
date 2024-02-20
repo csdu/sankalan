@@ -10,57 +10,8 @@ import ProfileCard from '@/includes/ProfileCard';
 export default function Events() {
   const {
     site,
-    contact
+    teams
   } = data;
-
-  const team = [
-    {
-      name: 'John Doe',
-      position: 'President',
-      github: 'https://github.com',
-      linkedin: 'https://linkedin.com',
-    }, 
-    {
-      name: 'John Doe',
-      position: 'Vice-President',
-      github: 'https://github.com',
-      linkedin: 'https://linkedin.com',
-    }, 
-    {
-      name: 'John Doe',
-      position: 'Secretary',
-      github: 'https://github.com',
-      linkedin: 'https://linkedin.com',
-    }, 
-    {
-      name: 'John Doe',
-      position: 'Treasurer',
-      github: 'https://github.com',
-      linkedin: 'https://linkedin.com',
-    }, 
-    {
-      name: 'John Doe',
-      github: 'https://github.com',
-      linkedin: 'https://linkedin.com',
-    }, 
-
-    {
-      name: 'John Doe',
-      github: 'https://github.com',
-      linkedin: 'https://linkedin.com',
-    },
-    {
-      name: 'John Doe',
-      github: 'https://github.com',
-      linkedin: 'https://linkedin.com',
-    }, 
-
-    {
-      name: 'John Doe',
-      github: 'https://github.com',
-      linkedin: 'https://linkedin.com',
-    }, 
-  ]
 
   return (
     <PageLayout>
@@ -70,7 +21,7 @@ export default function Events() {
       </Head>
       <h1 className='text-white text-2xl mb-8 title-page'>Team</h1>
       <div className='container grid lg:grid-cols-4 gap-4 gap-y-12 lg:justify-between my-16 mx-auto'>
-        {team.map((item, index) => (
+        {teams.map((item, index) => (
           <ProfileCard key={index} data={item} className="" />
         ))}
       </div>

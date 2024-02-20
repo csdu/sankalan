@@ -87,7 +87,7 @@ export default function NavbarDefault() {
                   <InboxIcon className="h-5 w-5 mt-1" />
               </Badge>
             </Link>
-            <a className="hidden lg:inline-block main-button"><span>register.now()</span></a>
+            <Link href={'/register'} className="hidden lg:inline-block main-button"><span>register.now()</span></Link>
         </div>
 
         <IconButton
@@ -139,7 +139,7 @@ export default function NavbarDefault() {
           </Link>
           <div className="w-100 mx-auto mt-6">
             <div className="nav-links gap-x-2">
-              <a className="main-button"><span>register.now()</span></a>
+              <Link href={'/register'} className="main-button"><span>register.now()</span></Link>
             </div>
           </div>
         </div>

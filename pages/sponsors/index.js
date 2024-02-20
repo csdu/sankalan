@@ -24,7 +24,7 @@ const Sponsors = () => {
         {Object.entries(sponsors).map(([type, sponsorType], index) => (
           <div className='m-8' key={index}>
             <h2 className='text-white text-lg mb-4 title-sponsor-type'>{sponsorType.title}</h2>
-            <div className='flex flex-wrap gap-2 mt-2 mb-6 w-2/3 mx-auto'>
+            <div className='flex flex-wrap gap-6 mt-2 mb-6 w-2/3 mx-auto'>
               {sponsorType.sponsors.map((sponsor, index) => (
                 <Tooltip key={index} placement='bottom' content={sponsor.name}>              
                   <Card
@@ -35,9 +35,18 @@ const Sponsors = () => {
                       floated={false}
                       shadow={true}
                       color="transparent"
-                      className={`absolute inset-0 m-0 h-full w-full rounded bg-white bg-cover bg-center`}
+                      className={`absolute inset-0 m-0 h-full w-full rounded bg-white bg-cover bg-cente flex items-center justify-center overflow-hidden text-center mx-auto cursor-pointer transition-transform transform hover:scale-105 duration-300 ease-in-out`}
                     >
-                      <img src={'/images/sponsors/' + sponsor.image} alt={sponsor.name} className='w-full h-full p-6 object-contain' />
+                      <Image
+                        src={'/images/sponsors/' + sponsor.image}
+                        alt={sponsor.name}
+                        className='w-full h-full p-6'
+                        layout="responsive"
+                        placeholder="blur"
+                        blurDataURL={`/_next/image?url=${'/images/sponsors/' + sponsor.image}&w=16&q=75` || "https://docs.material-tailwind.com/img/team-3.jpg"}
+                        width={128}
+                        height={128}
+                      />
                     </CardHeader>
                   </Card>
                 </Tooltip>                  
