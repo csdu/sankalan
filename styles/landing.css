@@ -825,4 +825,7 @@ body {
   color: theme('colors.gray.900');
 }
 
-
+.faq > p > a {
+  color: theme('colors.pink.300');
+  font-weight: 400;
+}
