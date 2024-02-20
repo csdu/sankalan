@@ -266,6 +266,10 @@ body {
   /* overflow-y: hidden; */
 }
 
+.phone {
+  color: themwe('colors.pink.300') !important;
+}
+
 .corner-nav-item a {
   font-family: "iceland";
   text-transform: uppercase;
