@@ -27,6 +27,46 @@
       {
         "name": "DU Express",
         "image": "du-express.png"
+      },
+      {
+        "name": "DU Adda",
+        "image": "du-adda.jpeg"
+      },
+      {
+        "name": "DU Competition",
+        "image": "du-comp.jpeg"
+      },
+      {
+        "name": "DU India",
+        "image": "du-india.jpeg"
+      },
+      {
+        "name": "DU Updates",
+        "image": "du-updates.jpeg"
+      },
+      {
+        "name": "Insightone",
+        "image": "insightone.jpeg"
+      }
+    ]
+  },
+
+  {
+    "title": "Gifting Partners",
+    "sponsors": [
+      {
+        "name": "Coding Ninjas",
+        "image": "coding-ninjas.jpeg"
+      }
+    ]
+  },
+
+  {
+    "title": "Title Partners",
+    "sponsors": [
+      {
+        "name": "ACME",
+        "image": "acme.jpeg"
       }
     ]
   }
