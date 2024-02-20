@@ -1,46 +1,82 @@
 [
     {
-      "name": "John Doe",
+      "name": "Gagan Kumar Soni",
       "position": "President",
-      "image": "/images/people/Ankuj_pandey.jpeg",
+      "image": "/images/people/Panel/Gagan Kumar Soni/IMG_20230525_152407019.jpg",
       "github": "https://github.com",
       "linkedin": "https://linkedin.com"
     },
     {
-      "name": "John Doe",
+      "name": "Adamya Shyam",
+      "position": "Vice-President (PhD)",
+      "image": "/images/people/Panel/Adamya Shyam/Adamya_2.jpg",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "name": "Satyandra Pal",
       "position": "Vice-President",
+      "image": "/images/people/Panel/Satyandra Pal/IMG-20231022-WA0015.jpg",
       "github": "https://github.com",
       "linkedin": "https://linkedin.com"
     },
     {
-      "name": "John Doe",
-      "position": "Secretary",
-      "github": "https://github.com",
-      "linkedin": "https://linkedin.com"
-    },
-    {
-      "name": "John Doe",
+      "name": "Sudipto Ghosh",
       "position": "Treasurer",
+      "image": "/images/people/Panel/Sudipto Ghosh/DSC_0709.JPG",
       "github": "https://github.com",
       "linkedin": "https://linkedin.com"
     },
     {
-      "name": "John Doe",
+      "name": "Daya Shankar",
+      "position": "Secretary",
+      "image": "/images/people/Panel/Daya Shankar/daya_img_cropped.JPG",
       "github": "https://github.com",
       "linkedin": "https://linkedin.com"
     },
     {
-      "name": "John Doe",
+      "name": "Akshita Gupta",
+      "position": "Joint Secretary",
+      "image": "/images/people/Panel/Akshita Gupta/akshita-cropped.png",
       "github": "https://github.com",
       "linkedin": "https://linkedin.com"
     },
     {
-      "name": "John Doe",
+      "name": "Muskan Saini",
+      "position": "Joint Treasuerer",
+      "image": "/images/people/Panel/Muskan/IMG-20231016-WA0025.jpg",
       "github": "https://github.com",
       "linkedin": "https://linkedin.com"
     },
     {
-      "name": "John Doe",
+      "name": "Rahul Semwal",
+      "position": "Junior Joint Secretary",
+      "image": "/images/people/Panel/Rahul Semwal/IMG-20231013-WA0031.jpg",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "name": "Paras Kumar",
+      "position": "Junior Joint Secretary",
+      "image": "/images/people/Panel/Paras Kumar/t.jpg",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "name": "TBA",
+      "position": "Outreach Head",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "name": "TBA",
+      "position": "Logistics Head",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    {
+      "name": "TBA",
+      "position": "Event Heads",
       "github": "https://github.com",
       "linkedin": "https://linkedin.com"
     }

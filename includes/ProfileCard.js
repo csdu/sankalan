@@ -19,7 +19,7 @@ export default function ProfileCard(data) {
          <Image
             src={image || '/images/people/placeholder.jpg'}
             alt="profile-picture"
-            className="object-fit h-auto max-w-full"
+            className="object-cover h-50"
             width={500}
             height={500}
             priority
