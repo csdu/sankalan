@@ -1,25 +1,26 @@
 import crypto from "crypto";
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import { Select, Option } from "@material-tailwind/react";
 import data from '@/data';
 import { useRouter } from "next/router";
 
 const EventRegistrationForm = () => {
+ 
   const [thanks , setThanks] = useState(false);
   const [error , setError] = useState(false);
   const [stage, setStage] = useState(1);
-  const [fullName, setFullName] = useState('');
-  const [mobileNumber, setMobileNumber] = useState('');
-  const [course, setCourse] = useState('');
-  const [year, setYear] = useState('');
-  const [collegeName, setCollegeName] = useState('');
-  const [university, setUniversity] = useState('');
+  const [fullName, setFullName] = useState(localStorage.getItem('fullName') || '');
+  const [mobileNumber, setMobileNumber] = useState(localStorage.getItem('mobileNumber') || '');
+  const [course, setCourse] = useState(localStorage.getItem('course') || '');
+  const [year, setYear] = useState(localStorage.getItem('year') || '');
+  const [collegeName, setCollegeName] = useState(localStorage.getItem('collegeName') || '');
+  const [university, setUniversity] = useState(localStorage.getItem('university') || '');
   const [event, setEvent] = useState('');
-  const [medium, setMedium] = useState('');
-  const [referral, setReferral] = useState('');
-  const [team, setTeam] = useState('');
-  const [teamMembers, setTeamMembers] = useState('');
+  const [medium, setMedium] = useState(localStorage.getItem('medium') || '');
+  const [referral, setReferral] = useState(localStorage.getItem('referral') || '');
+  const [team, setTeam] = useState(localStorage.getItem('team') || '');
+  const [teamMembers, setTeamMembers] = useState(localStorage.getItem('teamMembers') || '');
 
   const {
     site, events
@@ -104,11 +105,23 @@ const EventRegistrationForm = () => {
   };
 
   const genHash = (email) => {
-    const sha1Hash = crypto.createHash('sha1');
-    const hash = sha1Hash.update(email).digest('hex');
+    const sha256Hash = crypto.createHash('sha256');
+    const hash = sha256Hash.update(email).digest('hex');
     const uniqueId = hash.substring(0, 6);
     return uniqueId.toUpperCase();
   };
+
+  useEffect(() => {
+    localStorage.setItem('fullName', fullName);
+    localStorage.setItem('mobileNumber', mobileNumber);
+    localStorage.setItem('course', course);
+    localStorage.setItem('year', year);
+    localStorage.setItem('collegeName', collegeName);
+    localStorage.setItem('university', university);
+    localStorage.setItem('medium', medium);
+    localStorage.setItem('team', team);
+    localStorage.setItem('teamMembers', teamMembers);
+  }, [fullName, mobileNumber, course, year, collegeName, university, event, medium, referral, team, teamMembers]);
 
   const handleSubmit = async () => {
     if (!fullName) {
