@@ -4,11 +4,14 @@ import { useSession } from 'next-auth/react';
 import { Select, Option } from "@material-tailwind/react";
 import data from '@/data';
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const EventRegistrationForm = () => {
  
   const [thanks , setThanks] = useState(false);
   const [error , setError] = useState(false);
+  const [alreadyRegistered , setAlreadyRegistered] = useState(false);
+
   const [stage, setStage] = useState(1);
   const [fullName, setFullName] = useState(localStorage.getItem('fullName') || '');
   const [mobileNumber, setMobileNumber] = useState(localStorage.getItem('mobileNumber') || '');
@@ -121,6 +124,25 @@ const EventRegistrationForm = () => {
     }
   }, []);
 
+  useEffect(() => {
+    if (event) {
+      fetch('/api/canRegister', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          id: genHash(session?.user?.email + '@' + event)
+        })
+      }).then(res => res.json()).then(data => {
+        if (data.message === 'User already registered') {
+          setAlreadyRegistered(true);
+        } else {
+          setAlreadyRegistered(false);
+        }
+      });
+    }
+  }, [event]);
 
   useEffect(() => {
     localStorage.setItem('fullName', fullName);
@@ -132,7 +154,7 @@ const EventRegistrationForm = () => {
     localStorage.setItem('medium', medium);
     localStorage.setItem('team', team);
     localStorage.setItem('teamMembers', teamMembers);
-  }, [fullName, mobileNumber, course, year, collegeName, university, event, medium, referral, team, teamMembers]);
+  }, [fullName, mobileNumber, course, year, collegeName, university, medium, referral, team, teamMembers]);
 
   const handleSubmit = async () => {
     if (!fullName) {
@@ -328,7 +350,15 @@ const EventRegistrationForm = () => {
           </div>
 
           {
-            event && (
+            alreadyRegistered && (
+              <div class="text-white font-[monospace] mt-[-1em] mb-8">
+                <p>You have already registered for this event. For any modifications or cancellation of registration, please <Link href={'/contact'} className="text-pink-300">contact us</Link>.</p>
+              </div>
+            )
+          }
+
+          {
+            event && !alreadyRegistered && (
               <div class="mb-8 mt-[-.5em]">
                 <p class="text-pink-300 font-medium">{events.find(e => e.slug == event)?.description}</p>
               </div>
@@ -336,7 +366,7 @@ const EventRegistrationForm = () => {
           }
 
           {
-            event && events.find(e => e.slug == event)?.is_team_event && (
+            event && !alreadyRegistered && events.find(e => e.slug == event)?.is_team_event && (
               <div className="mb-8 mt-[-.8em]">
                 <p class="text-white mb-6">
                   Only one member from the team should register.
@@ -356,7 +386,7 @@ const EventRegistrationForm = () => {
           }
 
           <button className='text-white hover:text-black border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white rounded-none text-sm px-5 py-2.5 text-center me-2 mb-2' onClick={handlePrevious}>Previous</button>
-          <button className='text-white hover:text-black border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white rounded-none text-sm px-5 py-2.5 text-center me-2 mb-2' onClick={handleNext}>Next</button>
+          <button className={`text-white hover:text-black border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white rounded-none text-sm px-5 py-2.5 text-center me-2 mb-2 ${alreadyRegistered ? 'hidden' : ''}`} disabled={alreadyRegistered} onClick={handleNext}>Next</button>
         </>
       )}
 

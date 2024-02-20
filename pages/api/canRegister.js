@@ -17,9 +17,18 @@ const serviceAccountAuth = new JWT({
 
 
 export default async function handler(req, res) {
+  const registrationId = req.body.id;
+
   const doc = new GoogleSpreadsheet(process.env.GOOGLE_SHEET_ID, serviceAccountAuth);
   await doc.loadInfo();
   const sheet = doc.sheetsByIndex[1];
-  const cellValues = await sheet.getCellsInRange(':B20');
-  res.status(200).json(cellValues.map(cell => cell));
+  const cellValues = await sheet.getCellsInRange('M2:M1000');
+
+  const values = cellValues.map(cell => cell[0]);
+
+  if (values.includes(registrationId)) {
+    return res.status(400).json({ message: 'User already registered' });
+  }
+
+  return res.status(200).json({ message: 'User can register'});
 }
