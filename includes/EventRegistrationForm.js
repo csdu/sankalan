@@ -38,6 +38,16 @@ const EventRegistrationForm = () => {
         alert('Please enter your mobile number');
         return;
       }
+
+      if (mobileNumber.length !== 10) {
+        alert('Please enter a valid mobile number');
+        return;
+      }
+
+      if (!/^\d+$/.test(mobileNumber)) {
+        alert('Please enter a valid mobile number');
+        return;
+      }
     }
 
     if (stage === 2) {
@@ -174,7 +184,7 @@ const EventRegistrationForm = () => {
         year,
         collegeName,
         university,
-        event,
+        event: events.find(e => e.slug == event)?.name,
         medium,
         referral,
         participantId: genHash(session?.user?.email),
@@ -234,7 +244,7 @@ const EventRegistrationForm = () => {
           <div class="mb-8">
             <label for="phone" class="block mb-2 text-white">Phone Number <span className="text-pink-300">*</span></label>
             <div className="flex gap-x-2 justify-center w-full items-center">
-            <input type="text" value={'+91'} class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-[3em] p-1.5" disabled /> <input type="text" id="phone" class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={mobileNumber} pattern="[0-9]+" minlength="10" maxlength="10"
+            <input type="tel" value={'+91'} class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-[3em] p-1.5" disabled /> <input type="tel" id="phone" class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={mobileNumber} pattern="[0-9]+" minlength="10" maxlength="10"
             onChange={(e) => setMobileNumber(e.target.value)} />
             </div>
           </div>
@@ -254,11 +264,11 @@ const EventRegistrationForm = () => {
             <label for="year" class="block mb-2 text-white">Year <span className="text-pink-300">*</span></label>
             <select id="year" class="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5 select" onChange={(e) => setYear(e.target.value)} required value={year}>
               <option value=""></option>
-              <option value="year-1">First Year</option>
-              <option value="year-2">Second Year</option>
-              <option value="year-3">Third Year</option>
-              <option value="year-4">Fourth Year</option>
-              <option value="year-5">Fifth Year</option>
+              <option value="1">First Year</option>
+              <option value="2">Second Year</option>
+              <option value="3">Third Year</option>
+              <option value="4">Fourth Year</option>
+              <option value="5">Fifth Year</option>
             </select>
           </div>
 
