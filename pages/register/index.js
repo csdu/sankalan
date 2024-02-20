@@ -5,12 +5,19 @@ import { Button } from "@material-tailwind/react";
 import data from "@/data";
 import Head from "next/head";
 import EventRegistrationForm from "@/includes/EventRegistrationForm";
+import { useRouter } from "next/router";
 
 export default function Component() {
   const {
     site, contact
   } = data;
+
   const { data: session } = useSession();
+  const router = useRouter();
+
+  if (router.query.event) {
+    localStorage.setItem('event', router.query.event);
+  }
 
   return (
     <PageLayout>

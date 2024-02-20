@@ -16,7 +16,7 @@ const EventRegistrationForm = () => {
   const [year, setYear] = useState(localStorage.getItem('year') || '');
   const [collegeName, setCollegeName] = useState(localStorage.getItem('collegeName') || '');
   const [university, setUniversity] = useState(localStorage.getItem('university') || '');
-  const [event, setEvent] = useState('');
+  const [event, setEvent] = useState(localStorage.getItem('event') || '');
   const [medium, setMedium] = useState(localStorage.getItem('medium') || '');
   const [referral, setReferral] = useState(localStorage.getItem('referral') || '');
   const [team, setTeam] = useState(localStorage.getItem('team') || '');
@@ -212,7 +212,8 @@ const EventRegistrationForm = () => {
     } else {
       setError(true);
     }
-  
+
+    localStorage.removeItem('event');
   };
 
   if (thanks) {

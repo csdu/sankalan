@@ -12,6 +12,7 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 import Image from 'next/image';
+import Link from 'next/link';
 
 const EventDetailPage = () => {
   const router = useRouter();
@@ -44,12 +45,18 @@ const EventDetailPage = () => {
                     <p key={index} className='text-white mb-4'>{paragraph}</p>
                   ))}
                 </div>
+
+                <div className='text-center mt-[-1.5em]'>
+                  <Link href={`/register?event=${event.slug}`} target='_blank' className='bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'>REGISTER NOW</Link>
+                </div>
+
                 <Image 
                   src={event.image} alt={event.name} 
                   width={1024} height={1024} className='lg:w-1/2 mx-auto h-auto'
                   blurDataURL={`/_next/image?url=${event.image}&w=16&q=75`}
                   placeholder='blur'
                 />
+
                 <div>
                   <Accordion open={open === 1}>
                     <AccordionHeader className='text-white hover:text-pink-300 font-[spacemono]' onClick={() => handleOpen(1)}>Rules</AccordionHeader>
