@@ -42,8 +42,8 @@ export default function Home() {
   }
   
   useEffect(() => {
-    const svg = document.getElementById("circles");
-    const groups = svg.getElementsByTagName("g");
+    // const svg = document.getElementById("circles");
+    // const groups = svg.getElementsByTagName("g");
     
     const x = setInterval(function() {
       const now = new Date().getTime();
@@ -65,7 +65,7 @@ export default function Home() {
 
   return (
     <main
-      className={`${inter.className}`}
+      className={`${inter.className} w-full`}
     >
       <Head>
         <title>{site.title}</title>
@@ -96,12 +96,12 @@ export default function Home() {
         <Link href={'/terms'}>Privacy Policy</Link>
       </div>
 
-      <div className="landing-content">
-        <div className="left-content">
-          <div className="countdown">
-            <div className="counter-section">
-              <div className="counter-wrap">
-                <div className="counter-container">
+      <div className="landing-content lg:w-3/4 mx-auto lg:gap-x-20">
+        <div className="left-content lg:w-1/4">
+          <div className="countdown mx-auto">
+            <div className="counter-section mx-auto">
+              <div className="counter-wrap mx-auto">
+                <div className="counter-container mx-auto">
                   <div className="counter-box">
                     <p className="counter-time days">{days}</p>
                     <p className="counter-tag">days</p>
@@ -124,30 +124,33 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="middle-content">
-          <div className="sankalan-wrap">
-            <div className="glitch">Sankalan<br/><span className='mt-0'>{site.year}</span></div>
+        <div className="middle-content lg:w-1/2">
+          <div className="sankalan-wrap mx-auto mt-[-1.66em] lg:mt-0">
+            <div className="glitch">Sankalan <span className='mt-[-9em]'>{site.year}</span></div>
           </div>
 
-          <motion.div className="rotating-animation" whileHover={{scale: 1.1}}>
+          {/* <motion.div className="rotating-animation" whileHover={{scale: 1.1}}>
             <RotatingCircles />
-          </motion.div>
+          </motion.div> */}
         </div>
 
-        <div className="right-content">
-          <div className='date'>coming soon</div>
-          <div className="coordinates"><a target="_blank" href={contact.googleLocation}>{ contact.coordinates }</a></div>
+        <div className="right-content lg:w-1/4 mx-10">
+          <div className='date'>
+            <p>{site.month} {site.day1} - {site.day2}</p>
+          </div>
+          <div className="coordinates"><Link target="_blank" href={contact.googleLocation}>{ contact.coordinates }</Link></div>
           <div className="options">
             <div>
               <a target="_blank">schedule</a>
             </div>
-            <div><a >meet the team</a></div>
+            <div><Link href={'/team'} >meet the team</Link></div>
             <div><Link href={'/faq'} className='hover:text-pink-300'>questions?</Link></div>
           </div>
-          <div className="button-last mt-8">
-            <Link href={'/register'} className="main-button"><span>register.now()</span></Link>
-          </div>
         </div>
+
+        {/* <div className="button-last mt-8">
+            <Link href={'/register'} className="inline-block main-button"><span>register.now()</span></Link>
+        </div> */}
 
       </div>
     </main>

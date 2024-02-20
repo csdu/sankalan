@@ -69,8 +69,8 @@ img #lines {
 .main-button {
   z-index: 4;
   font-family: monospace;
-  /* font-family: "iceland", "spaceMonoRegular"; */
-  /* text-transform: uppercase; */
+  font-family: "iceland", "spaceMonoRegular";
+  text-transform: uppercase;
   color: #f8f8f8;
   padding: .25em .5em;
   background-color: #57007e;
@@ -80,13 +80,13 @@ img #lines {
 }
 
 .main-button span {
-  /* font-weight: 400; */
-  font-size: .9rem;
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 
 .main-button:hover {
   bottom: -0.2rem;
-  box-shadow: 3px -3px 0 #c400c6;
+  /* box-shadow: 3px -3px 0 #c400c6; */
   color: #f8f8f8;
   cursor: pointer;
 }
@@ -94,12 +94,12 @@ img #lines {
 ::selection,
 ::-webkit-selection {
   color: #f8f8f8;
-  background:#c400c6;
+  background: theme('colors.purple.300');
 }
 
 ::-moz-selection {
   color: #f8f8f8;
-  background:#c400c6;
+  background: theme('colors.purple.300');
 }
 
 /* For mobile devices: */

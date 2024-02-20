@@ -16,10 +16,22 @@ const DotParticles = (props) => {
                     color: {
                     },
                 },
-                fpsLimit: 120,
+                fpsLimit: 60,
                 interactivity: {
                     events: {
                         resize: true,
+                        onHover: {
+                            enable: true,
+                            mode: "grab",
+                        },
+                    },
+                },
+                modes: {
+                    grab: {
+                        distance: 900,
+                        line_linked: {
+                            opacity: 1
+                        }
                     },
                 },
                 particles: {
@@ -28,8 +40,8 @@ const DotParticles = (props) => {
                     },
                     links: {
                         color: "#ffffff80",
-                        distance: 100,
-                        enable: true,
+                        distance: 500,
+                        enable: false,
                         opacity: 0.3,
                         width: 1,
                     },
@@ -48,17 +60,21 @@ const DotParticles = (props) => {
                             enable: true,
                             area: 800,
                         },
-                        value: 45,
+                        value: 80,
                     },
                     opacity: {
                         value: 0.5,
                     },
                     shape: {
-                        type: "square",
+                        type: "circle",
                     },
                     size: {
-                        value: { min: 1, max: 6 },
+                        value: { min: 1, max: 3 },
+                        random: true,
                     },
+                    poisson: {
+                        enable: true
+                    }, 
                 },
                 detectRetina: true,
             }}

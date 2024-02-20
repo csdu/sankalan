@@ -1,9 +1,16 @@
 /** @type {import('next').NextConfig} */
+
+import withPlaiceholder from "@plaiceholder/next";
+
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['docs.material-tailwind.com', 'localhost:3000', '*.ducs.in'],
+    remotePatterns: [{
+        protocol: 'https',
+        hostname: '*',
+        port: '',
+    }]
   },
 };
 
-export default nextConfig;
+export default withPlaiceholder(nextConfig);

@@ -22,10 +22,10 @@ export default function Component() {
   return (
     <PageLayout>
       <Head>
-        <title>Event Registration | {site.title}</title>
+        <title>Registration | {site.title}</title>
         <meta name="description" content={site.description} />
       </Head>
-      <h1 className="title-page">Event Registration</h1>
+      <h1 className="title-page">Registration</h1>
       <p className="text-white">
         {
           session ? (

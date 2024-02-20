@@ -27,7 +27,7 @@ const FAQ = () => {
         <meta name="description" content={site.description} />
       </Head>
       <h1 className='text-white text-2xl title-page'>FAQ</h1>
-      <div>
+      <div className="mx-auto">
         {
           faq && faq.map((faq, index) => {
             return (

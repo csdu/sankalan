@@ -47,7 +47,7 @@ const EventDetailPage = () => {
                 </div>
 
                 <div className='text-center mt-[-1.5em]'>
-                  <Link href={`/register?event=${event.slug}`} target='_blank' className='bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'>REGISTER NOW</Link>
+                  <Link href={`/register?event=${event.slug}`} target='_blank' className='bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'>REGISTER NOW FOR {event?.name.toUpperCase()}</Link>
                 </div>
 
                 <Image 

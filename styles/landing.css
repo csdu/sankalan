@@ -323,12 +323,10 @@ body {
 }
 
 .landing-content {
-  position: fixed;
   bottom: 0;
-  height: 100%;
-  width: 100vw;
+  height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   z-index: 6;
 }
@@ -356,8 +354,9 @@ body {
 
 .glitch {
   color: #f8f8f8;
-  font-size: 4.7rem;
+  font-size: 4rem;
   font-family: "octopost";
+  line-height: 1;
 }
 
 .glitch-nav {
@@ -384,7 +383,12 @@ body {
 
 .button-last {
   display: block;
-  /* margin-top: 2.25em; */
+  margin-top: 2.25em;
+}
+
+.nav-links > .main-button span {
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .title-page {
@@ -404,6 +408,9 @@ body {
   padding: 20px 40px;
   border-radius: 100px;
   flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .countdown .counter-section .counter-wrap .counter-box {
@@ -418,6 +425,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.counter-box {
+  margin-bottom: 1em !important;
 }
 
 .countdown .counter-section .counter-wrap .counter-box:last-of-type {
@@ -435,19 +446,19 @@ body {
 
 .countdown .counter-section .counter-wrap .counter-box .counter-tag {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 0.66rem;
   text-transform: uppercase;
   position: absolute;
   bottom: -12px;
   right: -12px;
-  width: 50px;
-  height: 50px;
-  background: #243b5580;
+  width: 45px;
+  height: 45px;
+  background: #243b5599;
   border-radius: 70px;
-  line-height: 3;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: spacemono;
 }
 
 .right-content {
@@ -472,9 +483,9 @@ body {
 }
 
 .date {
+  margin-top: -.8em;
   font-size: 2.5rem;
   font-weight: 500;
-  margin-bottom: 0.5rem;
 }
 
 .date-full {
@@ -486,17 +497,19 @@ body {
 }
 
 .coordinates {
-  margin-bottom: 2.5rem;
-  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-size: 1.33rem;
   padding: 7px;
   border: 1px solid rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
 }
 
 .options {
-  font-size: 1.15rem;
-  padding: 5px;
+  font-size: 1.33rem;
+  padding: 7px;
   border: 1px solid rgba(255, 255, 255, 0.9);
   line-height: 1.75rem;
+  text-transform: uppercase;
 }
 
 .options div a:hover,
@@ -508,7 +521,7 @@ body {
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   cursor: pointer;
-  color: #ca02ce;
+  color: theme('colors.pink.300');
 }
 
 /* .options div:nth-child(odd):hover {
@@ -702,14 +715,56 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) and (max-height: 650px) {
-  .countdown .counter-section .counter-wrap .counter-box {
-    margin-right: 8px;
+@media only screen and (max-width: 600px) {
+.countdown{
+  margin-top: -2em;
+}
+
+.counter-box {
+  margin-bottom: 0 !important;
+}
+
+.countdown .counter-section .counter-wrap .counter-container {
+    display: flex;
+    padding: 2em;
+    border-radius: 100px;
+}
+  
+.countdown .counter-section .counter-wrap .counter-box {
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    border: 1px solid #f8f8f8;
+    border-radius: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .countdown .counter-section .counter-wrap .counter-box:last-of-type {
+
+  .countdown .counter-section .counter-wrap .counter-box .counter-tag {
     margin: 0;
+    font-size: 0.5rem;
+    font-family: spacemono;
+    text-transform: uppercase;
+    /* position: absolute; */
+    bottom: -12px;
+    right: 11px;
+    width: 3em;
+    height: 3em;
+    background: #243b55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
+
+  .countdown .counter-section .counter-wrap .counter-box {
+    font-size: 3rem;
+    font-family: spacemono;
+  }
+
 }
 
 @media only screen and (max-width: 600px) and (max-height: 600px) {

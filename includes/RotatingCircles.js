@@ -11,7 +11,6 @@ const RotatingCircles = (props) => (
     }}
     {...props}
   >
-    <title>rotating</title>
     <motion.g id="group-4" animate={{ rotate: 360 }} transition={{ ease: "linear", duration: 25, repeat: Infinity }}>
       <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="3639.9026" y1="7598.9902" x2="3639.9026" y2="6767.6802" gradientTransform="matrix(-0.2 0.98 -0.98 -0.2 8121.2202 -1532.2899)">
         <stop  offset="0" style={{stopColor:"#AD76FF"}}/>
