@@ -467,11 +467,17 @@ body {
   padding: 2em;
   
   background-image: url(/images/callout-anime.png);
-  background-size: cover;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 } 
+
+.title-event-page {
+  font-family: monashark;
+  font-size: 2.5rem;
+  padding: .5em;
+  color: theme('colors.sankalan.yellow');
+}
 
 .left-content {
   color: #f8f8f8;

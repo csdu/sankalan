@@ -14,7 +14,7 @@ export default function ProfileCard(data) {
   const { name, position, github, linkedin, image } = data.data;
 
   return (
-    <Card className="transition-transform transform hover:scale-105 duration-300 ease-in-out cursor-pointer">
+    <Card className="transition-transform transform hover:scale-105 duration-300 ease-in-out cursor-pointer lg:basis-1/4 mx-auto">
       <CardHeader floated={true}>
          <Image
             src={image || '/images/people/placeholder.jpg'}

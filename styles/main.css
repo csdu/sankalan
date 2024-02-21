@@ -76,13 +76,13 @@ img #lines {
 
 ::selection,
 ::-webkit-selection {
-  color: #f8f8f8;
-  background: theme('colors.purple.300');
+  color: theme('colors.sankalan-dark.yellow');
+  background: theme('colors.sankalan.yellow');
 }
 
 ::-moz-selection {
-  color: #f8f8f8;
-  background: theme('colors.purple.300');
+  color: theme('colors.sankalan-dark.yellow');
+  background: theme('colors.sankalan.yellow');
 }
 
 /* For mobile devices: */

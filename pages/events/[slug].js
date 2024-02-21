@@ -37,10 +37,10 @@ const EventDetailPage = () => {
               <meta name="description" content={site.description} />
             </Head>
             <div className='container text-center mx-auto'>
-              <h1 className='text-black text-2xl title-page' dangerouslySetInnerHTML={{
+              <h1 className='text-black text-2xl inline-block title-event-page' dangerouslySetInnerHTML={{
                 __html: event.name
               }}></h1>
-              <p className='text-gray-400 mt-1'>{format(event.date + ' ' + event.time + 'Z+05:30', "LLLL Do, yyyy (EEEE) 'from' hh:mm b")}</p>
+              <p className='text-sankalan-accent-yellow mt-0'>{format(event.date + ' ' + event.time + 'Z+05:30', "LLLL Do, yyyy 'from' hh:mm b")}</p>
               <div className='container flex flex-col gap-4 gap-y-12 justify-between my-4 mx-auto text-start'>
                 <div className='col-span-2'>
                   {event.description_paragraphs.map((paragraph, index) => (
@@ -49,7 +49,7 @@ const EventDetailPage = () => {
                 </div>
 
                 <div className='text-center mt-[-1.5em]'>
-                  <Link href={`/register?event=${event.slug}`} target='_blank' className='bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'>REGISTER NOW FOR {event?.name.toUpperCase()}</Link>
+                  <Link href={`/register?event=${event.slug}`} target='_blank' className='shadow-xl uppercase rounded-lg text-sankalan-accent-green bg-white hover:text-white  hover:bg-sankalan-accent-green text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline transition-colors duration-300 ease-in-out'>REGISTER NOW FOR {event?.name.replace(/<\/?[^>]+(>|$)/g, "").toUpperCase()}</Link>
                 </div>
 
                 <Image 

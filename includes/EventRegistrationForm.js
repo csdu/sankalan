@@ -230,7 +230,7 @@ const EventRegistrationForm = () => {
         year,
         collegeName,
         university,
-        event: events.map(e => e.events).flat().find(e => e.slug == event)?.name,
+        event: events.map(e => e.events).flat().find(e => e.slug == event)?.name.replace(/<\/?[^>]+(>|$)/g, ""),
         medium,
         referral,
         participantId: genHash(session?.user?.email),
@@ -257,7 +257,7 @@ const EventRegistrationForm = () => {
         <h2 className="text-xl mb-4">Thank you for registering!</h2>
         <h3 className='text-2xl mb-1 text-sankalan-yellow'>Participant ID: {genHash(session?.user?.email)}</h3>
         <h3 className='text-2xl text-sankalan-yellow'>Registration ID: {genHash(session?.user?.email + '@' + event)}</h3>
-        <p className="mt-10"><Link onClick={() => router.reload()} href={'#'} className="text-white bg-pink-600 p-2 uppercase font-medium">Register for more events</Link></p>
+        <p className="mt-10"><Link onClick={() => router.reload()} href={'#'} className="shadow-xl rounded-lg text-sankalan-accent-yellow bg-white hover:text-white  hover:bg-sankalan-accent-yellow uppercase text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline transition-colors duration-300 ease-in-out">Register for more events</Link></p>
       </div>
     );
   }
@@ -349,7 +349,7 @@ const EventRegistrationForm = () => {
                   <optgroup key={index} label={eventType.category}>
                       {
                         eventType.events.map((event, index) => (
-                          <option key={index} value={event.slug}>{event.name}</option>
+                          <option key={index} value={event.slug}>{event.name.replace(/<\/?[^>]+(>|$)/g, "")}</option>
                         ))
                       }
                   </optgroup>

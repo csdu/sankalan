@@ -20,10 +20,10 @@ const Sponsors = () => {
         <meta name="description" content={site.description} />
       </Head>
       <h1 className='text-black text-2xl title-page'>Sponsors</h1>
-
+        <h2 className=' lg:text-2xl font-medium uppercase mb-8 title-event-page'>Past Sponsors</h2>
         {Object.entries(sponsors).map(([type, sponsorType], index) => (
           <div className='m-8' key={index}>
-            <h2 className='text-sankalan-yellow lg:text-2xl font-medium uppercase mb-8'>{sponsorType.title}</h2>
+            <h2 className='text-sankalan-green lg:text-2xl font-medium uppercase mb-8'>{sponsorType.title}</h2>
             <div className='flex flex-wrap gap-4 lg:gap-y-12 mt-2 mb-6 mx-auto'>
               {sponsorType.sponsors.map((sponsor, index) => (
                 <Tooltip key={index} placement='bottom' content={sponsor.name}>              
