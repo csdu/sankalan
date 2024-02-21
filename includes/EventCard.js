@@ -18,10 +18,9 @@ export default function EventCard({name, event, ...rest}) {
           floated={false}
           shadow={true}
           color="transparent"
-          className="absolute inset-0 m-0 h-full w-full rounded bg-white bg-cover bg-center"
+          className="absolute inset-0 m-0 h-full w-full rounded bg-cover bg-center"
         >
-          <div className="bg-black absolute inset-0 h-full w-full" />
-          <img src="/images/events/chakravyuh.jpg" alt="event" className="absolute inset-0 h-full w-full object-cover opacity-50" />
+          <img src="/images/event-bg.jpg" alt="event" className="absolute inset-0 h-full w-full object-cover" />
         </CardHeader>
         <CardBody className="relative py-14 px-6 md:px-12">
             <h2 className="glitch event-title" dangerouslySetInnerHTML={{
