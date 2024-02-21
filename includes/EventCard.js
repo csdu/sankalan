@@ -5,7 +5,9 @@ import {
   Typography,
   Avatar,
 } from "@material-tailwind/react";
+import Image from "next/image";
 import Link from "next/link";
+import defaultEventBackground from "@/public/images/event-bg.jpg";
  
 export default function EventCard({name, event, cardImage, ...rest}) {
   return (
@@ -20,7 +22,9 @@ export default function EventCard({name, event, cardImage, ...rest}) {
           color="transparent"
           className="absolute inset-0 m-0 h-full w-full rounded bg-cover bg-center"
         >
-          <img src={cardImage ||"/images/event-bg.jpg"} alt="event" className="absolute inset-0 h-full w-full object-cover" />
+          <Image src={defaultEventBackground} alt="event" className="absolute inset-0 h-full w-full object-cover" 
+            placeholder="blur"
+          />
         </CardHeader>
         <CardBody className="relative py-14 px-6 md:px-12">
             <h2 className="glitch event-title" dangerouslySetInnerHTML={{
