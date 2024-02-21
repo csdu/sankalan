@@ -76,7 +76,7 @@ export default function NavbarDefault() {
            font-bold
           "
         >
-          {site.title}
+        <img src="images/sankalan2024-navbar-logo.png" alt="Sankalan 2024 Logo" className="h-16 w-auto" />
         </Link>
 
         <div className="hidden nav-links lg:block">
