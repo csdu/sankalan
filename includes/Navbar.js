@@ -8,13 +8,13 @@ import {
   Button,
   IconButton,
 } from "@material-tailwind/react";
-import { Inter } from 'next/font/google'
 import { useRouter } from "next/router";
-import { BellIcon, InboxIcon } from "@heroicons/react/24/solid";
+import { InboxIcon } from "@heroicons/react/24/solid";
+import logo from "@/public/images/sankalan2024-navbar-logo.png";
 
 import data from "@/data";
+import Image from "next/image";
 
-const inter = Inter({ subsets: ['latin'] })
  
 export default function NavbarDefault() {
   const router = useRouter();
@@ -72,11 +72,15 @@ export default function NavbarDefault() {
       <div className="container mx-auto w-100 flex items-center justify-between text-white">
         <Link
           href="/"
-          className="drop-shadow-lg mr-4 cursor-pointer py-1.5 text-[1.25em] transform transition-transform hover:scale-110 transition-colors duration-300 ease-in-out tracking-wide 
-           font-bold
-          "
+          className="drop-shadow-lg mr-4 cursor-pointer py-1.5 text-[1.25em] transform transition-transform hover:scale-110 transition-colors duration-300 ease-in-out font-bold tracking-wide"
         >
-        <img src="/images/sankalan2024-navbar-logo.png" alt="Sankalan 2024 Logo" className="h-16 w-auto" />
+        <Image 
+          src={logo}
+          alt="Sankalan 2024 Logo" 
+          height={20}
+          width={150}
+          placeholder="blur"
+          />
         </Link>
 
         <div className="hidden nav-links lg:block">
