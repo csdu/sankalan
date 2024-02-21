@@ -38,17 +38,19 @@ export default function Home() {
       <DotParticles particlesInit={true} particlesLoaded={particlesLoaded} />
 
       <div className="corner-nav-item top-left red">
-        <Link href={'/about'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-red transition duration-300 ease-in-out'>about</Link>
+        <Link href={'/about'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-red transition hover:scale-110 duration-300 ease-in-out'>about</Link>
       </div>
       <div className="corner-nav-item top-right blue">
-        <Link href={'/events'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-blue transition duration-300 ease-in-out'>events</Link>
+        <Link href={'/events'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-blue transition hover:scale-110 duration-300 ease-in-out'>events</Link>
       </div>
       <div className="corner-nav-item bottom-left orange">
-        <Link href={'/sponsors'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-accent-yellow transition duration-300 ease-in-out'>sponsors</Link>
+        <Link href={'/sponsors'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-accent-yellow transition hover:scale-110 duration-300 ease-in-out'>sponsors</Link>
       </div>
       <div className="corner-nav-item bottom-right">
-        <Link href={'/terms'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-green transition duration-300 ease-in-out' >Privacy Policy</Link>
+        <Link href={'/faq'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-green transition hover:scale-110 duration-300 ease-in-out'>questions?</Link>
       </div>
+
+      <Link href={'/terms'} className='hidden'>team</Link>
 
       <div className="landing-content lg:w-3/4 mx-auto lg:gap-x-20">
         {/* <div className="left-content lg:w-1/4">
@@ -63,7 +65,7 @@ export default function Home() {
                 width={500}
                 height={500}
                 priority={true}
-                className='w-2/3 lg:w-auto mx-auto'
+                className='w-2/3 lg:w-auto mx-auto cursor-pointer transform hover:scale-105 transition-transform duration-300 ease-in-out'
               />
               <Link href={'/register'} className="inline-block bg-gradient-to-r from-sankalan-dark-yellow to-sankalan-accent-red
                p-2 p-y-0 text-black hover:bg-sankalan-accent-yellow text-white uppercase mt-6

@@ -80,7 +80,7 @@ const DotParticles = (props) => {
                             type: "circle",
                         },
                         size: {
-                            value: { min: 1, max: 3 },
+                            value: { min: 3, max: 8 },
                             random: true,
                         },
                     },
