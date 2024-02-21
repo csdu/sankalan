@@ -79,7 +79,6 @@ export default function NavbarDefault() {
           alt="Sankalan 2024 Logo" 
           height={20}
           width={150}
-          placeholder="blur"
           />
         </Link>
 
