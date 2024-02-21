@@ -16,6 +16,10 @@ const FAQ = () => {
     faq
   } = data;
 
+  const [open, setOpen] = React.useState(1);
+ 
+  const handleOpen = (value) => setOpen(open === value ? 0 : value);
+
   return (
     <PageLayout>
       <Head>
@@ -27,8 +31,8 @@ const FAQ = () => {
         {
           faq && faq.map((faq, index) => {
             return (
-              <Accordion key={index} open={true}>
-                <AccordionHeader className='text-white hover:text-pink-300 font-[spacemono]'>
+              <Accordion key={index} open={open === index + 1}>
+                <AccordionHeader className='text-white hover:text-pink-300 font-[spacemono]' onClick={() => handleOpen(index + 1)}>
                   <h2>{faq.question}</h2>
                 </AccordionHeader>
                 <AccordionBody className='text-white text-justify font-[monospace] faq'>
