@@ -7,7 +7,7 @@ import {
 } from "@material-tailwind/react";
 import Link from "next/link";
  
-export default function EventCard({name, event, ...rest}) {
+export default function EventCard({name, event, cardImage, ...rest}) {
   return (
     <Link href={'/events/' + event} className="lg:basis-1/2 w-full" >
       <Card
@@ -20,7 +20,7 @@ export default function EventCard({name, event, ...rest}) {
           color="transparent"
           className="absolute inset-0 m-0 h-full w-full rounded bg-cover bg-center"
         >
-          <img src="/images/event-bg.jpg" alt="event" className="absolute inset-0 h-full w-full object-cover" />
+          <img src={cardImage ||"/images/event-bg.jpg"} alt="event" className="absolute inset-0 h-full w-full object-cover" />
         </CardHeader>
         <CardBody className="relative py-14 px-6 md:px-12">
             <h2 className="glitch event-title" dangerouslySetInnerHTML={{
