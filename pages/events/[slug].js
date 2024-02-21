@@ -40,7 +40,7 @@ const EventDetailPage = () => {
               <h1 className='text-black text-2xl inline-block title-event-page' dangerouslySetInnerHTML={{
                 __html: event.name
               }}></h1>
-              <p className='text-sankalan-accent-yellow mt-0'>{format(event.date + ' ' + event.time + 'Z+05:30', "LLLL Do, yyyy 'from' hh:mm b")}</p>
+              <p className='text-sankalan-accent-yellow mt-0'>{format(event.date + ' ' + event.time + 'Z+05:30', "LLLL do, yyyy 'from' hh:mm b")}</p>
               <div className='container flex flex-col gap-4 gap-y-12 justify-between my-4 mx-auto text-start'>
                 <div className='col-span-2'>
                   {event.description_paragraphs.map((paragraph, index) => (
