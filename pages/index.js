@@ -38,22 +38,22 @@ export default function Home() {
       <DotParticles particlesInit={true} particlesLoaded={particlesLoaded} />
 
       <div className="corner-nav-item top-left red">
-        <Link href={'/about'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-red'>about</Link>
+        <Link href={'/about'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-red transition duration-300 ease-in-out'>about</Link>
       </div>
       <div className="corner-nav-item top-right blue">
-        <Link href={'/events'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-blue'>events</Link>
+        <Link href={'/events'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-blue transition duration-300 ease-in-out'>events</Link>
       </div>
       <div className="corner-nav-item bottom-left orange">
-        <Link href={'/sponsors'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-accent-yellow'>sponsors</Link>
+        <Link href={'/sponsors'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-accent-yellow transition duration-300 ease-in-out'>sponsors</Link>
       </div>
       <div className="corner-nav-item bottom-right">
-        <Link href={'/terms'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-green' >Privacy Policy</Link>
+        <Link href={'/terms'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-green transition duration-300 ease-in-out' >Privacy Policy</Link>
       </div>
 
       <div className="landing-content lg:w-3/4 mx-auto lg:gap-x-20">
-        <div className="left-content lg:w-1/4">
+        {/* <div className="left-content lg:w-1/4">
           <Countdown />
-        </div>
+        </div> */}
 
         <div className="middle-content lg:w-1/2">
           <div className="mx-auto">
@@ -65,9 +65,10 @@ export default function Home() {
                 priority={true}
                 className='w-2/3 lg:w-auto mx-auto'
               />
-              <Link href={'/register'} className="inline-block lg:hidden bg-gradient-to-r from-sankalan-dark-yellow to-sankalan-accent-red
+              <Link href={'/register'} className="inline-block bg-gradient-to-r from-sankalan-dark-yellow to-sankalan-accent-red
                p-2 p-y-0 text-black hover:bg-sankalan-accent-yellow text-white uppercase mt-6
               hover:scale-110 transition-transform transition-colors duration-300 ease-in-out border-4 border-white font-[spacemono] text-xl font-bold
+              lg:text-3xl lg:p-4
               ">
                 <span 
                   style={
@@ -81,7 +82,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="right-content lg:w-1/4 mx-10">
+        {/* <div className="right-content lg:w-1/4 mx-10">
           <div className='date'>
             <p>{site.month} {site.day1} - {site.day2}</p>
           </div>
@@ -107,7 +108,7 @@ export default function Home() {
                   }
                 >register now</span>
           </Link>
-        </div>
+        </div> */}
 
       </div>
     </main>
