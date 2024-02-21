@@ -1,6 +1,6 @@
 [
   {
-    "title": "Past Sponsers",
+    "title": "Past Sponsors",
     "sponsors": [
       {
         "name": "Zebronics",
@@ -72,7 +72,7 @@
       },
       {
         "name": "Coding Blocks",
-        "image": "aa.png"
+        "image": "coding-blocks-dark.png"
       },
       {
         "name": "Coca Cola",
@@ -80,7 +80,7 @@
       },
       {
         "name": "Cafe Coffee Day",
-        "image": "cafe-coffee-day.svg"
+        "image": "ccd.jpg"
       },
       {
         "name": "ACME",

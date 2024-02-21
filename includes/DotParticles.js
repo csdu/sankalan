@@ -59,7 +59,7 @@ const DotParticles = (props) => {
                         move: {
                             enable: true,
                             outModes: {
-                                default: "bounce",
+                                default: "out",
                             },
                             random: false,
                             speed: 1,
@@ -83,6 +83,11 @@ const DotParticles = (props) => {
                             value: { min: 3, max: 8 },
                             random: true,
                         },
+                        poisson: {
+                            enable: true,
+                            straight: false,
+                            value: 10,
+                        }
                     },
                     detectRetina: true,
                 }}

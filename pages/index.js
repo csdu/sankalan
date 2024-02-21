@@ -40,12 +40,23 @@ export default function Home() {
       <div className="corner-nav-item top-left red">
         <Link href={'/about'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-red transition hover:scale-110 duration-300 ease-in-out'>about</Link>
       </div>
+
+      <div className="corner-nav-item top-center red">
+        <Link href={'/sponsors'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-black transition hover:scale-110 duration-300 ease-in-out'>sponsors</Link>
+      </div>
+
       <div className="corner-nav-item top-right blue">
         <Link href={'/events'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-blue transition hover:scale-110 duration-300 ease-in-out'>events</Link>
       </div>
+      
       <div className="corner-nav-item bottom-left orange">
-        <Link href={'/sponsors'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-accent-yellow transition hover:scale-110 duration-300 ease-in-out'>sponsors</Link>
+        <Link href={'/team'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-accent-yellow transition hover:scale-110 duration-300 ease-in-out'>team@ducs</Link>
       </div>
+
+      <div className="corner-nav-item bottom-center red">
+        <Link onClick={() => alert('To be Announced')} href={'#'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-black transition hover:scale-110 duration-300 ease-in-out'>schedule</Link>
+      </div>
+
       <div className="corner-nav-item bottom-right">
         <Link href={'/faq'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-green transition hover:scale-110 duration-300 ease-in-out'>questions?</Link>
       </div>
@@ -53,8 +64,11 @@ export default function Home() {
       <Link href={'/terms'} className='hidden'>team</Link>
 
       <div className="landing-content lg:w-3/4 mx-auto lg:gap-x-20">
-        {/* <div className="left-content lg:w-1/4">
-          <Countdown />
+        {/* <div className="lg:absolute z-10">
+          <div className='date'>
+           
+          </div>
+          <div className="coordinates"><Link target="_blank" href={contact.googleLocation}>{ contact.coordinates }</Link></div>
         </div> */}
 
         <div className="middle-content lg:w-1/2">
@@ -67,10 +81,10 @@ export default function Home() {
                 priority={true}
                 className='w-2/3 lg:w-auto mx-auto cursor-pointer transform hover:scale-105 transition-transform duration-300 ease-in-out'
               />
-              <Link href={'/register'} className="inline-block bg-gradient-to-r from-sankalan-dark-yellow to-sankalan-accent-red
-               p-2 p-y-0 text-black hover:bg-sankalan-accent-yellow text-white uppercase mt-6
+              <a className="inline-block bg-gradient-to-r from-sankalan-dark-yellow to-sankalan-accent-red
+               p-2 p-y-0 text-black hover:bg-sankalan-accent-yellow text-white mt-6
               hover:scale-110 transition-transform transition-colors duration-300 ease-in-out border-4 border-white font-[spacemono] text-xl font-bold
-              lg:text-3xl lg:p-4
+              lg:text-2xl lg:p-3 tracking-narrower
               ">
                 <span 
                   style={
@@ -79,8 +93,12 @@ export default function Home() {
                       position: 'relative'
                     }
                   }
-                >register now</span>
-              </Link>
+                  className=''
+                >
+                  {site.day1}-{site.day2} {site.month} {site.year}<br />
+                  <Countdown />
+                </span>
+              </a>
           </div>
         </div>
 

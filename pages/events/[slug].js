@@ -40,6 +40,8 @@ const EventDetailPage = ({ _eventSlug }) => {
               <h1 className='text-black text-2xl inline-block title-event-page' dangerouslySetInnerHTML={{
                 __html: event.name
               }}></h1>
+               <p className='text-sankalan-accent-yellow mt-[-.5em] text-lg'>{event.description}</p>
+              <div className='container flex flex-col gap-4 gap-y-12 justify-between my-4 mx-auto text-start'></div>
               <div className='container flex flex-col gap-4 gap-y-12 justify-between my-4 mx-auto text-start'>
                 <div className='col-span-2'>
                   {event.description_paragraphs.map((paragraph, index) => (
@@ -47,17 +49,17 @@ const EventDetailPage = ({ _eventSlug }) => {
                   ))}
                 </div>
 
-                <div className='text-center mt-[-1.5em] hover:scale-110 transition'>
+                <div className='text-center mt-[-.5em] hover:scale-110 transition'>
                   <Link href={`/register?event=${event.slug}`} target='_blank' className='shadow-xl uppercase border-white border-4 transition hover:scale-110 text-white from-sankalan-accent-green to-sankalan-accent-blue bg-gradient-to-r text-xl
                   hover:bg-white font-bold p-2 lg:px-4 focus:outline-none focus:shadow-outline duration-300 ease-in-out'>REGISTER NOW <span className='hidden lg:inline-block'> FOR {event?.name.replace(/<\/?[^>]+(>|$)/g, "").toUpperCase()}</span></Link>
                 </div>
-
-                <Image 
+                
+                {event.image !== 'TBA' && (<Image 
                   src={event.image} alt={event.name} 
                   width={1024} height={1024} className='lg:w-1/2 mx-auto h-auto'
                   blurDataURL={`/_next/image?url=${event.image}&w=16&q=75`}
                   placeholder='blur'
-                />
+                />)}
 
                 <div>
                   <Accordion open={open === 1}>
@@ -87,8 +89,8 @@ const EventDetailPage = ({ _eventSlug }) => {
                         event.organizers.map((organizer, index) => (
                           <div key={index} className='mb-4'>
                             <p className='text-white mb-1'><span className='font-medium'>{organizer.name}</span></p>
-                            {organizer.email && <p className='text-white mb-1'><a href={'mailto:' + organizer.email}>{organizer.email}</a></p>}
-                            {organizer.phone && <p className='text-white mb-1'><a href={'https://wa.me/91' + organizer.phone}>+91-{organizer.phone}</a></p>}
+                            {organizer.email && organizer.email !== 'TBA' && <p className='text-white mb-1'><a href={'mailto:' + organizer.email}>{organizer.email}</a></p>}
+                            {organizer.phone && organizer.phone !== 'TBA' && <p className='text-white mb-1'><a href={'https://wa.me/91' + organizer.phone}>+91-{organizer.phone}</a></p>}
                           </div>
                         ))
                       }

@@ -42,7 +42,10 @@ const Countdown = () => {
 
   return (
     <>
-      <div className="countdown mx-auto">
+      <span>
+        {`${days}`.padStart(2, '0')}d {`${hrs}`.padStart(2, '0')}h {`${mins}`.padStart(2, '0')}m {`${secs}`.padStart(2, '0')}s
+      </span>
+      {/* <div className="countdown mx-auto">
             <div className="counter-section mx-auto">
               <div className="counter-wrap mx-auto">
                 <div className="counter-container mx-auto">
@@ -65,7 +68,7 @@ const Countdown = () => {
                 </div>
               </div>
             </div>
-        </div>
+        </div> */}
     </>
   )
 }

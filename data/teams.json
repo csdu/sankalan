@@ -1,131 +1,277 @@
 [
   {
-    "name": "Gagan Kumar Soni",
-    "position": "President",
-    "image": "/images/people/Panel/Gagan Kumar Soni/IMG_20230525_152407019.jpg",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
+    "category": "DUCSS Panel",
+    "members": [
+        {
+        "name": "Gagan Kumar Soni",
+        "position": "President",
+        "image": "/images/people/Panel/Gagan Kumar Soni/IMG_20230525_152407019.jpg",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Adamya Shyam",
+        "position": "Vice-President (PhD)",
+        "image": "/images/people/Panel/Adamya Shyam/Adamya_2.jpg",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Satyandra Pal",
+        "position": "Vice-President",
+        "image": "/images/people/Panel/Satyandra Pal/IMG-20231022-WA0015.jpg",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Sudipto Ghosh",
+        "position": "Treasurer",
+        "image": "/images/people/Panel/Sudipto Ghosh/DSC_0709.JPG",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Daya Shankar",
+        "position": "Secretary",
+        "image": "/images/people/Panel/Daya Shankar/daya_img_cropped.JPG",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Akshita Gupta",
+        "position": "Joint Secretary",
+        "image": "/images/people/Panel/Akshita Gupta/akshita-cropped.png",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Muskan Saini",
+        "position": "Joint Treasuerer",
+        "image": "/images/people/Panel/Muskan/IMG-20231016-WA0025.jpg",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Rahul Semwal",
+        "position": "Junior Joint Secretary",
+        "image": "/images/people/Panel/Rahul Semwal/IMG-20231013-WA0031.jpg",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Paras Kumar",
+        "position": "Junior Joint Secretary",
+        "image": "/images/people/Panel/Paras Kumar/t.jpg",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      }
+    ]
   },
   {
-    "name": "Adamya Shyam",
-    "position": "Vice-President (PhD)",
-    "image": "/images/people/Panel/Adamya Shyam/Adamya_2.jpg",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
+    "category": "Management Heads",
+    "members": [
+      {
+        "name": "Ajay",
+        "position": "Management Head",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Karamjot",
+        "position": "Creative Writing",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Sakshi",
+        "position": "Creative Writing",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Sameer",
+        "position": "Designing",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Sakhil",
+        "position": "Designing",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Tanuja Bisht",
+        "image": "/images/people/2024/pic - Tanuja Bisht.png",
+        "position": "Decoration",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Yadvendra",
+        "position": "Decoration",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Durga",
+        "position": "Promotion",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Dushyant",
+        "position": "Promotion",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Arpit",
+        "position": "Sponsorship",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Dhananjay",
+        "position": "Sponsorship",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      }
+    ]
   },
   {
-    "name": "Satyandra Pal",
-    "position": "Vice-President",
-    "image": "/images/people/Panel/Satyandra Pal/IMG-20231022-WA0015.jpg",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
+    "category": "Technical Event Heads",
+    "members": [
+      {
+        "name": "Sakshi",
+        "position": "Algoholics",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Bhavyaa Garg",
+        "position": "Code Auction",
+        "image": "/images/people/2024/IMG_20230814_134525~2 - Bhavyaa Garg.jpg",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Karamjot Kaur",
+        "position": "Code Auction",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Sudipto Ghosh",
+        "image": "/images/people/Panel/Sudipto Ghosh/DSC_0709.JPG",
+        "position": "HackDUCS",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Gagan Kumar Soni",
+        "image": "/images/people/Panel/Gagan Kumar Soni/IMG_20230525_152407019.jpg",
+        "position": "HackDUCS",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      }
+    ]
   },
   {
-    "name": "Sudipto Ghosh",
-    "position": "Treasurer",
-    "image": "/images/people/Panel/Sudipto Ghosh/DSC_0709.JPG",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
+    "category": "Non<span class=\"hyphen\">-</span>Technical Event Heads",
+    "members": [
+      {
+        "name": "Hardik Chawda",
+        "position": "Click-Akrity",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Adamya Shyam",
+        "image": "/images/people/Panel/Adamya Shyam/Adamya_2.jpg",
+        "position": "Click-Akrity",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Jaswinder Singh",
+        "position": "Apex Crusade",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Adarsh Shukla",
+        "position": "Apex Crusade",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Deepanshu",
+        "position": "Desktop Dominion",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Praveen",
+        "image":"/images/people/2024/IMG_20240213_140525881_HDR - Praveen Kumar.jpg",
+        "position": "Desktop Dominion",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Sameer",
+        "position": "Artisan Valley",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Akansha Yadav",
+        "position": "Groove Express",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Bhushan",
+        "position": "Dastur-e-Mehfil",
+        "image": "/images/people/2024/IMG_20240130_115045 - Bhushan.jpg",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Durga",
+        "position": "Treasure Hunt",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Ajay",
+        "position": "Treasure Hunt",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Pawan",
+        "position": "Treasure Hunt",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      },
+      {
+        "name": "Surbhi",
+        "position": "Artisan Valley<br/>Groove Express",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      }
+    ]
   },
   {
-    "name": "Daya Shankar",
-    "position": "Secretary",
-    "image": "/images/people/Panel/Daya Shankar/daya_img_cropped.JPG",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Akshita Gupta",
-    "position": "Joint Secretary",
-    "image": "/images/people/Panel/Akshita Gupta/akshita-cropped.png",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Muskan Saini",
-    "position": "Joint Treasuerer",
-    "image": "/images/people/Panel/Muskan/IMG-20231016-WA0025.jpg",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Rahul Semwal",
-    "position": "Junior Joint Secretary",
-    "image": "/images/people/Panel/Rahul Semwal/IMG-20231013-WA0031.jpg",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Paras Kumar",
-    "position": "Junior Joint Secretary",
-    "image": "/images/people/Panel/Paras Kumar/t.jpg",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Ajay",
-    "position": "Management Head",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Karamjot",
-    "position": "Creative Writing",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Sakshi",
-    "position": "Creative Writing",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Sameer",
-    "position": "Designer",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Sakhil",
-    "position": "Designer",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Tanuja Bisht",
-    "position": "Decoration",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Yadvendra",
-    "position": "Decoration",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Durga",
-    "position": "Promotion",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Dushyant",
-    "position": "Promotion",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Arpit",
-    "position": "Sponsorship",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
-  },
-  {
-    "name": "Dhananjay",
-    "position": "Sponsorship",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com"
+    "category": "Development Team",
+    "members": [
+      {
+        "name": "Prakhar Verma",
+        "position": "Volunteer",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      }
+    ]
   }
 ]

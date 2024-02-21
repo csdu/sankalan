@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Contacy Us | {site.title}</title>
+        <title>Contact Us | {site.title}</title>
         <meta name="description" content={site.description} />
       </Head>
       <h1 className='text-black text-2xl title-page'>Contact Us</h1>

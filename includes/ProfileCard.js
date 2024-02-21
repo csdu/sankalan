@@ -30,8 +30,9 @@ export default function ProfileCard(data) {
           {name}
         </Typography>
         {position ? (
-          <Typography color="gray" className="font-[comicbook] font-xs" textGradient variant="small">
-            {position}
+          <Typography color="gray" className="font-[comicbook] font-xs" textGradient variant="small" dangerouslySetInnerHTML={
+            { __html: position }
+          }>
           </Typography>
         ) : null}
         <div className="mt-4 flex justify-center items-center gap-5 text-black">

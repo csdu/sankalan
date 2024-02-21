@@ -257,7 +257,7 @@ const EventRegistrationForm = () => {
         <h2 className="text-xl mb-4">Thank you for registering!</h2>
         <h3 className='text-2xl mb-1 text-sankalan-yellow'>Participant ID: {genHash(session?.user?.email)}</h3>
         <h3 className='text-2xl text-sankalan-yellow'>Registration ID: {genHash(session?.user?.email + '@' + event)}</h3>
-        <p className="mt-10"><Link onClick={() => router.reload()} href={'#'} className="shadow-xl rounded-lg text-sankalan-accent-yellow bg-white hover:text-white  hover:bg-sankalan-accent-yellow uppercase text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline transition-colors duration-300 ease-in-out">Register for more events</Link></p>
+        <p className="mt-10"><Link onClick={() => router.reload()} href={'#'} className="shadow-xl border-4 border-white text-sankalan-accent-yellow hover:text-white uppercase text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline transition-colors duration-300 ease-in-out">Register for more events</Link></p>
       </div>
     );
   }

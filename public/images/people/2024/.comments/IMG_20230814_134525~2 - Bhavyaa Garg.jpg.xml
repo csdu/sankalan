@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption/>
+  <note>filter: 0; fileterIntensity: 0.0; filterMask: 0; captureOrientation: 90;
+algolist: 0;
+multi-frame: 1;
+brp_mask:0;
+brp_del_th:null;
+brp_del_sen:null;
+module: portrait; 
+hw-remosaic: false; 
+touch: (0.5310185, 0.45595837); 
+sceneMode: 8; 
+cct_value: 5187; 
+AI_Scene: (-1, -1); 
+aec_lux: 124.0; 
+aec_lux_index: 0; 
+albedo:  ; 
+confidence:  ; 
+motionLevel: 0; 
+weatherinfo: weather?null, icon:null, weatherInfo:100; 
+temperature: 44; 
+</note>
+  <place/>
+  <categories/>
+</comment>

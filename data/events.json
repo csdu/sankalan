@@ -5,22 +5,17 @@
       {
         "name": "Keynote",
         "slug": "keynote",
-        "description": "Group Competition",
-        "date": "2018-01-01",
+        "description": "Keynote Speeches",
+        "date": "2024-03-16",
         "time": "12:00",
-        "location": "New York",
+        "location": "Satyakam Bhavan",
         "description_paragraphs": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/algoholics.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
-          {
-            "name": "TBA",
-            "email": "TBA",
-            "phone": "TBA"
-          },
           {
             "name": "TBA",
             "email": "TBA",
@@ -31,7 +26,7 @@
       {
         "name": "Speaker Session",
         "slug": "speaker-session",
-        "description": "Group Competition",
+        "description": "Session by (TBA)",
         "date": "2024-03-17",
         "time": "13:30",
         "location": "Satyakam Bhavan",
@@ -39,14 +34,9 @@
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/algoholics.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
-          {
-            "name": "TBA",
-            "email": "TBA",
-            "phone": "TBA"
-          },
           {
             "name": "TBA",
             "email": "TBA",
@@ -70,14 +60,9 @@
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/algoholics.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
-          {
-            "name": "TBA",
-            "email": "TBA",
-            "phone": "TBA"
-          },
           {
             "name": "TBA",
             "email": "TBA",
@@ -93,7 +78,7 @@
       {
         "name": "HackDUCS",
         "slug": "hack-ducs",
-        "description": "Group Competition",
+        "description": "Hybrid Hackathon",
         "date": "2024-03-16",
         "time": "10:00",
         "location": "Satyakam Bhavan",
@@ -101,17 +86,17 @@
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/algoholics.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
           {
-            "name": "Sudipto",
-            "email": "TBA",
+            "name": "Sudipto Ghosh",
+            "email": "sudipto.mcs22@cs.du.ac.in",
             "phone": "TBA"
           },
           {
-            "name": "Gagan",
-            "email": "TBA",
+            "name": "Gagan Kumar Soni",
+            "email": "gagan.mcs22@cs.du.ac.in",
             "phone": "TBA"
           }
         ],
@@ -122,13 +107,15 @@
         "slug": "algoholics",
         "description": "Solo Competition",
         "date": "2024-03-16",
+        "date2": "2024-03-17",
         "time": "11:00",
-        "location": "Online",
+        "time2": "11:00",
+        "location": "Online (Prelims), Lab 2 (Mains)",
         "description_paragraphs": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/algoholics.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
           {
@@ -149,14 +136,9 @@
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/algoholics.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
-          {
-            "name": "TBA",
-            "email": "TBA",
-            "phone": "TBA"
-          },
           {
             "name": "TBA",
             "email": "TBA",
@@ -170,16 +152,16 @@
         "description": "Solo Competition",
         "date": "2024-03-16",
         "time": "15:30",
-        "location": "Seminar/ IOE Lab",
+        "location": "Seminar/IoE Lab",
         "description_paragraphs": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/algoholics.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
           {
-            "name": "Bhavya",
+            "name": "Bhavyaa",
             "email": "TBA",
             "phone": "TBA"
           },
@@ -201,14 +183,9 @@
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/algoholics.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
-          {
-            "name": "TBA",
-            "email": "TBA",
-            "phone": "TBA"
-          },
           {
             "name": "TBA",
             "email": "TBA",
@@ -227,14 +204,9 @@
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/algoholics.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
-          {
-            "name": "TBA",
-            "email": "TBA",
-            "phone": "TBA"
-          },
           {
             "name": "TBA",
             "email": "TBA",
@@ -245,12 +217,12 @@
     ]
   },
   {
-    "category": "Non-Technical Events",
+    "category": "Non<span class=\"hyphen\">-</span>Technical Events",
     "events": [
       {
-        "name": "Groove Express",
-        "slug": "groove-express",
-        "description": "Group Competition",
+        "name": "Jhankar",
+        "slug": "jhankar",
+        "description": "Group Dance Competition",
         "date": "2024-03-16",
         "time": "17:30",
         "location": "Outer Parking",
@@ -258,7 +230,7 @@
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/algoholics.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
           {
@@ -277,7 +249,7 @@
       {
         "name": "Dastur<span class=\"hyphen\">-</span>e<span class=\"hyphen\">-</span>Mehfil",
         "slug": "dastur-e-mehfil",
-        "description": "Solo Competition",
+        "description": "Poetry Competition",
         "date": "2024-03-17",
         "time": "15:30",
         "location": "Outer Parking",
@@ -285,11 +257,11 @@
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/sql.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
           {
-            "name": "Bushan",
+            "name": "Bhushan",
             "email": "TBA"
           }
         ]
@@ -305,7 +277,7 @@
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/sql.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
           {
@@ -325,7 +297,7 @@
       {
         "name": "Artisan Valley",
         "slug": "artisan-valley",
-        "description": "Solo Competition",
+        "description": "Digital Art Competition",
         "date": "2024-03-17",
         "time": "11:00",
         "location": "Room 114",
@@ -333,7 +305,7 @@
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/sql.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
           {
@@ -349,15 +321,16 @@
       {
         "name": "Click<span class=\"hyphen\">-</span>Akrity",
         "slug": "click-akrity",
-        "description": "Solo Competition",
+        "description": "Photography Competition",
         "date": "2024-03-16",
         "time": "15:30",
         "location": "New York",
         "description_paragraphs": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
-          "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
+          "The ultimate photography event where you're not just a viewer but also a storyteller! Armed with your camera, embark on a mission to craft immersive visual tales that showcase the spirit of our gathering.",
+          "Every participant can submit three photos that best captures the theme - Diversity in Community.",
+          "It's a thrilling mix of creativity, skill, and storytelling through the lens. Don't miss the chance to seize the moment and be part of this spectacular visual showcase."
         ],
-        "image": "/images/events/sql.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
           {
@@ -381,7 +354,7 @@
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/sql.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
           {
@@ -405,7 +378,7 @@
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.",
           "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."
         ],
-        "image": "/images/events/sql.jpg",
+        "image": "TBA",
         "rules": ["TBA"],
         "organizers": [
           {

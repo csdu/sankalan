@@ -20,11 +20,22 @@ export default function Events() {
         <meta name="description" content={site.description} />
       </Head>
       <h1 className='text-black text-2xl mb-8 title-page'>Team</h1>
-      <div className='container flex flex-wrap lg:gap-x-12 gap-y-12 lg:justify-center items-center my-16 mx-auto'>
-        {teams.map((item, index) => (
-          <ProfileCard key={index} data={item} />
-        ))}
-      </div>
+
+      {
+        teams.map((team, index) => (
+          <div key={index} className='container mx-auto mb-12'>
+            <h2 className=' lg:text-2xl font-medium uppercase mb-8 title-event-page' dangerouslySetInnerHTML={{
+              __html: team.category
+            }}></h2>
+            <div className='container flex flex-wrap lg:gap-x-12 gap-y-12 lg:justify-center items-center my-16 mx-auto'>
+              {team.members?.map((item, index) => (
+                <ProfileCard key={index} data={item} />
+              ))}
+            </div>
+          </div>
+        ))
+      }        
+      
     </PageLayout>
   );
 }
