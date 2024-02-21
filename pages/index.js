@@ -1,15 +1,12 @@
 import Image from 'next/image'
 import { useEffect, useState, useCallback } from 'react';
-import { motion } from 'framer-motion';
 import Head from 'next/head';
-import { initParticlesEngine } from "@tsparticles/react";
-import { loadAll } from "@tsparticles/all"; 
-import { loadParallaxMover } from '@tsparticles/move-parallax';
 import data from '@/data';
 import DotParticles from '@/includes/DotParticles';
 import Link from 'next/link';
 import Countdown from '@/includes/Countdown';
-
+import background from '@/public/images/4845746.jpg';
+import logo from '@/public/images/sankalan2024logo.png';
 
 export default function Home() {
   const {
@@ -32,10 +29,9 @@ export default function Home() {
       <Image 
         alt='lines' 
         id="lines" 
-        src="/images/lines-1.svg"
+        src={background}
         fill
         priority={true}
-        quality={100}
         objectFit='cover'
       />
 
@@ -60,10 +56,13 @@ export default function Home() {
         </div>
 
         <div className="middle-content lg:w-1/2">
-          <div className="sankalan-wrap mx-auto mt-[-1.66em] lg:mt-[-.5em]">
-            <div className="glitch">
-              Sankalan <span className='mt-[-9em]'>{site.year}</span>
-            </div>
+          <div className="mx-auto">
+              <Image 
+                src={logo}
+                alt={site.title}
+                width={500}
+                height={500}
+              />
             <Link href={'/register'} className="inline-block lg:hidden main-button-homepage main-button mt-8"><span>register.now()</span></Link>
           </div>
         </div>
