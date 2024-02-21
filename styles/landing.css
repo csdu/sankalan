@@ -331,13 +331,14 @@ body {
 }
 
 .corner-nav-item a {
-  font-family: "iceland";
+  /* font-family: "iceland"; */
   text-transform: uppercase;
   position: absolute;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   line-height: 40px;
   letter-spacing: 1.5px;
-  color: #f8f8f8;
+  color: black;
+  /* background-color: white; */
   z-index: 7;
 }
 
@@ -365,7 +366,7 @@ body {
   left: auto;
 }
 
-.corner-nav-item a:after {
+/* .corner-nav-item a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -379,7 +380,7 @@ body {
   -moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
-}
+} */
 
 .corner-nav-item a:hover:after {
   width: 100%;
@@ -549,19 +550,6 @@ body {
   font-size: 1rem;
 }
 
-.active {
-  color: theme('colors.sankalan.yellow') !important;
-}
-
-.active::before {
-  content: "[ ";
-  z-index: -1;
-}
-
-.active::after {
-  content: " ]";
-  z-index: -1;
-}
 
 .date {
   margin-top: -1.2em;
@@ -933,6 +921,20 @@ select::-webkit-scrollbar-thumb {
   font-weight: 400;
 }
 
-.hyphen{
+.hyphen {
   font-family: yikes;
+}
+
+.nav-links a.active {
+  color: theme('colors.sankalan.yellow');
+}
+
+.active::before {
+  content: "[ ";
+  z-index: -1;
+}
+
+.active::after {
+  content: " ]";
+  z-index: -1;
 }

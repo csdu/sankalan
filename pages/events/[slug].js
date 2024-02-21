@@ -14,10 +14,10 @@ import {
 import Image from 'next/image';
 import Link from 'next/link';
 
-const EventDetailPage = () => {
+const EventDetailPage = ({ _eventSlug }) => {
   const router = useRouter();
-  const eventSlug = router.query.slug;
-  const event = data.events.map(e => e.events).flat().find((event) => event.slug === eventSlug);
+
+  const event = data.events.map(e => e.events).flat().find((event) => event.slug === _eventSlug);
 
   const {
     site,
@@ -48,8 +48,9 @@ const EventDetailPage = () => {
                   ))}
                 </div>
 
-                <div className='text-center mt-[-1.5em]'>
-                  <Link href={`/register?event=${event.slug}`} target='_blank' className='shadow-xl uppercase rounded-lg text-sankalan-accent-green bg-white hover:text-white  hover:bg-sankalan-accent-green text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline transition-colors duration-300 ease-in-out'>REGISTER NOW FOR {event?.name.replace(/<\/?[^>]+(>|$)/g, "").toUpperCase()}</Link>
+                <div className='text-center mt-[-1.5em] hover:scale-110 transition'>
+                  <Link href={`/register?event=${event.slug}`} target='_blank' className='shadow-xl uppercase border-white border-4 transition hover:scale-110 text-white from-sankalan-accent-green to-sankalan-accent-blue bg-gradient-to-r text-xl
+                  hover:bg-white font-bold p-2 lg:px-4 focus:outline-none focus:shadow-outline duration-300 ease-in-out'>REGISTER NOW <span className='hidden lg:inline-block'> FOR {event?.name.replace(/<\/?[^>]+(>|$)/g, "").toUpperCase()}</span></Link>
                 </div>
 
                 <Image 
@@ -104,3 +105,20 @@ const EventDetailPage = () => {
 };
 
 export default EventDetailPage;
+
+export async function getStaticPaths() {
+  const events = data.events.map(e => e.events).flat();
+  const paths = events.map((event) => ({
+    params: { slug: event.slug },
+  }));
+
+  return { paths, fallback: false };
+}
+
+export async function getStaticProps({ params }) {
+  return {
+    props: {
+      _eventSlug: params.slug,
+    },
+  };
+}

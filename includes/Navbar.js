@@ -49,12 +49,14 @@ export default function NavbarDefault() {
   ];
  
   const navList = (
-    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row items-center lg:gap-6">
     {listItems.map((item, index) => (
-        <li key={index}>
+        <li key={index} className="flex items-center">
           <Link
             href={item.href}
-            className={`cursor-pointer text-white hover:text-sankalan-yellow ${router.pathname == item.href ? "active" : ""} transition-colors duration-300 font-[potatosans]`}
+            className={`cursor-pointer text-white hover:text-sankalan-yellow ${router.pathname == item.href ? `active text-xl -rotate-2 bg-gradient-to-r bg-clip-text  text-transparent 
+          from-sankalan-yellow via-sankalan-accent-yellow to-sankalan-yellow
+          animate-text` : ""} transition-colors duration-300 font-[potatosans]`}
           >
             {item.title}
           </Link>
@@ -72,7 +74,9 @@ export default function NavbarDefault() {
       <div className="container mx-auto w-100 flex items-center justify-between text-white">
         <Link
           href="/"
-          className="drop-shadow-lg mr-4 cursor-pointer py-1.5 title glitch-nav text-[1.25em] hover:text-sankalan-yellow transform transition-transform hover:scale-110 transition-colors duration-300 ease-in-out tracking-wide "
+          className="drop-shadow-lg mr-4 cursor-pointer py-1.5 text-[1.25em] transform transition-transform hover:scale-110 transition-colors duration-300 ease-in-out tracking-wide 
+           font-bold
+          "
         >
           {site.title}
         </Link>
@@ -87,7 +91,19 @@ export default function NavbarDefault() {
                   <InboxIcon className="h-5 w-5 mt-1" />
               </Badge>
             </Link>
-            <Link href={'/register'} className="hidden lg:inline-block main-button"><span>register.now()</span></Link>
+            <Link href={'/register'} className="hidden lg:inline-block bg-gradient-to-r from-sankalan-dark-yellow to-sankalan-accent-red
+            p-2 p-y-0 text-black hover:bg-sankalan-accent-yellow text-white uppercase mt-[-5]
+            hover:scale-110 transition-transform transition-colors duration-300 ease-in-out border-4 border-white font-[spacemono] text-sm font-bold
+            ">
+              <span 
+                style={
+                  {
+                    top: '-1px',
+                    position: 'relative'
+                  }
+                }
+              >register now</span>
+            </Link>
         </div>
 
         <IconButton
@@ -135,11 +151,23 @@ export default function NavbarDefault() {
             href={'/announcements'}
             className={`cursor-pointer mt-2 hover:text-sankalan-yellow ${router.pathname == '/announcements' ? "active" : ""} transition-colors duration-300 font-[potatosans]`}
           >
-            Announcements
+            Updates
           </Link>
           <div className="w-100 mx-auto mt-6">
             <div className="nav-links gap-x-2">
-              <Link href={'/register'} className="main-button"><span>register.now()</span></Link>
+              <Link href={'/register'} className="inline-block bg-gradient-to-r from-sankalan-dark-yellow to-sankalan-accent-red
+            p-2 p-y-0 text-black hover:bg-sankalan-accent-yellow text-white uppercase mt-[-5]
+            hover:scale-110 transition-transform transition-colors duration-300 ease-in-out border-2 border-white font-[spacemono] text-sm font-bold
+            ">
+              <span 
+                style={
+                  {
+                    top: '-1px',
+                    position: 'relative'
+                  }
+                }
+              >register now</span>
+            </Link>
             </div>
           </div>
         </div>

@@ -38,16 +38,16 @@ export default function Home() {
       <DotParticles particlesInit={true} particlesLoaded={particlesLoaded} />
 
       <div className="corner-nav-item top-left red">
-        <Link href={'/about'}>about</Link>
+        <Link href={'/about'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-red'>about</Link>
       </div>
       <div className="corner-nav-item top-right blue">
-        <Link href={'/events'}>events</Link>
+        <Link href={'/events'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-blue'>events</Link>
       </div>
       <div className="corner-nav-item bottom-left orange">
-        <Link href={'/sponsors'}>sponsors</Link>
+        <Link href={'/sponsors'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-accent-yellow'>sponsors</Link>
       </div>
-      <div className="corner-nav-item bottom-right green">
-        <Link href={'/terms'}>Privacy Policy</Link>
+      <div className="corner-nav-item bottom-right">
+        <Link href={'/terms'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-sankalan-green' >Privacy Policy</Link>
       </div>
 
       <div className="landing-content lg:w-3/4 mx-auto lg:gap-x-20">
@@ -62,8 +62,22 @@ export default function Home() {
                 alt={site.title}
                 width={500}
                 height={500}
+                priority={true}
+                className='w-2/3 lg:w-auto mx-auto'
               />
-            <Link href={'/register'} className="inline-block lg:hidden main-button-homepage main-button mt-8"><span>register.now()</span></Link>
+              <Link href={'/register'} className="inline-block lg:hidden bg-gradient-to-r from-sankalan-dark-yellow to-sankalan-accent-red
+               p-2 p-y-0 text-black hover:bg-sankalan-accent-yellow text-white uppercase mt-6
+              hover:scale-110 transition-transform transition-colors duration-300 ease-in-out border-4 border-white font-[spacemono] text-xl font-bold
+              ">
+                <span 
+                  style={
+                    {
+                      top: '-1px',
+                      position: 'relative'
+                    }
+                  }
+                >register now</span>
+              </Link>
           </div>
         </div>
 
@@ -80,7 +94,19 @@ export default function Home() {
             <div><Link href={'/faq'} className='hover:text-sankalan-yellow'>questions?</Link></div>
           </div>
 
-          <Link href={'/register'} className="hidden lg:inline-block main-button-homepage main-button"><span>register.now()</span></Link>
+          <Link href={'/register'} className="hidden lg:inline-block bg-gradient-to-r from-sankalan-dark-yellow to-sankalan-accent-red
+               p-2 p-y-0 text-black hover:bg-sankalan-accent-yellow text-white uppercase w-full
+              hover:scale-110 transition-transform transition-colors duration-300 ease-in-out border-4 border-white font-[spacemono] text-xl font-bold
+              ">
+                <span 
+                  style={
+                    {
+                      top: '-1px',
+                      position: 'relative'
+                    }
+                  }
+                >register now</span>
+          </Link>
         </div>
 
       </div>
