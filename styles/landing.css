@@ -907,6 +907,27 @@ body {
   color: theme('colors.gray.900');
 }
 
+.select > optgroup {
+  background-color: theme('colors.sankalan.yellow');
+  color: theme('colors.gray.900');
+}
+
+select::-webkit-scrollbar {
+  width: 7px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+select::-webkit-scrollbar-track {
+  border: transparent;
+  background-color: theme('colors.sankalan.yellow');
+}
+
+select::-webkit-scrollbar-thumb {
+  background-color: theme('colors.sankalan-accent.yellow');
+}
+
 .faq > p > a {
   color: theme('colors.sankalan.yellow');
   font-weight: 400;

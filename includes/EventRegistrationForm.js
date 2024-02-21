@@ -342,7 +342,7 @@ const EventRegistrationForm = () => {
         <>
           <div className="mb-8">
             <label htmlFor="event" className="block mb-2 text-white">Event <span className="text-sankalan-yellow">*</span></label>
-            <select id="event" className="select shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" onChange={e => setEvent(e.target.value) } required value={event}>
+            <select id="event" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5 select" onChange={e => setEvent(e.target.value) } required value={event}>
               <option value="">Select an event</option>
               {
                 events.map((eventType, index) => (
