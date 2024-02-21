@@ -274,7 +274,7 @@ const EventRegistrationForm = () => {
     <form className="max-w-md mx-auto text-left text-white font-[comicbook] mt-10" onSubmit={e => e.preventDefault()}>
       <div className="mb-10"> 
         <div className="h-2 bg-white rounded-full">
-          <div className={`h-2 bg-pink-300 rounded-none ${stage === 1 ? 'w-0' : stage === 2 ? 'w-1/3' : stage === 3 ? 'w-2/3' : 'w-full'} transition-all duration-300 ease-in-out`}></div>
+          <div className={`h-2 bg-sankalan-accent-yellow rounded-none ${stage === 1 ? 'w-0' : stage === 2 ? 'w-1/3' : stage === 3 ? 'w-2/3' : 'w-full'} transition-all duration-300 ease-in-out`}></div>
         </div>
       </div>
 
@@ -389,7 +389,7 @@ const EventRegistrationForm = () => {
                 </div>
 
                 <div className="">
-                  <label htmlFor="teamMembers" className="block mb-2 text-white">Names of Members <span className="text-sankalan-yellow text-xs">(separated by commas)</span></label>
+                  <label htmlFor="teamMembers" className="block mb-2 text-white">Names of Members <span className="text-sankalan-accent-yellow text-xs">(separated by commas)</span></label>
                   <textarea id="teamMembers" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={teamMembers} onChange={(e) => setTeamMembers(e.target.value)} />
                 </div>
               </div>

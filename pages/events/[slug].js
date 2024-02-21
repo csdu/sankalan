@@ -33,11 +33,13 @@ const EventDetailPage = () => {
       {event && (
         <>
             <Head>
-              <title>{event.name} | {site.title}</title>
+              <title >{event.name.replace(/<\/?[^>]+(>|$)/g, "")} | {site.title}</title>
               <meta name="description" content={site.description} />
             </Head>
             <div className='container text-center mx-auto'>
-              <h1 className='text-black text-2xl title-page'>{event.name}</h1>
+              <h1 className='text-black text-2xl title-page' dangerouslySetInnerHTML={{
+                __html: event.name
+              }}></h1>
               <p className='text-gray-400 mt-1'>{format(event.date + ' ' + event.time + 'Z+05:30', "LLLL Do, yyyy (EEEE) 'from' hh:mm b")}</p>
               <div className='container flex flex-col gap-4 gap-y-12 justify-between my-4 mx-auto text-start'>
                 <div className='col-span-2'>
@@ -85,7 +87,7 @@ const EventDetailPage = () => {
                         event.organizers.map((organizer, index) => (
                           <div key={index} className='mb-4'>
                             <p className='text-white mb-1'><span className='font-medium'>{organizer.name}</span></p>
-                            <p className='text-white mb-1'><a href={'mailto:' + organizer.email}>{organizer.email}</a></p>
+                            {organizer.email && <p className='text-white mb-1'><a href={'mailto:' + organizer.email}>{organizer.email}</a></p>}
                             {organizer.phone && <p className='text-white mb-1'><a href={'https://wa.me/91' + organizer.phone}>+91-{organizer.phone}</a></p>}
                           </div>
                         ))

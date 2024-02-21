@@ -24,8 +24,9 @@ export default function EventCard({name, event, ...rest}) {
           <img src="/images/events/chakravyuh.jpg" alt="event" className="absolute inset-0 h-full w-full object-cover opacity-50" />
         </CardHeader>
         <CardBody className="relative py-14 px-6 md:px-12">
-            <h2 className="glitch event-title">
-              {name}
+            <h2 className="glitch event-title" dangerouslySetInnerHTML={{
+                __html: name
+              }}>
             </h2>
         </CardBody>
       </Card>
