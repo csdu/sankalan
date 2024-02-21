@@ -1,72 +1,90 @@
 [
   {
-    "title": "Title Partners",
+    "title": "Past Sponsers",
     "sponsors": [
       {
-        "name": "ACME",
-        "image": "acme.jpeg"
-      }
-    ]
-  },
-
-  {
-    "title": "Gifting Partners",
-    "sponsors": [
+        "name": "Zebronics",
+        "image": "zebronics-dark.png"
+      },
       {
-        "name": "Coding Ninjas",
-        "image": "coding-ninjas.jpeg"
-      }
-    ]
-  },
-  
-  {
-    "title": "Programming Partners",
-    "sponsors": [
+        "name": "The Education Tree",
+        "image": "the-education-tree.png"
+      },
+      {
+        "name": "Superhit Red FM",
+        "image": "superhit-red-fm.png"
+      },
+      {
+        "name": "Starbucks",
+        "image": "starbucks.png"
+      },
+      {
+        "name": "Sportsun",
+        "image": "sportsun-dark.png"
+      },
       {
         "name": "Moreficent",
         "image": "moreficent.png"
       },
       {
-        "name": "Coding Blocks",
-        "image": "coding-blocks.png"
+        "name": "Lenskart",
+        "image": "lenskart.png"
       },
       {
-        "name": "Coding Minutes",
-        "image": "coding-minutes.png"
-      }
-    ]
-  },
-
-  {
-    "title": "Media Partners",
-    "sponsors": [
+        "name": "Insightone",
+        "image": "insightone.jpeg"
+      },
+      {
+        "name": "Gigabyte",
+        "image": "gigabyte.png"
+      },
       {
         "name": "DU Vibes",
         "image": "du-vibes.jpeg"
-      },
-      {
-        "name": "DU Express",
-        "image": "du-express.png"
-      },
-      {
-        "name": "DU Adda",
-        "image": "du-adda.jpeg"
-      },
-      {
-        "name": "DU Competition",
-        "image": "du-comp.jpeg"
-      },
-      {
-        "name": "DU India",
-        "image": "du-india.jpeg"
       },
       {
         "name": "DU Updates",
         "image": "du-updates.jpeg"
       },
       {
-        "name": "Insightone",
-        "image": "insightone.jpeg"
+        "name": "DU India",
+        "image": "du-india.jpeg"
+      },
+      {
+        "name": "DU Express",
+        "image": "du-express.png"
+      },
+      {
+        "name": "DU Competition",
+        "image": "du-comp.jpeg"
+      },
+      {
+        "name": "DU Adda",
+        "image": "du-adda.jpeg"
+      },
+      {
+        "name": "Coding Ninjas",
+        "image": "coding-ninjas.png"
+      },
+      {
+        "name": "Coding Minutes",
+        "image": "coding-minutes.png"
+      },
+      {
+        "name": "Coding Blocks",
+        "image": "aa.png"
+      },
+      {
+        "name": "Coca Cola",
+        "image": "coca-cola.png"
+      },
+      {
+        "name": "Cafe Coffee Day",
+        "image": "cafe-coffee-day.svg"
+      },
+      {
+        "name": "ACME",
+        "image": "acme.png"
       }
     ]
   }
