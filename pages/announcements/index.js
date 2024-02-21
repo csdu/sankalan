@@ -29,23 +29,23 @@ const About = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Announcements | {site.title}</title>
+        <title>Updates | {site.title}</title>
         <meta name="description" content={site.description} />
       </Head>
-      <h1 className='text-white text-2xl title-page'>Announcements</h1>
+      <h1 className='text-black text-2xl title-page'>Updates</h1>
       <div className='container mx-auto text-white text-left flex flex-col gap-4 mt-10'>
         {
           updates && updates.map((update, index) => (
-            <div key={index} className='bg-purple-800 p-4 rounded-lg'>
-              <p>{update[0]}</p>
-              {update[1] && <p className='mt-2 text-pink-100 text-sm'>{update[1]}</p>}
-              {update[2] && <p className='text-pink-100 text-xs'>Posted at {format(update[2], 'dd/MM/yyyy hh:mm bb')}</p>}
+            <div key={index} className='bg-white p-4 rounded-lg'>
+              <p className='text-black'>{update[0]}</p>
+              {update[1] && <p className='mt-2 text-sankalan-blue text-sm'>{update[1]}</p>}
+              {update[2] && <p className='text-sankalan-dark-blue text-xs'>Posted at {format(update[2], 'hh:mm bb \'on\' MMM dd yyyy')}</p>}
             </div>
           ))
         }
         {
           !updates.length && <div className='flex justify-center'>
-            <Spinner color="pink" className="h-10 w-10" />
+            <Spinner color="white" className="h-10 w-10" />
           </div>
         }
       </div>

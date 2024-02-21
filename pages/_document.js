@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body className='bg-black w-100'>
+      <body className='bg-sankalan-dark-blue w-100'>
         <Main />
         <NextScript />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>

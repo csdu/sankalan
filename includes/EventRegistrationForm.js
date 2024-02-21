@@ -253,10 +253,10 @@ const EventRegistrationForm = () => {
 
   if (thanks) {
     return (
-      <div className="text-center w-full mx-auto text-white font-[monospace] mt-10">
+      <div className="text-center w-full mx-auto text-white font-[comicbook] mt-10">
         <h2 className="text-xl mb-4">Thank you for registering!</h2>
-        <h3 className='text-2xl mb-1 text-pink-300'>Participant ID: {genHash(session?.user?.email)}</h3>
-        <h3 className='text-2xl text-pink-300'>Registration ID: {genHash(session?.user?.email + '@' + event)}</h3>
+        <h3 className='text-2xl mb-1 text-sankalan-yellow'>Participant ID: {genHash(session?.user?.email)}</h3>
+        <h3 className='text-2xl text-sankalan-yellow'>Registration ID: {genHash(session?.user?.email + '@' + event)}</h3>
         <p className="mt-10"><Link onClick={() => router.reload()} href={'#'} className="text-white bg-pink-600 p-2 uppercase font-medium">Register for more events</Link></p>
       </div>
     );
@@ -264,14 +264,14 @@ const EventRegistrationForm = () => {
 
   if (error) {
     return (
-      <div className="text-center w-full mx-auto text-white font-[monospace] mt-10">
-        <h2 className="text-xl">Oops! We messed up <span className="text-pink-300">(again)</span>. Please let us know!</h2>
+      <div className="text-center w-full mx-auto text-white font-[comicbook] mt-10">
+        <h2 className="text-xl">Oops! We messed up <span className="text-sankalan-yellow">(again)</span>. Please let us know!</h2>
       </div>
     );
   }
 
   return (
-    <form className="max-w-md mx-auto text-left text-white font-[monospace] mt-10" onSubmit={e => e.preventDefault()}>
+    <form className="max-w-md mx-auto text-left text-white font-[comicbook] mt-10" onSubmit={e => e.preventDefault()}>
       <div className="mb-10"> 
         <div className="h-2 bg-white rounded-full">
           <div className={`h-2 bg-pink-300 rounded-none ${stage === 1 ? 'w-0' : stage === 2 ? 'w-1/3' : stage === 3 ? 'w-2/3' : 'w-full'} transition-all duration-300 ease-in-out`}></div>
@@ -281,18 +281,18 @@ const EventRegistrationForm = () => {
       {stage === 1 && (
         <>
           <div className="mb-5">
-            <label htmlFor="email" className="block mb-2 text-white">E-mail Address <span className="text-pink-300">*</span></label>
+            <label htmlFor="email" className="block mb-2 text-white">E-mail Address <span className="text-sankalan-yellow">*</span></label>
             <input type="email" id="email" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={session?.user?.email} disabled required />
           </div>
 
           <div className="mb-5">
-            <label htmlFor="name" className="block mb-2 text-white">Full Name <span className="text-pink-300">*</span></label>
+            <label htmlFor="name" className="block mb-2 text-white">Full Name <span className="text-sankalan-yellow">*</span></label>
             <input type="text" id="name" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={fullName}
             onChange={(e) => setFullName(e.target.value.toUpperCase())} />
           </div>
 
           <div className="mb-8">
-            <label htmlFor="phone" className="block mb-2 text-white">Phone Number <span className="text-pink-300">*</span></label>
+            <label htmlFor="phone" className="block mb-2 text-white">Phone Number <span className="text-sankalan-yellow">*</span></label>
             <div className="flex gap-x-2 justify-center w-full items-center">
             <input type="tel" value={'+91'} className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-[3em] p-1.5" disabled /> <input type="tel" id="phone" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={mobileNumber} pattern="[0-9]+" minLength="10" maxLength="10"
             onChange={(e) => setMobileNumber(e.target.value)} />
@@ -305,13 +305,13 @@ const EventRegistrationForm = () => {
       {stage === 2 && (
         <>
           <div className="mb-5">
-            <label htmlFor="course" className="block mb-2 text-white">Course <span className="text-pink-300">*</span></label>
+            <label htmlFor="course" className="block mb-2 text-white">Course <span className="text-sankalan-yellow">*</span></label>
             <input type="text" id="course" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={course}
             onChange={(e) => setCourse(e.target.value)} />
           </div>
 
           <div className="mb-5">
-            <label htmlFor="year" className="block mb-2 text-white">Year <span className="text-pink-300">*</span></label>
+            <label htmlFor="year" className="block mb-2 text-white">Year <span className="text-sankalan-yellow">*</span></label>
             <select id="year" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5 select" onChange={(e) => setYear(e.target.value)} required value={year}>
               <option value=""></option>
               <option value="1">First Year</option>
@@ -323,13 +323,13 @@ const EventRegistrationForm = () => {
           </div>
 
           <div className="mb-5">
-            <label htmlFor="collegeName" className="block mb-2 text-white">College/Institute/Department <span className="text-pink-300">*</span></label>
+            <label htmlFor="collegeName" className="block mb-2 text-white">College/Institute/Department <span className="text-sankalan-yellow">*</span></label>
             <input type="text" id="collegeName" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={collegeName}
             onChange={(e) => setCollegeName(e.target.value.toUpperCase())} />
           </div>
 
           <div className="mb-8">
-            <label htmlFor="university" className="block mb-2 text-white">University <span className="text-pink-300">*</span></label>
+            <label htmlFor="university" className="block mb-2 text-white">University <span className="text-sankalan-yellow">*</span></label>
             <input type="text" id="university" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={university}
             onChange={(e) => setUniversity(e.target.value.toUpperCase())} />
           </div>
@@ -341,7 +341,7 @@ const EventRegistrationForm = () => {
       {stage === 3 && (
         <>
           <div className="mb-8">
-            <label htmlFor="event" className="block mb-2 text-white">Event <span className="text-pink-300">*</span></label>
+            <label htmlFor="event" className="block mb-2 text-white">Event <span className="text-sankalan-yellow">*</span></label>
             <select id="event" className="select shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" onChange={e => setEvent(e.target.value) } required value={event}>
               <option value="">Select an event</option>
               {
@@ -362,8 +362,8 @@ const EventRegistrationForm = () => {
 
           {
             alreadyRegistered && (
-              <div className="text-white font-[monospace] mt-[-1em] mb-8">
-                <p>You have already registered for this event. For any modifications or cancellation of registration, please <Link href={'/contact'} className="text-pink-300">contact us</Link>.</p>
+              <div className="text-white font-[comicbook] mt-[-1em] mb-8">
+                <p>You have already registered for this event. For any modifications or cancellation of registration, please <Link href={'/contact'} className="text-sankalan-yellow">contact us</Link>.</p>
               </div>
             )
           }
@@ -371,7 +371,7 @@ const EventRegistrationForm = () => {
           {
             event && !alreadyRegistered && (
               <div className="mb-8 mt-[-.5em]">
-                <p className="text-pink-300 font-medium">{events.map(e => e.events).flat().find(e => e.slug == event)?.description}</p>
+                <p className="text-sankalan-yellow font-medium">{events.map(e => e.events).flat().find(e => e.slug == event)?.description}</p>
               </div>
             )
           }
@@ -389,7 +389,7 @@ const EventRegistrationForm = () => {
                 </div>
 
                 <div className="">
-                  <label htmlFor="teamMembers" className="block mb-2 text-white">Names of Members <span className="text-pink-300 text-xs">(separated by commas)</span></label>
+                  <label htmlFor="teamMembers" className="block mb-2 text-white">Names of Members <span className="text-sankalan-yellow text-xs">(separated by commas)</span></label>
                   <textarea id="teamMembers" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={teamMembers} onChange={(e) => setTeamMembers(e.target.value)} />
                 </div>
               </div>
@@ -404,7 +404,7 @@ const EventRegistrationForm = () => {
       {stage === 4 && (
         <>
           <div className="mb-5">
-            <label htmlFor="medium" className="block mb-2 text-white">How did you come to know about the event? <span className="text-pink-300">*</span></label>
+            <label htmlFor="medium" className="block mb-2 text-white">How did you come to know about the event? <span className="text-sankalan-yellow">*</span></label>
             <select id="medium" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5 select" onChange={e => setMedium(e.target.value) } required value={medium}>
               <option value=""></option>
               <option value="social-media">Social Media</option>
@@ -420,7 +420,7 @@ const EventRegistrationForm = () => {
             onChange={(e) => setReferral(e.target.value.toUpperCase())} />
           </div>
 
-          <div className="mb-8 text-sm text-pink-300">
+          <div className="mb-8 text-sm text-sankalan-yellow">
               By submitting this form, I declare that the information provided by me is true and correct to the best of my knowledge and belief. I understand that my registration is subject to verification by the event organizers and that any false information provided by me will lead to disqualification from the event.
           </div>
 

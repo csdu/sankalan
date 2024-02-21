@@ -24,6 +24,66 @@
   src: url(/fonts/SpaceMono-Regular.ttf);
 }
 
+@font-face {
+  font-family: comicbook;
+  src: url('/fonts/comic_book/Comic Book.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: comicbook;
+  src: url('/fonts/comic_book/Comic Book Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: comicbook;
+  src: url('/fonts/comic_book/Comic Book Italic.otf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: comicbook;
+  src: url('/fonts/comic_book/Comic Book Bold Italic.otf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: komigo;
+  src: url('/fonts/komigo/Komigo3D-Regular.ttf');
+}
+
+@font-face {
+  font-family: komyca;
+  src: url('/fonts/komyca/Komyca3Dfreeversion-Italic.ttf');
+}
+
+@font-face {
+  font-family: monashark;
+  src: url('/fonts/mona_shark/Mona Shark.otf');
+}
+
+@font-face {
+  font-family: potatosans;
+  src: url('/fonts/potato_sans/Potato_sans-Black.otf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: potatosans;
+  src: url('/fonts/potato_sans/Potato_sans-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: yikes;
+  src: url('/fonts/yikes/yikes.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -267,7 +327,7 @@ body {
 }
 
 .phone {
-  color: themwe('colors.pink.300') !important;
+  color: themwe('colors.sankalan.yellow') !important;
 }
 
 .corner-nav-item a {
@@ -359,18 +419,23 @@ body {
 .glitch {
   color: #f8f8f8;
   font-size: 4rem;
-  font-family: "octopost";
+  font-family: comicbook;
+  font-weight: bold;
+  text-transform: uppercase;
   line-height: 1;
 }
 
 .glitch-nav {
   color: #f8f8f8;
-  font-family: "octopost";
+  font-family: comicbook;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .event-title {
   font-size: 2em;
-  color: #333;
+  font-family: monashark;
+  font-weight: normal;
 }
 
 .main-button {
@@ -396,10 +461,16 @@ body {
 }
 
 .title-page {
-  color: #f8f8f8;
-  font-family: iceland;
+  font-family: monashark;
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
+  padding: 2em;
+  
+  background-image: url(/images/callout-anime.png);
+  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 } 
 
 .left-content {
@@ -473,7 +544,7 @@ body {
 }
 
 .active {
-  color: theme('colors.pink.300') !important;
+  color: theme('colors.sankalan.yellow') !important;
 }
 
 .active::before {
@@ -525,7 +596,7 @@ body {
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   cursor: pointer;
-  color: theme('colors.pink.300');
+  color: theme('colors.sankalan.yellow');
 }
 
 /* .options div:nth-child(odd):hover {
@@ -680,6 +751,14 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .title-page {
+    font-size: 1.8rem;
+  }
+
+  .event-title {
+    font-size: 1.8rem;
+  }
+
   .rotating-animation svg {
     margin-bottom: 0;
   }
@@ -714,9 +793,6 @@ body {
     width: 75vw;
   }
 
-  .glitch {
-    font-size: 3rem;
-  }
 }
 
 .main-button-homepage {
@@ -821,11 +897,12 @@ body {
 }
 
 .select > option {
-  background-color: theme('colors.pink.300');
+  background-color: theme('colors.sankalan.yellow');
   color: theme('colors.gray.900');
 }
 
 .faq > p > a {
-  color: theme('colors.pink.300');
+  color: theme('colors.sankalan.yellow');
   font-weight: 400;
 }
+

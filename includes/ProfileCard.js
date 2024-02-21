@@ -26,17 +26,17 @@ export default function ProfileCard(data) {
           />
       </CardHeader>
       <CardBody className="text-center mb-0">
-        <Typography color="black" className="mb-2 font-medium font-[spacemono]">
+        <Typography color="black" className="mb-2 font-medium font-[comicbook] text-lg mb-0">
           {name}
         </Typography>
         {position ? (
-          <Typography color="gray" className="font-[monospace] font-xs" textGradient variant="small">
+          <Typography color="gray" className="font-[comicbook] font-xs" textGradient variant="small">
             {position}
           </Typography>
         ) : null}
         <div className="mt-4 flex justify-center items-center gap-5 text-black">
-          <FontAwesomeIcon size="lg" icon={faGithub} />
-          <FontAwesomeIcon icon={faLinkedinIn} />
+          <a target="_blank" href={github}><FontAwesomeIcon size="lg" icon={faGithub} /></a>
+          <a target="_blank" href={linkedin}><FontAwesomeIcon icon={faLinkedinIn} /></a>
         </div>
       </CardBody>
     </Card>

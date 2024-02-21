@@ -54,7 +54,7 @@ export default function NavbarDefault() {
         <li key={index}>
           <Link
             href={item.href}
-            className={`cursor-pointer text-white hover:text-pink-300 ${router.pathname == item.href ? "active" : ""} transition-colors duration-300 font-[monospace]`}
+            className={`cursor-pointer text-white hover:text-sankalan-yellow ${router.pathname == item.href ? "active" : ""} transition-colors duration-300 font-[potatosans]`}
           >
             {item.title}
           </Link>
@@ -67,12 +67,12 @@ export default function NavbarDefault() {
     <Navbar 
       variant="filled"
       color="transparent"
-      className={`mx-auto w-100 py-2 lg:py-4 ${inter.className} px-0`}
+      className={`mx-auto w-100 py-2 lg:py-4 px-0`}
     >
       <div className="container mx-auto w-100 flex items-center justify-between text-white">
         <Link
           href="/"
-          className="mr-4 cursor-pointer py-1.5 title glitch-nav text-[1.25em] hover:text-pink-300 transition-colors duration-300 ease-in-out"
+          className="drop-shadow-lg mr-4 cursor-pointer py-1.5 title glitch-nav text-[1.25em] hover:text-sankalan-yellow transform transition-transform hover:scale-110 transition-colors duration-300 ease-in-out tracking-wide "
         >
           {site.title}
         </Link>
@@ -133,7 +133,7 @@ export default function NavbarDefault() {
           {navList}
           <Link
             href={'/announcements'}
-            className={`cursor-pointer mt-2 hover:text-pink-300 ${router.pathname == '/announcements' ? "active" : ""} transition-colors duration-300 font-[monospace]`}
+            className={`cursor-pointer mt-2 hover:text-sankalan-yellow ${router.pathname == '/announcements' ? "active" : ""} transition-colors duration-300 font-[potatosans]`}
           >
             Announcements
           </Link>

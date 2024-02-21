@@ -26,16 +26,16 @@ const FAQ = () => {
         <title>FAQ | {site.title}</title>
         <meta name="description" content={site.description} />
       </Head>
-      <h1 className='text-white text-2xl title-page'>FAQ</h1>
+      <h1 className='text-black text-2xl title-page'>FAQ</h1>
       <div className="mx-auto">
         {
           faq && faq.map((faq, index) => {
             return (
               <Accordion key={index} open={open === index + 1}>
-                <AccordionHeader className='text-white hover:text-pink-300 font-[spacemono]' onClick={() => handleOpen(index + 1)}>
+                <AccordionHeader className='text-white hover:text-sankalan-yellow  font-[comicbook] font-bold' onClick={() => handleOpen(index + 1)}>
                   <h2>{faq.question}</h2>
                 </AccordionHeader>
-                <AccordionBody className='text-white text-justify font-[monospace] faq'>
+                <AccordionBody className='text-white text-justify font-[comicbook] faq'>
                   <p dangerouslySetInnerHTML={{
                     __html: faq.answer
                   }}></p>

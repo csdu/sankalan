@@ -1,13 +1,13 @@
 [
   {
     "question": "What exactly is Sankalan?",
-    "answer": "Sankalan is the annual technical festival of Department of Computer Science, University of Delhi. The fest blends a plethora of events including coding, quizzes, gaming, debates and a lot more events, it has something in store for everyone. It is entirely organised by the DUCS student body. To know more about it, please visit our <a class=\"text-pink-300\" href=\"/about\">about</a> page."
+    "answer": "Sankalan is the annual technical festival of Department of Computer Science, University of Delhi. The fest blends a plethora of events including coding, quizzes, gaming, debates and a lot more events, it has something in store for everyone. It is entirely organised by the DUCS student body. To know more about it, please visit our <a class=\"text-sankalan-yellow\" href=\"/about\">about</a> page."
   }, {
     "question": "When is Sankalan 2024 scheduled?",
-    "answer": "Sankalan 2024 will be organized in the Department of Computer Science, University of Delhi on March 16 and 17, 2024. Some events will be taking place before the fest as well. Please checkout our <a class=\"text-pink-300\" href=\"/events\">events</a> page for more details. "
+    "answer": "Sankalan 2024 will be organized in the Department of Computer Science, University of Delhi on March 16 and 17, 2024. Some events will be taking place before the fest as well. Please checkout our <a class=\"text-sankalan-yellow\" href=\"/events\">events</a> page for more details. "
   }, {
     "question": "Who can participate?",
-    "answer": "Sankalan is a blend of technical as well as non-technical events. Go through the <a class=\"text-pink-300\" href=\"/events\">events</a> list to find your pick. "
+    "answer": "Sankalan is a blend of technical as well as non-technical events. Go through the <a class=\"text-sankalan-yellow\" href=\"/events\">events</a> list to find your pick. "
   }, {
     "question": "Will non-Computer Science students be able to participate in the non-tech events?",
     "answer": "Yes, you are more than welcome to participate in non-tech events. They are open to all, doesn't matter if your background is CS or not. "
@@ -25,6 +25,6 @@
     "answer": "If you're coming from distance, reaching GTB Nagar Metro Station or Vishwavidyalaya Metro Station and then taking an e-rickshaw might be a good option for you. If you've trouble finding the venue location, you may look for following landmarks: Daulat Ram College, Shri Ram College or Faculty of Mathematical Sciences/Social Sciences."
   }, {
     "question": "I have a question that was not answered here. What do I do?",
-    "answer": "You can get in touch with the Sankalan team using the details on our <a class=\"text-pink-300\" href=\"/contact\">Contact Us</a> page."
+    "answer": "You can get in touch with the Sankalan team using the details on our <a class=\"text-sankalan-yellow\" href=\"/contact\">Contact Us</a> page."
   }
 ]

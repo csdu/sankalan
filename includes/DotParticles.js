@@ -1,85 +1,95 @@
-import Particles from "react-particles";
+import Particles from "@tsparticles/react";
+import { useEffect, useMemo, useState } from "react";
 
 const DotParticles = (props) => {
   const { particlesInit, particlesLoaded } = props;
-
-  return (
-    <Particles
-            id="tsparticles"
-            style={{
-              zIndex: -100,
-            }}
-            init={particlesInit}
-            loaded={particlesLoaded}
-            options={{
-                background: {
-                    color: {
-                    },
-                },
-                fpsLimit: 60,
-                interactivity: {
-                    events: {
-                        resize: true,
-                        onHover: {
-                            enable: false,
-                            mode: "grab",
+    
+  if (particlesInit)
+    return (
+        <Particles
+                id="tsparticles"
+                style={{
+                     zIndex: -100,
+                }}
+                particlesLoaded ={particlesLoaded}
+                options={{
+                    fpsLimit: 60,
+                    interactivity: {
+                        events: {
+                            resize: true,
+                            onHover: {
+                                enable: true,
+                                mode: "",
+                                parallax: {
+                                    enable: true,
+                                    force: 60,
+                                    smooth: 10,
+                                }
+                            },
                         },
                     },
-                },
-                modes: {
-                    grab: {
-                        distance: 900,
-                        line_linked: {
-                            opacity: 1
+                    modes: {
+                        grab: {
+                            distance: 900,
+                            links: {
+                                opacity: 1
+                            }
+                        },
+                        attract: {
+                            distance: 200,
+                            duration: 0.4,
+                            easing: 'ease-quad-out',
+                            factor: 1,
+                            maxSpeed: 50,
+                            speed: 1
                         }
+
                     },
-                },
-                particles: {
-                    color: {
-                        value: "#ffffff80",
-                    },
-                    links: {
-                        color: "#ffffff80",
-                        distance: 500,
-                        enable: false,
-                        opacity: 0.3,
-                        width: 1,
-                    },
-                    move: {
-                        direction: "none",
-                        enable: true,
-                        outModes: {
-                            default: "bounce",
+                    particles: {
+                        color: {
+                            value: "#ffffff80",
                         },
-                        random: false,
-                        speed: 1,
-                        straight: false,
-                    },
-                    number: {
-                        density: {
+                        links: {
+                            color: "#ffffff80",
+                            distance: 500,
+                            enable: false,
+                            opacity: 0.3,
+                            width: 1,
+                        },
+                        move: {
                             enable: true,
-                            area: 800,
+                            outModes: {
+                                default: "bounce",
+                            },
+                            random: false,
+                            speed: 1,
+                            straight: false,
+
                         },
-                        value: 80,
+                        number: {
+                            density: {
+                                enable: true,
+                                area: 800,
+                            },
+                            value: 100,
+                        },
+                        opacity: {
+                            value: 0.5,
+                        },
+                        shape: {
+                            type: "circle",
+                        },
+                        size: {
+                            value: { min: 1, max: 3 },
+                            random: true,
+                        },
                     },
-                    opacity: {
-                        value: 0.5,
-                    },
-                    shape: {
-                        type: "circle",
-                    },
-                    size: {
-                        value: { min: 1, max: 3 },
-                        random: true,
-                    },
-                    poisson: {
-                        enable: true
-                    }, 
-                },
-                detectRetina: true,
-            }}
-        />
+                    detectRetina: true,
+                }}
+            />
   )
+  
+  return <></>;
 }
 
 export default DotParticles;

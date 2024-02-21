@@ -1,16 +1,15 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import { useEffect, useState, useCallback } from 'react';
 import { motion } from 'framer-motion';
-import { loadSlim } from "tsparticles-slim"; 
 import Head from 'next/head';
-
+import { initParticlesEngine } from "@tsparticles/react";
+import { loadAll } from "@tsparticles/all"; 
+import { loadParallaxMover } from '@tsparticles/move-parallax';
 import data from '@/data';
-import RotatingCircles from '@/includes/RotatingCircles';
 import DotParticles from '@/includes/DotParticles';
 import Link from 'next/link';
+import Countdown from '@/includes/Countdown';
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const {
@@ -18,54 +17,13 @@ export default function Home() {
     contact
   } = data;
 
-  const [days, setDays] = useState(0);
-  const [hrs, setHrs] = useState(0);
-  const [mins, setMins] = useState(0);
-  const [secs, setSecs] = useState(0);
-
-  const particlesInit = useCallback(async engine => {
-      await loadSlim(engine);
-  }, []);
-
   const particlesLoaded = useCallback(async container => {
       await console.log(container);
   }, []);
 
-  const dd = `${site.month} ${site.day1} ${site.year} ${site.time}`;
-  const deadline = new Date(dd).getTime();
-
-  const setCounterValue = (days, hrs, mins, secs) => {
-    setDays(days);
-    setHrs(hrs);
-    setMins(mins);
-    setSecs(secs);
-  }
-  
-  useEffect(() => {
-    // const svg = document.getElementById("circles");
-    // const groups = svg.getElementsByTagName("g");
-    
-    const x = setInterval(function() {
-      const now = new Date().getTime();
-      const t = deadline - now;
-      const days = Math.floor(t / (1000 * 60 * 60 * 24));
-      const hrs = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const mins = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
-      const secs = Math.floor((t % (1000 * 60)) / 1000);
-
-      setCounterValue(days, hrs, mins, secs);
-
-      if (t < 0) {
-        clearInterval(x);
-        setCounterValue(0, 0, 0, 0);
-      }
-    }, 1000);
-
-  });
-
   return (
     <main
-      className={`${inter.className} w-full`}
+      className={`font-[comicbook] w-full`}
     >
       <Head>
         <title>{site.title}</title>
@@ -81,7 +39,7 @@ export default function Home() {
         objectFit='cover'
       />
 
-      <DotParticles particlesInit={particlesInit} particlesLoaded={particlesLoaded} />
+      <DotParticles particlesInit={true} particlesLoaded={particlesLoaded} />
 
       <div className="corner-nav-item top-left red">
         <Link href={'/about'}>about</Link>
@@ -98,30 +56,7 @@ export default function Home() {
 
       <div className="landing-content lg:w-3/4 mx-auto lg:gap-x-20">
         <div className="left-content lg:w-1/4">
-          <div className="countdown mx-auto">
-            <div className="counter-section mx-auto">
-              <div className="counter-wrap mx-auto">
-                <div className="counter-container mx-auto">
-                  <div className="counter-box">
-                    <p className="counter-time days">{days}</p>
-                    <p className="counter-tag">days</p>
-                  </div>
-                  <div className="counter-box">
-                    <p className="counter-time hrs">{hrs}</p>
-                    <p className="counter-tag">hrs</p>
-                  </div>
-                  <div className="counter-box">
-                    <p className="counter-time mins">{mins}</p>
-                    <p className="counter-tag">mins</p>
-                  </div>
-                  <div className="counter-box">
-                    <p className="counter-time secs">{secs}</p>
-                    <p className="counter-tag">secs</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Countdown />
         </div>
 
         <div className="middle-content lg:w-1/2">
@@ -131,10 +66,6 @@ export default function Home() {
             </div>
             <Link href={'/register'} className="inline-block lg:hidden main-button-homepage main-button mt-8"><span>register.now()</span></Link>
           </div>
-          
-          {/* <motion.div className="rotating-animation" whileHover={{scale: 1.1}}>
-            <RotatingCircles />
-          </motion.div> */}
         </div>
 
         <div className="right-content lg:w-1/4 mx-10">
@@ -147,7 +78,7 @@ export default function Home() {
               <a target="_blank">schedule</a>
             </div>
             <div><Link href={'/team'} >meet the team</Link></div>
-            <div><Link href={'/faq'} className='hover:text-pink-300'>questions?</Link></div>
+            <div><Link href={'/faq'} className='hover:text-sankalan-yellow'>questions?</Link></div>
           </div>
 
           <Link href={'/register'} className="hidden lg:inline-block main-button-homepage main-button"><span>register.now()</span></Link>

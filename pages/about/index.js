@@ -17,7 +17,7 @@ const About = () => {
         <title>About | {site.title}</title>
         <meta name="description" content={site.description} />
       </Head>
-      <h1 className='text-white text-2xl title-page'>About</h1>
+      <h1 className='text-black text-2xl title-page'>About</h1>
       <div className='container mx-auto text-white text-left flex flex-col gap-4 mt-10'>
         <p>Sankalan is the illustrious annual fest organized by the Department of Computer Science, University of Delhi. Embarking on its 20th voyage, this two-day extravaganza epitomizes a diverse array of technical marvels and non-technical wonders to discover. It beckons both seasoned experts and newcomers to share in its brilliance. From riveting coding competitions to captivating artistic events, Sankalan offers everyone a platform to showcase their talents and explore the frontiers of technology and art. </p>
 

@@ -5,6 +5,11 @@
   "day2": 17,
   "time": "09:00:00",
   "registerLink": "/register/",
+  "eventsLink": "/events/",
+  "sponsorsLink": "/sponsors/",
+  "teamLink": "/team/",
+  "contactLink": "/contact/",
+  "logo": "/images/sankalan-logo.png",
   "appDownloadLink": "https://play.google.com/store/apps/details?id=com.main.sankalan",
   "title": "Sankalan 2024",
   "description": "Sankalan is the illustrious annual fest organized by the Department of Computer Science, University of Delhi. Embarking on its 20th voyage, this two-day extravaganza epitomizes a diverse array of technical marvels and non-technical wonders to discover. It beckons both seasoned experts and newcomers to share in its brilliance. From riveting coding competitions to captivating artistic events, Sankalan offers everyone a platform to showcase their talents and explore the frontiers of technology and art."

@@ -29,13 +29,13 @@ export default function Component() {
       <p className="text-white">
         {
           session ? (
-              <span>You are signed in as {session.user.email}. Not you? <button className="text-pink-300" onClick={() => signOut({redirect: false})}>Sign Out</button></span>
+              <span>You are signed in as {session.user.email}. Not you? <button className="text-sankalan-yellow" onClick={() => signOut({redirect: false})}>Sign Out</button></span>
             ) : (
          <Button
           size="md"
           variant="filled"
           color="white"
-          className="flex items-center gap-3 font-[spacemono] mx-auto"
+          className="flex items-center gap-3 font-[comicbook] mx-auto"
           onClick={() => signIn('google')}
         >
           <img src="https://docs.material-tailwind.com/icons/google.svg" alt="metamask" className="h-4 w-4" />

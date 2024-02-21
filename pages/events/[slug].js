@@ -36,10 +36,10 @@ const EventDetailPage = () => {
               <title>{event.name} | {site.title}</title>
               <meta name="description" content={site.description} />
             </Head>
-            <div className='container text-start mx-auto'>
-              <h1 className='text-white text-2xl title-page'>{event.name}</h1>
+            <div className='container text-center mx-auto'>
+              <h1 className='text-black text-2xl title-page'>{event.name}</h1>
               <p className='text-gray-400 mt-1'>{format(event.date + ' ' + event.time + 'Z+05:30', "LLLL Do, yyyy (EEEE) 'from' hh:mm b")}</p>
-              <div className='container flex flex-col gap-4 gap-y-12 justify-between my-4 mx-auto'>
+              <div className='container flex flex-col gap-4 gap-y-12 justify-between my-4 mx-auto text-start'>
                 <div className='col-span-2'>
                   {event.description_paragraphs.map((paragraph, index) => (
                     <p key={index} className='text-white mb-4'>{paragraph}</p>
@@ -59,28 +59,28 @@ const EventDetailPage = () => {
 
                 <div>
                   <Accordion open={open === 1}>
-                    <AccordionHeader className='text-white hover:text-pink-300 font-[spacemono]' onClick={() => handleOpen(1)}>Rules</AccordionHeader>
-                    <AccordionBody className='text-white font-[monospace]'>
+                    <AccordionHeader className='text-white hover:text-sankalan-yellow font-[comicbook]' onClick={() => handleOpen(1)}>Rules</AccordionHeader>
+                    <AccordionBody className='text-white font-[comicbook]'>
                       {event.rules.map((paragraph, index) => (
                         <p key={index} className='text-white mb-1'>{paragraph}</p>
                       ))}
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 2}>
-                    <AccordionHeader className='text-white hover:text-pink-300 font-[spacemono]' onClick={() => handleOpen(2)}>
+                    <AccordionHeader className='text-white hover:text-sankalan-yellow font-[comicbook]' onClick={() => handleOpen(2)}>
                       Event Details
                     </AccordionHeader>
-                    <AccordionBody className='text-white font-[monospace]'>
+                    <AccordionBody className='text-white font-[comicbook]'>
                       <p className='text-white mb-1'><span className='font-medium'>Date:</span> {format(event.date + ' ' + event.time + 'Z+05:30', "LLLL Do, yyyy (EEEE)")}</p>
                       <p className='text-white mb-1'><span className='font-medium'>Time:</span> {format(event.date + ' ' + event.time + 'Z+05:30', "hh:mm b")}</p>
                       <p className='text-white mb-1'><span className='font-medium'>Location:</span> {event.location}</p>
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 3}>
-                    <AccordionHeader className='text-white hover:text-pink-300 font-[spacemono]' onClick={() => handleOpen(3)}>
+                    <AccordionHeader className='text-white hover:text-sankalan-yellow font-[comicbook]' onClick={() => handleOpen(3)}>
                       Contact Details
                     </AccordionHeader>
-                    <AccordionBody className='text-white lg:flex lg:gap-10 font-[monospace]'>
+                    <AccordionBody className='text-white lg:flex lg:gap-10 font-[comicbook]'>
                       {
                         event.organizers.map((organizer, index) => (
                           <div key={index} className='mb-4'>
