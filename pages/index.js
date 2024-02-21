@@ -95,7 +95,7 @@ export default function Home() {
                   }
                   className=''
                 >
-                  {site.day1}-{site.day2} {site.month} {site.year}<br />
+                  COMING SOON<br />
                   <Countdown />
                 </span>
               </a>
