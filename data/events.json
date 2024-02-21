@@ -11,35 +11,35 @@
         "location": "New York",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/algoholics.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }, {
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }]
       },
       {
         "name": "Speaker Session",
         "slug": "speaker-session",
         "description": "Group Competition",
-        "date": "2018-01-01",
-        "time": "12:00",
-        "location": "New York",
+        "date": "2024-03-17",
+        "time": "13:30",
+        "location": "Satyakam Bhavan",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/algoholics.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }, {
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }]
       }
     ]
@@ -51,20 +51,20 @@
         "name": "Electric Elegenza",
         "slug": "dj-night",
         "description": "DJ Night",
-        "date": "2018-01-01",
-        "time": "12:00",
-        "location": "New York",
+        "date": "2024-03-17",
+        "time": "17:30",
+        "location": "Outer Parking",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/algoholics.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }, {
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }]
       }
     ]
@@ -76,20 +76,20 @@
         "name": "HackDUCS",
         "slug": "hack-ducs",
         "description": "Group Competition",
-        "date": "2018-01-01",
-        "time": "12:00",
-        "location": "New York",
+        "date": "2024-03-16",
+        "time": "10:00",
+        "location": "Satyakam Bhavan",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/algoholics.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }, {
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }],
         "is_team_event": true
       },
@@ -97,100 +97,100 @@
         "name": "Algoholics",
         "slug": "algoholics",
         "description": "Solo Competition",
-        "date": "2018-01-01",
-        "time": "12:00",
-        "location": "New York",
+        "date": "2024-03-16",
+        "time": "11:00",
+        "location": "Online",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/algoholics.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }, {
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }]
       },
       {
         "name": "Blind Coding",
         "slug": "blind-coding",
         "description": "Solo Competition",
-        "date": "2018-01-01",
-        "time": "12:00",
-        "location": "New York",
+        "date": "2024-03-16",
+        "time": "13:30",
+        "location": "LAB2",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/algoholics.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }, {
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }]
       },
       {
         "name": "Code Auction",
         "slug": "code-auction",
         "description": "Solo Competition",
-        "date": "2018-01-01",
-        "time": "12:00",
-        "location": "New York",
+        "date": "2024-03-16",
+        "time": "15:30",
+        "location": "Seminar/ IOE Lab",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/algoholics.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }, {
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }]
       },
       {
         "name": "Squash the Bugs",
         "slug": "squash-the-bugs",
         "description": "Solo Competition",
-        "date": "2018-01-01",
-        "time": "12:00",
-        "location": "New York",
+        "date": "2024-03-16",
+        "time": "11:00",
+        "location": "LAB2",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/algoholics.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }, {
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }]
       },
       {
         "name": "Graphix",
         "slug": "graphix",
         "description": "Solo Competition",
-        "date": "2018-01-01",
-        "time": "12:00",
-        "location": "New York",
+        "date": "2024-03-16",
+        "time": "13:30",
+        "location": "Room 115",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/algoholics.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }, {
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }]
       }
     ]
@@ -202,111 +202,111 @@
         "name": "Groove Express",
         "slug": "groove-express",
         "description": "Group Competition",
-        "date": "2018-01-01",
-        "time": "12:00",
-        "location": "New York",
+        "date": "2024-03-16",
+        "time": "17:30",
+        "location": "Outer Parking",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/algoholics.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }, {
-          "name": "John Doe",
-          "email": "doe@gmail.com",
-          "phone": "123-456-7890"
+          "name": "TBA",
+          "email": "TBA",
+          "phone": "TBA"
         }],
         "is_team_event": true
       },
       {
-        "name": "Dastur-e-Mehfil",
+        "name": "Dastur<span class=\"hyphen\">-</span>e<span class=\"hyphen\">-</span>Mehfil",
         "slug": "dastur-e-mehfil",
         "description": "Solo Competition",
-        "date": "2018-01-02",
-        "time": "12:00",
-        "location": "New York",
+        "date": "2024-03-17",
+        "time": "15:30",
+        "location": "Outer Parking",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/sql.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com"
+          "name": "TBA",
+          "email": "TBA"
         }]
       },
       {
         "name": "Treasure Hunt",
         "slug": "treasure-hunt",
         "description": "Solo Competition",
-        "date": "2018-01-02",
-        "time": "12:00",
-        "location": "New York",
+        "date": "2024-03-17",
+        "time": "9:00",
+        "location": "Department Campus",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/sql.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com"
+          "name": "TBA",
+          "email": "TBA"
         }]
       },
       {
         "name": "Artisan Valley",
         "slug": "artisan-valley",
         "description": "Solo Competition",
-        "date": "2018-01-02",
-        "time": "12:00",
-        "location": "New York",
+        "date": "2024-03-17",
+        "time": "11:00",
+        "location": "Room 114",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/sql.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com"
+          "name": "TBA",
+          "email": "TBA"
         }]
       },
       {
-        "name": "Click-Akrity",
+        "name": "Click<span class=\"hyphen\">-</span>Akrity",
         "slug": "click-akrity",
         "description": "Solo Competition",
-        "date": "2018-01-02",
-        "time": "12:00",
+        "date": "2024-03-16",
+        "time": "15:30",
         "location": "New York",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/sql.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com"
+          "name": "TBA",
+          "email": "TBA"
         }]
       },
       {
         "name": "Desktop Dominion",
         "slug": "desktop-dominion",
         "description": "Solo Competition",
-        "date": "2018-01-02",
-        "time": "12:00",
-        "location": "New York",
+        "date": "2024-03-16",
+        "time": "15:30",
+        "location": "LAB2",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/sql.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com"
+          "name": "TBA",
+          "email": "TBA"
         }]
       },
       {
         "name": "Apex Crusade",
         "slug": "apex-crusade",
         "description": "Solo Competition",
-        "date": "2018-01-02",
+        "date": "2024-03-17",
         "time": "12:00",
-        "location": "New York",
+        "location": "Room 115",
         "description_paragraphs": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum nulla dui, vehicula varius metus hendrerit vel. Etiam mollis elementum aliquam. Sed tristique quam nisl, ac venenatis est efficitur vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem id turpis aliquet tincidunt. Vivamus gravida purus et ex lobortis, vel rutrum dui gravida. Nam fermentum ex in consequat ornare. Sed cursus ipsum vitae tristique fringilla. Mauris tincidunt quam in orci suscipit, sed luctus ante ullamcorper. Integer non vestibulum dolor, in sagittis lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum luctus elit lectus, id accumsan metus efficitur non. Duis tincidunt auctor ligula, et tempor magna commodo nec. Vivamus id gravida ligula, in laoreet augue.", "Pellentesque efficitur est sed egestas commodo. Proin ligula nibh, dignissim fringilla arcu a, vestibulum maximus est. Phasellus id nunc id justo accumsan sollicitudin. Sed in dolor non magna aliquet egestas. Nulla ac risus eu ex posuere egestas. Proin porttitor eleifend metus ut fermentum. Nulla mollis sapien eget mauris volutpat, sit amet aliquam lorem dignissim. Ut non sapien orci. Vestibulum at enim ut orci malesuada elementum. Etiam gravida enim massa, et porta velit accumsan ac. Maecenas pulvinar mi vel eros ultricies feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta diam."],
         "image": "/images/events/sql.jpg",
-        "rules": ["No smoking", "No alcohol"],
+        "rules": ["TBA"],
         "organizers": [{
-          "name": "John Doe",
-          "email": "doe@gmail.com"
+          "name": "TBA",
+          "email": "TBA"
         }]
       }
     ]
