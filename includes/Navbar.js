@@ -143,7 +143,7 @@ export default function NavbarDefault() {
         </IconButton>
       </div>
       <Collapse open={openNav} className="">
-        <div>
+        <div className="mt-6">
           {navList}
           <Link
             href={'/announcements'}

@@ -745,6 +745,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  #pointertrail {
+    display: none;
+  }
+
   .title-page {
     font-size: 1.8rem;
   }
@@ -925,7 +929,7 @@ select::-webkit-scrollbar-thumb {
   font-family: yikes;
 }
 
-.nav-links a.active {
+.active {
   background: linear-gradient(90deg, theme('colors.sankalan.yellow'), theme('colors.sankalan.red'));
   background-clip: text;
   -webkit-background-clip: text;
