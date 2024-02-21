@@ -54,9 +54,7 @@ export default function NavbarDefault() {
         <li key={index} className="flex items-center">
           <Link
             href={item.href}
-            className={`cursor-pointer text-white hover:text-sankalan-yellow ${router.pathname == item.href ? `active text-xl -rotate-2 bg-gradient-to-r bg-clip-text  text-transparent 
-          from-sankalan-yellow via-sankalan-accent-yellow to-sankalan-yellow
-          animate-text` : ""} transition-colors duration-300 font-[potatosans]`}
+            className={`cursor-pointer text-white hover:text-sankalan-yellow ${router.pathname == item.href ? `active text-xl -rotate-2` : ""} transition-colors duration-300 font-[potatosans]`}
           >
             {item.title}
           </Link>

@@ -926,7 +926,12 @@ select::-webkit-scrollbar-thumb {
 }
 
 .nav-links a.active {
-  color: theme('colors.sankalan.yellow');
+  background: linear-gradient(90deg, theme('colors.sankalan.yellow'), theme('colors.sankalan.red'));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 200% 200%;
+  animation: gradient 2s linear infinite;
 }
 
 .active::before {
