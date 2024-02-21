@@ -17,7 +17,7 @@ const Contact = () => {
       <h1 className='text-black text-2xl title-page'>Contact Us</h1>
       <div className='container mx-auto text-white text-left flex flex-col gap-4 mt-10'>
         <p>
-          For any queries, please contact us at <a href={`mailto:${contact.email}`} className="text-sankalan-yellow">{contact.email.replaceAll('@', '[at]').replaceAll('.', '[dot]')}</a> or text us on <a href={`https://wa.me/91${contact.phone}`} className="text-sankalan-yellow phone">{contact.phone}</a>.
+          For any queries, please contact us at <a href={`mailto:${contact.email}`} className="text-sankalan-yellow">{contact.email}</a> or text us on <a href={`https://wa.me/91${contact.phone2}`} className="text-sankalan-yellow phone">+91{contact.phone2}</a> or <a href={`https://wa.me/91${contact.phone}`} className="text-sankalan-yellow phone">+91{contact.phone}</a>.
         </p>
 
         <p>

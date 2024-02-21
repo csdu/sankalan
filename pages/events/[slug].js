@@ -40,7 +40,6 @@ const EventDetailPage = ({ _eventSlug }) => {
               <h1 className='text-black text-2xl inline-block title-event-page' dangerouslySetInnerHTML={{
                 __html: event.name
               }}></h1>
-              <p className='text-sankalan-accent-yellow mt-0'>{format(event.date + ' ' + event.time + 'Z+05:30', "LLLL do, yyyy 'from' hh:mm b")}</p>
               <div className='container flex flex-col gap-4 gap-y-12 justify-between my-4 mx-auto text-start'>
                 <div className='col-span-2'>
                   {event.description_paragraphs.map((paragraph, index) => (
@@ -74,9 +73,9 @@ const EventDetailPage = ({ _eventSlug }) => {
                       Event Details
                     </AccordionHeader>
                     <AccordionBody className='text-white font-[comicbook]'>
-                      <p className='text-white mb-1'><span className='font-medium'>Date:</span> {format(event.date + ' ' + event.time + 'Z+05:30', "LLLL Do, yyyy (EEEE)")}</p>
-                      <p className='text-white mb-1'><span className='font-medium'>Time:</span> {format(event.date + ' ' + event.time + 'Z+05:30', "hh:mm b")}</p>
-                      <p className='text-white mb-1'><span className='font-medium'>Location:</span> {event.location}</p>
+                      <p className='text-white mb-1'><span className='font-medium'>Date:</span> {format(event.date + ' ' + event.time + 'Z+05:30', "LLLL do, yyyy (EEEE)")}</p>
+                      <p className='text-white mb-1'><span className='font-medium'>Time:</span> {format(event.date + ' ' + event.time + 'Z+05:30', "hh:mm b")} (Tentative)</p>
+                      <p className='text-white mb-1'><span className='font-medium'>Location:</span> {"TBA" || event.location}</p>
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 3}>
