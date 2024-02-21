@@ -220,7 +220,7 @@
         "is_team_event": true
       },
       {
-        "name": "Dastur-e-Mehfil",
+        "name": "Dastur<span class=\"hyphen\">-</span>e<span class=\"hyphen\">-</span>Mehfil",
         "slug": "dastur-e-mehfil",
         "description": "Solo Competition",
         "date": "2024-03-17",
@@ -265,7 +265,7 @@
         }]
       },
       {
-        "name": "Click-Akrity",
+        "name": "Click<span class=\"hyphen\">-</span>Akrity",
         "slug": "click-akrity",
         "description": "Solo Competition",
         "date": "2024-03-16",
