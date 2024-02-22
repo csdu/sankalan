@@ -9,7 +9,7 @@ const DotParticles = (props) => {
         <Particles
                 id="tsparticles"
                 style={{
-                     zIndex: -100,
+                     zIndex: -1000,
                 }}
                 particlesLoaded ={particlesLoaded}
                 options={{

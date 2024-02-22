@@ -38,6 +38,11 @@ const EventRegistrationForm = () => {
         return;
       }
 
+      if (!/^[A-Za-z .-]+$/.test(fullName)) {
+        alert('Numbers and special characters are not allowed in name');
+        return;
+      }
+
       if (!mobileNumber) {
         alert('Please enter your mobile number');
         return;
@@ -60,6 +65,11 @@ const EventRegistrationForm = () => {
         return;
       }
 
+      if (!/^[A-Za-z .-]+$/.test(course)) {
+        alert('Numbers and special characters are not allowed in course name');
+        return;
+      }
+
       if (!year) {
         alert('Please enter which year you are studying in');
         return;
@@ -70,8 +80,18 @@ const EventRegistrationForm = () => {
         return;
       }
 
+      if (!/^[A-Za-z .-]+$/.test(collegeName)) {
+        alert('Numbers and special characters are not allowed in college name');
+        return;
+      }
+
       if (!university) {
         alert('Please enter your university name');
+        return;
+      }
+
+      if (!/^[A-Za-z .-]+$/.test(university)) {
+        alert('Numbers and special characters are not allowed in university name');
         return;
       }
     }
@@ -287,7 +307,7 @@ const EventRegistrationForm = () => {
 
           <div className="mb-5">
             <label htmlFor="name" className="block mb-2 text-white">Full Name <span className="text-sankalan-yellow">*</span></label>
-            <input type="text" id="name" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={fullName}
+            <input type="text" id="name" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={fullName} pattern="[A-Za-z .-]+"
             onChange={(e) => setFullName(e.target.value.toUpperCase())} />
           </div>
 
@@ -306,7 +326,7 @@ const EventRegistrationForm = () => {
         <>
           <div className="mb-5">
             <label htmlFor="course" className="block mb-2 text-white">Course <span className="text-sankalan-yellow">*</span></label>
-            <input type="text" id="course" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={course}
+            <input type="text" id="course" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={course} pattern="[A-Za-z .-]+"
             onChange={(e) => setCourse(e.target.value)} />
           </div>
 
@@ -324,13 +344,13 @@ const EventRegistrationForm = () => {
 
           <div className="mb-5">
             <label htmlFor="collegeName" className="block mb-2 text-white">College/Institute/Department <span className="text-sankalan-yellow">*</span></label>
-            <input type="text" id="collegeName" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={collegeName}
+            <input type="text" id="collegeName" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={collegeName} pattern="[A-Za-z .-]+"
             onChange={(e) => setCollegeName(e.target.value.toUpperCase())} />
           </div>
 
           <div className="mb-8">
             <label htmlFor="university" className="block mb-2 text-white">University <span className="text-sankalan-yellow">*</span></label>
-            <input type="text" id="university" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={university}
+            <input type="text" id="university" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={university} pattern="[A-Za-z .-]+"
             onChange={(e) => setUniversity(e.target.value.toUpperCase())} />
           </div>
           <button className='text-white hover:text-black border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white rounded-none text-sm px-5 py-2.5 text-center me-2 mb-2' onClick={handlePrevious}>Previous</button>
@@ -346,7 +366,7 @@ const EventRegistrationForm = () => {
               <option value=""></option>
               {
                 events.map((eventType, index) => (
-                  <optgroup key={index} label={eventType.category}>
+                  <optgroup key={index} label={eventType.category.replace(/<\/?[^>]+(>|$)/g, "")}>
                       {
                         eventType.events.map((event, index) => (
                           <option key={index} value={event.slug}>{event.name.replace(/<\/?[^>]+(>|$)/g, "")}</option>
@@ -384,12 +404,12 @@ const EventRegistrationForm = () => {
                 </p>
 
                 <div className="mb-5">
-                  <label htmlFor="team" className="block mb-2 text-white">Team Name</label>
+                  <label htmlFor="team" className="block mb-2 text-white">Team Name <span className="text-sankalan-yellow">*</span></label>
                   <input type="text" id="team" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={team} onChange={(e) => setTeam(e.target.value)} />
                 </div>
 
                 <div className="">
-                  <label htmlFor="teamMembers" className="block mb-2 text-white">Names of Members <span className="text-sankalan-accent-yellow text-xs">(separated by commas)</span></label>
+                  <label htmlFor="teamMembers" className="block mb-2 text-white">Team Members <span className="text-sankalan-yellow">*</span><br /><span className="text-sankalan-accent-yellow text-xs">full names of members separated by commas</span></label>
                   <textarea id="teamMembers" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={teamMembers} onChange={(e) => setTeamMembers(e.target.value)} />
                 </div>
               </div>

@@ -793,7 +793,7 @@ body {
   .corner-nav-item.top-center a {
     top: 0.8rem;
     left: 50%;
-    transform: translateX(-50%) translateY(130%);
+    transform: translateX(-50%) translateY(120%);
   }
 
   .corner-nav-item.bottom-center a {
