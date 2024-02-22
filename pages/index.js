@@ -25,6 +25,11 @@ export default function Home() {
       <Head>
         <title>{site.title}</title>
         <meta name="description" content={site.description} />
+        <meta property="og:title" content={site.title}/>
+        <meta property="og:description" content={site.description} />
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:title" content={site.title} />
+        <meta name="twitter:description" content={site.description} />
       </Head>
       <Image 
         alt='lines' 

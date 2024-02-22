@@ -18,6 +18,11 @@ export default function Events() {
       <Head>
         <title>Team | {site.title}</title>
         <meta name="description" content={site.description} />
+        <meta property="og:title" content={'Team | ' + site.title}/>
+        <meta property="og:description" content={site.description} />
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:title" content={'Team | ' + site.title} />
+        <meta name="twitter:description" content={site.description} />
       </Head>
       <h1 className='text-black text-2xl mb-8 title-page'>Team</h1>
 

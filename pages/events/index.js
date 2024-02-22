@@ -18,6 +18,11 @@ const Events = () => {
       <Head>
         <title>Events | {site.title}</title>
         <meta name="description" content={site.description} />
+        <meta property="og:title" content={'Events | ' + site.title}/>
+        <meta property="og:description" content={site.description} />
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:title" content={'Events | ' + site.title} />
+        <meta name="twitter:description" content={site.description} />
       </Head>
       <h1 className='text-black text-2xl title-page'>Events</h1>
       {

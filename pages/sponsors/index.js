@@ -18,6 +18,11 @@ const Sponsors = () => {
       <Head>
         <title>Sponsors | {site.title}</title>
         <meta name="description" content={site.description} />
+        <meta property="og:title" content={'Sponsors | ' + site.title}/>
+        <meta property="og:description" content={site.description} />
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:title" content={'Sponsors | ' + site.title} />
+        <meta name="twitter:description" content={site.description} />
       </Head>
       <h1 className='text-black text-2xl title-page'>Sponsors</h1>
       <div className='text-center mb-12 hover:scale-110 transition'>

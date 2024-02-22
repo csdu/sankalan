@@ -24,6 +24,11 @@ export default function Component() {
       <Head>
         <title>Registration | {site.title}</title>
         <meta name="description" content={site.description} />
+        <meta property="og:title" content={'Registration | ' + site.title}/>
+        <meta property="og:description" content={site.description} />
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:title" content={'Registration | ' + site.title} />
+        <meta name="twitter:description" content={site.description} />
       </Head>
       <h1 className="title-page">Registration</h1>
       <p className="text-white mt-12">

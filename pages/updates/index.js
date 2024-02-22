@@ -19,7 +19,7 @@ const About = () => {
     fetch('/api/getUpdates')
       .then(response => response.json())
       .then(data => {
-        setUpdates(data);
+        setUpdates(data.reverse());
       })
       .catch(error => {
         console.error('Error:', error);
@@ -31,6 +31,11 @@ const About = () => {
       <Head>
         <title>Updates | {site.title}</title>
         <meta name="description" content={site.description} />
+        <meta property="og:title" content={'Updates | ' + site.title}/>
+        <meta property="og:description" content={site.description} />
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:title" content={'Updates | ' + site.title} />
+        <meta name="twitter:description" content={site.description} />
       </Head>
       <h1 className='text-black text-2xl title-page'>Updates</h1>
       <div className='container mx-auto text-white text-left flex flex-col gap-4 mt-10'>

@@ -16,6 +16,11 @@ const Terms = () => {
       <Head>
         <title>Terms | {site.title}</title>
         <meta name="description" content={site.description} />
+        <meta property="og:title" content={'Terms | ' + site.title}/>
+        <meta property="og:description" content={site.description} />
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:title" content={'Terms | ' + site.title} />
+        <meta name="twitter:description" content={site.description} />
       </Head>
       <h1 className='text-black text-2xl title-page'>Terms</h1>
       <div className='container mx-auto text-white text-left flex flex-col gap-4 mt-10'>

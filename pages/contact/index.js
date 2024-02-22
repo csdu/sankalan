@@ -13,6 +13,11 @@ const Contact = () => {
       <Head>
         <title>Contact Us | {site.title}</title>
         <meta name="description" content={site.description} />
+        <meta property="og:title" content={'Contact Us | ' + site.title}/>
+        <meta property="og:description" content={site.description} />
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:title" content={'Contact Us | ' + site.title} />
+        <meta name="twitter:description" content={site.description} />
       </Head>
       <h1 className='text-black text-2xl title-page'>Contact Us</h1>
       <div className='container mx-auto text-white text-left flex flex-col gap-4 mt-10'>

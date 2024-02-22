@@ -35,6 +35,11 @@ const EventDetailPage = ({ _eventSlug }) => {
             <Head>
               <title >{event.name.replace(/<\/?[^>]+(>|$)/g, "")} | {site.title}</title>
               <meta name="description" content={site.description} />
+              <meta property="og:title" content={event.name.replace(/<\/?[^>]+(>|$)/g, "") + ' | ' + site.title}/>
+              <meta property="og:description" content={site.description} />
+              <meta name="twitter:card" content="summary"/>
+              <meta name="twitter:title" content={event.name.replace(/<\/?[^>]+(>|$)/g, "") + ' | ' + site.title} />
+              <meta name="twitter:description" content={site.description} />
             </Head>
             <div className='container text-center mx-auto'>
               <h1 className='text-black text-2xl inline-block title-event-page' dangerouslySetInnerHTML={{
