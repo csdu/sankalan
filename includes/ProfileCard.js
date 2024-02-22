@@ -36,8 +36,8 @@ export default function ProfileCard(data) {
           </Typography>
         ) : null}
         <div className="mt-4 flex justify-center items-center gap-5 text-black">
-          <a target="_blank" href={github}><FontAwesomeIcon size="lg" icon={faGithub} /></a>
-          <a target="_blank" href={linkedin}><FontAwesomeIcon icon={faLinkedinIn} /></a>
+          {github != '#' ? <a target="_blank" href={github} className="hover:text-sankalan-blue transition duration-300 ease-in-out"><FontAwesomeIcon size="lg" icon={faGithub} /></a> : <FontAwesomeIcon size="lg" icon={faGithub} />}
+          {linkedin != '#' ? <a target="_blank" href={linkedin} className="hover:text-sankalan-blue transition duration-300 ease-in-out"><FontAwesomeIcon size="lg"  icon={faLinkedinIn} /></a> : <FontAwesomeIcon size="lg"  icon={faLinkedinIn} />}
         </div>
       </CardBody>
     </Card>
