@@ -54,6 +54,13 @@ const EventDetailPage = ({ _eventSlug }) => {
                   ))}
                 </div>
 
+                {event.externalRegistration && (
+                  <div className='text-center mt-[-.5em] mb-4 hover:scale-110 transition'>
+                    <Link href={event.externalRegistration} target='_blank' className='shadow-xl uppercase border-white border-4 transition hover:scale-110 text-white from-sankalan-accent-green to-sankalan-accent-blue bg-gradient-to-r text-xl
+                    hover:bg-white font-bold p-2 lg:px-4 focus:outline-none focus:shadow-outline duration-300 ease-in-out'>EVENT WEBSITE</Link>
+                  </div>
+                )}
+
                 <div className='text-center mt-[-.5em] hover:scale-110 transition'>
                   <Link href={`/register?event=${event.slug}`} target='_blank' className='shadow-xl uppercase border-white border-4 transition hover:scale-110 text-white from-sankalan-accent-green to-sankalan-accent-blue bg-gradient-to-r text-xl
                   hover:bg-white font-bold p-2 lg:px-4 focus:outline-none focus:shadow-outline duration-300 ease-in-out'>REGISTER NOW <span className='hidden lg:inline-block'> FOR {event?.name.replace(/<\/?[^>]+(>|$)/g, "").toUpperCase()}</span></Link>
