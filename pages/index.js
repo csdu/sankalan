@@ -99,7 +99,8 @@ export default function Home() {
                 }
                 className=''
               >
-                <Countdown />
+                COMING SOON
+                {/* <Countdown /> */}
               </span>
             </a>
         </div>
