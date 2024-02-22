@@ -40,7 +40,7 @@ const About = () => {
           alt="DUCS Building"
           width={500}
           placeholder='blur'
-          className='w-full mt-12'
+          className='w-full mt-8 border-4 border-white shadow-xl'
         />
       </div>
     </PageLayout>
