@@ -37,7 +37,7 @@ const Sponsors = () => {
                 <Tooltip key={index} placement='bottom' content={sponsor.name}>              
                   <Card
                     shadow={true}
-                    className="relative grid h-[10rem] w-full max-w-[10rem] items-center justify-center overflow-hidden text-center mx-auto cursor-pointer transition-transform transform hover:scale-105 duration-300 ease-in-out"
+                    className="relative grid h-[10rem] w-full max-w-[10rem] items-center justify-center overflow-hidden text-center mx-auto cursor-pointer transition-transform transform hover:scale-105 duration-300 ease-in-out rounded-none border-white border-4 shadow-xl"
                   >
                     <CardHeader
                       floated={false}
