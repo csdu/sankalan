@@ -67,8 +67,8 @@ export default function Home() {
 
       <Link href={'/terms'} className='hidden'>Privacy Policy</Link>
 
-      <div className="landing-content bg-[url('/images/4845746.jpg')] bg-cover bg-center bg-no-repeat bg-fixed flex flex-col lg:flex-row justify-center
-       lg:w-3/4 mx-auto lg:gap-x-20 min-h-screen lg:min-h-screen overflow-auto items-center">
+      <div className="landing-content bg-[url('/images/4845746.jpg')] bg-cover bg-center bg-no-repeat flex flex-col lg:flex-row justify-center
+        mx-auto lg:gap-x-20 min-h-screen lg:min-h-screen overflow-auto items-center">
         {/* <div className="lg:absolute z-10">
           <div className='date'>
            
