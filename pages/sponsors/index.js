@@ -26,7 +26,7 @@ const Sponsors = () => {
       </Head>
       <h1 className='text-black text-2xl title-page'>Sponsors</h1>
       <div className='text-center mb-12 hover:scale-110 transition'>
-        <Link href={`/downloads/sponsorship-brochure.pdf`} target='_blank' className='shadow-xl uppercase border-white border-4 transition hover:scale-110 text-white from-sankalan-accent-green to-sankalan-accent-blue bg-gradient-to-r lg:text-2xl
+        <Link href={`https://drive.google.com/file/d/1fY66rhukSq0X9PIf4ZB8HUaeednShBC1/view?usp=sharing`} target='_blank' className='shadow-xl uppercase border-white border-4 transition hover:scale-110 text-white from-sankalan-accent-green to-sankalan-accent-blue bg-gradient-to-r lg:text-2xl
         hover:bg-white font-bold p-2 lg:px-4 focus:outline-none focus:shadow-outline duration-300 ease-in-out'>Sponsorship Brochure</Link>
       </div>
         {Object.entries(sponsors).map(([type, sponsorType], index) => (
