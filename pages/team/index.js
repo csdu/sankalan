@@ -32,7 +32,7 @@ export default function Events() {
             <h2 className=' lg:text-2xl font-medium uppercase mb-8 title-event-page' dangerouslySetInnerHTML={{
               __html: team.category
             }}></h2>
-            <div className='container flex flex-wrap lg:gap-x-12 gap-y-12 lg:justify-center items-center my-16 mx-auto'>
+            <div className='container flex flex-wrap lg:gap-x-8 gap-y-12 lg:justify-center items-center my-16 mx-auto'>
               {team.members?.map((item, index) => (
                 <ProfileCard key={index} data={item} />
               ))}

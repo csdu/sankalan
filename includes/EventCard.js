@@ -14,7 +14,7 @@ export default function EventCard({name, event, cardImage, ...rest}) {
     <Link href={'/events/' + event} className="lg:basis-1/2 w-full" >
       <Card
         shadow={true}
-        className="relative grid h-[15rem] w-full max-w-[28rem] items-center justify-center overflow-hidden text-center mx-auto cursor-pointer transition-transform transform hover:scale-105 duration-300 ease-in-out"
+        className="relative grid h-[15rem] w-full max-w-[28rem] items-center justify-center overflow-hidden text-center mx-auto cursor-pointer transition-transform transform hover:scale-105 duration-300 ease-in-out rounded-none border-white border-4 shadow-xl"
       >
         <CardHeader
           floated={false}
