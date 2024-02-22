@@ -90,10 +90,11 @@
         "linkedin": "https://www.linkedin.com/in/sakshi-jha-7a163621b/"
       },
       {
-        "name": "Sameer",
+        "name": "Sameer Yadav",
         "position": "Designing",
+        "image": "/images/people/2024/self - Sameer Yadav.jpeg",
         "github": "#",
-        "linkedin": "#"
+        "linkedin": "https://www.linkedin.com/in/sameer-yadav-70446a261/"
       },
       {
         "name": "Sakhil",
@@ -222,10 +223,11 @@
         "linkedin": "https://www.linkedin.com/in/praveen-kumar-5992751a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       {
-        "name": "Sameer",
+        "name": "Sameer Yadav",
         "position": "Artisan Valley",
+        "image": "/images/people/2024/self - Sameer Yadav.jpeg",
         "github": "#",
-        "linkedin": "#"
+        "linkedin": "https://www.linkedin.com/in/sameer-yadav-70446a261/"
       },
       {
         "name": "Akansha Yadav",
@@ -282,6 +284,12 @@
         "image": "/images/people/2024/IMG_20231111_164826770~3 - Purnima Kumar.jpg",
         "github": "https://github.com/purnimakumarr",
         "linkedin": "https://www.linkedin.com/in/purnimakumarr/"
+      }, {
+        "name": "Harsh Yadav",
+        "position": "Development",
+        "image": "/images/people/2024/IMG_20240222_134300 - HARSH YADAV.jpg",
+        "github": "https://github.com/Harsh-Yadav-02",
+        "linkedin": "https://in.linkedin.com/in/harsh-yadav-882189195"
       }
     ]
   }
