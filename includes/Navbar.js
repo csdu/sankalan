@@ -94,7 +94,7 @@ export default function NavbarDefault() {
             </Link>
             <Link onClick={() => alert('Event Registrations have not started yet. Please check back later.')} href={'#'} className="hidden lg:inline-block bg-gradient-to-r from-sankalan-dark-yellow to-sankalan-accent-red
             p-2 p-y-0 text-black hover:bg-sankalan-accent-yellow text-white uppercase mt-[-5]
-            hover:scale-110 transition-transform transition-colors duration-300 ease-in-out border-4 border-white font-[spacemono] text-sm font-bold
+            hover:scale-110 transition-transform transition-colors duration-300 ease-in-out border-4 border-white font-[comicbook] text-sm font-bold
             ">
               <span 
                 style={
@@ -158,7 +158,7 @@ export default function NavbarDefault() {
             <div className="nav-links gap-x-2">
               <Link onClick={() => alert('Event Registrations have not started yet. Please check back later.')} href={'#'} className="inline-block bg-gradient-to-r from-sankalan-dark-yellow to-sankalan-accent-red
             p-2 p-y-0 text-black hover:bg-sankalan-accent-yellow text-white uppercase mt-[-5]
-            hover:scale-110 transition-transform transition-colors duration-300 ease-in-out border-2 border-white font-[spacemono] text-sm font-bold
+            hover:scale-110 transition-transform transition-colors duration-300 ease-in-out border-2 border-white font-[comicbook] text-sm font-bold
             ">
               <span 
                 style={
