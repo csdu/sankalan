@@ -80,6 +80,8 @@
         "time": "10:00",
         "location": "Satyakam Bhavan",
         "externalRegistration": "https://hack.ducs.in",
+        "externalRegistrationProvider": "Devfolio",
+        "externalRegistrationUrl": "https://hack.ducs.in",
         "description_paragraphs": [
           "Coming Soon."
         ],

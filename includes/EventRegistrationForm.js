@@ -399,25 +399,37 @@ const EventRegistrationForm = () => {
           {
             event && !alreadyRegistered && events.map(e => e.events).flat().find(e => e.slug == event)?.is_team_event && (
               <div className="mb-8 mt-[-.8em]">
-                <p className="text-white mb-6">
-                  Only one member from the team should register.
-                </p>
+                {
+                  events.map(e => e.events).flat().find(e => e.slug == event)?.externalRegistrationUrl ? (
+                    <p className="text-white mb-6">
+                      Register on <a href={events.map(e => e.events).flat().find(e => e.slug == event)?.externalRegistrationUrl} target="_blank" className="text-sankalan-accent-yellow"
+                      >{events.map(e => e.events).flat().find(e => e.slug == event)?.externalRegistrationProvider}</a> to participate in this event.
+                    </p>
+                  ) : (
+                    <>
+                      <p className="text-white mb-6">
+                        Only one member from the team should register.
+                      </p>
 
-                <div className="mb-5">
-                  <label htmlFor="team" className="block mb-2 text-white">Team Name <span className="text-sankalan-yellow">*</span></label>
-                  <input type="text" id="team" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={team} onChange={(e) => setTeam(e.target.value)} />
-                </div>
+                      <div className="mb-5">
+                        <label htmlFor="team" className="block mb-2 text-white">Team Name <span className="text-sankalan-yellow">*</span></label>
+                        <input type="text" id="team" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={team} onChange={(e) => setTeam(e.target.value)} />
+                      </div>
 
-                <div className="">
-                  <label htmlFor="teamMembers" className="block mb-2 text-white">Team Members <span className="text-sankalan-yellow">*</span><br /><span className="text-sankalan-accent-yellow text-xs">full names of members separated by commas</span></label>
-                  <textarea id="teamMembers" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={teamMembers} onChange={(e) => setTeamMembers(e.target.value)} />
-                </div>
+                      <div className="">
+                        <label htmlFor="teamMembers" className="block mb-2 text-white">Team Members <span className="text-sankalan-yellow">*</span><br /><span className="text-sankalan-accent-yellow text-xs">full names of members separated by commas</span></label>
+                        <textarea id="teamMembers" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={teamMembers} onChange={(e) => setTeamMembers(e.target.value)} />
+                      </div>
+                    </>
+                  )
+                }
+                
               </div>
             )
           }
 
           <button className='text-white hover:text-black border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white rounded-none text-sm px-5 py-2.5 text-center me-2 mb-2' onClick={handlePrevious}>Previous</button>
-          <button className={`text-white hover:text-black border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white rounded-none text-sm px-5 py-2.5 text-center me-2 mb-2 ${alreadyRegistered ? 'hidden' : ''}`} disabled={alreadyRegistered} onClick={handleNext}>Next</button>
+          { !events.map(e => e.events).flat().find(e => e.slug == event)?.externalRegistrationUrl && <button className={`text-white hover:text-black border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white rounded-none text-sm px-5 py-2.5 text-center me-2 mb-2 ${alreadyRegistered ? 'hidden' : ''}`} disabled={alreadyRegistered} onClick={handleNext}>Next</button>}
         </>
       )}
 
