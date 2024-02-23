@@ -9,7 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import defaultEventBackground from "@/public/images/event-bg.jpg";
  
-export default function EventCard({name, event, cardImage, ...rest}) {
+export default function EventCard({name, event, description, cardImage, ...rest}) {
   return (
     <Link href={'/events/' + event} className="lg:basis-1/2 w-full" >
       <Card
@@ -31,7 +31,8 @@ export default function EventCard({name, event, cardImage, ...rest}) {
                 __html: name
               }}>
             </h2>
-        </CardBody>
+            <p className="text-yellow-800">{description}</p>
+        </CardBody>        
       </Card>
     </Link>
   );

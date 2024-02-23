@@ -16,8 +16,8 @@
         "rules": ["TBA"],
         "organizers": [
           {
-            "name": "TBA",
-            "email": "TBA",
+            "name": "Sudipto Ghosh",
+            "email": "sudipto.mcs22@cs.du.ac.in",
             "phone": "TBA"
           }
         ]
@@ -36,9 +36,19 @@
         "rules": ["TBA"],
         "organizers": [
           {
-            "name": "TBA",
-            "email": "TBA",
-            "phone": "TBA"
+            "name": "Muskan Saini",
+            "email": "muskansmsc23@cs.du.ac.in",
+            "phone": "9650399948"
+          },
+          {
+            "name": "Paras",
+            "email": "paraskmsc23@cs.du.ac.in",
+            "phone": "9467496856"
+          },
+          {
+            "name": "Rahul Semwal",
+            "email": "rahuls-mca23@cs.du.ac.in",
+            "phone": "8447721802"
           }
         ]
       }
@@ -61,9 +71,14 @@
         "rules": ["TBA"],
         "organizers": [
           {
-            "name": "TBA",
-            "email": "TBA",
-            "phone": "TBA"
+            "name": "Gagan Kumar Soni",
+            "email": "gagan.mcs22@cs.du.ac.in",
+            "phone": ""
+          },
+          {
+            "name": "Satyandra Pal",
+            "email": "satyandra.mca22@cs.du.ac.in",
+            "phone": "8840647329"
           }
         ]
       }
@@ -76,8 +91,8 @@
         "name": "HackDUCS",
         "slug": "hack-ducs",
         "description": "Hybrid Hackathon",
-        "date": "2024-03-16",
-        "time": "10:00",
+        "date": "2024-03-14",
+        "time": "12:00",
         "location": "Satyakam Bhavan",
         "externalRegistration": "https://hack.ducs.in",
         "externalRegistrationProvider": "Devfolio",
@@ -104,7 +119,7 @@
       {
         "name": "Algoholics",
         "slug": "algoholics",
-        "description": "Solo Competition",
+        "description": "Coding Euphoria",
         "date": "2024-03-16",
         "date2": "2024-03-17",
         "time": "11:00",
@@ -118,15 +133,15 @@
         "organizers": [
           {
             "name": "Sakshi",
-            "email": "TBA",
-            "phone": "TBA"
+            "email": "sakshi.mcs22@cs.du.ac.in",
+            "phone": "9818933246"
           }
         ]
       },
       {
         "name": "Blind Coding",
         "slug": "blind-coding",
-        "description": "Solo Competition",
+        "description": "Code without execute",
         "date": "2024-03-16",
         "time": "13:30",
         "location": "LAB2",
@@ -137,16 +152,21 @@
         "rules": ["TBA"],
         "organizers": [
           {
-            "name": "TBA",
-            "email": "TBA",
-            "phone": "TBA"
+            "name": "Ajay",
+            "email": "ajay.mca22@cs.du.ac.in",
+            "phone": "8287985486"
+          },
+          {
+            "name": "Rohan",
+            "email": "rohan.mca22@cs.du.ac.in",
+            "phone": "8700329661"
           }
         ]
       },
       {
         "name": "Code Auction",
         "slug": "code-auction",
-        "description": "Solo Competition",
+        "description": "Bid for problem",
         "date": "2024-03-16",
         "time": "15:30",
         "location": "Seminar/IoE Lab",
@@ -158,20 +178,20 @@
         "organizers": [
           {
             "name": "Bhavyaa",
-            "email": "TBA",
-            "phone": "TBA"
+            "email": "bhavyaa.mcs22@cs.du.ac.in",
+            "phone": "8851343493"
           },
           {
             "name": "Karamjot",
-            "email": "TBA",
-            "phone": "TBA"
+            "email": "karamjot.mcs22@cs.du.ac.in",
+            "phone": "9654226396"
           }
         ]
       },
       {
         "name": "Squash the Bugs",
         "slug": "squash-the-bugs",
-        "description": "Solo Competition",
+        "description": "Debug the code",
         "date": "2024-03-16",
         "time": "11:00",
         "location": "LAB2",
@@ -191,7 +211,7 @@
       {
         "name": "Graphix",
         "slug": "graphix",
-        "description": "Solo Competition",
+        "description": "Graphic Designing",
         "date": "2024-03-16",
         "time": "13:30",
         "location": "Room 115",
@@ -202,9 +222,9 @@
         "rules": ["TBA"],
         "organizers": [
           {
-            "name": "TBA",
-            "email": "TBA",
-            "phone": "TBA"
+            "name": "Arpit",
+            "email": "arpit.mca22@cs.du.ac.in",
+            "phone": "6390160373"
           }
         ]
       }
@@ -228,13 +248,13 @@
         "organizers": [
           {
             "name": "Akansha Yadav",
-            "email": "TBA",
-            "phone": "TBA"
+            "email": "akansha.yadav.mcs22@cs.du.ac.in",
+            "phone": "9532361001"
           },
           {
             "name": "Surbhi",
-            "email": "TBA",
-            "phone": "TBA"
+            "email": "surbhiofficial04@gmail.com",
+            "phone": "7900856102"
           }
         ],
         "is_team_event": true
@@ -254,17 +274,18 @@
         "organizers": [
           {
             "name": "Bhushan",
-            "email": "TBA"
+            "email": "bhushan.mca22@cs.du.ac.in",
+            "phone": "7827292908"
           }
         ]
       },
       {
         "name": "Treasure Hunt",
         "slug": "treasure-hunt",
-        "description": "Solo Competition",
+        "description": "Solve and win (Group Competition)",
         "date": "2024-03-17",
         "time": "9:00",
-        "location": "Department Campus",
+        "location": "Department of Computer Science Campus",
         "description_paragraphs": [
           "Coming Soon."
         ],
@@ -273,22 +294,25 @@
         "organizers": [
           {
             "name": "Durga",
-            "email": "TBA"
+            "email": "durga.prasad.mcs22@cs.du.ac.in",
+            "phone": "8287010478"
           },
           {
             "name": "Ajay",
-            "email": "TBA"
+            "email": "ajay.mca22@cs.du.ac.in",
+            "phone": "8287985486"
           },
           {
             "name": "Pawan",
-            "email": "TBA"
+            "email": "pawan.mca22@cs.du.ac.in",
+            "phone": ""
           }
         ]
       },
       {
         "name": "Artisan Valley",
         "slug": "artisan-valley",
-        "description": "Digital Art Competition",
+        "description": "Painting Competition",
         "date": "2024-03-17",
         "time": "11:00",
         "location": "Room 114",
@@ -299,12 +323,9 @@
         "rules": ["TBA"],
         "organizers": [
           {
-            "name": "Surbhi",
-            "email": "TBA"
-          },
-          {
             "name": "Sameer",
-            "email": "TBA"
+            "email": "sameer.mca22@cs.du.ac.in",
+            "phone": "9718516175"
           }
         ]
       },
@@ -313,8 +334,8 @@
         "slug": "click-akrity",
         "description": "Photography Competition",
         "date": "2024-03-16",
-        "time": "15:30",
-        "location": "New York",
+        "time": "10:00",
+        "location": "Department of Computer Science Campus",
         "description_paragraphs": [
           "The ultimate photography event where you're not just a viewer but also a storyteller! Armed with your camera, embark on a mission to craft immersive visual tales that showcase the spirit of our gathering.",
           "Every participant can submit three photos that best captures the theme - Diversity in Community.",
@@ -325,18 +346,20 @@
         "organizers": [
           {
             "name": "Hardik Chawda",
-            "email": "TBA"
+            "email": "hardik.mca21@cs.du.ac.in",
+            "phone": "8851193123"
           },
           {
             "name": "Adamya Shyam",
-            "email": "TBA"
+            "email": "ashyam@cs.du.ac.in",
+            "phone": "7607522129"
           }
         ]
       },
       {
         "name": "Desktop Dominion",
         "slug": "desktop-dominion",
-        "description": "Solo Competition",
+        "description": "Computer Gaming",
         "date": "2024-03-16",
         "time": "15:30",
         "location": "LAB2",
@@ -348,18 +371,20 @@
         "organizers": [
           {
             "name": "Deepanshu",
-            "email": "TBA"
+            "email": "deepanshu.mcs22@cs.du.ac.in",
+            "phone": "8178871476"
           },
           {
             "name": "Praveen",
-            "email": "TBA"
+            "email": "praveen.mcs@cs.du.ac.in",
+            "phone": "7982774791"
           }
         ]
       },
       {
         "name": "Apex Crusade",
         "slug": "apex-crusade",
-        "description": "Solo Competition",
+        "description": "Mobile Gaming",
         "date": "2024-03-17",
         "time": "12:00",
         "location": "Room 115",
@@ -371,11 +396,13 @@
         "organizers": [
           {
             "name": "Jaswinder Singh",
-            "email": "TBA"
+            "email": "jaswinder.mcs22@cs.du.ac.in",
+            "phone": "7060979798"
           },
           {
             "name": "Adarsh Shukla",
-            "email": "TBA"
+            "email": "adarsh.mcs22@cs.du.ac.in",
+            "phone": "7007154258"
           }
         ]
       }
