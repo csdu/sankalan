@@ -63,7 +63,7 @@
         "position": "Junior Joint Secretary",
         "image": "/images/people/2024/IMG_20240222_163526 - PARAS KUMAR.jpg",
         "github": "#",
-        "linkedin": "#"
+        "linkedin": "https://www.linkedin.com/in/paras-sehrawat-40"
       }
     ]
   },
@@ -79,8 +79,9 @@
       {
         "name": "Karamjot",
         "position": "Creative Writing",
-        "github": "#",
-        "linkedin": "#"
+        "image": "/images/people/2024/Screenshot_20240222-205040__01 - Karamjot Kaur.jpg",
+        "github": "https://github.com/KaramjotK",
+        "linkedin": "www.linkedin.com/in/karamjot-kaur-778231218"
       },
       {
         "name": "Sakshi",
@@ -97,10 +98,11 @@
         "linkedin": "https://www.linkedin.com/in/sameer-yadav-70446a261/"
       },
       {
-        "name": "Sakhil",
+        "name": "Sakhil Taneja",
         "position": "Designing",
-        "github": "#",
-        "linkedin": "#"
+        "image": "/images/people/2024/photo_2023-10-09_01-05-163 - Sakhil Taneja.jpg",
+        "github": "https://github.com/SakhilTaneja",
+        "linkedin": "https://linkedin.com/in/sakhil-taneja-0a9051243"
       },
       {
         "name": "Tanuja Bisht",
@@ -163,8 +165,9 @@
       {
         "name": "Karamjot Kaur",
         "position": "Code Auction",
-        "github": "#",
-        "linkedin": "#"
+        "image": "/images/people/2024/Screenshot_20240222-205040__01 - Karamjot Kaur.jpg",
+        "github": "https://github.com/KaramjotK",
+        "linkedin": "www.linkedin.com/in/karamjot-kaur-778231218"
       },
       {
         "name": "Sudipto Ghosh",
@@ -298,6 +301,13 @@
         "image": "/images/people/2024/photo_2023-07-08_19-24-44 (2) - RITESH GUPTA.jpg",
         "github": "https://github.com/b4n1y4",
         "linkedin": "https://linkedin.com/in/r1t35h"
+      },
+      {
+        "name": "Prashuk Jain",
+        "position": "Designing",
+        "image": "/images/people/2024/Picsart_24-01-30_00-52-58-180 - PRASHUK JAIN.jpg",
+        "github": "https://github.com/Rey8el",
+        "linkedin": "https://www.linkedin.com/in/prashuk-jain-509959284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       }
     ]
   }
