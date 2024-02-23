@@ -41,7 +41,7 @@ const About = () => {
       <div className='container mx-auto text-white text-left flex flex-col gap-4 mt-10'>
         {
           updates && updates.map((update, index) => (
-            <div key={index} className='bg-white p-4'>
+            <div key={index} className='bg-white p-4 rounded-lg'>
               <p className='text-black'>{update[0]}</p>
               {update[1] && <p className='mt-2 text-sankalan-blue text-sm'>{update[1]}</p>}
               {update[2] && <p className='text-sankalan-dark-blue text-xs'>Posted at {format(update[2], 'hh:mm bb \'on\' MMM dd yyyy')}</p>}

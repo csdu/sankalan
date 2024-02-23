@@ -33,7 +33,7 @@ const Events = () => {
             }}></h2>
             <div className='container w-full flex flex-row flex-wrap gap-y-12 lg:justify-center items-center mt-8 mb-12 mx-auto'>
               {item.events.map((item, index) => (
-                <EventCard key={index} name={item.name} cardImage={item.cardImage} event={item.slug} />
+                <EventCard key={index} name={item.name} description={item.description} cardImage={item.cardImage} event={item.slug} />
               ))}
             </div>
           </div>
