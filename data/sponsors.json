@@ -1,5 +1,22 @@
 [
   {
+    "title": "Silver Sponsors",
+    "sponsors": [
+      {
+        "name": "Devfolio",
+        "image": "Devfolio_Logo-Colored.png"
+      },
+      {
+        "name": "Polygon",
+        "image": "Polygon_Logo-Colored.png"
+      },
+      {
+        "name": "ETHIndia",
+        "image": "ethindia-dark.png"
+      }
+    ]
+  },
+  {
     "title": "Past Sponsors",
     "sponsors": [
       {
