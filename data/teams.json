@@ -2,7 +2,7 @@
   {
     "category": "DUCSS Panel",
     "members": [
-        {
+      {
         "name": "Gagan Kumar Soni",
         "position": "President",
         "image": "/images/people/2024/image - Gagan Kumar Soni.jpeg",
@@ -221,7 +221,7 @@
       },
       {
         "name": "Praveen",
-        "image":"/images/people/2024/IMG_20240213_140525881_HDR - Praveen Kumar.jpg",
+        "image": "/images/people/2024/IMG_20240213_140525881_HDR - Praveen Kumar.jpg",
         "position": "Desktop Dominion",
         "github": "https://github.com/praveenkumar0607",
         "linkedin": "https://www.linkedin.com/in/praveen-kumar-5992751a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -288,7 +288,8 @@
         "image": "/images/people/2024/IMG_20231111_164826770~3 - Purnima Kumar.jpg",
         "github": "https://github.com/purnimakumarr",
         "linkedin": "https://www.linkedin.com/in/purnimakumarr/"
-      }, {
+      },
+      {
         "name": "Harsh Yadav",
         "position": "Development",
         "image": "/images/people/2024/IMG_20240222_134300 - HARSH YADAV.jpg",
@@ -308,6 +309,185 @@
         "image": "/images/people/2024/Picsart_24-01-30_00-52-58-180 - PRASHUK JAIN.jpg",
         "github": "https://github.com/Rey8el",
         "linkedin": "https://www.linkedin.com/in/prashuk-jain-509959284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      }
+    ]
+  },
+  {
+    "category": "Old Volunteers",
+    "members": [
+      {
+        "name": "Rashmi Om Mishra",
+        "position": "President",
+        "image": "/images/people/2023/rashmi_om_mishra.jpeg",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/rashmi-om-mishra-917332171/"
+      },
+      {
+        "name": "Divyam Kaushik",
+        "position": "Vice-President",
+        "image": "/images/people/2023/divyam_kaushik.jpg",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/divyamkaushik-ducs/"
+      },
+      {
+        "name": "Himanshi Gupta",
+        "position": "General Secretary",
+        "image": "/images/people/2023/himanshi_gupta.jpg",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/himanshi-gupta-b341531a4/"
+      },
+      {
+        "name": "Komal Yadav",
+        "position": "Joint Secretary",
+        "image": "/images/people/2023/komal_yadav.jpeg",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/komal-yadav-bb276a205/"
+      },
+      {
+        "name": "Ashima",
+        "position": "Treasurer",
+        "image": "/images/people/2023/ashima.jpg",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/ashima-bisla-4b9b36204/"
+      },
+      {
+        "name": "Shubham Sharma",
+        "position": "",
+        "image": "/images/people/2023/Shubham_Sharma.jpg",
+        "github": "https://github.com/shu6h4m",
+        "linkedin": "https://www.linkedin.com/in/shu6h4m"
+      },
+      {
+        "name": "Priyanshu Gaur",
+        "position": "",
+        "image": "/images/people/2023/Priyanshu_Gaur.jpeg",
+        "github": ""
+      },
+      {
+        "name": "Nitesh Kumar",
+        "position": "",
+        "image": "/images/people/2023/Nitesh_Kumar.jpeg",
+        "linkedin": "https://www.linkedin.com/in/nitesh-kumar-6ba703184",
+        "github": ""
+      },
+      {
+        "name": "Kavita",
+        "position": "",
+        "image": "/images/people/2023/kavita.jpg",
+        "github": "https://github.com/Kavita-04",
+        "linkedin": "www.linkedin.com/in/kavita04"
+      },
+      {
+        "name": "Prateek Jena",
+        "position": "",
+        "image": "/images/people/2023/prateek_jena.jpg",
+        "github": "https://github.com/prateikjena",
+        "linkedin": "https://www.linkedin.com/in/prateek-jena/"
+      },
+      {
+        "name": "Sakshi Sharma",
+        "position": "",
+        "image": "/images/people/2023/Sakshi_Sharma.jpg",
+        "github": "https://github.com/SakshiiSharmaa",
+        "linkedin": "https://www.linkedin.com/in/sakshi-sharma-7007311b9/"
+      },
+      {
+        "name": "Parag Dudeja",
+        "position": "",
+        "image": "/images/people/2023/Parag_Dudeja.jpg",
+        "github": "https://github.com/paragdudeja",
+        "linkedin": "https://www.linkedin.com/in/paragdudeja/"
+      },
+      {
+        "name": "Dipesh Joshi",
+        "position": "",
+        "image": "/images/people/2023/Dipesh_Joshi.jpg",
+        "github": "https://github.com/joshidipesh12",
+        "linkedin": "https://www.linkedin.com/in/joshidipesh12"
+      },
+      {
+        "name": "Ankuj Pandey",
+        "position": "",
+        "image": "/images/people/2023/Ankuj_pandey.jpeg",
+        "github": "https://github.com/ankujpandey",
+        "linkedin": "https://www.linkedin.com/in/ankuj-pandey-a6b62b204"
+      },
+      {
+        "name": "Ankit",
+        "position": "",
+        "image": "/images/people/2023/Ankit.jpg",
+        "github": "https://github.com/ankitkumarbrur",
+        "linkedin": "https://www.linkedin.com/in/ankit-kumar-4b6714161"
+      },
+      {
+        "name": "Saloni",
+        "position": "",
+        "image": "/images/people/2023/Saloni.jpg",
+        "github": "https://github.com/salonisv22",
+        "linkedin": "https://www.linkedin.com/in/saloni-vats-55517b205"
+      },
+      {
+        "name": "Prerna Prasad",
+        "position": "",
+        "image": "/images/people/2023/Prerna_Prasad.jpg",
+        "github": "https://github.com/prernaprasad14",
+        "linkedin": ""
+      },
+      {
+        "name": "Rishabh Poria",
+        "position": "",
+        "image": "/images/people/2023/Rishabh_Poria.jpg",
+        "github": "https://github.com/RishPoria",
+        "linkedin": "https://www.linkedin.com/in/rishporia/"
+      },
+      {
+        "name": "Tania Aggarwal",
+        "position": "",
+        "image": "/images/people/2023/Tania_Aggarwal.jpeg",
+        "github": "https://github.com/TaniaAggarwal29",
+        "linkedin": "https://www.linkedin.com/in/tania-aggarwal-29091998/"
+      },
+      {
+        "name": "Shaurya Singhal",
+        "position": "",
+        "image": "/images/people/2023/Shaurya_Singhal.jpg",
+        "github": "https://github.com/jugshaurya",
+        "linkedin": "https://www.linkedin.com/in/jugshaurya/"
+      },
+      {
+        "name": "Shivam Gangwar",
+        "position": "",
+        "image": "/images/people/2023/Shivam_Gangwar.jpg",
+        "github": "https://github.com/Shivam-Gangwar",
+        "linkedin": "https://www.linkedin.com/in/shivam-gangwar-6668a6204/"
+      },
+      {
+        "name": "Deepti",
+        "position": "",
+        "image": "/images/people/2023/Deepti.jpg",
+        "github": "https://github.com/deepti-chauhan",
+        "linkedin": "https://www.linkedin.com/in/deepti-chauhan-9b82a8194/"
+      },
+      {
+        "name": "Nitesh kumar",
+        "position": "",
+        "image": "/images/people/2023/Nitesh_Kumar.jpg",
+        "github": "https://github.com/niteshmrh",
+        "linkedin": "https://www.linkedin.com/in/niteshmrh/"
+      },
+      {
+        "name": "Anjali Singh",
+        "position": "",
+        "image": "/images/people/2023/Anjali_Singh.jpg",
+        "github": "https://github.com/anji862",
+        "linkedin": "https://www.linkedin.com/in/anjali-singh-1a3802201"
+      },
+      {
+        "name": "Abhishek Passan",
+        "position": "",
+        "image": "/images/people/2023/Abhishek_Passan.jpeg",
+        "github": "https://github.com/apassan23",
+        "linkedin": "https://www.linkedin.com/in/abhishek-passan-a08113205"
       }
     ]
   }
