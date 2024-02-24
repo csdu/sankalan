@@ -1,6 +1,6 @@
 [
   {
-    "title": "Silver Sponsors",
+    "title": "",
     "sponsors": [
       {
         "name": "Devfolio",
@@ -13,6 +13,10 @@
       {
         "name": "ETHIndia",
         "image": "ethindia-dark.png"
+      },
+      {
+        "name": "Gen XYZ",
+        "image": "xyz-logo-color.png"
       }
     ]
   },
