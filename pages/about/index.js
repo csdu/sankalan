@@ -32,6 +32,14 @@ const About = () => {
         <p>SANKALAN, meaning compilation, embodies the fusion of knowledge, talent, ideas, spirit, and, of course, code! Launched   in 2005, this annual two-day technical fest has evolved into a premier national event. A revered platform for technocrats, SANKALAN serves as the ultimate IT arena where participants from across the country showcase their skills in a diverse range of technical and non-technical events. It's a geek feast of unparalleled proportions.</p>
 
         <p>
+          The Department of Computer Science, University of Delhi is one of the first university departments in India to offer a three-year Master of Computer Applications (MCA) programme and two-year Master of Science (M.Sc.) in CS programme at the post-graduate level. With a strength of more than 50 research scholars, the department continually strives to conduct cutting-edge research in all areas across CS.
+        </p>
+        
+        <p>
+          Our MCA programme aims to equip students with the core competence of developing high-quality production-grade software, while also cultivating the skillset to keep abreast with the latest state-of-the-art technologies. M.Sc. in CS, the flagship programme of our Department, aims at inculcating creative thinking. In addition to mastering foundational theoretical concepts and practical skills, the focus of this programme is to prepare students to conduct high-quality research, via a minor and major project in their third and fourth semesters, respectively. Research projects stretch across diverse areas like Algorithms, Parallel Computing, Computer Security, Artificial Intelligence, Computer Networks, as well as interdisciplinary areas like Human-Computer Interaction, applied Machine Learning etc. A decade later, our alumni have gone on to pursue doctoral studies at top universities in India (DU, IISc, IITs, IIITs etc.), US, Belgium and Japan.
+        </p>
+
+        <p>
           We, the Delhi University Computer Science Society (DUCSS), are the face of the Department of Computer Science, University of Delhi. Committed to fostering innovation and research aptitude, our focus extends beyond classrooms. 
         </p>
 
