@@ -57,7 +57,7 @@ const EventDetailPage = ({ _eventSlug }) => {
                 {event.externalRegistrationUrl ? (
                     <div className='text-center mt-[-.5em] mb-4 hover:scale-110 transition'>
                       <Link href={event.externalRegistrationUrl} target='_blank' className='shadow-xl uppercase border-white border-4 transition hover:scale-110 text-white from-sankalan-accent-green to-sankalan-accent-blue bg-gradient-to-r text-xl
-                      hover:bg-white font-bold p-2 lg:px-4 focus:outline-none focus:shadow-outline duration-300 ease-in-out'>REGISTER ON {event.externalRegistrationProvider}</Link>
+                      hover:bg-white font-bold p-2 lg:px-4 focus:outline-none focus:shadow-outline duration-300 ease-in-out'>APPLY ON {event.externalRegistrationProvider}</Link>
                     </div>
                   ) : (
                     <div className='text-center mt-[-.5em] hover:scale-110 transition'>
@@ -87,9 +87,13 @@ const EventDetailPage = ({ _eventSlug }) => {
                       Event Details
                     </AccordionHeader>
                     <AccordionBody className='text-white font-[comicbook]'>
-                      <p className='text-white mb-1'><span className='font-medium'>Date:</span> {format(event.date + ' ' + event.time + 'Z+05:30', "LLLL do, yyyy (EEEE)")} (Tentative)</p>
-                      <p className='text-white mb-1'><span className='font-medium'>Time:</span> {format(event.date + ' ' + event.time + 'Z+05:30', "hh:mm b")} (Tentative)</p>
-                      <p className='text-white mb-1'><span className='font-medium'>Location:</span> {"TBA" || event.location}</p>
+                      <p className='text-white mb-1'><span className='font-medium'>Date:</span> {format(event.date + ' ' + event.time + 'Z+05:30', "LLLL do, yyyy")}
+                       {event.date2 ? ' - ' + format(event.date2 + ' ' + event.time2 + 'Z+05:30', "LLLL do, yyyy") : ''}
+                       &nbsp;(Tentative)</p>
+                      <p className='text-white mb-1'><span className='font-medium'>Time:</span> {format(event.date + ' ' + event.time + 'Z+05:30', "hh:mm b")} 
+                       {event.date2 ? ' - ' + format(event.date2 + ' ' + event.time2 + 'Z+05:30', "hh:mm b") : ''}
+                       &nbsp;(Tentative)</p>
+                      <p className='text-white mb-1'><span className='font-medium'>Location:</span> {event.location + ' (Tentative)' || "TBA"}</p>
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 3}>
