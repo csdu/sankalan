@@ -100,10 +100,20 @@
         "externalRegistrationProvider": "Devfolio",
         "externalRegistrationUrl": "https://hack.ducs.in",
         "description_paragraphs": [
-          "Coming Soon."
+          "Embark on a coding odyssey at HackDUCS – Delhi University's epic hackathon where ideas evolve, friendships form, and innovation takes centre stage!",
+          "For the first time at the University of Delhi, the Department of Computer Science is organizing HackDUCS, a hybrid inter-college hackathon as part of its 20th Annual TechFest - Sankalan 2024.",
+          "<b>Tentative Event Schedule</b> - all times in IST",
+          "DAY 0<br/><ul class=\"list-disc ml-4\"><li>11:00 AM - Registrations Closed</li><li>12:00 PM - Tracks Released</li></ul>",
+          "DAY 1<br/><ul class=\"list-disc ml-4\"><li>12:00 PM - Presentation Submissions Due</li><li>12:30 PM - Presentation Order Communicated</li><li>01:00 PM - Preliminary Presentations Begin on GMeet/Zoom</li><li>05:00 PM - Preliminary Presentations End</li><li>07:00 PM - Results of Preliminary Round Declared</li><li>08:00 PM - Instructions Communicated to Semi Finalist Teams</li></ul>",
+          "DAY 2 (Sankalan Day 1)<br/><ul class=\"list-disc ml-4\"><li>09:00 AM - Offline Reporting (as feasible) and Disbursement of Event Kits</li><li>10:00 AM - Inauguration and Workshop / Keynote - Hacking Begins</li></ul>",
+          "DAY 3 (Sankalan Day 2)<br/><ul class=\"list-disc ml-4\"><li>09:00 AM - Offline Reporting</li><li>10:00 AM - Prototype Demonstrations Begin (Hybrid)</li><li>11:30 AM - Prototype Demonstrations End</li><li>12:00 PM - Results of Demonstrations Declared and Communicated to Finalist Teams</li><li>03:00 PM - Final Presentations Begin (Hybrid)</li><li>05:00 PM - Final Presentations End</li><li>05:30 PM - Results of Final Presentations / Winners Declared</li><li>06:00 PM - Prize Disbursement Formalities</li></ul>"
         ],
         "image": "TBA",
-        "rules": ["TBA"],
+        "rules": [
+          "These rules are tentative and are subject to change",
+          "<ul class=\"list-disc ml-4\"><li>Eligibility: College/University Students; Team Size: 2-4; Cross-college teams allowed</li><li>Tracks will be released on Day 0 at 12:00 PM.</li><li>Development must start after release of tracks.</li><li>Projects submitted to other hackathons will not be considered.</li><li>Plagiarism will lead to disqualification.</li><li>Preliminary Presentations:</li><li class=\"list-disc ml-4\">Online presentations on Google Meet / Zoom.</li><li class=\"list-disc ml-4\">Time Limit: 12-15 mins (8 mins + questions)</li><li class=\"list-disc ml-4\">Slides: Maximum of 12 slides; Formats: .pptx, .pdf</li><li class=\"list-disc ml-4\">Maximum of 5 teams from each track will be selected for demos</li><li>Final Prototype Demos:</li><li class=\"list-disc ml-4\">In-person project demonstration at event venue. Time Limit: 12-15 mins</li><li class=\"list-disc ml-4\">Project must be submitted on Devfolio before the presentation begins.</li><li class=\"list-disc ml-4\">Project source code must be hosted on a public repository on GitHub.</li><li class=\"list-disc ml-4\">Short video demo needs to be uploaded on YouTube and  submitted on Devfolio.</li><li class=\"list-disc ml-4\">10 teams qualify for Final Presentations</li><li>Final Presentations:</li><li class=\"list-disc ml-4\">No Time Limit 🙂</li><li class=\"list-disc ml-4\">In-person presentation at event venue.</li><li class=\"list-disc ml-4\">Qualified teams must arrange for travel and accommodation.</li><li class=\"list-disc ml-4\">Food and beverages will be provided as part of the parent event.</li> </ul>"
+
+        ],
         "organizers": [
           {
             "name": "Sudipto Ghosh",

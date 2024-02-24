@@ -50,7 +50,11 @@ const EventDetailPage = ({ _eventSlug }) => {
               <div className='container flex flex-col gap-4 gap-y-12 justify-between my-4 mx-auto text-start'>
                 <div className='col-span-2'>
                   {event.description_paragraphs.map((paragraph, index) => (
-                    <p key={index} className='text-white mb-4'>{paragraph}</p>
+                    <p key={index} className='text-white mb-4'
+                      dangerouslySetInnerHTML={{
+                        __html: paragraph
+                      }}
+                    ></p>
                   ))}
                 </div>
 
@@ -78,7 +82,11 @@ const EventDetailPage = ({ _eventSlug }) => {
                     <AccordionHeader className='text-white hover:text-sankalan-yellow font-[comicbook]' onClick={() => handleOpen(1)}>Rules</AccordionHeader>
                     <AccordionBody className='text-white font-[comicbook]'>
                       {event.rules.map((paragraph, index) => (
-                        <p key={index} className='text-white mb-1'>{paragraph}</p>
+                        <p key={index} className='text-white mb-1'
+                          dangerouslySetInnerHTML={{
+                            __html: paragraph
+                          }}
+                        ></p>
                       ))}
                     </AccordionBody>
                   </Accordion>
@@ -105,7 +113,7 @@ const EventDetailPage = ({ _eventSlug }) => {
                         event.organizers.map((organizer, index) => (
                           <div key={index} className='mb-4'>
                             <p className='text-white mb-1'><span className='font-medium'>{organizer.name}</span></p>
-                            {organizer.email && organizer.email !== 'TBA' && <p className='text-white mb-1'><a href={'mailto:' + organizer.email}>{organizer.email}</a></p>}
+                            {organizer.email && organizer.email !== 'TBA' && <p className='text-sankalan-yellow mb-1'><a href={'mailto:' + organizer.email}>{organizer.email}</a></p>}
                             {organizer.phone && organizer.phone !== 'TBA' && <p className='text-white mb-1'><a href={'https://wa.me/91' + organizer.phone}>+91-{organizer.phone}</a></p>}
                           </div>
                         ))
