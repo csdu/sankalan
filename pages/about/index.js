@@ -4,7 +4,7 @@ import data from '@/data';
 import Link from 'next/link';
 import PageLayout from '@/includes/PageLayout';
 import Head from 'next/head';
-import ducsBuilding from "@/public/images/ducsbuilding.jpeg";
+import ducsBuilding from "@/public/images/IMG_20220714_201932.jpg";
 
 const About = () => {
   const {
@@ -46,7 +46,7 @@ const About = () => {
         <Image
           src={ducsBuilding}
           alt="DUCS Building"
-          width={500}
+          layout='responsive'
           placeholder='blur'
           className='w-full mt-8 border-4 border-white shadow-xl'
         />
