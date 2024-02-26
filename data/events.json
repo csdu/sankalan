@@ -138,8 +138,7 @@
         "time2": "11:00",
         "location": "Online (Prelims), Lab 2 (Mains)",
         "description_paragraphs": [
-          "\"Programming is not about typing, it's about thinking, and algorithms are the way we express that thinking.\" - Kristian Vistrup Madsen",
-          "At the University of Delhi, the Department of Computer Science is organizing Algoholic, a coding competition that will be held to pit your algorithmic prowess against that of other computer enthusiasts. This is an excellent chance to demonstrate your problem-solving skills and gain knowledge from some of the top programmers in the field.",
+          "Algoholics is a journey into the heart of algorithmic mastery, inspired by the words of Kristian Vistrup Madsen: \"Programming is not about typing, it's about thinking, and algorithms are the way we express that thinking.\" We celebrate the art of problem-solving through coding puzzles, challenging you to unravel complexities with the utmost efficiency in space and time.",
           "<b>Platform</b> - TBA",
           "<b>Tentative Event Schedule</b> - all times in IST",
           "ONLINE PRELIMS (Sankalan Day 1)<br/><ul class=\"list-disc ml-4\"><li>10:30 AM - Reporting</li><li>11:00 AM - Event begins</li><li>12:00 PM - Event Ends</li></ul>",
@@ -163,7 +162,7 @@
         "time": "13:30",
         "location": "LAB2",
         "description_paragraphs": [
-          "Dive into the heart of coding adventure with  The Blind Coding Challenge! Brace yourself for an exhilarating journey where your coding skills will be put to the ultimate test. In this thrilling competition, you'll embark on a quest to unravel the mystery of code, all while blindfolded from your screen and disconnected from the internet. Can you navigate through the darkness of uncertainty and emerge as the ultimate coding champion?",
+          "Venture into uncharted territory where screens remain dark, and ingenuity lights the way. No internet, no chatter – just you, your code, and the thrill of the challenge. Blind Coding offers a thrilling opportunity to push your limits and experience the adrenaline rush of coding like never before.",
           "<b>Tentative Event Schedule</b> - TBA"
         ],
         "image": "TBA",
@@ -190,7 +189,8 @@
         "time": "15:30",
         "location": "Seminar/IoE Lab",
         "description_paragraphs": [
-          "Coming Soon."
+          "Codes are up for auction, but being the highest bidder is not enough to win the game! Call for coding enthusiasts who want to experience a thrilling journey of problem-solving, strategising, and collaboration. Some team members will participate in an auction, bidding for the challenges you wish. And the rest of the team will try to crack the code within a set time limit. Do you know your friends well enough to bid on the challenge suited for them? Join us at Code Auction to know!",
+          "<b>Tentative Event Schedule</b> - TBA"
         ],
         "image": "TBA",
         "rules": ["TBA"],
@@ -215,7 +215,7 @@
         "time": "11:00",
         "location": "LAB2",
         "description_paragraphs": [
-          "Prepare to solve challenges and demonstrate your programming abilities! Come to Sankalan 2024 for our \"Squash the Bugs\" event. Find those annoying mistakes in our code snippets, correct them, and move up the scoreboard.",
+          "Squash some bugs and showcase your coding prowess! Dive into our code snippets, identify the bugs lurking within, and apply your programming wizardry to squash them into oblivion. Every bug fix brings you one step closer to the top of the scoreboard and ultimate glory. Prizes await the top bug squashers, but the real reward lies in the satisfaction of overcoming challenges and mastering the art of debugging.",
           "<b>Tentative Event Schedule</b> - TBA"
         ],
         "image": "TBA",
@@ -359,7 +359,8 @@
         "location": "Department of Computer Science Campus",
         "description_paragraphs": [
           "Greetings from Click Akrity, where the attendees are not only mere spectators but active documentarians! This extraordinary photography event invites aspiring photographers to register and embark on a mission to capture the essence of the entire event. A thrilling blend of originality, ability, and the art of storytelling through the lens, Click Akrity is high stakes because each participant must submit their two best images for the ultimate selection. Don't miss your chance to capture the moment and be part of this spectacular visual extravaganza!",
-          "<b>Theme</b> - TBA"
+          "The ultimate photography event where you're not just a viewer but also a storyteller! Armed with your camera, embark on a mission to craft immersive visual tales that showcase the spirit of our gathering. Every participant can submit three photos that best capture the theme - Diversity in Community. It's a thrilling mix of creativity, skill, and storytelling through the lens. Don't miss the chance to seize the moment and be part of this spectacular visual showcase.",
+          "<b>Theme</b> - Diversity in Community"
         ],
         "image": "TBA",
         "rules": ["TBA"],
