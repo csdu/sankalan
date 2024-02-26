@@ -21,6 +21,10 @@
       {
         "name": "Gen XYZ",
         "image": "xyz-logo-color.png"
+      },
+      {
+        "name": "Interview Cake",
+        "image": "interviewcake-color.svg"
       }
     ]
   },
