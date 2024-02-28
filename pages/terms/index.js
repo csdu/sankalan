@@ -14,7 +14,7 @@ const Terms = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Terms | {site.title}</title>
+        <title>{`Terms | ${site.title}`}</title>
         <meta name="description" content={site.description} />
         <meta property="og:title" content={'Terms | ' + site.title}/>
         <meta property="og:description" content={site.description} />

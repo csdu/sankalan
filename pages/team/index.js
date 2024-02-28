@@ -16,7 +16,7 @@ export default function Events() {
   return (
     <PageLayout>
       <Head>
-        <title>Team | {site.title}</title>
+        <title>{`Team | ${site.title}`}</title>
         <meta name="description" content={site.description} />
         <meta property="og:title" content={'Team | ' + site.title}/>
         <meta property="og:description" content={site.description} />

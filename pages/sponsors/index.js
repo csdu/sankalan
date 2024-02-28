@@ -16,7 +16,7 @@ const Sponsors = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Sponsors | {site.title}</title>
+        <title>{`Sponsors | ${site.title}`}</title>
         <meta name="description" content={site.description} />
         <meta property="og:title" content={'Sponsors | ' + site.title}/>
         <meta property="og:description" content={site.description} />

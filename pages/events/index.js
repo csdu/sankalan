@@ -16,7 +16,7 @@ const Events = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Events | {site.title}</title>
+        <title>{`Events | ${site.title}`}</title>
         <meta name="description" content={site.description} />
         <meta property="og:title" content={'Events | ' + site.title}/>
         <meta property="og:description" content={site.description} />

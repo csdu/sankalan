@@ -29,7 +29,7 @@ const About = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Updates | {site.title}</title>
+        <title>{`Updates | ${site.title}`}</title>
         <meta name="description" content={site.description} />
         <meta property="og:title" content={'Updates | ' + site.title}/>
         <meta property="og:description" content={site.description} />

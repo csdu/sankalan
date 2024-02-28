@@ -23,7 +23,7 @@ export default function Home() {
       className={`font-[comicbook] w-full`}
     >
       <Head>
-        <title>{site.title}</title>
+        <title>{`${site.title}`}</title>
         <meta name="description" content={site.description} />
         <meta property="og:title" content={site.title}/>
         <meta property="og:description" content={site.description} />

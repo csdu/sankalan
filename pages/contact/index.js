@@ -16,7 +16,7 @@ const Contact = () => {
   return (
     <PageLayout>
       <Head>
-        <title>Contact Us | {site.title}</title>
+        <title>{`Contact Us | ${site.title}`}</title>
         <meta name="description" content={site.description} />
         <meta property="og:title" content={'Contact Us | ' + site.title}/>
         <meta property="og:description" content={site.description} />

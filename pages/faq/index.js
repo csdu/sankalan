@@ -23,7 +23,7 @@ const FAQ = () => {
   return (
     <PageLayout>
       <Head>
-        <title>FAQ | {site.title}</title>
+        <title>{`FAQ | ${site.title}`}</title>
         <meta name="description" content={site.description} />
         <meta property="og:title" content={'FAQ | ' + site.title}/>
         <meta property="og:description" content={site.description} />

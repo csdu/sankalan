@@ -22,7 +22,7 @@ export default function Component() {
   return (
     <PageLayout>
       <Head>
-        <title>Registration | {site.title}</title>
+        <title>{`Registration | ${site.title}`}</title>
         <meta name="description" content={site.description} />
         <meta property="og:title" content={'Registration | ' + site.title}/>
         <meta property="og:description" content={site.description} />
