@@ -14,7 +14,7 @@
         "position": "Vice-President (PhD)",
         "image": "/images/people/Panel/Adamya Shyam/Adamya_2.jpg",
         "github": "#",
-        "linkedin": "#"
+        "linkedin": "http://linkedin.com/in/adamyashyam/"
       },
       {
         "name": "Satyandra Pal",
@@ -34,8 +34,8 @@
         "name": "Daya Shankar",
         "position": "Secretary",
         "image": "/images/people/Panel/Daya Shankar/daya_img_cropped.JPG",
-        "github": "#",
-        "linkedin": "#"
+        "github": "https://github.com/chdayasingh",
+        "linkedin": "https://www.linkedin.com/in/chdayasingh/"
       },
       {
         "name": "Akshita Gupta",
@@ -73,6 +73,7 @@
       {
         "name": "Ajay",
         "position": "Management Head",
+        "image": "/images/people/placeholder-male.png",
         "github": "#",
         "linkedin": "#"
       },
@@ -114,12 +115,14 @@
       {
         "name": "Yadvendra",
         "position": "Decoration",
+        "image": "/images/people/placeholder-male.png",
         "github": "#",
         "linkedin": "#"
       },
       {
         "name": "Durga",
         "position": "Promotion",
+        "image": "/images/people/placeholder-male.png",
         "github": "#",
         "linkedin": "#"
       },
@@ -133,6 +136,7 @@
       {
         "name": "Arpit",
         "position": "Sponsorship",
+        "image": "/images/people/placeholder-male.png",
         "github": "#",
         "linkedin": "#"
       },
@@ -184,6 +188,7 @@
       {
         "name": "Hardik Chawda",
         "position": "Click-Akrity",
+        "image": "/images/people/placeholder-male.png",
         "github": "#",
         "linkedin": "#"
       },
@@ -197,18 +202,21 @@
       {
         "name": "Jaswinder Singh",
         "position": "Apex Crusade",
+        "image": "/images/people/placeholder-male.png",
         "github": "#",
         "linkedin": "#"
       },
       {
         "name": "Adarsh Shukla",
         "position": "Apex Crusade",
+        "image": "/images/people/placeholder-male.png",
         "github": "#",
         "linkedin": "#"
       },
       {
         "name": "Deepanshu",
         "position": "Desktop Dominion",
+        "image": "/images/people/placeholder-male.png",
         "github": "#",
         "linkedin": "#"
       },
@@ -229,6 +237,7 @@
       {
         "name": "Akansha Yadav",
         "position": "Jhankar",
+        "image": "/images/people/placeholder-female.jpg",
         "github": "#",
         "linkedin": "#"
       },
@@ -242,24 +251,28 @@
       {
         "name": "Durga",
         "position": "Chakravyuh",
+        "image": "/images/people/placeholder-male.png",
         "github": "#",
         "linkedin": "#"
       },
       {
         "name": "Ajay",
         "position": "Chakravyuh",
+        "image": "/images/people/placeholder-male.png",
         "github": "#",
         "linkedin": "#"
       },
       {
         "name": "Pawan",
         "position": "Chakravyuh",
+        "image": "/images/people/placeholder-male.png",
         "github": "#",
         "linkedin": "#"
       },
       {
         "name": "Surbhi",
         "position": "Artisan Valley<br/>Jhankar",
+        "image": "/images/people/placeholder-female.jpg",
         "github": "#",
         "linkedin": "#"
       }
