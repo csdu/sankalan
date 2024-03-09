@@ -17,7 +17,7 @@ export default function ProfileCard(data) {
     <Card className="transition-transform transform hover:scale-105 duration-300 ease-in-out cursor-pointer lg:basis-1/4 mx-auto rounded-lg border-white border-4 shadow-xl">
       <CardHeader floated={true} className="rounded-lg border-white border-4 shadow-xl">
          <Image
-            src={image || '/images/people/placeholder.jpg'}
+            src={image || '/images/people/placeholder-female.jpg'}
             alt="profile-picture"
             className="object-cover h-50"
             width={500}
