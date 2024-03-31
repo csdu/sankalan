@@ -88,8 +88,9 @@ export default function Home() {
             <a className="inline-block bg-gradient-to-r from-sankalan-dark-yellow to-sankalan-accent-red
               p-2 p-y-0 text-black hover:bg-sankalan-accent-yellow text-white mt-6
             hover:scale-110 transition-transform transition-colors duration-300 ease-in-out border-4 border-white font-[comicbook] text-xl font-bold
-            lg:text-2xl lg:p-3 tracking-narrower min-w-[15rem] lg:min-w-[18rem] text-center z-20 cursor-pointer
-            ">
+            lg:text-2xl lg:p-3 tracking-narrower min-w-[15rem] lg:min-w-[18rem] text-center z-20 cursor-pointer"
+            href='/register'
+            >
               <span 
                 style={
                   {
@@ -99,8 +100,7 @@ export default function Home() {
                 }
                 className=''
               >
-                COMING SOON
-                {/* <Countdown /> */}
+                REGISTER NOW
               </span>
             </a>
         </div>
