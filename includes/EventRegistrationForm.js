@@ -57,6 +57,11 @@ const EventRegistrationForm = () => {
         alert('Please enter a valid mobile number');
         return;
       }
+
+      if (!medium) {
+        alert('Please select how you heard about Sankalan');
+        return;
+      }
     }
 
     if (stage === 2) {
@@ -109,13 +114,6 @@ const EventRegistrationForm = () => {
 
       if (event && events.map(e => e.events).flat().find(e => e.slug == event)?.is_team_event && !teamMembers) {
         alert('Please enter the names of your team members');
-        return;
-      }
-    }
-
-    if (stage === 4) {
-      if (!medium) {
-        alert('Please select how you heard about Sankalan');
         return;
       }
     }
@@ -174,6 +172,7 @@ const EventRegistrationForm = () => {
     localStorage.setItem('medium', medium);
     localStorage.setItem('team', team);
     localStorage.setItem('teamMembers', teamMembers);
+    localStorage.setItem('referral', referral);
   }, [fullName, mobileNumber, course, year, collegeName, university, medium, referral, team, teamMembers]);
 
   const handleSubmit = async () => {
@@ -185,6 +184,12 @@ const EventRegistrationForm = () => {
 
     if (!mobileNumber) {
       alert('Please enter your mobile number');
+      setStage(1);
+      return;
+    }
+
+    if (!medium) {
+      alert('Please select how you heard about Sankalan');
       setStage(1);
       return;
     }
@@ -228,12 +233,6 @@ const EventRegistrationForm = () => {
     if (event && events.map(e => e.events).flat().find(e => e.slug == event)?.is_team_event && !teamMembers) {
       alert('Please enter the names of your team members');
       setStage(3);
-      return;
-    }
-
-    if (!medium) {
-      alert('Please select how you heard about Sankalan');
-      setStage(4);
       return;
     }
 
@@ -311,13 +310,31 @@ const EventRegistrationForm = () => {
             onChange={(e) => setFullName(e.target.value.toUpperCase())} />
           </div>
 
-          <div className="mb-8">
+          <div className="mb-5">
             <label htmlFor="phone" className="block mb-2 text-white">Phone Number <span className="text-sankalan-yellow">*</span></label>
             <div className="flex gap-x-2 justify-center w-full items-center">
             <input type="tel" value={'+91'} className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-[3em] p-1.5" disabled /> <input type="tel" id="phone" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" required value={mobileNumber} pattern="[0-9]+" minLength="10" maxLength="10"
             onChange={(e) => setMobileNumber(e.target.value)} />
             </div>
           </div>
+
+          <div className="mb-5">
+            <label htmlFor="medium" className="block mb-2 text-white">How did you come to know about the event? <span className="text-sankalan-yellow">*</span></label>
+            <select id="medium" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5 select" onChange={e => setMedium(e.target.value) } required value={medium}>
+              <option value=""></option>
+              <option value="social-media">Social Media</option>
+              <option value="friends">Friends</option>
+              <option value="college">College</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+                    
+          <div className="mb-8">
+            <label htmlFor="referral" className="block mb-2 text-white">Referral Code (optional)</label>
+            <input type="text" id="referral" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={referral} minLength={6} maxLength={6}
+            onChange={(e) => setReferral(e.target.value.toUpperCase())} />
+          </div>
+
           <button className='text-white hover:text-black border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white rounded-none text-sm px-5 py-2.5 text-center me-2 mb-2' onClick={handleNext}>Next</button>
         </>
       )}
@@ -397,7 +414,17 @@ const EventRegistrationForm = () => {
           }
 
           {
-            event && !alreadyRegistered && events.map(e => e.events).flat().find(e => e.slug == event)?.is_team_event && (
+            event && !alreadyRegistered && events.map(e => e.events).flat().find(e => e.slug == event)?.is_disabled && (
+              <>
+                <div className="text-white font-[comicbook] mt-[-1em] mb-8">
+                  <p>Registrations for this event are not open.</p>
+                </div>
+              </>
+            )
+          }
+
+          {
+            event && !alreadyRegistered && events.map(e => e.events).flat().find(e => e.slug == event)?.is_team_event && !events.map(e => e.events).flat().find(e => e.slug == event)?.is_disabled && (
               <div className="mb-8 mt-[-.8em]">
                 {
                   events.map(e => e.events).flat().find(e => e.slug == event)?.externalRegistrationUrl ? (
@@ -408,7 +435,14 @@ const EventRegistrationForm = () => {
                   ) : (
                     <>
                       <p className="text-white mb-6">
-                        Only one member from the team should register.
+                        Only one member from the team should register. {
+                          event === 'algoholics' && (
+                            <>
+                              <br />
+                             Solo participation is allowed for this event. Enter NA in the team name and team members field.
+                            </>
+                          )
+                        }
                       </p>
 
                       <div className="mb-5">
@@ -417,7 +451,7 @@ const EventRegistrationForm = () => {
                       </div>
 
                       <div className="">
-                        <label htmlFor="teamMembers" className="block mb-2 text-white">Team Members <span className="text-sankalan-yellow">*</span><br /><span className="text-sankalan-accent-yellow text-xs">full names of members separated by commas</span></label>
+                        <label htmlFor="teamMembers" className="block mb-2 text-white">Team Member(s) <span className="text-sankalan-yellow">*</span><br /><span className="text-sankalan-accent-yellow text-xs">full names of members separated by commas</span></label>
                         <textarea id="teamMembers" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={teamMembers} onChange={(e) => setTeamMembers(e.target.value)} />
                       </div>
                     </>
@@ -429,30 +463,15 @@ const EventRegistrationForm = () => {
           }
 
           <button className='text-white hover:text-black border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white rounded-none text-sm px-5 py-2.5 text-center me-2 mb-2' onClick={handlePrevious}>Previous</button>
-          { !events.map(e => e.events).flat().find(e => e.slug == event)?.externalRegistrationUrl && <button className={`text-white hover:text-black border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white rounded-none text-sm px-5 py-2.5 text-center me-2 mb-2 ${alreadyRegistered ? 'hidden' : ''}`} disabled={alreadyRegistered} onClick={handleNext}>Next</button>}
+          { !events.map(e => e.events).flat().find(e => e.slug == event)?.externalRegistrationUrl && !events.map(e => e.events).flat().find(e => e.slug == event)?.is_disabled && <button className={`text-white hover:text-black border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white rounded-none text-sm px-5 py-2.5 text-center me-2 mb-2 ${alreadyRegistered ? 'hidden' : ''}`} disabled={alreadyRegistered} onClick={handleNext}>Next</button>}
         </>
       )}
 
       {stage === 4 && (
         <>
-          <div className="mb-5">
-            <label htmlFor="medium" className="block mb-2 text-white">How did you come to know about the event? <span className="text-sankalan-yellow">*</span></label>
-            <select id="medium" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5 select" onChange={e => setMedium(e.target.value) } required value={medium}>
-              <option value=""></option>
-              <option value="social-media">Social Media</option>
-              <option value="friends">Friends</option>
-              <option value="college">College</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-                    
-          <div className="mb-5">
-            <label htmlFor="referral" className="block mb-2 text-white">Referral Code (optional)</label>
-            <input type="text" id="referral" className="shadow-sm bg-transparent border border-white text-white text-sm rounded-none focus:ring-white focus:border-white block w-full p-1.5" value={referral} minLength={6} maxLength={6}
-            onChange={(e) => setReferral(e.target.value.toUpperCase())} />
-          </div>
+          <span className='text-white'>Declaration</span>
 
-          <div className="mb-8 text-sm text-sankalan-yellow">
+          <div className="mb-10 text-sm text-sankalan-yellow">
               By submitting this form, I declare that the information provided by me is true and correct to the best of my knowledge and belief. I understand that my registration is subject to verification by the event organizers and that any false information provided by me will lead to disqualification from the event.
           </div>
 
