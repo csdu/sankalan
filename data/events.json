@@ -1,89 +1,4 @@
-[
-  {
-    "category": "Speaker Sessions",
-    "events": [
-      {
-        "name": "Keynote",
-        "slug": "keynote",
-        "description": "Keynote Speeches",
-        "date": "2024-03-16",
-        "time": "12:00",
-        "location": "Satyakam Bhavan",
-        "description_paragraphs": [
-          "Coming Soon."
-        ],
-        "image": "TBA",
-        "rules": ["TBA"],
-        "organizers": [
-          {
-            "name": "Sudipto Ghosh",
-            "email": "sudipto.mcs22@cs.du.ac.in",
-            "phone": "8826358310"
-          }
-        ]
-      },
-      {
-        "name": "Speaker Session",
-        "slug": "speaker-session",
-        "description": "Session by (TBA)",
-        "date": "2024-03-17",
-        "time": "13:30",
-        "location": "Satyakam Bhavan",
-        "description_paragraphs": [
-          "Coming Soon."
-        ],
-        "image": "TBA",
-        "rules": ["TBA"],
-        "organizers": [
-          {
-            "name": "Muskan Saini",
-            "email": "muskansmsc23@cs.du.ac.in",
-            "phone": "9650399948"
-          },
-          {
-            "name": "Paras",
-            "email": "paraskmsc23@cs.du.ac.in",
-            "phone": "9467496856"
-          },
-          {
-            "name": "Rahul Semwal",
-            "email": "rahuls-mca23@cs.du.ac.in",
-            "phone": "8447721802"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "category": "Cultural Events",
-    "events": [
-      {
-        "name": "Electric Elegenza",
-        "slug": "dj-night",
-        "description": "DJ Night",
-        "date": "2024-03-17",
-        "time": "17:30",
-        "location": "Outer Parking",
-        "description_paragraphs": [
-          "Coming Soon."
-        ],
-        "image": "TBA",
-        "rules": ["TBA"],
-        "organizers": [
-          {
-            "name": "Gagan Kumar Soni",
-            "email": "gagan.mcs22@cs.du.ac.in",
-            "phone": ""
-          },
-          {
-            "name": "Satyandra Pal",
-            "email": "satyandra.mca22@cs.du.ac.in",
-            "phone": "8840647329"
-          }
-        ]
-      }
-    ]
-  },
+[  
   {
     "category": "Technical Events",
     "events": [
@@ -91,8 +6,8 @@
         "name": "HackDUCS",
         "slug": "hack-ducs",
         "description": "Hybrid Hackathon",
-        "date": "2024-03-14",
-        "date2": "2024-03-17",
+        "date": "2024-04-23",
+        "date2": "2024-04-24",
         "time": "12:00",
         "time2": "17:30",
         "location": "Satyakam Bhavan",
@@ -132,9 +47,8 @@
         "name": "Algoholics",
         "slug": "algoholics",
         "description": "Coding Euphoria",
-        "is_team_event": true,
-        "date": "2024-03-16",
-        "date2": "2024-03-17",
+        "date": "2024-04-23",
+        "date2": "2024-04-24",
         "time": "11:00",
         "time2": "11:00",
         "location": "Online (Prelims), Lab 2 (Mains)",
@@ -146,7 +60,7 @@
           "OFFLINE MAINS (Sankalan Day 2)<br/><ul class=\"list-disc ml-4\"><li>10:30 AM - Offline Reporting</li><li>11:00 AM - Event Begins</li><li>12:00 PM - Event Ends</li></ul>"
         ],
         "image": "TBA",
-        "rules": ["TBA"],
+        "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students;</li><li> Team Size: Individual for round 1, Group of 2 for round 2; Cross-college teams are allowed.</li> <li> Preliminary Round :(Hybrid) This is an eliminating round. This round consist of 3 problems two of easy level and one of medium level in round one.</li><li> Participants will be given a set of three problems to solve.</li> <li>Time limit: 60 minutes.</li><li> Top 20 Participants whose code gets executed successfully and has an optimal solution will be given highest preference.</li><li> Time taken to solve the problems will also be taken into consideration to qualify.</li><li> Decisions made by the event organizers will be final and binding.</li><li> Mains Round: (Offline)</li><li> It is required to report in the Department.</li> <li> Top 20 selected students with the group of one or two persons  will be given a set of two problems to solve.</li><li> This round consists of  one of medium level and another of hard level</li> <li> Top 3 Participants whose code gets executed successfully and has an optimal solution will be given highest preference.</li><li> Participants are required to share their account details through a form for transfer of prize money to winners.</li><li> Time taken to solve the problems will also be taken into consideration to qualify.</li><li> Decisions made by the event organizers will be final and binding.</li></ul>"],
         "organizers": [
           {
             "name": "Sakshi",
@@ -159,16 +73,17 @@
         "name": "Blind Coding",
         "slug": "blind-coding",
         "description": "Code without execute",
-        "date": "2024-03-16",
+        "date": "2024-04-23",
         "time": "13:30",
         "location": "LAB2",
         "description_paragraphs": [
+          "\"Dive into the heart of coding adventure with  The Blind Coding Challenge\"! Brace yourself for an exhilarating journey where your coding skills will be put to the ultimate test. In this thrilling competition, you'll embark on a quest to unravel the mystery of code, all while blindfolded from your screen and disconnected from the internet. Can you navigate through the darkness of uncertainty and emerge as the ultimate coding champion?",
           "Venture into uncharted territory where screens remain dark, and ingenuity lights the way. No internet, no chatter – just you, your code, and the thrill of the challenge. Blind Coding offers a thrilling opportunity to push your limits and experience the adrenaline rush of coding like never before.",
           "<b>Tentative Event Schedule</b> - TBA"
         ],
         "image": "TBA",
         "rules": [
-          "<ul class=\"list-disc ml-4\"><li>Assemble your dream team of two adventurers (Only Two Members Are Allowed).</li><li>You'll have 60 minutes to conquer two coding problems - one of easy difficulty, and the other of medium complexity.</li><li> A total of 40 marks are up for grabs, with 15 marks dedicated to the easy problem and 25 marks for the medium one.</li><li>Exercise caution! Teams can briefly activate their screens twice for 30 seconds each, but beware, as a penalty of 5 points will be incurred per activation, closely monitored by our organizers.</li> <li>Food and beverages will be provided as part of the parent event.</li><li>Success and efficiency are key! Priority will be given to code that executes flawlessly with the most optimal solution.</li>          <li>In the event of errors, elegance prevails! The second preference will go to code with the fewest errors.</li>          <li>In the case of a tiebreaker, timing is everything. The submission time will serve as the final determinant.</li>          <li>Decisions made by the event organizers will be final and binding.</li>       </ul>"        ],
+          "<ul class=\"list-disc ml-4\"><li>Assemble your dream team of two adventurers (Only Two Members Are Allowed).</li><li>You'll have 60 minutes to conquer two coding problems - one of easy difficulty, and the other of medium complexity.</li><li> A total of 40 marks are up for grabs, with 15 marks dedicated to the easy problem and 25 marks for the medium one.</li><li>Exercise caution! Teams can briefly activate their screens twice for 30 seconds each, but beware, as a penalty of 5 points will be incurred per activation, closely monitored by our organizers.</li> <li>Food and beverages will be provided as part of the parent event.</li><li>Success and efficiency are key! Priority will be given to code that executes flawlessly with the most optimal solution.</li><li>In the event of errors, elegance prevails! The second preference will go to code with the fewest errors.</li>          <li>In the case of a tiebreaker, timing is everything. The submission time will serve as the final determinant.</li><li>Decisions made by the event organizers will be final and binding.</li></ul>"],
         "organizers": [
           {
             "name": "Ajay",
@@ -186,8 +101,7 @@
         "name": "Code Auction",
         "slug": "code-auction",
         "description": "Bid for problem",
-        "is_team_event": true,
-        "date": "2024-03-16",
+        "date": "2024-04-23",
         "time": "15:30",
         "location": "Seminar/IoE Lab",
         "description_paragraphs": [
@@ -213,7 +127,7 @@
         "name": "Squash the Bugs",
         "slug": "squash-the-bugs",
         "description": "Debug the code",
-        "date": "2024-03-16",
+        "date": "2024-04-23",
         "time": "11:00",
         "location": "LAB2",
         "description_paragraphs": [
@@ -221,32 +135,12 @@
           "<b>Tentative Event Schedule</b> - TBA"
         ],
         "image": "TBA",
-        "rules": ["TBA"],
+        "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students; Individual Participant Only</li><li> Main Event: Time duration - 1 hr for each slot (if huge participation)</li><li> Any number of participant, individuals only</li> <li> Code snippets will be provided and participants will have to find the errors/bugs and fix them</li><li> Most probably on system, any online platform, but may change</li>          <li>Basic editing including color correction, filters, and cropping are allowed, provided it does not affect the genuineness of the photograph(s).</li><li> The use of advanced editing to create deceptions, illusions, or manipulate images is strictly prohibited. Any such case will lead to the disqualification of the participant.</li><li> The participant must follow the official Instagram account (@ducsofficial).</li><li> Participants are required to share their account details through a form for transfer of prize money to winners.</li></ul>"],
         "organizers": [
           {
             "name": "TBA",
             "email": "TBA",
             "phone": "TBA"
-          }
-        ]
-      },
-      {
-        "name": "Graphix",
-        "slug": "graphix",
-        "description": "Graphic Designing",
-        "date": "2024-03-16",
-        "time": "13:30",
-        "location": "Room 115",
-        "description_paragraphs": [
-          "Coming Soon."
-        ],
-        "image": "TBA",
-        "rules": ["TBA"],
-        "organizers": [
-          {
-            "name": "Arpit",
-            "email": "arpit.mca22@cs.du.ac.in",
-            "phone": "6390160373"
           }
         ]
       }
@@ -259,14 +153,14 @@
         "name": "Jhankar",
         "slug": "jhankar",
         "description": "Group Dance Competition",
-        "date": "2024-03-16",
+        "date": "2024-04-23",
         "time": "17:30",
         "location": "Outer Parking",
         "description_paragraphs": [
           "Welcome to the electrifying world of dance where rhythm meets innovation! Prepare to showcase your team's extraordinary talent in our upcoming group dance competition, an event like no other."
         ],
         "image": "TBA",
-        "rules": ["TBA"],
+        "rules": ["<ul class=\"list-disc ml-4\"><li> Team must consist of minimum 5 members and at max 12 members, fostering collaboration and creativity among participants.</li> <li> Each team is allotted 5-7 minutes to showcase their talent, ensuring a dynamic and concise presentation.</li><li> Slots are allocated on a first-come, first-serve basis, urging teams to register promptly to secure their participation.</li> <li>Participants are required to submit their performance music at least two day before the event to facilitate smooth coordination during the competition.</li><li> A strict policy against disruptive behavior is enforced, both backstage and during performances, to maintain a positive and respectful environment.</li><li> Teams are encouraged to express their unique styles and creativity, making each performance a celebration of dance artistry.Teams are allowed to use more than one song in their dance sequence.</li><li>The props are allowed and have to be carried by participants.</li><li> Performances will be evaluated based on factors such as  costumes,choreography, synchronization, creativity, and overall stage presence.</li><li> Any breach of the \"no nuisance\" policy may result in penalties or even disqualification, emphasizing the importance of maintaining a professional and respectful atmosphere.</li> <li> Each participant should carry their college id card with them.</li> <li> Participants are required to share their account details through a form for transfer of prize money to winners. One member from each team need to register themselves representing the whole team.</li></ul>"],
         "organizers": [
           {
             "name": "Akansha Yadav",
@@ -285,7 +179,7 @@
         "name": "Dastur<span class=\"hyphen\">-</span>e<span class=\"hyphen\">-</span>Mehfil",
         "slug": "dastur-e-mehfil",
         "description": "Poetry Competition",
-        "date": "2024-03-17",
+        "date": "2024-04-24",
         "time": "15:30",
         "location": "Outer Parking",
         "description_paragraphs": [
@@ -304,14 +198,12 @@
       {
         "name": "Chakravyuh",
         "slug": "treasure-hunt",
-        "is_team_event": true,
         "description": "Group Treasure Hunt",
-        "date": "2024-03-17",
+        "date": "2024-04-24",
         "time": "9:00",
         "location": "Department of Computer Science Campus",
         "description_paragraphs": [
-          "Welcome, brave adventurers, to \"Unearth the Treasure\" - an exhilarating Chakravyuh that will test your wit, teamwork, and courage! Get ready to embark on an unforgettable journey filled with clues, puzzles, and excitement.",
-          "<b>Tentative Event Schedule</b> - TBA"
+          "Welcome, brave adventurers, to \"Unearth the Treasure\" - an exhilarating Chakravyuh that will test your wit, teamwork, and courage! Get ready to embark on an unforgettable journey filled with clues, puzzles, and excitement."
         ],
         "image": "TBA",
         "rules": ["There's only one rule: be the first team to find all the clues and claim victory!"],
@@ -337,7 +229,7 @@
         "name": "Artisan Valley",
         "slug": "artisan-valley",
         "description": "Painting Competition",
-        "date": "2024-03-17",
+        "date": "2024-04-24",
         "time": "11:00",
         "location": "Room 114",
         "description_paragraphs": [
@@ -357,7 +249,7 @@
         "name": "Click<span class=\"hyphen\">-</span>Akrity",
         "slug": "click-akrity",
         "description": "Photography Competition",
-        "date": "2024-03-16",
+        "date": "2024-04-23",
         "time": "10:00",
         "location": "Department of Computer Science Campus",
         "description_paragraphs": [
@@ -366,7 +258,7 @@
           "<b>Theme</b> - Diversity in Community"
         ],
         "image": "TBA",
-        "rules": ["TBA"],
+        "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students.</li><li> The contest is open for online submissions only.</li><li> Submission Deadline: March 18th, 2024 till 12:00 Noon.</li><li> No submission will be entertained past the deadline.</li> <li> Only 2 submissions are allowed per participant.</li><li> You are required to provide a creative caption for your photograph.</li>          <li>Basic editing including color correction, filters, and cropping are allowed, provided it does not affect the genuineness of the photograph(s).</li><li> The use of advanced editing to create deceptions, illusions, or manipulate images is strictly prohibited. Any such case will lead to the disqualification of the participant.</li><li> The participant must follow the official Instagram account (@ducsofficial).</li><li> Participants are required to share their account details through a form for transfer of prize money to winners.</li></ul>"],
         "organizers": [
           {
             "name": "Hardik Chawda",
@@ -384,7 +276,7 @@
         "name": "Desktop Dominion",
         "slug": "desktop-dominion",
         "description": "Computer Gaming",
-        "date": "2024-03-16",
+        "date": "2024-04-23",
         "time": "15:30",
         "location": "LAB2",
         "description_paragraphs": [
@@ -394,7 +286,7 @@
 
         ],
         "image": "TBA",
-        "rules": ["TBA"],
+        "rules": ["<ul class=\"list-disc ml-4\"><li> Solo entry allowed only, we will automatch you with other participants for a team of 5 Players.</li><li> The first team to win 16 rounds will win.</li><li> The map will be chosen randomly out of the Pool: Dust2, Nuke, Mirage, vertigo and Inferno.</li><li> 30 Sec timeout will be given to discuss strategy.</li> <li> Own Gaming Accessories are also allowed like Mouse.</li><li> Headsets are compulsory ( this will not be given by Event organizers).</li>          <li> The competition will have a knockout schedule and rounds will be decided based upon the number of entries.</ul>"],
         "organizers": [
           {
             "name": "Deepanshu",
@@ -412,9 +304,7 @@
         "name": "Apex Crusade",
         "slug": "apex-crusade",
         "description": "Mobile Gaming",
-        "is_team_event": true,
-        "is_disabled": true,
-        "date": "2024-03-17",
+        "date": "2024-04-24",
         "time": "12:00",
         "location": "Room 115",
         "description_paragraphs": [
@@ -432,6 +322,91 @@
             "name": "Adarsh Shukla",
             "email": "adarsh.mcs22@cs.du.ac.in",
             "phone": "7007154258"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Speaker Sessions",
+    "events": [
+      {
+        "name": "Keynote",
+        "slug": "keynote",
+        "description": "Keynote Speeches",
+        "date": "2024-04-23",
+        "time": "12:00",
+        "location": "Satyakam Bhavan",
+        "description_paragraphs": [
+          "Coming Soon."
+        ],
+        "image": "TBA",
+        "rules": ["TBA"],
+        "organizers": [
+          {
+            "name": "Sudipto Ghosh",
+            "email": "sudipto.mcs22@cs.du.ac.in",
+            "phone": "8826358310"
+          }
+        ]
+      },
+      {
+        "name": "Speaker Session",
+        "slug": "speaker-session",
+        "description": "Session by (TBA)",
+        "date": "2024-04-24",
+        "time": "13:30",
+        "location": "Satyakam Bhavan",
+        "description_paragraphs": [
+          "Coming Soon."
+        ],
+        "image": "TBA",
+        "rules": ["TBA"],
+        "organizers": [
+          {
+            "name": "Muskan Saini",
+            "email": "muskansmsc23@cs.du.ac.in",
+            "phone": "9650399948"
+          },
+          {
+            "name": "Paras",
+            "email": "paraskmsc23@cs.du.ac.in",
+            "phone": "9467496856"
+          },
+          {
+            "name": "Rahul Semwal",
+            "email": "rahuls-mca23@cs.du.ac.in",
+            "phone": "8447721802"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Cultural Events",
+    "events": [
+      {
+        "name": "Electric Elegenza",
+        "slug": "dj-night",
+        "description": "DJ Night",
+        "date": "2024-04-24",
+        "time": "17:30",
+        "location": "Outer Parking",
+        "description_paragraphs": [
+          "Coming Soon."
+        ],
+        "image": "TBA",
+        "rules": ["TBA"],
+        "organizers": [
+          {
+            "name": "Gagan Kumar Soni",
+            "email": "gagan.mcs22@cs.du.ac.in",
+            "phone": ""
+          },
+          {
+            "name": "Satyandra Pal",
+            "email": "satyandra.mca22@cs.du.ac.in",
+            "phone": "8840647329"
           }
         ]
       }
