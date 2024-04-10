@@ -1,7 +1,7 @@
 import Footer from './Footer';
 import NavbarDefault from './Navbar';
 import { Inter } from 'next/font/google'
-import PointerTrail from './PointerTrail';
+// import PointerTrail from './PointerTrail';
 import { useEffect, useState, useCallback } from 'react';
 import { loadAll } from "@tsparticles/all"; 
 import { loadParallaxMover } from '@tsparticles/move-parallax';
@@ -21,7 +21,7 @@ export default function PageLayout({ children }) {
       <main className='max-w-screen-2xl mx-auto py-5'>{children}</main>
       <Footer />
       </div>
-      <PointerTrail particlesLoaded={particlesLoaded} />
+      {/* <PointerTrail particlesLoaded={particlesLoaded} /> */}
     </div>
   )
 }
