@@ -74,6 +74,7 @@
         "name": "Blind Coding",
         "slug": "blind-coding",
         "description": "Code without execute",
+        "is_team_event": true,
         "date": "2024-04-20",
         "time": "13:30",
         "location": "LAB2",
