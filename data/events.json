@@ -154,7 +154,9 @@
         "time": "17:30",
         "location": "Outer Parking",
         "description_paragraphs": [
-          "Welcome to the electrifying world of dance where rhythm meets innovation! Prepare to showcase your team's extraordinary talent in our upcoming group dance competition, an event like no other."
+          "To dance is to be out of yourself.Larger, more beautiful, more powerful ~ Agnes De Mille",
+          "Welcome to the electrifying world of dance where rhythm meets innovation! Prepare to showcase your team's extraordinary talent in our upcoming group dance competition - JHANKAR , an event like no other. Immense yourself in the rich performing art called dance, as you witness the grace and fluidity of these stunning performances.",
+          "Participate now and win a chance to be secure your place amidst elegance."
         ],
         "image": "TBA",
         "rules": ["<ul class=\"list-disc ml-4\"><li> Team must consist of minimum 5 members and at max 12 members, fostering collaboration and creativity among participants.</li> <li> Each team is allotted 5-7 minutes to showcase their talent, ensuring a dynamic and concise presentation.</li><li> Slots are allocated on a first-come, first-serve basis, urging teams to register promptly to secure their participation.</li> <li>Participants are required to submit their performance music at least two day before the event to facilitate smooth coordination during the competition.</li><li> A strict policy against disruptive behavior is enforced, both backstage and during performances, to maintain a positive and respectful environment.</li><li> Teams are encouraged to express their unique styles and creativity, making each performance a celebration of dance artistry.Teams are allowed to use more than one song in their dance sequence.</li><li>The props are allowed and have to be carried by participants.</li><li> Performances will be evaluated based on factors such as  costumes,choreography, synchronization, creativity, and overall stage presence.</li><li> Any breach of the \"no nuisance\" policy may result in penalties or even disqualification, emphasizing the importance of maintaining a professional and respectful atmosphere.</li> <li> Each participant should carry their college id card with them.</li> <li> Participants are required to share their account details through a form for transfer of prize money to winners. One member from each team need to register themselves representing the whole team.</li></ul>"],
@@ -180,10 +182,12 @@
         "time": "15:30",
         "location": "Outer Parking",
         "description_paragraphs": [
-          "This is a poetry competition where college students can participate. The theme will be open, and there will be two rounds. In the preliminary round, the participants will submit their pieces on a Google Form, and the top pieces will be selected for the final round. The selected participants will have to perform them live in the department, and the positions will be given according to the score provided by the judges. Positions will be given in both English and Hindi categories. The time limit is 3 to 5 minutes. The pieces must be self-written; plagiarized pieces will be disqualified. The pieces must not be offending in any way to any religion, caste, gender, etc. If they do, they will be disqualified."
+          "Unleash your inner Wordsmith at Dastur-e-Mehfil,the Multilingual Literary Celebration where creativity takes center stage. Explore the realm of writing,expression and debates. Showcase your skills in open poetry competition inviting college students, including those from inter-colleges, to showcase their poetic talent. Join the battle of wits and express your creativity.Celebrate the battle of language,imagination, and express at Dastur-e-Mehfil."
         ],
         "image": "TBA",
-        "rules": ["Refer Above"],
+        "rules": [
+          "<ul class=\" list-disc ml-4\"><li class=\" list-disc ml-4\">This is a poetry competition where college students can participate. </li> <li class=\" list-disc ml-4\">The theme will be open, and there will be two rounds. </li> <li class=\" list-disc ml-4\">In the preliminary round, the participants will submit their pieces on a Google Form, and the top pieces will be selected for the final round. </li> <li class=\" list-disc ml-4\">The selected participants will have to perform them live in the department, and the positions will be given according to the score provided by the judges.  </li> <li class=\" list-disc ml-4\">The time limit is 3 to 5 minutes.</li> <li class=\" list-disc ml-4\">The pieces must be self-written; plagiarized pieces will be disqualified. </li> <li class=\" list-disc ml-4\">The pieces must not be offending in any way to any religion, caste, gender, etc. If they do, they will be disqualified</li> </ul>"
+        ],
         "organizers": [
           {
             "name": "Bhushan",
@@ -194,13 +198,16 @@
       },
       {
         "name": "Chakravyuh",
-        "slug": "treasure-hunt",
+        "slug": "chakravyuh",
         "description": "Group Treasure Hunt",
         "date": "2024-04-21",
         "time": "9:00",
         "location": "Department of Computer Science Campus",
         "description_paragraphs": [
-          "Welcome, brave adventurers, to \"Unearth the Treasure\" - an exhilarating Chakravyuh that will test your wit, teamwork, and courage! Get ready to embark on an unforgettable journey filled with clues, puzzles, and excitement."
+          "Calling all adventurous spirits and puzzle enthusiasts! Get ready to embark on an exhilarating journey of discovery at the Treasure Hunt during the most awaited fest, Sankalan.",
+          "Gather your friends, form teams, and prepare for an exciting afternoon of clues, challenges, and hidden treasures scattered throughout our vibrant department. Whether you're a seasoned explorer or a first-time participant, this event promises thrills and excitement for all.",
+          "Are you ready to accept the challenge and unlock the mysteries that lie within our campus? Let the treasure hunt begin!",
+          "Get in on the action and claim your chance to be recognized as a top-notch detective among your fellow sleuths. Win big and let your investigative prowess dazzle!🔎"
         ],
         "image": "TBA",
         "rules": ["There's only one rule: be the first team to find all the clues and claim victory!"],
@@ -276,6 +283,7 @@
         "time": "15:30",
         "location": "LAB2",
         "description_paragraphs": [
+          "Experience the adrenaline rush of Desktop Dominion, where gamers battle it out on the digital battlefield! Engage in epic clashes, strategic manoeuvres, and thrilling competitions as you showcase your skills in the world of PC gaming. With state-of-the-art setups and exciting challenges, Desktop Dominion is the ultimate destination for gaming aficionados.",
           "Join us for an electrifying celebration of desktop gaming where we delve into the immersive world of digital entertainment! Whether you're a seasoned gamer or just starting your journey, this event promises to captivate and inspire with a plethora of activities and experiences tailored to every gaming enthusiast.",
           "<b>Counter Strike Global Offensive (CSGO) LAN Party</b>",
           "Dive into Heart-Pounding Counter-Strike Action at Our CSGO Gaming Event! Engage in Intense Tactical Battles, Strategize with Your Team, and Aim for Victory in the Ultimate FPS Showdown."
@@ -306,7 +314,7 @@
         "time": "12:00",
         "location": "Room 115",
         "description_paragraphs": [
-          "Coming Soon."
+          "In the realm of Apex Crusade, your mobile device transforms into a portal of endless possibilities! Dive into captivating adventures, fast-paced challenges, and multiplayer mayhem as you compete for glory in the mobile gaming arena. Whether you're a casual player or a seasoned pro, Apex Crusade offers something for everyone to enjoy!"
         ],
         "image": "TBA",
         "rules": ["TBA"],
