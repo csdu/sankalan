@@ -17,7 +17,7 @@
         "description_paragraphs": [
           "Embark on a coding odyssey at HackDUCS – Delhi University's epic hackathon where ideas evolve, friendships form, and innovation takes centre stage!",
           "For the first time at the University of Delhi, the Department of Computer Science is organizing HackDUCS, a hybrid inter-college hackathon as part of its 20th Annual TechFest - Sankalan 2024.",
-          "<b>Tentative Event Schedule</b> - all times in IST",
+          "<b>Event Schedule</b> - all times in IST",
           "DAY 0<br/><ul class=\"list-disc ml-4\"><li>11:00 AM - Registrations Closed</li><li>12:00 PM - Tracks Released</li></ul>",
           "DAY 1<br/><ul class=\"list-disc ml-4\"><li>12:00 PM - Presentation Submissions Due</li><li>12:30 PM - Presentation Order Communicated</li><li>01:00 PM - Preliminary Presentations Begin on GMeet/Zoom</li><li>05:00 PM - Preliminary Presentations End</li><li>07:00 PM - Results of Preliminary Round Declared</li><li>08:00 PM - Instructions Communicated to Semi Finalist Teams</li></ul>",
           "DAY 2 (Sankalan Day 1)<br/><ul class=\"list-disc ml-4\"><li>09:00 AM - Offline Reporting (as feasible) and Disbursement of Event Kits</li><li>10:00 AM - Inauguration and Workshop / Keynote - Hacking Begins</li></ul>",
@@ -25,7 +25,6 @@
         ],
         "image": "TBA",
         "rules": [
-          "These rules are tentative and are subject to change",
           "<ul class=\"list-disc ml-4\"><li>Eligibility: College/University Students; Team Size: 2-4; Cross-college teams allowed</li><li>Tracks will be released on Day 0 at 12:00 PM.</li><li>Development must start after release of tracks.</li><li>Projects submitted to other hackathons will not be considered.</li><li>Plagiarism will lead to disqualification.</li><li>Preliminary Presentations:</li><li class=\"list-disc ml-4\">Online presentations on Google Meet / Zoom.</li><li class=\"list-disc ml-4\">Time Limit: 12-15 mins (8 mins + questions)</li><li class=\"list-disc ml-4\">Slides: Maximum of 12 slides; Formats: .pptx, .pdf</li><li class=\"list-disc ml-4\">Maximum of 5 teams from each track will be selected for demos</li><li>Final Prototype Demos:</li><li class=\"list-disc ml-4\">In-person project demonstration at event venue. Time Limit: 12-15 mins</li><li class=\"list-disc ml-4\">Project must be submitted on Devfolio before the presentation begins.</li><li class=\"list-disc ml-4\">Project source code must be hosted on a public repository on GitHub.</li><li class=\"list-disc ml-4\">Short video demo needs to be uploaded on YouTube and  submitted on Devfolio.</li><li class=\"list-disc ml-4\">10 teams qualify for Final Presentations</li><li>Final Presentations:</li><li class=\"list-disc ml-4\">No Time Limit 🙂</li><li class=\"list-disc ml-4\">In-person presentation at event venue.</li><li class=\"list-disc ml-4\">Qualified teams must arrange for travel and accommodation.</li><li class=\"list-disc ml-4\">Food and beverages will be provided as part of the parent event.</li> </ul>"
 
         ],
@@ -55,13 +54,11 @@
         "location": "Online (Prelims), Lab 2 (Mains)",
         "description_paragraphs": [
           "Algoholics is a journey into the heart of algorithmic mastery, inspired by the words of Kristian Vistrup Madsen: \"Programming is not about typing, it's about thinking, and algorithms are the way we express that thinking.\" We celebrate the art of problem-solving through coding puzzles, challenging you to unravel complexities with the utmost efficiency in space and time.",
-          "<b>Platform</b> - TBA",
-          "<b>Tentative Event Schedule</b> - all times in IST",
           "ONLINE PRELIMS (Sankalan Day 1)<br/><ul class=\"list-disc ml-4\"><li>10:30 AM - Reporting</li><li>11:00 AM - Event begins</li><li>12:00 PM - Event Ends</li></ul>",
           "OFFLINE MAINS (Sankalan Day 2)<br/><ul class=\"list-disc ml-4\"><li>10:30 AM - Offline Reporting</li><li>11:00 AM - Event Begins</li><li>12:00 PM - Event Ends</li></ul>"
         ],
         "image": "TBA",
-        "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students;</li><li> Team Size: Individual for round 1, Group of 2 for round 2; Cross-college teams are allowed.</li> <li> Preliminary Round :(Hybrid) This is an eliminating round. This round consist of 3 problems two of easy level and one of medium level in round one.</li><li> Participants will be given a set of three problems to solve.</li> <li>Time limit: 60 minutes.</li><li> Top 20 Participants whose code gets executed successfully and has an optimal solution will be given highest preference.</li><li> Time taken to solve the problems will also be taken into consideration to qualify.</li><li> Decisions made by the event organizers will be final and binding.</li><li> Mains Round: (Offline)</li><li> It is required to report in the Department.</li> <li> Top 20 selected students with the group of one or two persons  will be given a set of two problems to solve.</li><li> This round consists of  one of medium level and another of hard level</li> <li> Top 3 Participants whose code gets executed successfully and has an optimal solution will be given highest preference.</li><li> Participants are required to share their account details through a form for transfer of prize money to winners.</li><li> Time taken to solve the problems will also be taken into consideration to qualify.</li><li> Decisions made by the event organizers will be final and binding.</li></ul>"],
+        "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students</li><li> Team Size: Individual for round 1, Group of 2 for round 2; Cross-college teams are allowed.</li> <li> Preliminary Round (Hybrid): This is an eliminating round. This round consist of 3 problems two of easy level and one of medium level in round one.</li><li class=\"list-disc ml-4\"> Participants will be given a set of three problems to solve.</li> <li class=\"list-disc ml-4\">Time limit: 60 minutes.</li><li class=\"list-disc ml-4\"> Top 20 Participants whose code gets executed successfully and has an optimal solution will be given highest preference.</li><li class=\"list-disc ml-4\"> Time taken to solve the problems will also be taken into consideration to qualify.</li><li class=\"list-disc ml-4\"> Decisions made by the event organizers will be final and binding.</li><li> Mains Round: (Offline)</li><li class=\"list-disc ml-4\"> It is required to report at the Department.</li> <li class=\"list-disc ml-4\"> Selected participants with the group of one or two persons  will be given a set of two problems to solve.</li><l class=\"list-disc ml-4\"i> This round consists of  one of medium level and another of hard level</li> <li class=\"list-disc ml-4\"> Top 3 Participants whose code gets executed successfully and has an optimal solution will be given highest preference.</li><li class=\"list-disc ml-4\"> Participants are required to share their account details through a form for transfer of prize money to winners.</li><li class=\"list-disc ml-4\"> Time taken to solve the problems will also be taken into consideration to qualify.</li><li class=\"list-disc ml-4\"> Decisions made by the event organizers will be final and binding.</li></ul>"],
         "organizers": [
           {
             "name": "Sakshi",
@@ -80,8 +77,7 @@
         "location": "LAB2",
         "description_paragraphs": [
           "\"Dive into the heart of coding adventure with  The Blind Coding Challenge\"! Brace yourself for an exhilarating journey where your coding skills will be put to the ultimate test. In this thrilling competition, you'll embark on a quest to unravel the mystery of code, all while blindfolded from your screen and disconnected from the internet. Can you navigate through the darkness of uncertainty and emerge as the ultimate coding champion?",
-          "Venture into uncharted territory where screens remain dark, and ingenuity lights the way. No internet, no chatter – just you, your code, and the thrill of the challenge. Blind Coding offers a thrilling opportunity to push your limits and experience the adrenaline rush of coding like never before.",
-          "<b>Tentative Event Schedule</b> - TBA"
+          "Venture into uncharted territory where screens remain dark, and ingenuity lights the way. No internet, no chatter – just you, your code, and the thrill of the challenge. Blind Coding offers a thrilling opportunity to push your limits and experience the adrenaline rush of coding like never before."
         ],
         "image": "TBA",
         "rules": [
@@ -108,11 +104,10 @@
         "time": "15:30",
         "location": "Seminar/IoE Lab",
         "description_paragraphs": [
-          "Codes are up for auction, but being the highest bidder is not enough to win the game! Call for coding enthusiasts who want to experience a thrilling journey of problem-solving, strategising, and collaboration. Some team members will participate in an auction, bidding for the challenges you wish. And the rest of the team will try to crack the code within a set time limit. Do you know your friends well enough to bid on the challenge suited for them? Join us at Code Auction to know!",
-          "<b>Tentative Event Schedule</b> - TBA"
+          "Codes are up for auction, but being the highest bidder is not enough to win the game! Call for coding enthusiasts who want to experience a thrilling journey of problem-solving, strategising, and collaboration. Some team members will participate in an auction, bidding for the challenges you wish. And the rest of the team will try to crack the code within a set time limit. Do you know your friends well enough to bid on the challenge suited for them? Join us at Code Auction to know!"
         ],
         "image": "TBA",
-        "rules": ["TBA"],
+        "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students; Team Size: 2-4; Cross-college teams allowed.</li> <li> Time duration - 2 hr</li><li>1 or 2 members (depending on number of participants in team) will participate in bidding</li><li>Other members will not participate in the “Auction” round</li><li>Each team will initially be given a fixed amount to bid on questions</li><li>Every team must purchase at least 3 questions to be eligible for “coding” round</ul><li>There are 3 types of questions: easy, medium, hard, with prices being high to low respectively.</li><li>10 - 15 participant teams will go in coding round</li><li>Once auction round ends, coding round begins with the other 1 or 2 members solving the challenges purchased by their teammates</li><li>The members who participated in Auction round will not participate in coding round</li></ul>"],
         "organizers": [
           {
             "name": "Bhavyaa",
@@ -134,8 +129,7 @@
         "time": "11:00",
         "location": "LAB2",
         "description_paragraphs": [
-          "Squash some bugs and showcase your coding prowess! Dive into our code snippets, identify the bugs lurking within, and apply your programming wizardry to squash them into oblivion. Every bug fix brings you one step closer to the top of the scoreboard and ultimate glory. Prizes await the top bug squashers, but the real reward lies in the satisfaction of overcoming challenges and mastering the art of debugging.",
-          "<b>Tentative Event Schedule</b> - TBA"
+          "Squash some bugs and showcase your coding prowess! Dive into our code snippets, identify the bugs lurking within, and apply your programming wizardry to squash them into oblivion. Every bug fix brings you one step closer to the top of the scoreboard and ultimate glory. Prizes await the top bug squashers, but the real reward lies in the satisfaction of overcoming challenges and mastering the art of debugging."
         ],
         "image": "TBA",
         "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students; Individual Participant Only</li><li> Main Event: Time duration - 1 hr for each slot (if huge participation)</li><li> Any number of participant, individuals only</li> <li> Code snippets will be provided and participants will have to find the errors/bugs and fix them</li><li> Most probably on system, any online platform, but may change</li>          <li>Basic editing including color correction, filters, and cropping are allowed, provided it does not affect the genuineness of the photograph(s).</li><li> The use of advanced editing to create deceptions, illusions, or manipulate images is strictly prohibited. Any such case will lead to the disqualification of the participant.</li><li> The participant must follow the official Instagram account (@ducsofficial).</li><li> Participants are required to share their account details through a form for transfer of prize money to winners.</li></ul>"],
@@ -186,10 +180,10 @@
         "time": "15:30",
         "location": "Outer Parking",
         "description_paragraphs": [
-          "Coming Soon."
+          "This is a poetry competition where college students can participate. The theme will be open, and there will be two rounds. In the preliminary round, the participants will submit their pieces on a Google Form, and the top pieces will be selected for the final round. The selected participants will have to perform them live in the department, and the positions will be given according to the score provided by the judges. Positions will be given in both English and Hindi categories. The time limit is 3 to 5 minutes. The pieces must be self-written; plagiarized pieces will be disqualified. The pieces must not be offending in any way to any religion, caste, gender, etc. If they do, they will be disqualified."
         ],
         "image": "TBA",
-        "rules": ["TBA"],
+        "rules": ["Refer Above"],
         "organizers": [
           {
             "name": "Bhushan",
@@ -236,10 +230,9 @@
         "time": "11:00",
         "location": "Room 114",
         "description_paragraphs": [
-          "Coming Soon."
-        ],
+          "The University of Delhi, the Department of Computer Science, presents Painting/Art competition ARTISAN VALLEY on occasion of 20th annual fest SANKALN’24 Artisan Valley is a celebration of creativity and craftsmanship, providing a platform for artists to showcase their diverse talents. This event aims to bring together a community of artisans, fostering a vibrant atmosphere of appreciation and collaboration. Participants will have the opportunity to exhibit their artworks, connect with fellow creators, and engage with an audience eager to explore the rich tapestry of artistic expression."        ],
         "image": "TBA",
-        "rules": ["TBA"],
+        "rules": ["<ul class=\"list-disc ml-4\"><li> The competition is open to all college students. Students from all disciplines are encouraged to participate.</li><li>Participants must adhere to ethical standards and copyright laws in creating their artworks.</li><li>Any form of plagiarism or infringement will result in disqualification.</li><li>Respectful behaviour towards fellow participants, judges, and event staff is expected at all times.</li> <li>Submission Guidelines (First Round):</li><li class=\"list-disc ml-4\">Each participant must submit 3 original paintings for the first round of the competition.</li><li class=\"list-disc ml-4\">Paintings can be in any medium such as oil, acrylic, water-color, or mixed media.</li><li class=\"list-disc ml-4\">The theme for the paintings is open, allowing participants to showcase their creativity and style.</li><li class=\"list-disc ml-4\">All entries must be submitted on Google Form by April 18, 2024 08:00 PM. Late submissions will not be accepted.</li><li>Artworks Selection for Exhibition:</li><li class=\"list-disc ml-4\">Instruction will be reported to selected participants for the Offline submission of paintings.</li><li class=\"list-disc ml-4\">The selected participant’s paintings will be exhibited for public viewing for both the days of SANKALAN.</li><li class=\"list-disc ml-4\">Participants have the option to tag a price for their artwork if they wish to sell it during the exhibition.</li><li>Competition Round (Second Round):</li><li class=\"list-disc ml-4\">Theme will be declared on the spot. Participants can use their Mobile phones for inspiration but work must be of their own.</li><li class=\"list-disc ml-4\">Participants will have a specified time to create a new artwork based on the given theme.</li><li class=\"list-disc ml-4\">A3/A4-size sheets will be provided by the department for the competition.</li><li class=\"list-disc ml-4\">Participants must bring their own art supplies and materials for the competition round.</li><li class=\"list-disc ml-4\">Result will be announced after lunch.</li><li class=\"list-disc ml-4\">Prizes will be awarded to top 3 participants based on all the paintings.</li></ul>"],
         "organizers": [
           {
             "name": "Sameer",
