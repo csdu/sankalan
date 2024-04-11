@@ -6,8 +6,8 @@
         "name": "HackDUCS",
         "slug": "hack-ducs",
         "description": "Hybrid Hackathon",
-        "date": "2024-04-23",
-        "date2": "2024-04-24",
+        "date": "2024-04-20",
+        "date2": "2024-04-21",
         "time": "12:00",
         "time2": "17:30",
         "location": "Satyakam Bhavan",
@@ -48,8 +48,8 @@
         "slug": "algoholics",
         "description": "Coding Euphoria",
         "is_team_event": true,
-        "date": "2024-04-23",
-        "date2": "2024-04-24",
+        "date": "2024-04-20",
+        "date2": "2024-04-21",
         "time": "11:00",
         "time2": "11:00",
         "location": "Online (Prelims), Lab 2 (Mains)",
@@ -74,7 +74,7 @@
         "name": "Blind Coding",
         "slug": "blind-coding",
         "description": "Code without execute",
-        "date": "2024-04-23",
+        "date": "2024-04-20",
         "time": "13:30",
         "location": "LAB2",
         "description_paragraphs": [
@@ -103,7 +103,7 @@
         "slug": "code-auction",
         "is_team_event": true,
         "description": "Bid for problem",
-        "date": "2024-04-23",
+        "date": "2024-04-20",
         "time": "15:30",
         "location": "Seminar/IoE Lab",
         "description_paragraphs": [
@@ -129,7 +129,7 @@
         "name": "Squash the Bugs",
         "slug": "squash-the-bugs",
         "description": "Debug the code",
-        "date": "2024-04-23",
+        "date": "2024-04-20",
         "time": "11:00",
         "location": "LAB2",
         "description_paragraphs": [
@@ -155,7 +155,7 @@
         "name": "Jhankar",
         "slug": "jhankar",
         "description": "Group Dance Competition",
-        "date": "2024-04-23",
+        "date": "2024-04-20",
         "time": "17:30",
         "location": "Outer Parking",
         "description_paragraphs": [
@@ -181,7 +181,7 @@
         "name": "Dastur<span class=\"hyphen\">-</span>e<span class=\"hyphen\">-</span>Mehfil",
         "slug": "dastur-e-mehfil",
         "description": "Poetry Competition",
-        "date": "2024-04-24",
+        "date": "2024-04-21",
         "time": "15:30",
         "location": "Outer Parking",
         "description_paragraphs": [
@@ -201,7 +201,7 @@
         "name": "Chakravyuh",
         "slug": "treasure-hunt",
         "description": "Group Treasure Hunt",
-        "date": "2024-04-24",
+        "date": "2024-04-21",
         "time": "9:00",
         "location": "Department of Computer Science Campus",
         "description_paragraphs": [
@@ -231,7 +231,7 @@
         "name": "Artisan Valley",
         "slug": "artisan-valley",
         "description": "Painting Competition",
-        "date": "2024-04-24",
+        "date": "2024-04-21",
         "time": "11:00",
         "location": "Room 114",
         "description_paragraphs": [
@@ -251,7 +251,7 @@
         "name": "Click<span class=\"hyphen\">-</span>Akrity",
         "slug": "click-akrity",
         "description": "Photography Competition",
-        "date": "2024-04-23",
+        "date": "2024-04-20",
         "time": "10:00",
         "location": "Department of Computer Science Campus",
         "description_paragraphs": [
@@ -278,7 +278,7 @@
         "name": "Desktop Dominion",
         "slug": "desktop-dominion",
         "description": "Computer Gaming",
-        "date": "2024-04-23",
+        "date": "2024-04-20",
         "time": "15:30",
         "location": "LAB2",
         "description_paragraphs": [
@@ -308,7 +308,7 @@
         "is_team_event": true,
         "is_disabled": true,
         "description": "Mobile Gaming",
-        "date": "2024-04-24",
+        "date": "2024-04-21",
         "time": "12:00",
         "location": "Room 115",
         "description_paragraphs": [
@@ -339,7 +339,7 @@
         "slug": "keynote",
         "description": "Keynote Speeches",
         "is_disabled": true,
-        "date": "2024-04-23",
+        "date": "2024-04-20",
         "time": "12:00",
         "location": "Satyakam Bhavan",
         "description_paragraphs": [
@@ -360,7 +360,7 @@
         "slug": "speaker-session",
         "description": "Session by (TBA)",
         "is_disabled": true,
-        "date": "2024-04-24",
+        "date": "2024-04-21",
         "time": "13:30",
         "location": "Satyakam Bhavan",
         "description_paragraphs": [
@@ -396,7 +396,7 @@
         "slug": "dj-night",
         "description": "DJ Night",
         "is_disabled": true,
-        "date": "2024-04-24",
+        "date": "2024-04-21",
         "time": "17:30",
         "location": "Outer Parking",
         "description_paragraphs": [
