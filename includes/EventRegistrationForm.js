@@ -436,7 +436,7 @@ const EventRegistrationForm = () => {
                     <>
                       <p className="text-white mb-6">
                         Only one member from the team should register. {
-                          ['algoholics', 'blind-coding'].includes(event) && (
+                          ['algoholics', 'blind-coding', 'chakravyuh'].includes(event) && (
                             <>
                               <br />
                              Solo participation is allowed for this event. Enter NA in the team name and team members field.
