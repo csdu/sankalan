@@ -97,7 +97,7 @@ const EventDetailPage = ({ _eventSlug }) => {
                     <AccordionBody className='text-white font-[comicbook]'>
                       <p className='text-white mb-1'><span className='font-medium'>Date:</span> {format(event.date + ' ' + event.time + 'Z+05:30', "LLLL do, yyyy")}
                        {event.date2 ? ' - ' + format(event.date2 + ' ' + event.time2 + 'Z+05:30', "LLLL do, yyyy") : ''}
-                       &nbsp;(Tentative)</p>
+                      </p>
                       <p className='text-white mb-1'><span className='font-medium'>Time:</span> {format(event.date + ' ' + event.time + 'Z+05:30', "hh:mm b")} 
                        {event.date2 ? ' - ' + format(event.date2 + ' ' + event.time2 + 'Z+05:30', "hh:mm b") : ''}
                        &nbsp;(Tentative)</p>
