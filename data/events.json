@@ -199,6 +199,7 @@
       {
         "name": "Chakravyuh",
         "slug": "chakravyuh",
+        "is_team_event": true,
         "description": "Group Treasure Hunt",
         "date": "2024-04-21",
         "time": "9:00",
