@@ -21,7 +21,7 @@
           "DAY 0<br/><ul class=\"list-disc ml-4\"><li>11:00 AM - Registrations Closed</li><li>12:00 PM - Tracks Released</li></ul>",
           "DAY 1<br/><ul class=\"list-disc ml-4\"><li>12:00 PM - Presentation Submissions Due</li><li>12:30 PM - Presentation Order Communicated</li><li>01:00 PM - Preliminary Presentations Begin on GMeet/Zoom</li><li>05:00 PM - Preliminary Presentations End</li><li>07:00 PM - Results of Preliminary Round Declared</li><li>08:00 PM - Instructions Communicated to Semi Finalist Teams</li></ul>",
           "DAY 2 (Sankalan Day 1)<br/><ul class=\"list-disc ml-4\"><li>09:00 AM - Offline Reporting (as feasible) and Disbursement of Event Kits</li><li>10:00 AM - Inauguration and Workshop / Keynote - Hacking Begins</li></ul>",
-          "DAY 3 (Sankalan Day 2)<br/><ul class=\"list-disc ml-4\"><li>09:00 AM - Offline Reporting</li><li>10:00 AM - Prototype Demonstrations Begin (Hybrid)</li><li>11:30 AM - Prototype Demonstrations End</li><li>12:00 PM - Results of Demonstrations Declared and Communicated to Finalist Teams</li><li>03:00 PM - Final Presentations Begin (Hybrid)</li><li>05:00 PM - Final Presentations End</li><li>05:30 PM - Results of Final Presentations / Winners Declared</li><li>06:00 PM - Prize Disbursement Formalities</li></ul>"
+          "DAY 3 (Sankalan Day 2)<br/><ul class=\"list-disc ml-4\"><li>09:00 AM - Offline Reporting</li><li>10:00 AM - Prototype Demonstrations Begin (Hybrid)</li><li>11:30 AM - Prototype Demonstrations End</li><li>12:00 PM - Results of Demonstrations Declared and Communicated to Finalist Teams</li><li>03:00 PM - Final Presentations Begin (Hybrid)</li><li>05:00 PM - Final Presentations End</li><li>05:30 PM - Results of Final Presentations / Winners Declared</li><li>06:00 PM - Prize Disbursement Formalities</li></ul><br><br>Pool Prize: INR 150,000"
         ],
         "image": "TBA",
         "rules": [
@@ -55,7 +55,7 @@
         "description_paragraphs": [
           "Algoholics is a journey into the heart of algorithmic mastery, inspired by the words of Kristian Vistrup Madsen: \"Programming is not about typing, it's about thinking, and algorithms are the way we express that thinking.\" We celebrate the art of problem-solving through coding puzzles, challenging you to unravel complexities with the utmost efficiency in space and time.",
           "ONLINE PRELIMS (Sankalan Day 1)<br/><ul class=\"list-disc ml-4\"><li>10:30 AM - Reporting</li><li>11:00 AM - Event begins</li><li>12:00 PM - Event Ends</li></ul>",
-          "OFFLINE MAINS (Sankalan Day 2)<br/><ul class=\"list-disc ml-4\"><li>10:30 AM - Offline Reporting</li><li>11:00 AM - Event Begins</li><li>12:00 PM - Event Ends</li></ul>"
+          "OFFLINE MAINS (Sankalan Day 2)<br/><ul class=\"list-disc ml-4\"><li>10:30 AM - Offline Reporting</li><li>11:00 AM - Event Begins</li><li>12:00 PM - Event Ends</li></ul><br><br>Pool Prize: INR 6,000"
         ],
         "image": "TBA",
         "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students</li><li> Team Size: Individual for round 1, Group of 2 for round 2; Cross-college teams are allowed.</li> <li> Preliminary Round (Hybrid): This is an eliminating round. This round consist of 3 problems two of easy level and one of medium level in round one.</li><li class=\"list-disc ml-4\"> Participants will be given a set of three problems to solve.</li> <li class=\"list-disc ml-4\">Time limit: 60 minutes.</li><li class=\"list-disc ml-4\"> Top 20 Participants whose code gets executed successfully and has an optimal solution will be given highest preference.</li><li class=\"list-disc ml-4\"> Time taken to solve the problems will also be taken into consideration to qualify.</li><li class=\"list-disc ml-4\"> Decisions made by the event organizers will be final and binding.</li><li> Mains Round: (Offline)</li><li class=\"list-disc ml-4\"> It is required to report at the Department.</li> <li class=\"list-disc ml-4\"> Selected participants with the group of one or two persons  will be given a set of two problems to solve.</li><l class=\"list-disc ml-4\"i> This round consists of  one of medium level and another of hard level</li> <li class=\"list-disc ml-4\"> Top 3 Participants whose code gets executed successfully and has an optimal solution will be given highest preference.</li><li class=\"list-disc ml-4\"> Participants are required to share their account details through a form for transfer of prize money to winners.</li><li class=\"list-disc ml-4\"> Time taken to solve the problems will also be taken into consideration to qualify.</li><li class=\"list-disc ml-4\"> Decisions made by the event organizers will be final and binding.</li></ul>"],
@@ -77,7 +77,7 @@
         "location": "LAB2",
         "description_paragraphs": [
           "\"Dive into the heart of coding adventure with  The Blind Coding Challenge\"! Brace yourself for an exhilarating journey where your coding skills will be put to the ultimate test. In this thrilling competition, you'll embark on a quest to unravel the mystery of code, all while blindfolded from your screen and disconnected from the internet. Can you navigate through the darkness of uncertainty and emerge as the ultimate coding champion?",
-          "Venture into uncharted territory where screens remain dark, and ingenuity lights the way. No internet, no chatter – just you, your code, and the thrill of the challenge. Blind Coding offers a thrilling opportunity to push your limits and experience the adrenaline rush of coding like never before."
+          "Venture into uncharted territory where screens remain dark, and ingenuity lights the way. No internet, no chatter – just you, your code, and the thrill of the challenge. Blind Coding offers a thrilling opportunity to push your limits and experience the adrenaline rush of coding like never before.<br><br>Pool Prize: INR 4,500"
         ],
         "image": "TBA",
         "rules": [
@@ -104,7 +104,7 @@
         "time": "15:30",
         "location": "Seminar/IoE Lab",
         "description_paragraphs": [
-          "Codes are up for auction, but being the highest bidder is not enough to win the game! Call for coding enthusiasts who want to experience a thrilling journey of problem-solving, strategising, and collaboration. Some team members will participate in an auction, bidding for the challenges you wish. And the rest of the team will try to crack the code within a set time limit. Do you know your friends well enough to bid on the challenge suited for them? Join us at Code Auction to know!"
+          "Codes are up for auction, but being the highest bidder is not enough to win the game! Call for coding enthusiasts who want to experience a thrilling journey of problem-solving, strategising, and collaboration. Some team members will participate in an auction, bidding for the challenges you wish. And the rest of the team will try to crack the code within a set time limit. Do you know your friends well enough to bid on the challenge suited for them? Join us at Code Auction to know!<br><br>Pool Prize: INR 6,000"
         ],
         "image": "TBA",
         "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students; Team Size: 2-4; Cross-college teams allowed.</li> <li> Time duration - 2 hr</li><li>1 or 2 members (depending on number of participants in team) will participate in bidding</li><li>Other members will not participate in the “Auction” round</li><li>Each team will initially be given a fixed amount to bid on questions</li><li>Every team must purchase at least 3 questions to be eligible for “coding” round</ul><li>There are 3 types of questions: easy, medium, hard, with prices being high to low respectively.</li><li>10 - 15 participant teams will go in coding round</li><li>Once auction round ends, coding round begins with the other 1 or 2 members solving the challenges purchased by their teammates</li><li>The members who participated in Auction round will not participate in coding round</li></ul>"],
@@ -129,7 +129,7 @@
         "time": "11:00",
         "location": "LAB2",
         "description_paragraphs": [
-          "Squash some bugs and showcase your coding prowess! Dive into our code snippets, identify the bugs lurking within, and apply your programming wizardry to squash them into oblivion. Every bug fix brings you one step closer to the top of the scoreboard and ultimate glory. Prizes await the top bug squashers, but the real reward lies in the satisfaction of overcoming challenges and mastering the art of debugging."
+          "Squash some bugs and showcase your coding prowess! Dive into our code snippets, identify the bugs lurking within, and apply your programming wizardry to squash them into oblivion. Every bug fix brings you one step closer to the top of the scoreboard and ultimate glory. Prizes await the top bug squashers, but the real reward lies in the satisfaction of overcoming challenges and mastering the art of debugging.<br><br>Pool Prize: INR 4,500"
         ],
         "image": "TBA",
         "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students; Individual Participant Only</li><li> Main Event: Time duration - 1 hr for each slot (if huge participation)</li><li>Code snippets will be provided and participants will have to find the errors/bugs and fix them.</li><li>Most probably on system, any online platform, but may change.</li></ul>"],
@@ -156,7 +156,7 @@
         "description_paragraphs": [
           "To dance is to be out of yourself.Larger, more beautiful, more powerful ~ Agnes De Mille",
           "Welcome to the electrifying world of dance where rhythm meets innovation! Prepare to showcase your team's extraordinary talent in our upcoming group dance competition - JHANKAR , an event like no other. Immense yourself in the rich performing art called dance, as you witness the grace and fluidity of these stunning performances.",
-          "Participate now and win a chance to be secure your place amidst elegance."
+          "Participate now and win a chance to be secure your place amidst elegance.<br><br>Pool Prize: INR 15,000"
         ],
         "image": "TBA",
         "rules": ["<ul class=\"list-disc ml-4\"><li>Eligibility : College/University Students; Team Size: 5-12.</li> <li>Time Limit : 5-7 minutes</li><li>Slots allocated on first-come-first-basis</li> <li>Performance music must be submitted at least 2 days before the event to facilitate smooth performance.</li><li>Props are allowed and have to be carried by participants.</li><li>Evaluation criteria: costumes,choreography,synchronization,creativity,overall stage performance.</li><li>Participants should carry their college id card with them.</li><li>Participants are required to share their account details through a form for transfer of prize money to winners.</li></ul>"],
@@ -182,7 +182,7 @@
         "time": "15:30",
         "location": "Outer Parking",
         "description_paragraphs": [
-          "Unleash your inner Wordsmith at Dastur-e-Mehfil,the Multilingual Literary Celebration where creativity takes center stage. Explore the realm of writing,expression and debates. Showcase your skills in open poetry competition inviting college students, including those from inter-colleges, to showcase their poetic talent. Join the battle of wits and express your creativity.Celebrate the battle of language,imagination, and express at Dastur-e-Mehfil."
+          "Unleash your inner Wordsmith at Dastur-e-Mehfil,the Multilingual Literary Celebration where creativity takes center stage. Explore the realm of writing,expression and debates. Showcase your skills in open poetry competition inviting college students, including those from inter-colleges, to showcase their poetic talent. Join the battle of wits and express your creativity.Celebrate the battle of language,imagination, and express at Dastur-e-Mehfil.<br><br>Pool Prize: INR 4000"
         ],
         "image": "TBA",
         "rules": [
@@ -208,7 +208,7 @@
           "Calling all adventurous spirits and puzzle enthusiasts! Get ready to embark on an exhilarating journey of discovery at the Treasure Hunt during the most awaited fest, Sankalan.",
           "Gather your friends, form teams, and prepare for an exciting afternoon of clues, challenges, and hidden treasures scattered throughout our vibrant department. Whether you're a seasoned explorer or a first-time participant, this event promises thrills and excitement for all.",
           "Are you ready to accept the challenge and unlock the mysteries that lie within our campus? Let the treasure hunt begin!",
-          "Get in on the action and claim your chance to be recognized as a top-notch detective among your fellow sleuths. Win big and let your investigative prowess dazzle!🔎"
+          "Get in on the action and claim your chance to be recognized as a top-notch detective among your fellow sleuths. Win big and let your investigative prowess dazzle!🔎<br><br>Pool Prize: INR 5,500"
         ],
         "image": "TBA",
         "rules": ["There's only one rule: be the first team to find all the clues and claim victory!"],
@@ -238,7 +238,7 @@
         "time": "11:00",
         "location": "Room 114",
         "description_paragraphs": [
-          "The University of Delhi, the Department of Computer Science, presents Painting/Art competition ARTISAN VALLEY on occasion of 20th annual fest SANKALN’24 Artisan Valley is a celebration of creativity and craftsmanship, providing a platform for artists to showcase their diverse talents. This event aims to bring together a community of artisans, fostering a vibrant atmosphere of appreciation and collaboration. Participants will have the opportunity to exhibit their artworks, connect with fellow creators, and engage with an audience eager to explore the rich tapestry of artistic expression."        ],
+          "The University of Delhi, the Department of Computer Science, presents Painting/Art competition ARTISAN VALLEY on occasion of 20th annual fest SANKALN’24 Artisan Valley is a celebration of creativity and craftsmanship, providing a platform for artists to showcase their diverse talents. This event aims to bring together a community of artisans, fostering a vibrant atmosphere of appreciation and collaboration. Participants will have the opportunity to exhibit their artworks, connect with fellow creators, and engage with an audience eager to explore the rich tapestry of artistic expression.<br><br>Pool Prize: INR 3,500"],
         "image": "TBA",
         "rules": ["<ul class=\"list-disc ml-4\"><li> The competition is open to all college students. Students from all disciplines are encouraged to participate.</li><li>Participants must adhere to ethical standards and copyright laws in creating their artworks.</li><li>Any form of plagiarism or infringement will result in disqualification.</li><li>Respectful behaviour towards fellow participants, judges, and event staff is expected at all times.</li> <li>Submission Guidelines (First Round):</li><li class=\"list-disc ml-4\">Each participant must submit 3 original paintings for the first round of the competition.</li><li class=\"list-disc ml-4\">Paintings can be in any medium such as oil, acrylic, water-color, or mixed media.</li><li class=\"list-disc ml-4\">The theme for the paintings is open, allowing participants to showcase their creativity and style.</li><li class=\"list-disc ml-4\">All entries must be submitted on Google Form by April 18, 2024 08:00 PM. Late submissions will not be accepted.</li><li>Artworks Selection for Exhibition:</li><li class=\"list-disc ml-4\">Instruction will be reported to selected participants for the Offline submission of paintings.</li><li class=\"list-disc ml-4\">The selected participant’s paintings will be exhibited for public viewing for both the days of SANKALAN.</li><li class=\"list-disc ml-4\">Participants have the option to tag a price for their artwork if they wish to sell it during the exhibition.</li><li>Competition Round (Second Round):</li><li class=\"list-disc ml-4\">Theme will be declared on the spot. Participants can use their Mobile phones for inspiration but work must be of their own.</li><li class=\"list-disc ml-4\">Participants will have a specified time to create a new artwork based on the given theme.</li><li class=\"list-disc ml-4\">A3/A4-size sheets will be provided by the department for the competition.</li><li class=\"list-disc ml-4\">Participants must bring their own art supplies and materials for the competition round.</li><li class=\"list-disc ml-4\">Result will be announced after lunch.</li><li class=\"list-disc ml-4\">Prizes will be awarded to top 3 participants based on all the paintings.</li></ul>"],
         "organizers": [
@@ -259,7 +259,7 @@
         "description_paragraphs": [
           "Greetings from Click Akrity, where the attendees are not only mere spectators but active documentarians! This extraordinary photography event invites aspiring photographers to register and embark on a mission to capture the essence of the entire event. A thrilling blend of originality, ability, and the art of storytelling through the lens, Click Akrity is high stakes because each participant must submit their two best images for the ultimate selection. Don't miss your chance to capture the moment and be part of this spectacular visual extravaganza!",
           "The ultimate photography event where you're not just a viewer but also a storyteller! Armed with your camera, embark on a mission to craft immersive visual tales that showcase the spirit of our gathering. Every participant can submit three photos that best capture the theme - Diversity in Community. It's a thrilling mix of creativity, skill, and storytelling through the lens. Don't miss the chance to seize the moment and be part of this spectacular visual showcase.",
-          "<b>Theme</b> - Diversity in Community"
+          "<b>Theme</b> - Diversity in Community<br><br>Pool Prize: INR 2,500"
         ],
         "image": "TBA",
         "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students.</li><li> The contest is open for online submissions only.</li><li> Submission Deadline: March 18th, 2024 till 12:00 Noon.</li><li> No submission will be entertained past the deadline.</li> <li> Only 2 submissions are allowed per participant.</li><li> You are required to provide a creative caption for your photograph.</li>          <li>Basic editing including color correction, filters, and cropping are allowed, provided it does not affect the genuineness of the photograph(s).</li><li> The use of advanced editing to create deceptions, illusions, or manipulate images is strictly prohibited. Any such case will lead to the disqualification of the participant.</li><li> The participant must follow the official Instagram account (@ducsofficial).</li><li> Participants are required to share their account details through a form for transfer of prize money to winners.</li></ul>"],
@@ -287,7 +287,7 @@
           "Experience the adrenaline rush of Desktop Dominion, where gamers battle it out on the digital battlefield! Engage in epic clashes, strategic manoeuvres, and thrilling competitions as you showcase your skills in the world of PC gaming. With state-of-the-art setups and exciting challenges, Desktop Dominion is the ultimate destination for gaming aficionados.",
           "Join us for an electrifying celebration of desktop gaming where we delve into the immersive world of digital entertainment! Whether you're a seasoned gamer or just starting your journey, this event promises to captivate and inspire with a plethora of activities and experiences tailored to every gaming enthusiast.",
           "<b>Counter Strike Global Offensive (CSGO) LAN Party</b>",
-          "Dive into Heart-Pounding Counter-Strike Action at Our CSGO Gaming Event! Engage in Intense Tactical Battles, Strategize with Your Team, and Aim for Victory in the Ultimate FPS Showdown."
+          "Dive into Heart-Pounding Counter-Strike Action at Our CSGO Gaming Event! Engage in Intense Tactical Battles, Strategize with Your Team, and Aim for Victory in the Ultimate FPS Showdown.<br><br>Pool Prize: INR 4,500"
 
         ],
         "image": "TBA",
@@ -315,7 +315,7 @@
         "time": "12:00",
         "location": "Room 115",
         "description_paragraphs": [
-          "In the realm of Apex Crusade, your mobile device transforms into a portal of endless possibilities! Dive into captivating adventures, fast-paced challenges, and multiplayer mayhem as you compete for glory in the mobile gaming arena. Whether you're a casual player or a seasoned pro, Apex Crusade offers something for everyone to enjoy!"
+          "In the realm of Apex Crusade, your mobile device transforms into a portal of endless possibilities! Dive into captivating adventures, fast-paced challenges, and multiplayer mayhem as you compete for glory in the mobile gaming arena. Whether you're a casual player or a seasoned pro, Apex Crusade offers something for everyone to enjoy!<br><br>Pool Prize: INR 8,000"
         ],
         "image": "TBA",
         "rules": ["TBA"],
@@ -406,7 +406,7 @@
           "Immerse yourself in an electrifying evening at our DJ night, Electric Elegenza! Surrender to the pulsating beats, dynamic lights, and euphoric atmosphere. Let the rhythm guide your moves and ignite the dance floor with your energy. Lose yourself in a fusion of beats, lights, and vibrant energy. In celebration of another successful Sankalan and to the memories it gave us! So grab your friends, hit the dance floor, and let the music take control! Join us for a night of music, movement, and magic. Let's make it a night to remember!"
         ],
         "image": "TBA",
-        "rules": ["TBA"],
+        "rules": ["<ul class=\"list-disc ml-4\"><li> Valid university/college ID card</li><li>Participation in any of the technical or non-technical events</li></ul>"],
         "organizers": [
           {
             "name": "Gagan Kumar Soni",
