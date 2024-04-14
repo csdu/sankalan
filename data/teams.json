@@ -279,12 +279,80 @@
     ]
   },
   {
+    "category": "Srijan Volunteers",
+    "members": [
+      {
+        "name": "Bhushan",
+        "position": "Designing",
+        "image": "/images/people/2024/IMG_20240130_115045 - Bhushan.jpg",
+        "github": "#",
+        "linkedin": "https://www.linkedin.com/in/bhushanvashisth?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "name": "Rishi Dholkheria",
+        "image": "/images/people/2024/img1 - RISHI.jpg",
+        "position": "Designing",
+        "github": "https://github.com/rishidholkheria",
+        "linkedin": "https://www.linkedin.com/in/rishi-dholkheria-1420871a8/"
+      },
+      {
+        "name": "Prakhar Verma",
+        "image": "/images/people/2024/prakhar.jpeg",
+        "position": "Designing",
+        "github": "https://www.github.com/rxi-prakharvrm",
+        "linkedin": "https://www.linkedin.com/in/rxi-prakharvrm"
+      },
+      {
+        "name": "Ved Prakash Sharma",
+        "image": "/images/people/2024/ved-prakash.jpg",
+        "position": "Designing",
+        "github": "https://github.com/vedprakash08",
+        "linkedin": "www.linkedin.com/in/ved-prakash-sharma-a1a4aa22b"
+      },
+      {
+        "name": "Yash Pandey",
+        "image": "/images/people/2024/yash-pandey.jpg",
+        "position": "Designing",
+        "github": "#",
+        "linkedin": "www.linkedin.com/in/mrpandeyji"
+      },
+      {
+        "name": "Dhruv Gupta",
+        "image": "/images/people/2024/dhruv-gupta.jpeg",
+        "position": "#",
+        "github": "https://github.com/dhruvgupta07",
+        "linkedin": "https://www.linkedin.com/in/ dhruv-gupta06"
+      },
+      {
+        "name": "Arsh Pathak",
+        "image": "/images/people/2024/arsh-pathak.jpg",
+        "position": "Content",
+        "github": "https://www.github.com/Arsh-0",
+        "linkedin": "https://www.linkedin.com/in/arshpathak"
+      },
+      {
+        "name": "Rohan Kumar",
+        "image": "/images/people/2024/rohan-kumar.jpg",
+        "position": "Content",
+        "github": "#",
+        "linkedin": "https://in.linkedin.com/in/rohan-kumar-47a259280"
+      },
+      {
+        "name": "Deepanshu Attri",
+        "position": "#",
+        "image": "/images/people/2024/deepanshu-attri.jpg",
+        "github": "https://github.com/deepanshuattri55",
+        "linkedin": "https://www.linkedin.com/in/deepanshu-attri-90618b186?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      }
+    ]
+  },
+  {
     "category": "Volunteers",
     "members": [
       {
         "name": "Prakhar Verma",
         "position": "Development",
-        "image": "/images/people/2024/WhatsApp Image 2024-02-22 at 03.55.22.jpeg",
+        "image": "/images/people/2024/prakhar.jpeg",
         "github": "https://www.github.com/rxi-prakharvrm",
         "linkedin": "https://www.linkedin.com/in/rxi-prakharvrm"
       },
@@ -326,7 +394,7 @@
       {
         "name": "Kashish",
         "position": "Designing",
-        "image": "/images/people/2024/pic.form - KASHISH.jpg",
+        "image": "/images/people/2024/kashish.jpg",
         "github": "#",
         "linkedin": "#"
       }
