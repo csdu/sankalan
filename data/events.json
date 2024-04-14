@@ -30,12 +30,12 @@
           {
             "name": "Sudipto Ghosh",
             "email": "sudipto.mcs22@cs.du.ac.in",
-            "phone": "TBA"
+            "phone": "8826358310"
           },
           {
             "name": "Gagan Kumar Soni",
             "email": "gagan.mcs22@cs.du.ac.in",
-            "phone": "TBA"
+            "phone": "7479993105"
           }
         ],
         "is_team_event": true
@@ -62,6 +62,11 @@
             "name": "Sakshi",
             "email": "sakshi.mcs22@cs.du.ac.in",
             "phone": "9818933246"
+          },
+          {
+            "name": "Prashant",
+            "email": "Prashant.mcs22@cs.du.ac.in",
+            "phone": "9528439160"
           }
         ]
       },
@@ -115,9 +120,9 @@
             "phone": "8851343493"
           },
           {
-            "name": "Karamjot",
-            "email": "karamjot.mcs22@cs.du.ac.in",
-            "phone": "9654226396"
+            "name": "Shivam Yadav",
+            "email": "",
+            "phone": "7906252325"
           }
         ]
       },
@@ -135,9 +140,14 @@
         "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students; Individual Participant Only</li><li> Main Event: Time duration - 1 hr for each slot (if huge participation)</li><li>Code snippets will be provided and participants will have to find the errors/bugs and fix them.</li><li>Most probably on system, any online platform, but may change.</li></ul>"],
         "organizers": [
           {
-            "name": "TBA",
-            "email": "TBA",
-            "phone": "TBA"
+            "name": "Bhavyaa",
+            "email": "bhavyaa.mcs22@cs.du.ac.in",
+            "phone": "8851343493"
+          },
+          {
+            "name": "Neeti",
+            "email": "neeti.mcs22@cs.du.ac.in",
+            "phone": "7840808108"
           }
         ]
       }
@@ -228,7 +238,7 @@
           {
             "name": "Pawan",
             "email": "pawan.mca22@cs.du.ac.in",
-            "phone": ""
+            "phone": "7541906456"
           }
         ]
       },
@@ -248,6 +258,11 @@
             "name": "Sameer",
             "email": "sameer.mca22@cs.du.ac.in",
             "phone": "9718516175"
+          },          
+          {
+            "name": "Tanuja",
+            "email": "tanuja.mcs22@cs.du.ac.in",
+            "phone": "7289810451"
           }
         ]
       },
@@ -322,7 +337,7 @@
           "In the realm of Apex Crusade, your mobile device transforms into a portal of endless possibilities! Dive into captivating adventures, fast-paced challenges, and multiplayer mayhem as you compete for glory in the mobile gaming arena. Whether you're a casual player or a seasoned pro, Apex Crusade offers something for everyone to enjoy!<br><br>Pool Prize: INR 8,000"
         ],
         "image": "TBA",
-        "rules": ["TBA"],
+        "rules": ["<ul class=\"list-disc ml-4\"><li> Every Particular team's must have 4 Players to participate in the tournament</li><li>  Every player of the team must be registered with their in game name in this form.</li><li>  IGL(in game leader) must have to submit its university ID card.</li> <li> Every team member must have to show their university ID card after Wining the tournament to claim the Prizes and goodies.</li><li>Any team unable to proof their University identity leads to strict disqualification.</li><li>Use of any Hacks and other activities like teamup will lead to direct disqualification.</li><liThe decision of  tournament organisers must be followed by each team otherwise the team slot will be cancelled .</li></ul>"],
         "organizers": [
           {
             "name": "Jaswinder Singh",
@@ -385,11 +400,6 @@
             "name": "Paras",
             "email": "paraskmsc23@cs.du.ac.in",
             "phone": "9467496856"
-          },
-          {
-            "name": "Rahul Semwal",
-            "email": "rahuls-mca23@cs.du.ac.in",
-            "phone": "8447721802"
           }
         ]
       }
@@ -421,6 +431,11 @@
             "name": "Satyandra Pal",
             "email": "satyandra.mca22@cs.du.ac.in",
             "phone": "8840647329"
+          },
+          {
+            "name": "Rahul Semwal",
+            "email": "rahuls-mca23@cs.du.ac.in",
+            "phone": "8447721802"
           }
         ]
       }

@@ -305,16 +305,30 @@
       {
         "name": "Kashish",
         "image": "/images/people/2024/kashish.jpg",
-        "position": "Designing",
+        "position": "Editorial",
         "github": "#",
         "linkedin": "#"
       },
       {
-        "name": "Ved Prakash Sharma",
-        "image": "/images/people/2024/ved-prakash.jpg",
+        "name": "Arsh Pathak",
+        "image": "/images/people/2024/arsh-pathak.jpg",
+        "position": "Editorial",
+        "github": "https://www.github.com/Arsh-0",
+        "linkedin": "https://www.linkedin.com/in/arshpathak"
+      },
+      {
+        "name": "Rohan Kumar",
+        "image": "/images/people/2024/rohan-kumar.jpg",
+        "position": "Editorial",
+        "github": "#",
+        "linkedin": "https://in.linkedin.com/in/rohan-kumar-47a259280"
+      },
+      {
+        "name": "Vikrant Yadav",
+        "image": "/images/people/2024/vikrant.jpg",
         "position": "Designing",
-        "github": "https://github.com/vedprakash08",
-        "linkedin": "www.linkedin.com/in/ved-prakash-sharma-a1a4aa22b"
+        "github": "https://www.linkedin.com/in/vikrant-yadav-3ba082212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "linkedin": "https://github.com/v1kr4ntydv"
       },
       {
         "name": "Yash Pandey",
@@ -324,25 +338,18 @@
         "linkedin": "www.linkedin.com/in/mrpandeyji"
       },
       {
+        "name": "Ved Prakash Sharma",
+        "image": "/images/people/2024/ved-prakash.jpg",
+        "position": "Designing",
+        "github": "https://github.com/vedprakash08",
+        "linkedin": "www.linkedin.com/in/ved-prakash-sharma-a1a4aa22b"
+      },
+      {
         "name": "Dhruv Gupta",
         "image": "/images/people/2024/dhruv-gupta.jpeg",
         "position": "#",
         "github": "https://github.com/dhruvgupta07",
         "linkedin": "https://www.linkedin.com/in/ dhruv-gupta06"
-      },
-      {
-        "name": "Arsh Pathak",
-        "image": "/images/people/2024/arsh-pathak.jpg",
-        "position": "Content",
-        "github": "https://www.github.com/Arsh-0",
-        "linkedin": "https://www.linkedin.com/in/arshpathak"
-      },
-      {
-        "name": "Rohan Kumar",
-        "image": "/images/people/2024/rohan-kumar.jpg",
-        "position": "Content",
-        "github": "#",
-        "linkedin": "https://in.linkedin.com/in/rohan-kumar-47a259280"
       },
       {
         "name": "Deepanshu Attri",
