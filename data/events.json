@@ -322,7 +322,7 @@
         "name": "Apex Crusade",
         "slug": "apex-crusade",
         "is_team_event": true,
-        "is_disabled": true,
+        "is_disabled": false,
         "description": "Mobile Gaming",
         "date": "2024-04-21",
         "time": "11:00",
