@@ -324,13 +324,6 @@
         "linkedin": "https://in.linkedin.com/in/rohan-kumar-47a259280"
       },
       {
-        "name": "Vikrant",
-        "image": "/images/people/2024/vikrant.jpg",
-        "position": "Designing",
-        "github": "https://www.linkedin.com/in/vikrant-yadav-3ba082212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "linkedin": "https://github.com/v1kr4ntydv"
-      },
-      {
         "name": "Yash Pandey",
         "image": "/images/people/2024/yash-pandey.jpg",
         "position": "Designing",
@@ -345,11 +338,39 @@
         "linkedin": "www.linkedin.com/in/ved-prakash-sharma-a1a4aa22b"
       },
       {
+        "name": "Vikrant",
+        "image": "/images/people/2024/vikrant.jpg",
+        "position": "Designing",
+        "github": "https://www.linkedin.com/in/vikrant-yadav-3ba082212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "linkedin": "https://github.com/v1kr4ntydv"
+      },
+      {
         "name": "Dhruv Gupta",
         "image": "/images/people/2024/dhruv-gupta.jpeg",
         "position": "Editorial",
         "github": "https://github.com/dhruvgupta07",
         "linkedin": "https://www.linkedin.com/in/ dhruv-gupta06"
+      },
+      {
+        "name": "Purnima Kumar",
+        "position": "Editorial",
+        "image": "/images/people/2024/IMG_20231111_164826770~3 - Purnima Kumar.jpg",
+        "github": "https://github.com/purnimakumarr",
+        "linkedin": "https://www.linkedin.com/in/purnimakumarr/"
+      },
+      {
+        "name": "Khushi Jain",
+        "position": "Editorial",
+        "image": "/images/people/2024/pic - KHUSHI JAIN.jpg",
+        "github": "#",
+        "linkedin": "https://www.linkedin.com/in/khushi-jain-44a355202/"
+      },
+      {
+        "name": "Harsh Yadav",
+        "position": "Editorial",
+        "image": "/images/people/2024/IMG_20240222_134300 - HARSH YADAV.jpg",
+        "github": "https://github.com/Harsh-Yadav-02",
+        "linkedin": "https://in.linkedin.com/in/harsh-yadav-882189195"
       }
     ]
   },
