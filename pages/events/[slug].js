@@ -100,8 +100,8 @@ const EventDetailPage = ({ _eventSlug }) => {
                       </p>
                       <p className='text-white mb-1'><span className='font-medium'>Time:</span> {format(event.date + ' ' + event.time + 'Z+05:30', "hh:mm b")} 
                        {event.date2 ? ' - ' + format(event.date2 + ' ' + event.time2 + 'Z+05:30', "hh:mm b") : ''}
-                       &nbsp;(Tentative)</p>
-                      <p className='text-white mb-1'><span className='font-medium'>Location:</span> {event.location + ' (Tentative)' || "TBA"}</p>
+                       &nbsp;</p>
+                      <p className='text-white mb-1'><span className='font-medium'>Location:</span> {event.location + '' || "TBA"}</p>
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 3}>
