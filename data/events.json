@@ -46,9 +46,7 @@
         "description": "Coding Euphoria",
         "is_team_event": true,
         "date": "2024-04-20",
-        "date2": "2024-04-21",
-        "time": "11:00",
-        "time2": "10:00",
+        "time": "12:00",
         "location": "Online (Prelims), Lab 2 (Mains)",
         "description_paragraphs": [
           "Algoholics is a journey into the heart of algorithmic mastery, inspired by the words of Kristian Vistrup Madsen: \"Programming is not about typing, it's about thinking, and algorithms are the way we express that thinking.\" We celebrate the art of problem-solving through coding puzzles, challenging you to unravel complexities with the utmost efficiency in space and time.",
@@ -56,7 +54,7 @@
           "OFFLINE MAINS (Sankalan Day 2)<br/><ul class=\"list-disc ml-4\"><li>10:30 AM - Offline Reporting</li><li>11:00 AM - Event Begins</li><li>12:00 PM - Event Ends</li></ul><br><br>Pool Prize: INR 6,000"
         ],
         "image": "TBA",
-        "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students</li><li> Team Size: Individual for round 1, Group of 2 for round 2; Cross-college teams are allowed.</li> <li> Preliminary Round (Hybrid): This is an eliminating round. This round consist of 3 problems two of easy level and one of medium level in round one.</li><li class=\"list-disc ml-4\"> Participants will be given a set of three problems to solve.</li> <li class=\"list-disc ml-4\">Time limit: 60 minutes.</li><li class=\"list-disc ml-4\"> Top 20 Participants whose code gets executed successfully and has an optimal solution will be given highest preference.</li><li class=\"list-disc ml-4\"> Time taken to solve the problems will also be taken into consideration to qualify.</li><li class=\"list-disc ml-4\"> Decisions made by the event organizers will be final and binding.</li><li> Mains Round: (Offline)</li><li class=\"list-disc ml-4\"> It is required to report at the Department.</li> <li class=\"list-disc ml-4\"> Selected participants with the group of one or two persons  will be given a set of two problems to solve.</li><l class=\"list-disc ml-4\"i> This round consists of  one of medium level and another of hard level</li> <li class=\"list-disc ml-4\"> Top 3 Participants whose code gets executed successfully and has an optimal solution will be given highest preference.</li><li class=\"list-disc ml-4\"> Participants are required to share their account details through a form for transfer of prize money to winners.</li><li class=\"list-disc ml-4\"> Time taken to solve the problems will also be taken into consideration to qualify.</li><li class=\"list-disc ml-4\"> Decisions made by the event organizers will be final and binding.</li></ul>"],
+        "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students</li><li> Team Size: Individual for round 1, Group of 2 for round 2; Cross-college teams are allowed.</li> <li> Preliminary Round (Hybrid): This is an eliminating round. This round consist of 3 problems two of easy level and one of medium level in round one.</li><li class=\"list-disc ml-4\"> Participants will be given a set of three problems to solve.</li> <li class=\"list-disc ml-4\">Time limit: 60 minutes.</li><li class=\"list-disc ml-4\"> Top 20 Participants whose code gets executed successfully and has an optimal solution will be given highest preference.</li><li class=\"list-disc ml-4\"> Time taken to solve the problems will also be taken into consideration to qualify.</li><li class=\"list-disc ml-4\"> Decisions made by the event organizers will be final and binding.</li><li> Mains Round: (Offline)</li><li class=\"list-disc ml-4\"> It is required to report at the Department.</li> <li class=\"list-disc ml-4\"> Selected participants with the group of one or two persons  will be given a set of two problems to solve.</li><l class=\"list-disc ml-4\"i> This round consists of  one of medium level and another of hard level</li> <li class=\"list-disc ml-4\"> Top Participants whose code gets executed successfully and has an optimal solution will be given highest preference.</li><li class=\"list-disc ml-4\"> Participants are required to share their account details through a form for transfer of prize money to winners.</li><li class=\"list-disc ml-4\"> Time taken to solve the problems will also be taken into consideration to qualify.</li><li class=\"list-disc ml-4\"> Decisions made by the event organizers will be final and binding.</li></ul>"],
         "organizers": [
           {
             "name": "Sakshi",
@@ -104,9 +102,7 @@
         "is_team_event": true,
         "description": "Bid for problem",
         "date": "2024-04-20",
-        "date2": "2024-04-20",
         "time": "13:30",
-        "time2": "15:30",
         "location": "Seminar/IoE Lab",
         "description_paragraphs": [
           "Codes are up for auction, but being the highest bidder is not enough to win the game! Call for coding enthusiasts who want to experience a thrilling journey of problem-solving, strategising, and collaboration. Some team members will participate in an auction, bidding for the challenges you wish. And the rest of the team will try to crack the code within a set time limit. Do you know your friends well enough to bid on the challenge suited for them? Join us at Code Auction to know!<br><br>Pool Prize: INR 6,000"
@@ -222,7 +218,7 @@
         ],
         "image": "TBA",
         "rules": [
-          "<ul class=\" list-disc ml-4\"><li class=\" list-disc ml-4\">There's only one rule: be the first team to find all the clues and claim victory!</li> <li class=\" list-disc ml-4\">Min time Requirement for Event 2 Hour</li><li class=\" list-disc ml-4\">Team size 2-4</li><li class=\" list-disc ml-4\">Join us at [TBA] for an exhilarating introduction to the treasure hunt</li> <li class=\" list-disc ml-4\">Our organizers will provide a comprehensive overview of the rules,and the structure of the treasure hunt</li><li class=\" list-disc ml-4\">No of clues to find  will get announced</li><li class=\" list-disc ml-4\">Only a Team of 2 members can participate in this and participants should be college students only.</li> </ul>"
+          "<ul class=\" list-disc ml-4\"><li class=\" list-disc ml-4\">There's only one rule: be the first team to find all the clues and claim victory!</li> <li class=\" list-disc ml-4\">Min time Requirement for Event 2 Hour</li><li class=\" list-disc ml-4\">Team size 2-4</li><li class=\" list-disc ml-4\">Join us at [TBA] for an exhilarating introduction to the treasure hunt</li> <li class=\" list-disc ml-4\">Our organizers will provide a comprehensive overview of the rules,and the structure of the treasure hunt</li><li class=\" list-disc ml-4\">No of clues to find  will get announced</li></ul>"
         ],
         "organizers": [
           {
@@ -272,8 +268,6 @@
         "description": "Photography Competition",
         "date": "2024-04-20",
         "time": "9:00",
-        "date2": "2024-04-21",
-        "time2": "15:30",
         "location": "Department of Computer Science Campus",
         "description_paragraphs": [
           "Greetings from Click Akrity, where the attendees are not only mere spectators but active documentarians! This extraordinary photography event invites aspiring photographers to register and embark on a mission to capture the essence of the entire event. A thrilling blend of originality, ability, and the art of storytelling through the lens, Click Akrity is high stakes because each participant must submit their two best images for the ultimate selection. Don't miss your chance to capture the moment and be part of this spectacular visual extravaganza!",
@@ -332,9 +326,9 @@
         "description": "Mobile Gaming",
         "date": "2024-04-21",
         "time": "11:00",
-        "location": "Room 115",
+        "location": "Room 115 / Online",
         "description_paragraphs": [
-          "In the realm of Apex Crusade, your mobile device transforms into a portal of endless possibilities! Dive into captivating adventures, fast-paced challenges, and multiplayer mayhem as you compete for glory in the mobile gaming arena. Whether you're a casual player or a seasoned pro, Apex Crusade offers something for everyone to enjoy!<br><br>Pool Prize: INR 8,000"
+          "In the realm of Apex Crusade, your mobile device transforms into a portal of endless possibilities! Dive into captivating adventures, fast-paced challenges, and multiplayer mayhem as you compete for glory in the mobile gaming arena. Whether you're a casual player or a seasoned pro, Apex Crusade offers something for everyone to enjoy!<br><br><a href=\"https://forms.gle/4nDtfSgJ26Sf7Xsp8\" target=\"_blank\" class=\"text-sankalan-accent-yellow\">Form Link &nearr;</a><br><br>Pool Prize: INR 8,000"
         ],
         "image": "TBA",
         "rules": ["<ul class=\"list-disc ml-4\"><li> Every Particular team's must have 4 Players to participate in the tournament</li><li>  Every player of the team must be registered with their in game name in this form.</li><li>  IGL(in game leader) must have to submit its university ID card.</li> <li> Every team member must have to show their university ID card after Wining the tournament to claim the Prizes and goodies.</li><li>Any team unable to proof their University identity leads to strict disqualification.</li><li>Use of any Hacks and other activities like teamup will lead to direct disqualification.</li><liThe decision of  tournament organisers must be followed by each team otherwise the team slot will be cancelled .</li></ul>"],
