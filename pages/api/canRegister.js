@@ -22,7 +22,7 @@ export default async function handler(req, res) {
   const doc = new GoogleSpreadsheet(process.env.GOOGLE_SHEET_ID, serviceAccountAuth);
   await doc.loadInfo();
   const sheet = doc.sheetsByIndex[1];
-  const cellValues = await sheet.getCellsInRange('M2:M100');
+  const cellValues = await sheet.getCellsInRange('M2:M974');
 
   const values = cellValues?.map(cell => cell[0]);
 
