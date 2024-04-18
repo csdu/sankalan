@@ -58,7 +58,7 @@ export default function Home() {
       </div>
 
       <div className="corner-nav-item bottom-center red">
-        <Link onClick={() => alert('To be Announced')} href={'#'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-black transition hover:scale-110 duration-300 ease-in-out'>schedule</Link>
+        <Link href={'https://docs.google.com/spreadsheets/d/1_7q9uNYfHiNHbZX2mplQnlKZ3EZESE67CaLD-Zf720o/edit?usp=sharing'} className='p-2 bg-white shadow-ls border-[.25rem] border-black hover:text-white hover:bg-black transition hover:scale-110 duration-300 ease-in-out'>schedule</Link>
       </div>
 
       <div className="corner-nav-item bottom-right">
