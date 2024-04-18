@@ -73,7 +73,14 @@
       {
         "name": "Ajay",
         "position": "Management Head",
-        "image": "/images/people/placeholder-male.png",
+        "image": "/images/people/2024/ajay.jpg",
+        "github": "#",
+        "linkedin": "#"
+      },
+      {
+        "name": "Adarsh Shukla",
+        "position": "Management Head",
+        "image": "/images/people/2024/adarsh-shukla.jpg",
         "github": "#",
         "linkedin": "#"
       },
@@ -115,16 +122,16 @@
       {
         "name": "Yadvendra",
         "position": "Decoration",
-        "image": "/images/people/placeholder-male.png",
-        "github": "#",
-        "linkedin": "#"
+        "image": "/images/people/2024/yadvendra-yadav.jpg",
+        "github": "https://github.com/arya-yadvendra",
+        "linkedin": "https://www.linkedin.com/in/yadvendrayadav-ducs/"
       },
       {
         "name": "Durga",
         "position": "Promotion",
-        "image": "/images/people/placeholder-male.png",
+        "image": "/images/people/2024/durga-prasad-pandey.png",
         "github": "#",
-        "linkedin": "#"
+        "linkedin": "https://www.linkedin.com/in/durga-prasad-pandey-563743172"
       },
       {
         "name": "Dushyant",
@@ -150,7 +157,7 @@
       {
         "name": "Adarsh Shukla",
         "position": "Apex Crusade",
-        "image": "/images/people/placeholder-male.png",
+        "image": "/images/people/2024/adarsh-shukla.jpg",
         "github": "#",
         "linkedin": "#"
       }
@@ -172,6 +179,20 @@
         "image": "/images/people/2024/IMG_20230814_134525~2 - Bhavyaa Garg.jpg",
         "github": "#",
         "linkedin": "https://www.linkedin.com/in/bhavyaa-garg-659b12249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "name": "Shivam Yadav",
+        "position": "Code Auction",
+        "image": "/images/people/2024/shivam-yadav.jpg",
+        "github": "#",
+        "linkedin": "https://www.linkedin.com/in/shivamy850?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "name": "Neeti",
+        "position": "Squash the Bugs",
+        "image": "/images/people/2024/neeti.jpeg",
+        "github": "https://github.com/Neetiwason",
+        "linkedin": "https://www.linkedin.com/in/neeti-wason-a599722ba/"
       },
       {
         "name": "Sudipto Ghosh",
@@ -216,14 +237,14 @@
       {
         "name": "Adarsh Shukla",
         "position": "Apex Crusade",
-        "image": "/images/people/placeholder-male.png",
+        "image": "/images/people/2024/adarsh-shukla.jpg",
         "github": "#",
         "linkedin": "#"
       },
       {
         "name": "Deepanshu",
         "position": "Desktop Dominion",
-        "image": "/images/people/placeholder-male.png",
+        "image": "/images/people/2024/deepanshu-attri.jpg",
         "github": "#",
         "linkedin": "#"
       },
@@ -258,14 +279,14 @@
       {
         "name": "Durga",
         "position": "Chakravyuh",
-        "image": "/images/people/placeholder-male.png",
+        "image": "/images/people/2024/durga-prasad-pandey.png",
         "github": "#",
-        "linkedin": "#"
+        "linkedin": "https://www.linkedin.com/in/durga-prasad-pandey-563743172"
       },
       {
         "name": "Ajay",
         "position": "Chakravyuh",
-        "image": "/images/people/placeholder-male.png",
+        "image": "/images/people/2024/ajay.jpg",
         "github": "#",
         "linkedin": "#"
       },
@@ -282,6 +303,13 @@
         "image": "/images/people/placeholder-female.jpg",
         "github": "#",
         "linkedin": "#"
+      },
+      {
+        "name": "Deepanshu Attri",
+        "position": "Desktop Dominion",
+        "image": "/images/people/2024/deepanshu-attri.jpg",
+        "github": "https://github.com/deepanshuattri55",
+        "linkedin": "https://www.linkedin.com/in/deepanshu-attri-90618b186?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       }
     ]
   },
@@ -432,6 +460,167 @@
         "image": "/images/people/2024/kashish.jpg",
         "github": "#",
         "linkedin": "#"
+      },
+      {
+        "name": "Priya Beniwal",
+        "position": "",
+        "image": "/images/people/2024/priya.png",
+        "github": "#",
+        "linkedin": "#"
+      },
+      {
+        "name": "Mudita",
+        "position": "",
+        "image": "/images/people/2024/mudita.jpeg",
+        "github": "#",
+        "linkedin": "http://www.linkedin.com/in/mudita08"
+      },
+      {
+        "name": "Aryan Shukla",
+        "position": "",
+        "image": "/images/people/2024/aryan-shukla.jpg",
+        "github": "https://github.com/Aryanshukla206",
+        "linkedin": "https://www.linkedin.com/in/aryan-shukla-b9966b17a/"
+      },
+      {
+        "name": "Abhishek Singh Yadav",
+        "position": "",
+        "image": "/images/people/2024/abhishek.png",
+        "github": "https://github.com/Abhi-3022",
+        "linkedin": "https://www.linkedin.com/in/abhishek-singh-yadav-70724a203"
+      },
+      {
+        "name": "Adarsh kumar",
+        "position": "",
+        "image": "/images/people/2024/adarsh-kumar.jpg",
+        "github": "https://github.com/adarshjudoka212/",
+        "linkedin": "https://www.linkedin.com/in/adarsh-kumar-8963b0227/"
+      },
+      {
+        "name": "Vinayak Bansal",
+        "position": "",
+        "image": "/images/people/2024/vinayak.png",
+        "github": "#",
+        "linkedin": "#"
+      },
+      {
+        "name": "Shivam Sharma",
+        "position": "",
+        "image": "/images/people/2024/shivam-sharma.jpg",
+        "github": "#",
+        "linkedin": "#"
+      },
+      {
+        "name": "Dhairya",
+        "position": "",
+        "image": "/images/people/2024/dhairya.png",
+        "github": "#",
+        "linkedin": "https://www.linkedin.com/in/dhairya-kaithwar-570033133/"
+      },
+      {
+        "name": "Chetan Verma",
+        "position": "",
+        "image": "/images/people/2024/chetan-verma.jpg",
+        "github": "#",
+        "linkedin": "#"
+      },
+      {
+        "name": "Deepanshu Balyan",
+        "position": "",
+        "image": "/images/people/2024/deepanshu-balyan.png",
+        "github": "https://github.com/deepanshubalyan",
+        "linkedin": "https://www.linkedin.com/in/deepanshu-balyan-80aa76206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+      },
+      {
+        "name": "Prachi Goel",
+        "position": "",
+        "image": "/images/people/2024/prachi-goel.jpg",
+        "github": "https://github.com/goel03",
+        "linkedin": "https://www.linkedin.com/in/goel-prachi"
+      },
+      {
+        "name": "Surya Gupta",
+        "position": "",
+        "image": "/images/people/2024/surya.jpg",
+        "github": "https://github.com/Suryagithub12/worco.git",
+        "linkedin": "https://www.linkedin.com/in/surya-gupta-3798222a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "name": "Mohd Amaan Khan",
+        "position": "",
+        "image": "/images/people/2024/amaan-khan.jpg",
+        "github": "#",
+        "linkedin": "https://www.linkedin.com/in/amaan-khan-51b634283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "name": "Akash Sunda",
+        "position": "",
+        "image": "/images/people/2024/akash-sunda.jpg",
+        "github": "#",
+        "linkedin": "#"
+      },
+      {
+        "name": "Deepak Singh",
+        "position": "",
+        "image": "/images/people/2024/deepak-singh.jpeg",
+        "github": "#",
+        "linkedin": "https://www.linkedin.com/in/deepak-singh-a11a19253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+      },
+      {
+        "name": "Varun Mangla",
+        "position": "",
+        "image": "/images/people/2024/varun-mangla.jpg",
+        "github": "#",
+        "linkedin": "https://www.linkedin.com/in/varun-mangla-9307a7102"
+      },
+      {
+        "name": "Karan Soni",
+        "position": "",
+        "image": "/images/people/2024/karan-soni.jpg",
+        "github": "#",
+        "linkedin": "https://www.linkedin.com/in/karan-soni7973?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "name": "Sidhant",
+        "position": "",
+        "image": "/images/people/2024/sidhant.jpg",
+        "github": "#",
+        "linkedin": "#"
+      },
+      {
+        "name": "Kunal Aggrawal",
+        "position": "",
+        "image": "/images/people/2024/kunal.jpg",
+        "github": "#",
+        "linkedin": "#"
+      },
+      {
+        "name": "Gaurav Maurya",
+        "position": "",
+        "image": "/images/people/2024/gaurav-maurya.jpg",
+        "github": "https://github.com/Gaurav05180",
+        "linkedin": "https://www.linkedin.com/in/gaurav-maurya-13b478283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "name": "Satyam",
+        "position": "",
+        "image": "/images/people/2024/satyam-sahu.jpeg",
+        "github": "https://github.com/satyamsahu40678",
+        "linkedin": "https://www.linkedin.com/in/satyam-sahu-a4266024b/"
+      },
+      {
+        "name": "Giriraj Gupta",
+        "position": "",
+        "image": "/images/people/2024/giriraj.png",
+        "github": "https://github.com/GirirajGupta45/",
+        "linkedin": "https://www.linkedin.com/in/giriraj-gupta-80a6b8208?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "name": "Ashish Kumar",
+        "position": "",
+        "image": "/images/people/2024/ashish-kumar.jpg",
+        "github": "#",
+        "linkedin": "https://www.linkedin.com/in/ashish-kumar-ab9374180?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       }
     ]
   },
