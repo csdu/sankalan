@@ -37,6 +37,14 @@
       {
         "name": "echo3D",
         "image": "echo3D - Logo 2021 - Dark.png"
+      },
+      {
+        "name": "ACME",
+        "image": "acme.png"
+      },
+      {
+        "name": "DU Beat",
+        "image": "dubeat.jpg"
       }
     ]
   },
@@ -122,10 +130,6 @@
       {
         "name": "Cafe Coffee Day",
         "image": "ccd.jpg"
-      },
-      {
-        "name": "ACME",
-        "image": "acme.png"
       }
     ]
   }
