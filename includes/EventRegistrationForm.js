@@ -417,7 +417,7 @@ const EventRegistrationForm = () => {
             event && !alreadyRegistered && events.map(e => e.events).flat().find(e => e.slug == event)?.is_disabled && (
               <>
                 <div className="text-white font-[comicbook] mt-[-1em] mb-8">
-                  <p>Registrations for this event are not open.</p>
+                  <p>Registrations for this event are closed.</p>
                 </div>
               </>
             )
