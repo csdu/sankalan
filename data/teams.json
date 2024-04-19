@@ -216,9 +216,9 @@
       {
         "name": "Kumkum Kumari",
         "position": "Click-Akrity",
-        "image": "/images/people/placeholder-female.jpg",
+        "image": "/images/people/2024/kumkum.jpg",
         "github": "#",
-        "linkedin": "#"
+        "linkedin": "https://www.linkedin.com/in/kumkum-kumari-612a961bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       {
         "name": "Adamya Shyam",
@@ -621,6 +621,13 @@
         "image": "/images/people/2024/ashish-kumar.jpg",
         "github": "#",
         "linkedin": "https://www.linkedin.com/in/ashish-kumar-ab9374180?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "name": "Yatin Garg",
+        "position": "",
+        "image": "/images/people/2024/yatin.jpg",
+        "github": "https://github.com/YatinGarg07",
+        "linkedin": "https://www.linkedin.com/in/yatin-garg07?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       }
     ]
   },
