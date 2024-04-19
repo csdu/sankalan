@@ -45,7 +45,7 @@
         "slug": "algoholics",
         "description": "Coding Euphoria",
         "is_team_event": true,
-        "is_disabled": false,
+        "is_disabled": true,
         "date": "2024-04-20",
         "time": "12:00",
         "location": "Online (Prelims), Lab 2 (Mains)",
