@@ -50,7 +50,7 @@
         "location": "Online (Prelims), Lab 2 (Mains)",
         "description_paragraphs": [
           "Algoholics is a journey into the heart of algorithmic mastery, inspired by the words of Kristian Vistrup Madsen: \"Programming is not about typing, it's about thinking, and algorithms are the way we express that thinking.\" We celebrate the art of problem-solving through coding puzzles, challenging you to unravel complexities with the utmost efficiency in space and time.",
-          "ONLINE PRELIMS (Sankalan Day 1)<br/><ul class=\"list-disc ml-4\"><li>10:30 AM - Reporting</li><li>11:00 AM - Event begins</li><li>12:00 PM - Event Ends</li></ul>",
+          "HYBRID MODE PRELIMS (Sankalan Day 1)<br/><ul class=\"list-disc ml-4\"><li>11:30 AM - Reporting</li><li>12:00 Noon - Event begins</li><li>1:00 PM - Event Ends</li></ul>",
           "OFFLINE MAINS (Sankalan Day 2)<br/><ul class=\"list-disc ml-4\"><li>10:30 AM - Offline Reporting</li><li>11:00 AM - Event Begins</li><li>12:00 PM - Event Ends</li></ul><br><br>Pool Prize: INR 6,000"
         ],
         "image": "TBA",
@@ -282,14 +282,14 @@
         "rules": ["<ul class=\"list-disc ml-4\"><li> Eligibility: College/University Students.</li><li> The contest is open for online submissions only.</li><li>Submission date - Apr 21, 2024. No submission will be entertained past the deadline.</li> <li> Only 1 submission is allowed per participant.</li><li> You are required to provide a creative caption for your photograph.</li><li>Basic editing including color correction, filters, and cropping are allowed, provided it does not affect the genuineness of the photograph(s).</li><li> The use of advanced editing to create deceptions, illusions, or manipulate images is strictly prohibited. Any such case will lead to the disqualification of the participant.</li><li> The participant must follow the official Instagram account of DUCS(@ducsofficial) and Sankalan (@sankalan.ducs).</li><li> Once the winners are announced, they will be required to share their bank account details through a form for the transfer of prize money. The form link will be sent to the registered email address of the respective winners.</li></ul>"],
         "organizers": [
           {
-            "name": "Hardik Chawda",
-            "email": "hardik.mca21@cs.du.ac.in",
-            "phone": "8851193123"
-          },
-          {
             "name": "Adamya Shyam",
             "email": "ashyam@cs.du.ac.in",
             "phone": "7607522129"
+          },          
+          {
+            "name": "Kumkum Kumari",
+            "email": "kkumari@cs.du.ac.in",
+            "phone": "8576024342"
           }
         ]
       },
