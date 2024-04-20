@@ -300,6 +300,7 @@
         "name": "Desktop Dominion",
         "slug": "desktop-dominion",
         "description": "Computer Gaming",
+        "is_disabled": true,
         "date": "2024-04-20",
         "time": "13:30",
         "location": "LAB2",
