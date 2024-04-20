@@ -15,12 +15,16 @@
         "image": "ethindia-dark.png"
       },
       {
-        "name": "Wolfram Research",
-        "image": "wolfram-color.png"
+        "name": "DRDO",
+        "image": "drdo.png"
       },
       {
         "name": "Ciena",
         "image": "ciena.png"
+      },
+      {
+        "name": "Wolfram Research",
+        "image": "wolfram-color.png"
       },
       {
         "name": "Axure",
